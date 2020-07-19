@@ -2,7 +2,12 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
-*Nice descrition of what this project actually does*
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e11de4f-08a6-455e-a138-2c241560a582/deploy-status)](https://app.netlify.com/sites/mhp-test/deploys)
+
+*Monash Human Power public website showcasing the best of MHP*
+
+Check out the site on the [real domain](https://monashhumanpower.org) or using the [Netlify preview](https://mhp-test.netlify.app).
+
 
 ## Getting Started
 
