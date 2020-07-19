@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Monash Human Power`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `Monash Human Power`,
+    siteUrl: `https://monashhumanpower.org`
   },
   plugins: [
     {
@@ -21,6 +22,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
