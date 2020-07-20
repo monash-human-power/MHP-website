@@ -3,6 +3,7 @@ module.exports = {
     title: `Monash Human Power`,
     description: `Learn about Monash Human Power and its human powered vehicles`,
     author: `Monash Human Power`,
+    siteUrl: `https://monashhumanpower.org`
   },
   plugins: [
     {
@@ -21,6 +22,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
