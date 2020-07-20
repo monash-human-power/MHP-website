@@ -1,3 +1,6 @@
+/* Import Roboto fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
     --MHP-green: #ccf381;
     --MHP-orange: #f2a252;
@@ -5,6 +8,11 @@
     --MHP-dark-purple: #143151;
     --MHP-black: #000000;
     --MHP-white: #ffffff;
+}
+
+/* Add Roboto font to all text in the document */
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* MHP background colour */
