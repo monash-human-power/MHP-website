@@ -20,6 +20,47 @@ body {
     background-color: var(--MHP-black);
 }
 
+/* MHP header styles for the header that appears on each page */
+
+/* When hovering over the nav link change text colour to the HMP green */
+
+.MHP-header {
+    padding: 0 !important;
+}
+
+/* Remove ugly bounding box for hamburger menu */
+.navbar-dark .navbar-toggler {
+    border-color: transparent !important;
+}
+
+/* Make hamburger menu pure white */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.MHP-nav-link{
+    align-self: center;
+}
+
+.MHP-nav-link a {
+    color: white !important; 
+}
+
+.MHP-nav-link a:hover {
+    background-color: var(--MHP-green);
+    color: var(--MHP-black) !important; 
+}
+
+/* When hovering over the logo text change text colour to the HMP green */
+.logo_image {
+    margin-right: 5px;
+}
+
+.logo_text:hover {
+    color: var(--MHP-green) !important; 
+}
+
+
 /* MHP footer styles for each page */
 .MHP-footer {
     text-align: center;
