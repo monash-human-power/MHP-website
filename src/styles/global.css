@@ -22,18 +22,6 @@ body {
 
 /* MHP header styles for the header that appears on each page */
 
-
-/* Nav links should be white and then green when hovered over */
-.MHP-header a {
-    color: var(--MHP-green) !important; 
-}
-
-/* When hovering over the nav link change text colour to the HMP green */
-.MHP-header a:hover {
-    color: var(--MHP-green) !important; 
-}
-
-
 /* Remove ugly bounding box for hamburger menu */
 .navbar-dark .navbar-toggler {
     border-color: transparent !important;
