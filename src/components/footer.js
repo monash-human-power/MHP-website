@@ -1,5 +1,8 @@
 import React from "react"
 
+import Socials from "./socials"
+
+
 const Footer = () => (
     <footer className='MHP-footer MHP-bg py-3'>
         <div className='container'>
@@ -27,7 +30,7 @@ const Footer = () => (
 
                 {/* Social icons */}
                 <div className='col-md'>
-                    {/* <SocialSidebar /> */}
+                    <Socials />
                 </div>
 
             </div>
