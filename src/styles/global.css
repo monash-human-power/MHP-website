@@ -48,13 +48,9 @@ body {
 .MHP-socials a {
     padding: 10px;
     font-size: 30px;
+    color: var(--MHP-white);
 }
 
-.MHP-socials i {
-    color: white;
-    transition: all 0.3s ease;
-}
-
-.MHP-socials i:hover {
+.MHP-socials a:hover {
     color: var(--MHP-green);
 }
