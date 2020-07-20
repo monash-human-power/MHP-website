@@ -1,7 +1,7 @@
 import React from "react"
 
 const Footer = () => (
-    <footer className='MHP-footer MHP-bg'>
+    <footer className='MHP-footer MHP-bg py-3'>
         <div className='container'>
             <div className='row'>
 
@@ -41,7 +41,6 @@ const Footer = () => (
 
         </div>
     </footer>
-
 )
 
 
