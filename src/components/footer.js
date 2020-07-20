@@ -22,7 +22,7 @@ const Footer = () => (
                 {/* Social text */}
                 <div className='col-md'>
                     <h4>Join Us</h4>
-                    <p>Contact us on <a href='https://www.facebook.com/MonashHPT/'> Facebook</a> </p>
+                    <p>Connect with us on <a href='https://www.facebook.com/MonashHPT/'> Facebook</a> </p>
                 </div>
 
                 {/* Social icons */}
