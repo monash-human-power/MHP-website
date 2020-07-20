@@ -6,3 +6,28 @@
     --MHP-black: #000000;
     --MHP-white: #ffffff;
 }
+
+/* MHP background colour */
+.MHP-bg {
+    background-color: var(--MHP-black);
+}
+
+/* MHP footer styles for each page */
+.MHP-footer {
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--MHP-white);
+}
+
+.MHP-footer a {
+    color: var(--MHP-green)
+}
+
+.MHP-footer h4 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.MHP-footer p {
+    text-align: left;
+}
