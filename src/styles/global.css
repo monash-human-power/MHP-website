@@ -89,3 +89,15 @@ body {
 .MHP-socials a:hover {
     color: var(--MHP-green);
 }
+
+
+
+
+/* ANIMATION TEST */
+@keyframes fade-in {
+    from {opacity: 0%;}
+  }
+  
+  @keyframes cross-hairs-in {
+    from {background: black;}
+}

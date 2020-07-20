@@ -14,13 +14,15 @@ const IndexPage = () => (
       style={{
         // height: '100vh',
         background: `repeat center/50px url(${MHP_green_crosshair}), black`,
+        animationName: "cross-hairs-in",
+        animationDuration: '10s',
       }}>
 
-      <div className='row justify-content-center pt-4 mt-4'>
+      <div className='row justify-content-center pt-4 mt-4' style={{ animationName: "fade-in", animationDuration: '2s', animationDelay: '0s' }}>
         <img src={MHP_bike_graphic} alt="" />
       </div>
 
-      <div className='row justify-content-center'>
+      <div className='row justify-content-center' style={{ animationName: "fade-in", animationDuration: '2s', animationDelay: '0s' }}>
         <h1 style={{ color: "white", backgroundColor: "black", fontWeight: "bold", textAlign: "center", fontSize: 60 }} className='p-2 m-3'>MONASH HUMAN POWER</h1>
       </div>
 
