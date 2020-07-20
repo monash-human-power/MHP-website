@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Monash Human Power`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Learn about Monash Human Power and its human powered vehicles`,
     author: `Monash Human Power`,
     siteUrl: `https://monashhumanpower.org`
   },
@@ -35,13 +35,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Monash Human Power`,
+        short_name: `MHP`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `black`,
+        theme_color: `black`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        // Icon to be used browser tabs
+        icon: `src/images/MHP_logo_green_black.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
