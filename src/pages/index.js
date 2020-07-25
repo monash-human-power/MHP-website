@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Button from "../components/button"
 
 import MHP_green_crosshair from "../images/Group 4.svg"
 import MHP_bike_graphic from "../images/outter_bike.png"
@@ -47,6 +48,7 @@ const IndexPage = () => (
       <div className='row'>
         <div className='col' style={{ display: 'flex', height: '100vh', alignItems: 'center', justifyContent: 'center' }}>
           <h1>Monash Human Power</h1>
+          <Button> hello </Button>
         </div>
       </div>
     </div>
