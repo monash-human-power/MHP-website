@@ -95,6 +95,7 @@ body {
 .MHP-btn {
     /* Always use uppercase text */
     text-transform: uppercase;
+    font-weight: bold;
 
     /* Remove bootstrap border */
     border: 0px;
