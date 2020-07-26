@@ -91,24 +91,6 @@ body {
 }
 
 
-/* Custom MHP buttons altered from bootstrap */
-.MHP-btn {
-    /* Always use uppercase text */
-    text-transform: uppercase;
-    font-weight: bold;
-
-    /* Remove bootstrap border */
-    border: 0px;
-
-    color: var(--MHP-white) !important;
-    background-color: var(--MHP-purple);
-}
-
-.MHP-btn:hover {
-    /* Slightly darker purple */
-    background-color: #37279e;
-}
-
 /* ANIMATION TEST */
 @keyframes fade-in {
     from {opacity: 0%;}
