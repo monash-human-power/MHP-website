@@ -7,8 +7,9 @@ const ButtonLink = styled(Link)`
 text-transform: uppercase;
 font-weight: bold;
 
-/* Remove bootstrap border */
+/* Remove bootstrap border and radius*/
 border: 0px;
+border-radius 0px;
 
 color: var(--MHP-white) !important;
 background-color: var(--MHP-purple);
