@@ -53,6 +53,9 @@ const IndexPage = () => (
         </div>
       </div>
 
+      <InfoBlock style={{ padding: "50px" }} />
+      <InfoBlock />
+      <InfoBlock />
       <InfoBlock />
 
 

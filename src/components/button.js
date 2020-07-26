@@ -19,7 +19,6 @@ background-color: var(--MHP-purple);
   } 
 `
 
-
 const Button = ({ children, href }) => (
     <>
         <ButtonLink className="btn btn-block" to={href}> {children} </ButtonLink>
