@@ -27,6 +27,7 @@ const InfoBlock = ({ heading, description, buttonText, image, href }) => (
             <div className="row">
                 <div className="col-md-8">
                     <Button href={href}> Meet the team </Button>
+                    <Button href={href} />
                 </div>
             </div>
 

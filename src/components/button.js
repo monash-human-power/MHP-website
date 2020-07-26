@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import PropTypes from 'prop-types';
 
 const ButtonLink = styled(Link)`
 /* Always use uppercase text */
@@ -25,6 +26,14 @@ const Button = ({ children, href }) => (
         <ButtonLink className="btn btn-block" to={href}> {children} </ButtonLink>
     </>
 )
+
+Button.PropTypes = {
+    children: PropTypes.string
+};
+
+Button.defaultProps = {
+    children: 'HELLLLP MEEEEEE'
+};
 
 // TODO: Add type checking
 
