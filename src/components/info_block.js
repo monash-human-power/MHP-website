@@ -16,12 +16,14 @@ font-weight: bold;
     }
 `
 
-const InfoBlock = ({ heading, description, buttonText, image, href }) => (
+const InfoBlock = ({ heading, description, buttonText, image, href, reverseOrder }) => (
 
     // col order-first and col order-last sets the order of the components
     <div className="row my-3">
+
         {/* Text component */}
-        <div className="col-md order-first">
+        <div className={`col-md ${reverseOrder ? "order-last" : ""}`} >
+
             <InfoHeading> {heading} </InfoHeading>
             <p> {description} </p>
 
@@ -34,7 +36,7 @@ const InfoBlock = ({ heading, description, buttonText, image, href }) => (
         </div>
 
         {/* Image component */}
-        <div className="col-md order-last" style={{ height: 500, border: "red solid 2px" }}>
+        <div className="col-md" style={{ height: 500, border: "red solid 2px" }}>
             {/* TODO: insert real image */}
             image
         </div>
@@ -44,6 +46,11 @@ const InfoBlock = ({ heading, description, buttonText, image, href }) => (
 )
 
 InfoBlock.propTypes = {
+    heading: propTypes.string,
+    description: propTypes.string,
+    buttonText: propTypes.string,
+    href: propTypes.string,
+    reverseOrder: propTypes.bool,
 };
 
 InfoBlock.defaultProps = {
@@ -51,6 +58,7 @@ InfoBlock.defaultProps = {
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     buttonText: "Example Button Text",
     href: "/",
+    reverseOrder: false,
     image: "NNED OT FAJKSASDKLA",
 };
 

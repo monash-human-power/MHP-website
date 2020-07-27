@@ -10,6 +10,8 @@ import MHP_bike_graphic from "../images/outter_bike.png"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+
+    {/* Bike graphic */}
     <div
       className='container-fluid py-5'
       style={{
@@ -27,11 +29,33 @@ const IndexPage = () => (
 
     </div>
 
+    {/* Main content */}
     <div className='container my-5'>
-      <InfoBlock />
-      <InfoBlock />
-      <InfoBlock />
-      <InfoBlock />
+      <InfoBlock
+        heading="Who we are"
+        buttonText="Meet the team"
+        href="/team"
+        reverseOrder={false}
+
+      />
+      <InfoBlock
+        heading="Our Mission"
+        buttonText="See the bike"
+        href="/bike"
+        reverseOrder={true}
+      />
+      <InfoBlock
+        heading="Our Goal"
+        buttonText="See the race"
+        href="/race"
+        reverseOrder={false}
+      />
+      <InfoBlock
+        heading="Outreach"
+        buttonText="See the outreach"
+        href="/outreach"
+        reverseOrder={true}
+      />
     </div>
 
   </Layout >
