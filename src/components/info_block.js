@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import ScrollOut from "scroll-out";
 
 import Button from "./button"
 
@@ -15,15 +16,21 @@ font-weight: bold;
     }
 `
 
+// scroll-out animations, see global.css for config
+ScrollOut({
+    threshold: 0.5
+});
+
 const InfoBlock = ({ heading, description, buttonText, image, href }) => (
 
     // col order-first and col order-last sets the order of the components
 
-    <div className="row my-3">
+    // data-scroll allows for scroll-out animations
+    <div className="row my-3" data-scroll>
         {/* Text component */}
         <div className="col-md order-first">
             <InfoHeading>Who we are</InfoHeading>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p> {description}Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
             <div className="row">
                 <div className="col-md-8">

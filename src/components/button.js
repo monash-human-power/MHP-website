@@ -29,7 +29,7 @@ const Button = ({ children, href }) => (
 )
 
 Button.propTypes = {
-    children: propTypes.string,
+    children: propTypes.node.isRequired,
     href: propTypes.string,
 };
 
