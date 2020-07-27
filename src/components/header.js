@@ -1,8 +1,32 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import styled from "styled-components"
 
+import Link from "./link"
 import Socials from './socials'
+
+const NavLinkContainer = styled.li`
+  /* Items are centered in drop down */
+  text-transform: uppercase;
+  align-self: center;
+`
+
+const NavLink = styled(Link)`
+/* Nav links should be white and then green when hovered over */
+color: var(--MHP-white) !important; 
+&:hover {
+  color: var(--MHP-green) !important; 
+}
+`
+
+const MhpLogoDiv = styled.div`
+/* When hovering over the logo text change text colour to the HMP green */
+& a:hover {
+  color: var(--MHP-green) !important; 
+}
+`
+
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -19,11 +43,11 @@ const Header = () => {
 
   function navItem(text, anchor = '#') {
     return (
-      <li className='nav-item MHP-nav-link'>
-        <a className='nav-link' href={anchor}>
+      <NavLinkContainer className='nav-item'>
+        <NavLink className='nav-link' to={anchor}>
           {text}
-        </a>
-      </li>
+        </NavLink>
+      </NavLinkContainer>
     )
   }
 
@@ -32,7 +56,7 @@ const Header = () => {
       <nav className='navbar fixed-top navbar-expand-lg navbar-dark MHP-bg'>
 
         {/* MHP logo and name */}
-        <div className='MHP-nav-logo'>
+        <MhpLogoDiv>
           <a className='navbar-brand' href='/' >
             <Img
               className='d-inline-block align-top'
@@ -40,7 +64,7 @@ const Header = () => {
             />
           MHP
           </a>
-        </div>
+        </MhpLogoDiv>
 
         {/* Button that allows for the menu toggler icon */}
         <button
@@ -59,7 +83,6 @@ const Header = () => {
 
           {/* Page Links */}
           <ul className='navbar-nav ml-auto'>
-            {navItem('Home', '#')}
             {navItem('About', '#about')}
             {navItem('Bike', '#bike')}
             {navItem('The Race', '#race')}

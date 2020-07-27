@@ -20,8 +20,6 @@ body {
     background-color: var(--MHP-black);
 }
 
-
-/* MHP header styles for the header that appears on each page */
 /* Remove ugly bounding box for hamburger menu */
 .navbar-dark .navbar-toggler {
     border-color: transparent !important;
@@ -30,72 +28,4 @@ body {
 /* Make hamburger menu pure white */
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-}
-
-/* Items are centered in drop down */
-.MHP-nav-link{
-    text-transform: uppercase;
-    align-self: center;
-}
-
-/* Nav links should be white and then green when hovered over */
-.MHP-nav-link a {
-    color: var(--MHP-white) !important; 
-}
-
-/* When hovering over the nav link change text colour to the HMP green */
-.MHP-nav-link a:hover {
-    color: var(--MHP-green) !important; 
-}
-
-/* When hovering over the logo text change text colour to the HMP green */
-.MHP-nav-logo a:hover {
-    color: var(--MHP-green) !important; 
-}
-
-
-/* MHP footer styles for each page */
-.MHP-footer {
-    text-align: center;
-    color: var(--MHP-white);
-}
-
-.MHP-footer a {
-    color: var(--MHP-green)
-}
-
-.MHP-footer h4 {
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.MHP-footer p {
-    text-align: left;
-}
-
-
-/* MHP styles that define the social buttons  */
-.MHP-socials {
-    display: block;
-    text-align: center;
-}
-
-.MHP-socials a {
-    padding:  0px 10px 0px 10px;
-    font-size: 30px;
-    color: var(--MHP-white);
-}
-
-.MHP-socials a:hover {
-    color: var(--MHP-green);
-}
-
-
-/* ANIMATION TEST */
-@keyframes fade-in {
-    from {opacity: 0%;}
-  }
-  
-  @keyframes cross-hairs-in {
-    from {background: black;}
 }

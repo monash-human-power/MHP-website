@@ -1,6 +1,7 @@
 import React from "react"
-import Button from "./button"
 import styled from "styled-components"
+
+import Button from "./button"
 
 const InfoHeading = styled.h2`
 /* Always use uppercase text */
@@ -18,7 +19,7 @@ const InfoBlock = ({ heading, description, buttonText, image, href }) => (
 
     // col order-first and col order-last sets the order of the components
 
-    <div className="row">
+    <div className="row my-3">
         {/* Text component */}
         <div className="col-md order-first">
             <InfoHeading>Who we are</InfoHeading>
@@ -27,7 +28,6 @@ const InfoBlock = ({ heading, description, buttonText, image, href }) => (
             <div className="row">
                 <div className="col-md-8">
                     <Button href={href}> Meet the team </Button>
-                    <Button href={href} />
                 </div>
             </div>
 

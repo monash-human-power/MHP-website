@@ -1,31 +1,52 @@
 import React from "react"
+import styled from "styled-components"
 
+import Link from "./link"
 import Socials from "./socials"
 
+const MhpFooter = styled.footer`
+    text-align: center;
+    color: var(--MHP-white);
+`
+
+const FooterLink = styled(Link)`
+    color: var(--MHP-green);
+`
+
+const FooterHeading = styled.h4`
+    text-align: left;
+    text-transform: uppercase;
+`
+
+const FooterParagraph = styled.p`
+    text-align: left;
+`
 
 const Footer = () => (
-    <footer className='MHP-footer MHP-bg py-3'>
+    <MhpFooter className='MHP-bg py-3'>
         <div className='container'>
             <div className='row'>
 
                 {/* Sponsor section */}
                 <div className='col-md'>
-                    <h4>Sponsor Us</h4>
-                    <p>Get in touch with us today at
-                        <a href='mailto: monashhpt@gmail.com'> monashhpt@gmail.com</a>
-                    </p>
+                    <FooterHeading>Sponsor Us</FooterHeading>
+                    <FooterParagraph>Get in touch with us today at
+                        <FooterLink to='mailto: monashhpt@gmail.com'> monashhpt@gmail.com</FooterLink>
+                    </FooterParagraph>
                 </div>
 
                 {/* Address section */}
                 <div className='col-md'>
-                    <h4>Say Hello</h4>
-                    <p>17 Alliance Lane, Monash University</p>
+                    <FooterHeading>Say Hello</FooterHeading>
+                    <FooterParagraph>17 Alliance Lane, Monash University</FooterParagraph>
                 </div>
 
                 {/* Social text */}
                 <div className='col-md'>
-                    <h4>Join Us</h4>
-                    <p>Connect with us on <a href='https://www.facebook.com/MonashHPT/'> Facebook</a> </p>
+                    <FooterHeading>Join Us</FooterHeading>
+                    <FooterParagraph>
+                        Connect with us on <FooterLink to='https://www.facebook.com/MonashHPT/'> Facebook</FooterLink>
+                    </FooterParagraph>
                 </div>
 
                 {/* Social icons */}
@@ -43,7 +64,7 @@ const Footer = () => (
             </div>
 
         </div>
-    </footer>
+    </MhpFooter>
 )
 
 

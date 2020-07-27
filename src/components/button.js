@@ -1,7 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
-import propTypes from 'prop-types';
+import propTypes from 'prop-types'
+
+import Link from "./link"
 
 const ButtonLink = styled(Link)`
 /* Always use uppercase text */
