@@ -1,6 +1,6 @@
 import React from "react"
+import propTypes from 'prop-types'
 import styled from "styled-components"
-import ScrollOut from "scroll-out";
 
 import Button from "./button"
 
@@ -16,25 +16,18 @@ font-weight: bold;
     }
 `
 
-// scroll-out animations, see global.css for config
-ScrollOut({
-    threshold: 0.5
-});
-
 const InfoBlock = ({ heading, description, buttonText, image, href }) => (
 
     // col order-first and col order-last sets the order of the components
-
-    // data-scroll allows for scroll-out animations
-    <div className="row my-3" data-scroll>
+    <div className="row my-3">
         {/* Text component */}
         <div className="col-md order-first">
-            <InfoHeading>Who we are</InfoHeading>
-            <p> {description}Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <InfoHeading> {heading} </InfoHeading>
+            <p> {description} </p>
 
             <div className="row">
                 <div className="col-md-8">
-                    <Button href={href}> Meet the team </Button>
+                    <Button href={href}> {buttonText} </Button>
                 </div>
             </div>
 
@@ -50,6 +43,15 @@ const InfoBlock = ({ heading, description, buttonText, image, href }) => (
 
 )
 
-// TODO: Add type checking
+InfoBlock.propTypes = {
+};
+
+InfoBlock.defaultProps = {
+    heading: "Heading example",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    buttonText: "Example Button Text",
+    href: "/",
+    image: "NNED OT FAJKSASDKLA",
+};
 
 export default InfoBlock
