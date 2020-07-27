@@ -33,8 +33,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-    children: 'HELLLLP MEEEEEE',
-    href: '#',
+    children: 'Example Button Text',
 };
 
 export default Button
