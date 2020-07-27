@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 const ButtonLink = styled(Link)`
 /* Always use uppercase text */
@@ -27,14 +27,14 @@ const Button = ({ children, href }) => (
     </>
 )
 
-Button.PropTypes = {
-    children: PropTypes.string
+Button.propTypes = {
+    children: propTypes.string,
+    href: propTypes.string,
 };
 
 Button.defaultProps = {
-    children: 'HELLLLP MEEEEEE'
+    children: 'HELLLLP MEEEEEE',
+    href: '#',
 };
-
-// TODO: Add type checking
 
 export default Button
