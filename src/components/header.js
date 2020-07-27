@@ -8,8 +8,9 @@ import Socials from './socials'
 
 const NavLinkContainer = styled.li`
   /* Items are centered in drop down */
-  text-transform: uppercase;
   align-self: center;
+  text-transform: uppercase;
+  font-weight: bold;
 `
 
 const NavLink = styled(Link)`
@@ -20,12 +21,13 @@ color: var(--MHP-white) !important;
 }
 `
 
-const MhpLogoDiv = styled.div`
-/* When hovering over the logo text change text colour to the HMP green */
-& a:hover {
-  color: var(--MHP-green) !important; 
-}
-`
+// const MhpLogoDiv = styled.div`
+// /* When hovering over the logo text change text colour to the HMP green */
+// font-weight: bold;
+// & a:hover {
+//   color: var(--MHP-green) !important; 
+// }
+// `
 
 
 const Header = () => {
@@ -55,16 +57,15 @@ const Header = () => {
     <header>
       <nav className='navbar fixed-top navbar-expand-lg navbar-dark MHP-bg'>
 
-        {/* MHP logo and name */}
-        <MhpLogoDiv>
-          <a className='navbar-brand' href='/' >
+        {/* MHP logo */}
+        <div>
+          <Link className='navbar-brand m-0 p-0' to='/'>
             <Img
               className='d-inline-block align-top'
               fixed={data.file.childImageSharp.fixed}
             />
-          MHP
-          </a>
-        </MhpLogoDiv>
+          </Link>
+        </div>
 
         {/* Button that allows for the menu toggler icon */}
         <button
@@ -79,21 +80,32 @@ const Header = () => {
           <span className='navbar-toggler-icon' />
         </button>
 
-        <div className='collapse navbar-collapse' id='navbarContent'>
+        <div className='collapse navbar-collapse' id='navbarContent' style={{ justifyContent: "space-between" }}>
+
+          {/* MHP name */}
+          <div>
+            <ul className='navbar-nav ml-auto'>
+              {navItem('MHP', '/')}
+            </ul>
+          </div>
+
 
           {/* Page Links */}
-          <ul className='navbar-nav ml-auto'>
-            {navItem('About', '#about')}
-            {navItem('Bike', '#bike')}
-            {navItem('The Race', '#race')}
-            {navItem('Our Team', '#team')}
-            {navItem('Community', '#community')}
-            {navItem('Contact', '#contact')}
-          </ul>
-
+          <div>
+            <ul className='navbar-nav ml-auto'>
+              {navItem('About', '#about')}
+              {navItem('Bike', '#bike')}
+              {navItem('The Race', '#race')}
+              {navItem('Our Team', '#team')}
+              {navItem('Community', '#community')}
+              {navItem('Contact', '#contact')}
+            </ul>
+          </div>
 
           {/* Social Media Icons */}
-          <Socials />
+          <div>
+            <Socials />
+          </div>
 
         </div>
       </nav>
