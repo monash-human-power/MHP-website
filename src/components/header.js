@@ -21,14 +21,19 @@ color: var(--MHP-white) !important;
 }
 `
 
-// const MhpLogoDiv = styled.div`
-// /* When hovering over the logo text change text colour to the HMP green */
-// font-weight: bold;
-// & a:hover {
-//   color: var(--MHP-green) !important; 
-// }
-// `
+const ColapsingDiv = styled.div`
+  justify-content: space-between;
+`
 
+function navItem(text, anchor = '#') {
+  return (
+    <NavLinkContainer className='nav-item'>
+      <NavLink className='nav-link' to={anchor}>
+        {text}
+      </NavLink>
+    </NavLinkContainer>
+  )
+}
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -42,16 +47,6 @@ const Header = () => {
       }
     }
   `)
-
-  function navItem(text, anchor = '#') {
-    return (
-      <NavLinkContainer className='nav-item'>
-        <NavLink className='nav-link' to={anchor}>
-          {text}
-        </NavLink>
-      </NavLinkContainer>
-    )
-  }
 
   return (
     <header>
@@ -80,7 +75,7 @@ const Header = () => {
           <span className='navbar-toggler-icon' />
         </button>
 
-        <div className='collapse navbar-collapse' id='navbarContent' style={{ justifyContent: "space-between" }}>
+        <ColapsingDiv className='collapse navbar-collapse' id='navbarContent'>
 
           {/* MHP name */}
           <div>
@@ -107,7 +102,7 @@ const Header = () => {
             <Socials />
           </div>
 
-        </div>
+        </ColapsingDiv>
       </nav>
     </header >
   )
