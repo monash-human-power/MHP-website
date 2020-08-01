@@ -21,15 +21,6 @@ color: var(--MHP-white) !important;
 }
 `
 
-// const MhpLogoDiv = styled.div`
-// /* When hovering over the logo text change text colour to the HMP green */
-// font-weight: bold;
-// & a:hover {
-//   color: var(--MHP-green) !important; 
-// }
-// `
-
-
 const Header = () => {
   const data = useStaticQuery(graphql`
     query Logo {
