@@ -21,6 +21,12 @@ color: var(--MHP-white) !important;
 }
 `
 
+const Navbar = styled.nav`
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+`
+
 const ColapsingDiv = styled.div`
   justify-content: space-between;
 `
@@ -50,7 +56,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className='navbar fixed-top navbar-expand-lg navbar-dark MHP-bg'>
+      <Navbar className='navbar fixed-top navbar-expand-lg navbar-dark MHP-bg'>
 
         {/* MHP logo */}
         <div>
@@ -103,7 +109,7 @@ const Header = () => {
           </div>
 
         </ColapsingDiv>
-      </nav>
+      </Navbar>
     </header >
   )
 }
