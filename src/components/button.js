@@ -9,7 +9,7 @@ const ButtonLink = styled(Link)`
 text-transform: uppercase;
 font-weight: bold;
 
-/* Remove bootstrap border and radius*/
+/* Remove bootstrap border and radius */
 border: 0px;
 border-radius 0px;
 

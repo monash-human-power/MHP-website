@@ -5,7 +5,11 @@ import Link from "./link"
 
 // Import social logos
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebookSquare, faLinkedin, faInstagramSquare } from "@fortawesome/free-brands-svg-icons"
+import {
+  faFacebookSquare,
+  faLinkedin,
+  faInstagramSquare,
+} from "@fortawesome/free-brands-svg-icons"
 
 const MhpSocialContainer = styled.div`
   display: block;
