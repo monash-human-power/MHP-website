@@ -34,6 +34,7 @@ const Footer = () => (
           <FooterParagraph>
             Get in touch with us today at
             <FooterLink to="mailto: monashhpt@gmail.com">
+              {" "}
               monashhpt@gmail.com
             </FooterLink>
           </FooterParagraph>
@@ -51,6 +52,7 @@ const Footer = () => (
           <FooterParagraph>
             Connect with us on
             <FooterLink to="https://www.facebook.com/MonashHPT/">
+              {" "}
               Facebook
             </FooterLink>
           </FooterParagraph>
