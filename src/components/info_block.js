@@ -1,8 +1,8 @@
-import React from "react"
-import propTypes from "prop-types"
-import styled from "styled-components"
+import React from "react";
+import propTypes from "prop-types";
+import styled from "styled-components";
 
-import Button from "./button"
+import Button from "./button";
 
 const InfoHeading = styled.h2`
   /* Always use uppercase text */
@@ -14,7 +14,7 @@ const InfoHeading = styled.h2`
     color: var(--MHP-purple);
     padding-right: 10px;
   }
-`
+`;
 
 const InfoBlock = ({
   heading,
@@ -44,7 +44,7 @@ const InfoBlock = ({
       image
     </div>
   </div>
-)
+);
 
 InfoBlock.propTypes = {
   heading: propTypes.string,
@@ -52,7 +52,7 @@ InfoBlock.propTypes = {
   buttonText: propTypes.string,
   href: propTypes.string,
   reverseOrder: propTypes.bool,
-}
+};
 
 InfoBlock.defaultProps = {
   heading: "Heading example",
@@ -62,6 +62,6 @@ InfoBlock.defaultProps = {
   href: "/",
   reverseOrder: false,
   image: "NNED OT FAJKSASDKLA",
-}
+};
 
-export default InfoBlock
+export default InfoBlock;

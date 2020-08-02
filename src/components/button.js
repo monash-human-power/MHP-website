@@ -1,8 +1,8 @@
-import React from "react"
-import styled from "styled-components"
-import propTypes from "prop-types"
+import React from "react";
+import styled from "styled-components";
+import propTypes from "prop-types";
 
-import Link from "./link"
+import Link from "./link";
 
 const ButtonLink = styled(Link)`
 /* Always use uppercase text */
@@ -20,21 +20,21 @@ background-color: var(--MHP-purple);
   /* Slightly darker purple */
   background-color: #37279e;
 } 
-`
+`;
 
 const Button = ({ children, href }) => (
   <ButtonLink className="btn btn-block" to={href}>
     {children}
   </ButtonLink>
-)
+);
 
 Button.propTypes = {
   children: propTypes.node.isRequired,
   href: propTypes.string,
-}
+};
 
 Button.defaultProps = {
   children: "",
-}
+};
 
-export default Button
+export default Button;

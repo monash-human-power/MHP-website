@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import InfoBlock from "../components/info_block"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import InfoBlock from "../components/info_block";
 
-import MHP_green_crosshair from "../images/Group 4.svg"
-import MHP_bike_graphic from "../images/outter_bike.png"
+import MHP_green_crosshair from "../images/Group 4.svg";
+import MHP_bike_graphic from "../images/outter_bike.png";
 
 const IndexPage = () => (
   <Layout>
@@ -64,6 +64,6 @@ const IndexPage = () => (
       />
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

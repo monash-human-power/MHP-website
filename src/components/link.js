@@ -1,5 +1,5 @@
-import React from "react"
-import { Link as GatsbyLink } from "gatsby"
+import React from "react";
+import { Link as GatsbyLink } from "gatsby";
 
 // USE THIS INSTEAD OF GATSBY LINK!!!
 
@@ -10,7 +10,7 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
   // Tailor the following test to your environment.
   // This example assumes that any internal link (intended for Gatsby)
   // will start with exactly one slash, and that anything else is external.
-  const internal = /^\/(?!\/)/.test(to)
+  const internal = /^\/(?!\/)/.test(to);
 
   // Use Gatsby Link for internal links, and <a> for others
   if (internal) {
@@ -23,13 +23,13 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
       >
         {children}
       </GatsbyLink>
-    )
+    );
   }
   return (
     <a href={to} {...other}>
       {children}
     </a>
-  )
-}
+  );
+};
 
-export default Link
+export default Link;

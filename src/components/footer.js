@@ -1,26 +1,26 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
-import Link from "./link"
-import Socials from "./socials"
+import Link from "./link";
+import Socials from "./socials";
 
 const MhpFooter = styled.footer`
   text-align: center;
   color: var(--MHP-white);
-`
+`;
 
 const FooterLink = styled(Link)`
   color: var(--MHP-green);
-`
+`;
 
 const FooterHeading = styled.h4`
   text-align: left;
   text-transform: uppercase;
-`
+`;
 
 const FooterParagraph = styled.p`
   text-align: left;
-`
+`;
 
 const Footer = () => (
   <MhpFooter className="MHP-bg py-3">
@@ -70,6 +70,6 @@ const Footer = () => (
       </div>
     </div>
   </MhpFooter>
-)
+);
 
-export default Footer
+export default Footer;

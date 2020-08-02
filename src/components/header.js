@@ -1,17 +1,17 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import styled from "styled-components"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+import styled from "styled-components";
 
-import Link from "./link"
-import Socials from "./socials"
+import Link from "./link";
+import Socials from "./socials";
 
 const NavLinkContainer = styled.li`
   /* Items are centered in drop down */
   align-self: center;
   text-transform: uppercase;
   font-weight: bold;
-`
+`;
 
 const NavLink = styled(Link)`
   /* Nav links should be white and then green when hovered over */
@@ -19,17 +19,17 @@ const NavLink = styled(Link)`
   &:hover {
     color: var(--MHP-green) !important;
   }
-`
+`;
 
 const Navbar = styled.nav`
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-`
+`;
 
 const CollapsingDiv = styled.div`
   justify-content: space-between;
-`
+`;
 
 function navItem(text, anchor = "#") {
   return (
@@ -38,7 +38,7 @@ function navItem(text, anchor = "#") {
         {text}
       </NavLink>
     </NavLinkContainer>
-  )
+  );
 }
 
 const Header = () => {
@@ -52,7 +52,7 @@ const Header = () => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <header>
@@ -105,7 +105,7 @@ const Header = () => {
         </CollapsingDiv>
       </Navbar>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
