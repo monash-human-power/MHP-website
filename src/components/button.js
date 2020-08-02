@@ -34,7 +34,7 @@ Button.propTypes = {
 }
 
 Button.defaultProps = {
-  children: "Example Button Text",
+  children: "",
 }
 
 export default Button
