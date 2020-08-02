@@ -5,10 +5,6 @@ import styled from "styled-components";
 import Button from "./button";
 
 const InfoHeading = styled.h2`
-  /* Always use uppercase text */
-  text-transform: uppercase;
-  font-weight: bold;
-
   &::before {
     content: "×";
     color: var(--MHP-purple);
