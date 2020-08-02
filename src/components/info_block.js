@@ -1,65 +1,67 @@
 import React from "react"
-import propTypes from 'prop-types'
+import propTypes from "prop-types"
 import styled from "styled-components"
 
 import Button from "./button"
 
 const InfoHeading = styled.h2`
-/* Always use uppercase text */
-text-transform: uppercase;
-font-weight: bold;
+  /* Always use uppercase text */
+  text-transform: uppercase;
+  font-weight: bold;
 
-&::before {
-    content: "×"; 
+  &::before {
+    content: "×";
     color: var(--MHP-purple);
     padding-right: 10px;
-    }
+  }
 `
 
-const InfoBlock = ({ heading, description, buttonText, image, href, reverseOrder }) => (
+const InfoBlock = ({
+  heading,
+  description,
+  buttonText,
+  image,
+  href,
+  reverseOrder,
+}) => (
+  // col order-first and col order-last sets the order of the components
+  <div className="row my-3">
+    {/* Text component */}
+    <div className={`col-md ${reverseOrder ? "order-last" : ""}`}>
+      <InfoHeading> {heading} </InfoHeading>
+      <p> {description} </p>
 
-    // col order-first and col order-last sets the order of the components
-    <div className="row my-3">
-
-        {/* Text component */}
-        <div className={`col-md ${reverseOrder ? "order-last" : ""}`} >
-
-            <InfoHeading> {heading} </InfoHeading>
-            <p> {description} </p>
-
-            <div className="row">
-                <div className="col-md-8">
-                    <Button href={href}> {buttonText} </Button>
-                </div>
-            </div>
-
+      <div className="row">
+        <div className="col-md-8">
+          <Button href={href}> {buttonText} </Button>
         </div>
-
-        {/* Image component */}
-        <div className="col-md" style={{ height: 500, border: "red solid 2px" }}>
-            {/* TODO: insert real image */}
-            image
-        </div>
-
+      </div>
     </div>
 
+    {/* Image component */}
+    <div className="col-md" style={{ height: 500, border: "red solid 2px" }}>
+      {/* TODO: insert real image */}
+      image
+    </div>
+  </div>
 )
 
 InfoBlock.propTypes = {
-    heading: propTypes.string,
-    description: propTypes.string,
-    buttonText: propTypes.string,
-    href: propTypes.string,
-    reverseOrder: propTypes.bool,
-};
+  heading: propTypes.string,
+  description: propTypes.string,
+  buttonText: propTypes.string,
+  href: propTypes.string,
+  reverseOrder: propTypes.bool,
+}
 
 InfoBlock.defaultProps = {
-    heading: "Heading example",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    buttonText: "Example Button Text",
-    href: "/",
-    reverseOrder: false,
-    image: "NNED OT FAJKSASDKLA",
-};
+  heading: "Heading example",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  buttonText: "Example Button Text",
+  href: "/",
+  reverseOrder: false,
+  image: "NNED OT FAJKSASDKLA",
+}
 
 export default InfoBlock

@@ -3,11 +3,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e11de4f-08a6-455e-a138-2c241560a582/deploy-status)](https://app.netlify.com/sites/mhp-test/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
-*Monash Human Power public website showcasing the best of MHP*
+_Monash Human Power public website showcasing the best of MHP_
 
 This repo contains all of the code that runs the MHP website. Check out the live site [here](https://monashhumanpower.org).
 
 ## Getting Started
+
 ### View Online
 
 This website is automatically deployed using Netlify. See the live site [here](https://monashhumanpower.org).

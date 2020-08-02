@@ -3,7 +3,7 @@ module.exports = {
     title: `Monash Human Power`,
     description: `Learn about Monash Human Power and its human powered vehicles`,
     author: `Monash Human Power`,
-    siteUrl: `https://monashhumanpower.org`
+    siteUrl: `https://monashhumanpower.org`,
   },
   plugins: [
     {
@@ -15,10 +15,10 @@ module.exports = {
     },
     {
       // Heap analytics is similar to google analytics, but can give click by click user activity
-      resolve: 'gatsby-plugin-heap',
+      resolve: "gatsby-plugin-heap",
       options: {
-        appId: '1394991606',
-        enableOnDevMode: true // if 'false', heap will be fired on NODE_ENV=production only
+        appId: "1394991606",
+        enableOnDevMode: true, // if 'false', heap will be fired on NODE_ENV=production only
       },
     },
     `gatsby-plugin-react-helmet`,
