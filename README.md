@@ -26,7 +26,7 @@ This website is automatically deployed using Netlify. See the live site [here](h
 
 ## TODOs
 
-- [ ] Automatic Linting
+- [ ] Github actions linting check
 - [ ] Basic unit tests
 - [ ] Contributor bots
 
