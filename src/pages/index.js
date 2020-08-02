@@ -15,7 +15,6 @@ const IndexPage = () => (
     <div
       className="container-fluid py-5"
       style={{
-        // height: '100vh',
         background: `repeat center/50px url(${MHP_green_crosshair}), black`,
       }}
     >
@@ -28,9 +27,7 @@ const IndexPage = () => (
           style={{
             color: "white",
             backgroundColor: "black",
-            fontWeight: "bold",
             textAlign: "center",
-            fontSize: 60,
           }}
           className="p-2 m-3"
         >

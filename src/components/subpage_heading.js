@@ -6,8 +6,6 @@ const Heading = styled.h1`
   text-align: center;
   color: white;
   background: var(--MHP-purple);
-  font-weight: bold;
-  font-size: 60px;
 `
 
 const SubpageHeading = ({ children }) => (

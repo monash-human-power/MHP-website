@@ -1,31 +1,36 @@
 /* Import Roboto fonts from google */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-    --MHP-green: #ccf381;
-    --MHP-orange: #f2a252;
-    --MHP-purple: #4831d4;
-    --MHP-dark-purple: #143151;
-    --MHP-black: #000000;
-    --MHP-white: #ffffff;
+  --MHP-green: #ccf381;
+  --MHP-orange: #f2a252;
+  --MHP-purple: #4831d4;
+  --MHP-dark-purple: #143151;
+  --MHP-black: #000000;
+  --MHP-white: #ffffff;
 }
 
 /* Add Roboto font to all text in the document */
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
 }
 
 /* MHP background colour */
 .MHP-bg {
-    background-color: var(--MHP-black);
+  background-color: var(--MHP-black);
 }
 
 /* Remove ugly bounding box for hamburger menu */
 .navbar-dark .navbar-toggler {
-    border-color: transparent !important;
+  border-color: transparent !important;
 }
 
 /* Make hamburger menu pure white */
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }

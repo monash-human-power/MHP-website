@@ -12,9 +12,9 @@ const NotFoundPage = () => (
     <div className="container-fluid py-5" style={{ height: "100vh" }}>
       <div className="row">
         <div className="col py-5" style={{ textAlign: "center" }}>
-          <h1>
+          <h2>
             Looks like we just <i>crashed</i> 🚲
-          </h1>
+          </h2>
         </div>
       </div>
     </div>
