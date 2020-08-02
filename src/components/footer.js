@@ -65,7 +65,7 @@ const Footer = () => (
       <div className="row">
         {/* Col is xl as it should always collapse */}
         <div className="col-xl pt-5">
-          © {new Date().getFullYear()}, Monash Human Power
+          <p> &#169; {new Date().getFullYear()}, Monash Human Power </p>
         </div>
       </div>
     </div>
