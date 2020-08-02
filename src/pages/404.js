@@ -21,14 +21,8 @@ const NotFoundPage = () => (
 
     <div className="container-fluid py-5" style={{ height: "100vh" }}>
       <div className="row">
-        <div className="col intro py-5" style={{ textAlign: "center" }}>
-          <h1>404: PAGE NOT FOUND 🚲</h1>
-          <p>You just hit a route that doesn&#39;t exist... the sadness. 🚲</p>
-        </div>
-
         <div className="col py-5" style={{ textAlign: "center" }}>
-          <h1>404: PAGE NOT FOUND 🚲</h1>
-          <p>You just hit a route that doesn&#39;t exist... the sadness. 🚲</p>
+          <h1>Looks like we just <i>crashed</i> 🚲</h1>
         </div>
       </div>
     </div>
