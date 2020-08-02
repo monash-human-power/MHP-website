@@ -12,6 +12,8 @@ const InfoHeading = styled.h2`
   }
 `;
 
+//
+
 const InfoBlock = ({
   heading,
   description,
@@ -23,10 +25,11 @@ const InfoBlock = ({
   // col order-first and col order-last sets the order of the components
   <div className="row my-3">
     {/* Text component */}
-    <div className={`col-md ${reverseOrder ? "order-last" : ""}`}>
+    <div className={`col-lg ${reverseOrder ? "order-lg-2 order-xs-1" : ""} `}>
       <InfoHeading> {heading} </InfoHeading>
       <p> {description} </p>
 
+      {/* Button component */}
       <div className="row">
         <div className="col-md-8">
           <Button href={href}> {buttonText} </Button>
@@ -35,7 +38,10 @@ const InfoBlock = ({
     </div>
 
     {/* Image component */}
-    <div className="col-md" style={{ height: 500, border: "red solid 2px" }}>
+    <div
+      className={`col-lg ${reverseOrder ? "order-lg-1 order-xs-2" : ""} `}
+      style={{ height: 500, border: "red solid 2px" }}
+    >
       {/* TODO: insert real image */}
       image
     </div>
