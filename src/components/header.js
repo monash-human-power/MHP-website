@@ -27,7 +27,7 @@ const Navbar = styled.nav`
   padding-bottom: 0px;
 `
 
-const ColapsingDiv = styled.div`
+const CollapsingDiv = styled.div`
   justify-content: space-between;
 `
 
@@ -80,7 +80,7 @@ const Header = () => {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <ColapsingDiv className="collapse navbar-collapse" id="navbarContent">
+        <CollapsingDiv className="collapse navbar-collapse" id="navbarContent">
           {/* MHP name */}
           <div>
             <ul className="navbar-nav ml-auto">{navItem("MHP", "/")}</ul>
@@ -102,7 +102,7 @@ const Header = () => {
           <div>
             <Socials />
           </div>
-        </ColapsingDiv>
+        </CollapsingDiv>
       </Navbar>
     </header>
   )
