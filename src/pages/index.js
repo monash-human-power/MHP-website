@@ -98,7 +98,7 @@ const IndexPage = () => {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
-              {/* This hidden type is needed for netlify to work */}
+              {/* This hidden type is needed for the netlify form to work */}
               <input type="hidden" name="form-name" value="contact" />
 
               {/* Name Input */}
@@ -121,7 +121,7 @@ const IndexPage = () => {
                   className="form-control"
                   id="inputEmail"
                   aria-describedby="emailHelp"
-                  placeholder="John.Doe@gmail.com"
+                  placeholder="john.doe@gmail.com"
                   required
                 />
               </div>
