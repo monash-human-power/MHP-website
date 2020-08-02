@@ -54,6 +54,15 @@ const Header = () => {
     }
   `);
 
+  const pageLinks = [
+    { title: "About", link: "#about" },
+    { title: "Bike", link: "#bike" },
+    { title: "The Race", link: "#race" },
+    { title: "Our Team", link: "#team" },
+    { title: "Community", link: "#community" },
+    { title: "Contact", link: "#contact" },
+  ];
+
   return (
     <header>
       <Navbar className="navbar fixed-top navbar-expand-lg navbar-dark MHP-bg">
@@ -89,12 +98,7 @@ const Header = () => {
           {/* Page Links */}
           <div>
             <ul className="navbar-nav ml-auto">
-              {navItem("About", "#about")}
-              {navItem("Bike", "#bike")}
-              {navItem("The Race", "#race")}
-              {navItem("Our Team", "#team")}
-              {navItem("Community", "#community")}
-              {navItem("Contact", "#contact")}
+              {pageLinks.map(item => navItem(item.title, item.link))}
             </ul>
           </div>
 
