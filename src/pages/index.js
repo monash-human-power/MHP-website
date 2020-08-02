@@ -120,10 +120,8 @@ const IndexPage = () => (
 
             {/* Submit Button */}
             <div className="row">
-              <div className="col m-0 p-0">
-                <div className="my-3 mx-5">
-                  <Button type="submit">Submit</Button>
-                </div>
+              <div className="col">
+                <Button type="submit">Submit</Button>
               </div>
             </div>
           </form>
