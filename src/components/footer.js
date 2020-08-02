@@ -22,6 +22,8 @@ const FooterParagraph = styled.p`
   text-align: left;
 `;
 
+const CURRENT_YEAR = new Date().getFullYear();
+
 const Footer = () => (
   <MhpFooter className="MHP-bg py-3">
     <div className="container">
@@ -32,7 +34,6 @@ const Footer = () => (
           <FooterParagraph>
             Get in touch with us today at
             <FooterLink to="mailto: monashhpt@gmail.com">
-              {" "}
               monashhpt@gmail.com
             </FooterLink>
           </FooterParagraph>
@@ -48,9 +49,8 @@ const Footer = () => (
         <div className="col-md">
           <FooterHeading>Join Us</FooterHeading>
           <FooterParagraph>
-            Connect with us on{" "}
+            Connect with us on
             <FooterLink to="https://www.facebook.com/MonashHPT/">
-              {" "}
               Facebook
             </FooterLink>
           </FooterParagraph>
@@ -65,7 +65,7 @@ const Footer = () => (
       <div className="row">
         {/* Col is xl as it should always collapse */}
         <div className="col-xl pt-5">
-          <p> &#169; {new Date().getFullYear()}, Monash Human Power </p>
+          <p> &#169; {CURRENT_YEAR}, Monash Human Power </p>
         </div>
       </div>
     </div>
