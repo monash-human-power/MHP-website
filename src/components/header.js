@@ -1,42 +1,115 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+import styled from "styled-components";
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+import Link from "./link";
+import Socials from "./socials";
+
+const NavLinkContainer = styled.li`
+  /* Items are centered in drop down */
+  align-self: center;
+  text-transform: uppercase;
+  font-weight: bold;
+`;
+
+const NavLink = styled(Link)`
+  /* Nav links should be white and then green when hovered over */
+  color: var(--MHP-white) !important;
+  &:hover {
+    color: var(--MHP-green) !important;
+  }
+`;
+
+const Navbar = styled.nav`
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+`;
+
+const CollapsingDiv = styled.div`
+  justify-content: space-between;
+`;
+
+function navItem(text, anchor = "#") {
+  return (
+    <NavLinkContainer className="nav-item">
+      <NavLink className="nav-link" to={anchor}>
+        {text}
+      </NavLink>
+    </NavLinkContainer>
+  );
+}
+
+const Header = () => {
+  const data = useStaticQuery(graphql`
+    query Logo {
+      file(relativePath: { eq: "MHP_logo_green_transparent.png" }) {
+        childImageSharp {
+          fixed(height: 30) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `);
+
+  const pageLinks = [
+    { title: "About", link: "#about" },
+    { title: "Bike", link: "#bike" },
+    { title: "The Race", link: "#race" },
+    { title: "Our Team", link: "#team" },
+    { title: "Community", link: "#community" },
+    { title: "Contact", link: "#contact" },
+  ];
+
+  return (
+    <header>
+      <Navbar className="navbar fixed-top navbar-expand-lg navbar-dark MHP-bg">
+        {/* MHP logo */}
+        <div>
+          <Link className="navbar-brand m-0 p-0" to="/">
+            <Img
+              className="d-inline-block align-top"
+              fixed={data.file.childImageSharp.fixed}
+            />
+          </Link>
+        </div>
+
+        {/* Button that allows for the menu toggler icon */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+          <span className="navbar-toggler-icon" />
+        </button>
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+        <CollapsingDiv className="collapse navbar-collapse" id="navbarContent">
+          {/* MHP name */}
+          <div>
+            <ul className="navbar-nav ml-auto">{navItem("MHP", "/")}</ul>
+          </div>
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+          {/* Page Links */}
+          <div>
+            <ul className="navbar-nav ml-auto">
+              {pageLinks.map(item => navItem(item.title, item.link))}
+            </ul>
+          </div>
 
-export default Header
+          {/* Social Media Icons */}
+          <div>
+            <Socials />
+          </div>
+        </CollapsingDiv>
+      </Navbar>
+    </header>
+  );
+};
+
+export default Header;
