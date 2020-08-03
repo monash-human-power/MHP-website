@@ -6,6 +6,7 @@ import Socials from "./socials";
 
 const MhpFooter = styled.footer`
   text-align: center;
+  background-color: var(--MHP-black);
   color: var(--MHP-white);
 `;
 
@@ -25,7 +26,7 @@ const FooterParagraph = styled.p`
 const CURRENT_YEAR = new Date().getFullYear();
 
 const Footer = () => (
-  <MhpFooter className="MHP-bg py-3">
+  <MhpFooter className="py-3">
     <div className="container">
       <div className="row">
         {/* Sponsor section */}
