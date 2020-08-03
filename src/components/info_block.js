@@ -17,7 +17,6 @@ const InfoBlock = ({
   heading,
   description,
   buttonText,
-  buttonActive,
   image,
   href,
   reverseOrder,
@@ -31,7 +30,7 @@ const InfoBlock = ({
       {/* Button component */}
       <div className="row">
         <div className="col-md-8">
-          {buttonActive && <Button href={href}> {buttonText} </Button>}
+          {buttonText !== "" && <Button href={href}> {buttonText} </Button>}
         </div>
       </div>
     </div>
@@ -47,17 +46,14 @@ InfoBlock.propTypes = {
   heading: propTypes.string,
   description: propTypes.string,
   buttonText: propTypes.string,
-  buttonActive: propTypes.bool,
   href: propTypes.string,
   reverseOrder: propTypes.bool,
 };
 
 InfoBlock.defaultProps = {
   heading: "",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description: "",
   buttonText: "",
-  buttonActive: true,
   href: "/",
   reverseOrder: false,
 };
