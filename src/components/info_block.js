@@ -17,26 +17,27 @@ const InfoBlock = ({
   heading,
   description,
   buttonText,
+  buttonActive,
   image,
   href,
   reverseOrder,
 }) => (
   <div className="row my-3">
     {/* Text component */}
-    <div className={`col-md ${reverseOrder ? "order-md-2 order-xs-1" : ""} `}>
+    <div className={`col-md ${reverseOrder && "order-md-2 order-xs-1"} `}>
       <InfoHeading> {heading} </InfoHeading>
       <p> {description} </p>
 
       {/* Button component */}
       <div className="row">
         <div className="col-md-8">
-          <Button href={href}> {buttonText} </Button>
+          {buttonActive && <Button href={href}> {buttonText} </Button>}
         </div>
       </div>
     </div>
 
     {/* Image component */}
-    <div className={`col-md ${reverseOrder ? "order-md-1 order-xs-2" : ""} `}>
+    <div className={`col-md ${reverseOrder && "order-md-1 order-xs-2"} `}>
       <Img fluid={image} />
     </div>
   </div>
@@ -46,6 +47,7 @@ InfoBlock.propTypes = {
   heading: propTypes.string,
   description: propTypes.string,
   buttonText: propTypes.string,
+  buttonActive: propTypes.bool,
   href: propTypes.string,
   reverseOrder: propTypes.bool,
 };
@@ -55,6 +57,7 @@ InfoBlock.defaultProps = {
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   buttonText: "",
+  buttonActive: true,
   href: "/",
   reverseOrder: false,
 };
