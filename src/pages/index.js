@@ -31,6 +31,7 @@ const IndexPage = () => {
               heading
               description
               buttonText
+              id
             }
           }
         }
@@ -69,8 +70,6 @@ const IndexPage = () => {
         </div>
       </div>
 
-      {/* TODO: generate the infoblocks from markdown!!!!! */}
-
       {/* Main content */}
       <div className="container my-5">
         {/* Info Blocks */}
@@ -82,6 +81,9 @@ const IndexPage = () => {
               buttonText={blockData.buttonText}
               href={blockData.href}
               image={blockData.image.childImageSharp.fluid}
+              key={index}
+              // Example key would be
+              id={blockData.id}
               // Flips the order for every second block
               reverseOrder={index % 2 === 1}
             />
@@ -90,7 +92,6 @@ const IndexPage = () => {
 
         {/* Contact form */}
         <a name="contact" />
-
         {/* Add y axis margin for clarity */}
         <div className="row justify-content-md-center my-5">
           <div className="col col-lg-6">
@@ -108,7 +109,7 @@ const IndexPage = () => {
 
               {/* Name Input */}
               <div className="form-group">
-                <label for="inputName">Name</label>
+                <label htmlFor="inputName">Name</label>
                 <input
                   type="text"
                   className="form-control"
@@ -120,7 +121,7 @@ const IndexPage = () => {
 
               {/* Email Input */}
               <div className="form-group">
-                <label for="inputEmail">Email Address</label>
+                <label htmlFor="inputEmail">Email Address</label>
                 <input
                   type="email"
                   className="form-control"
@@ -133,7 +134,7 @@ const IndexPage = () => {
 
               {/* Text Input */}
               <div className="form-group">
-                <label for="inputText">Message</label>
+                <label htmlFor="inputText">Message</label>
                 <textarea
                   className="form-control"
                   id="inputText"
