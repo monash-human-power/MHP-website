@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Monash Human Power`,
+    shortTitle: `MHP`,
     description: `Learn about Monash Human Power and its human powered vehicles`,
     author: `Monash Human Power`,
     siteUrl: `https://monashhumanpower.org`,
