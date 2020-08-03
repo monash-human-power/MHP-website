@@ -8,52 +8,25 @@ media_folder: "/src/images" # Media files will be stored in the repo under /src/
 public_folder: "../images" # So that the images get imported correctly in the markdown files
 
 collections:
-  - name: "experiment" # Used in routes, e.g., /admin/collections/experiment
-    label: "Experiments" # Used in the UI
-    folder: "/src/markdown/experiments" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "experiment",
-        }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
-      - { label: "Icon", name: "icon", widget: "image" }
-      - { label: "Colour", name: "colour", widget: "string" }
-      - { label: "URL", name: "url", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - label: "MHP"
-    name: "MHP"
+  - label: "MHP" # Used in the UI
+    name: "MHP" # Used in routes, e.g., /admin/collections/MHP
     files:
-      - label: "Social Links"
-        name: "socials"
-        file: "/src/markdown/MHP/socials.md"
+      - label: "Social Links" # Used in the UI
+        name: "socials" # Used in routes, e.g., /admin/collections/MHP
+        file: "/src/markdown/socials.md" # What the markdown is called
         fields:
           - { label: Instagram Link, name: instagram, widget: string }
           - { label: Facebook Link, name: facebook, widget: string }
           - { label: LinkedIn Link, name: linkedIn, widget: string }
-      - label: "Index Page"
+      - label: "Index"
         name: "index"
-        file: "/src/markdown/MHP/index.md"
+        file: "/src/markdown/index.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Background Photo, name: background_photo, widget: image }
-      - label: "About Page"
-        name: "about"
-        file: "/src/markdown/MHP/about.md"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
-          - { label: Background Photo, name: background_photo, widget: image }
-      - label: "Team Page"
+      - label: "Team"
         name: "team"
-        file: "/src/markdown/MHP/team.md"
+        file: "/src/markdown/team.md"
         fields:
           - { label: Title, name: title, widget: string }
           - label: Team Members
