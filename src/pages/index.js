@@ -6,22 +6,39 @@ import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
 import Button from "../components/button";
 
+// TODO: remove these and put something more permanent
 import MHP_green_crosshair from "../images/Group 4.svg";
 import MHP_bike_graphic from "../images/outter_bike.png";
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
-    query xxxxx {
-      file(relativePath: { eq: "main_raceday_2.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
+    query IndexPageQuery {
+      file(
+        relativePath: { eq: "index.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            blocks {
+              image {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              href
+              heading
+              description
+              buttonText
+            }
           }
         }
       }
     }
   `);
+
+  const infoBlockArr = data.file.childMarkdownRemark.frontmatter.blocks;
 
   return (
     <Layout>
@@ -52,38 +69,23 @@ const IndexPage = () => {
         </div>
       </div>
 
+      {/* TODO: generate the infoblocks from markdown!!!!! */}
+
       {/* Main content */}
       <div className="container my-5">
         {/* Info Blocks */}
         <div>
-          <InfoBlock
-            heading="Who we are"
-            buttonText="Meet the team"
-            href="/team"
-            reverseOrder={false}
-            image={data.file.childImageSharp.fluid}
-          />
-          <InfoBlock
-            heading="Our Mission"
-            buttonText="See the bike"
-            href="/bike"
-            reverseOrder={true}
-            image={data.file.childImageSharp.fluid}
-          />
-          <InfoBlock
-            heading="Our Goal"
-            buttonText="See the race"
-            href="/race"
-            reverseOrder={false}
-            image={data.file.childImageSharp.fluid}
-          />
-          <InfoBlock
-            heading="Outreach"
-            buttonText="See the outreach"
-            href="/outreach"
-            reverseOrder={true}
-            image={data.file.childImageSharp.fluid}
-          />
+          {infoBlockArr.map((blockData, index) => (
+            <InfoBlock
+              heading={blockData.heading}
+              description={blockData.description}
+              buttonText={blockData.buttonText}
+              href={blockData.href}
+              image={blockData.image.childImageSharp.fluid}
+              // Flips the order for every second block
+              reverseOrder={index % 2 === 1}
+            />
+          ))}
         </div>
 
         {/* Contact form */}
