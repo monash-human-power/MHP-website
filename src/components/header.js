@@ -22,6 +22,7 @@ const NavLink = styled(Link)`
 `;
 
 const Navbar = styled.nav`
+  background-color: var(--MHP-black);
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -31,9 +32,9 @@ const CollapsingDiv = styled.div`
   justify-content: space-between;
 `;
 
-function navItem(text, anchor = "#") {
+function navItem(text, anchor = "#", key) {
   return (
-    <NavLinkContainer className="nav-item">
+    <NavLinkContainer className="nav-item" key={key}>
       <NavLink className="nav-link" to={anchor}>
         {text}
       </NavLink>
@@ -65,7 +66,7 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar className="navbar fixed-top navbar-expand-lg navbar-dark MHP-bg">
+      <Navbar className="navbar fixed-top navbar-expand-lg navbar-dark">
         {/* MHP logo */}
         <div>
           <Link className="navbar-brand m-0 p-0" to="/">
@@ -98,7 +99,9 @@ const Header = () => {
           {/* Page Links */}
           <div>
             <ul className="navbar-nav ml-auto">
-              {pageLinks.map(item => navItem(item.title, item.link))}
+              {pageLinks.map((item, index) =>
+                navItem(item.title, item.link, index)
+              )}
             </ul>
           </div>
 

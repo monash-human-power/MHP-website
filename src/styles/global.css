@@ -25,11 +25,6 @@ h2 {
   font-weight: bold;
 }
 
-/* MHP background colour */
-.MHP-bg {
-  background-color: var(--MHP-black);
-}
-
 /* Remove ugly bounding box for hamburger menu */
 .navbar-dark .navbar-toggler {
   border-color: transparent !important;
