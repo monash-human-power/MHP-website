@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "/src/images" # Media files will be stored in the repo under /src/images/uploads
+public_folder: "../images" # So that the images get imported correctly in the markdown files
+
+collections:
+  - name: "experiment" # Used in routes, e.g., /admin/collections/experiment
+    label: "Experiments" # Used in the UI
+    folder: "/src/markdown/experiments" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "experiment",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Icon", name: "icon", widget: "image" }
+      - { label: "Colour", name: "colour", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - label: "MHP"
+    name: "MHP"
+    files:
+      - label: "Social Links"
+        name: "socials"
+        file: "/src/markdown/MHP/socials.md"
+        fields:
+          - { label: Instagram Link, name: instagram, widget: string }
+          - { label: Facebook Link, name: facebook, widget: string }
+          - { label: LinkedIn Link, name: linkedIn, widget: string }
+      - label: "Index Page"
+        name: "index"
+        file: "/src/markdown/MHP/index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Background Photo, name: background_photo, widget: image }
+      - label: "About Page"
+        name: "about"
+        file: "/src/markdown/MHP/about.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - { label: Background Photo, name: background_photo, widget: image }
+      - label: "Team Page"
+        name: "team"
+        file: "/src/markdown/MHP/team.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - label: Team Members
+            name: team_members
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Degree, name: degree, widget: string }
+              - { label: Position, name: position, widget: string }
+              - { label: Photo, name: photo, widget: image }
+              - { label: LinkedIn, name: linkedIn, widget: string }

@@ -54,34 +54,37 @@ const IndexPage = () => {
 
       {/* Main content */}
       <div className="container my-5">
-        <InfoBlock
-          heading="Who we are"
-          buttonText="Meet the team"
-          href="/team"
-          reverseOrder={false}
-          image={data.file.childImageSharp.fluid}
-        />
-        <InfoBlock
-          heading="Our Mission"
-          buttonText="See the bike"
-          href="/bike"
-          reverseOrder={true}
-          image={data.file.childImageSharp.fluid}
-        />
-        <InfoBlock
-          heading="Our Goal"
-          buttonText="See the race"
-          href="/race"
-          reverseOrder={false}
-          image={data.file.childImageSharp.fluid}
-        />
-        <InfoBlock
-          heading="Outreach"
-          buttonText="See the outreach"
-          href="/outreach"
-          reverseOrder={true}
-          image={data.file.childImageSharp.fluid}
-        />
+        {/* Info Blocks */}
+        <div>
+          <InfoBlock
+            heading="Who we are"
+            buttonText="Meet the team"
+            href="/team"
+            reverseOrder={false}
+            image={data.file.childImageSharp.fluid}
+          />
+          <InfoBlock
+            heading="Our Mission"
+            buttonText="See the bike"
+            href="/bike"
+            reverseOrder={true}
+            image={data.file.childImageSharp.fluid}
+          />
+          <InfoBlock
+            heading="Our Goal"
+            buttonText="See the race"
+            href="/race"
+            reverseOrder={false}
+            image={data.file.childImageSharp.fluid}
+          />
+          <InfoBlock
+            heading="Outreach"
+            buttonText="See the outreach"
+            href="/outreach"
+            reverseOrder={true}
+            image={data.file.childImageSharp.fluid}
+          />
+        </div>
 
         {/* Contact form */}
         <a name="contact" />
