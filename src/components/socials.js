@@ -1,4 +1,5 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 
 import Link from "./link";
@@ -28,17 +29,36 @@ const SocialLink = styled(Link)`
 `;
 
 const Socials = () => {
+  const data = useStaticQuery(graphql`
+    query socialQuery {
+      file(
+        relativePath: { eq: "socials.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            facebook
+            instagram
+            linkedIn
+          }
+        }
+      }
+    }
+  `);
+
+  const social_link = data.file.childMarkdownRemark.frontmatter;
+
   return (
     <MhpSocialContainer>
-      <SocialLink to="https://www.facebook.com/MonashHPT/">
+      <SocialLink to={social_link.facebook}>
         <FontAwesomeIcon icon={faFacebookSquare} />
       </SocialLink>
 
-      <SocialLink to="https://www.instagram.com/monashhpt/">
+      <SocialLink to={social_link.instagram}>
         <FontAwesomeIcon icon={faInstagramSquare} />
       </SocialLink>
 
-      <SocialLink to="https://www.linkedin.com/company/monashhpt/">
+      <SocialLink to={social_link.linkedIn}>
         <FontAwesomeIcon icon={faLinkedin} />
       </SocialLink>
     </MhpSocialContainer>
