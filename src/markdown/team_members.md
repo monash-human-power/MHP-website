@@ -1,5 +1,5 @@
 ---
-team_leads:
+team_members:
   - name: John Smith
     degree: Engineering
     position: Electrical Lead
