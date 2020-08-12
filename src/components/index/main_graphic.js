@@ -5,13 +5,13 @@ import Img from "gatsby-image";
 // TODO: remove these and put something more permanent (changeable)
 import MHP_green_crosshair from "../../images/crosshair.svg";
 
+const CrosshairContainer = styled.div`
+  background: repeat center/50px url(${MHP_green_crosshair}), black;
+`;
+
 const Heading = styled.h1`
   color: white;
   text-align: center;
-`;
-
-const CrosshairContainer = styled.div`
-  background: repeat center/50px url(${MHP_green_crosshair}), black;
 `;
 
 const CentreImage = styled(Img)`
