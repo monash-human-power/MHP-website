@@ -14,19 +14,28 @@ const CrosshairContainer = styled.div`
   background: repeat center/50px url(${MHP_green_crosshair}), black;
 `;
 
+const CentreImage = styled(Img)`
+  display: block;
+  margin: auto;
+`;
+
+const BlackBackground = styled.span`
+  background-color: var(--MHP-black);
+`;
+
 const MainGraphic = ({ image, heading }) => (
-  <CrosshairContainer className="container-fluid py-5">
+  <CrosshairContainer className="container-fluid pt-5 pb-2">
     {/* pt-4 mt-4 ensures that the graphic doesn't hit the header */}
     <div className="row justify-content-center pt-4 mt-4">
       {/* Bike graphic */}
       <div className="col-md-12">
-        <Img fluid={image} style={{ display: "block", margin: "auto" }} />
+        <CentreImage fluid={image} />
       </div>
 
       {/* Heading text */}
       <div className="col-md-12">
         <Heading className="p-2 m-3">
-          <span style={{ backgroundColor: "black" }}>{heading}</span>
+          <BlackBackground>{heading}</BlackBackground>
         </Heading>
       </div>
     </div>
