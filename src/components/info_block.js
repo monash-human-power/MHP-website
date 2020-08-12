@@ -37,7 +37,7 @@ const InfoBlock = ({
     </div>
 
     {/* Image component */}
-    <div className={`col-md my-3 ${reverseOrder && "order-md-1 order-xs-2"} `}>
+    <div className={`col-md mb-5 ${reverseOrder && "order-md-1 order-xs-2"} `}>
       <Img fluid={image} />
     </div>
   </div>
