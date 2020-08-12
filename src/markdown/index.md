@@ -1,4 +1,6 @@
 ---
+image: ../images/outter_bike.png
+heading: Monash Human Power
 blocks:
   - heading: Who we are
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

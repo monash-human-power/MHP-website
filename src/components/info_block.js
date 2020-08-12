@@ -22,7 +22,7 @@ const InfoBlock = ({
   reverseOrder,
   id,
 }) => (
-  <div className="row pt-5" id={id}>
+  <div className="row pt-3" id={id}>
     {/* Text component */}
     <div className={`col-md my-3 ${reverseOrder && "order-md-2 order-xs-1"} `}>
       <InfoHeading> {heading} </InfoHeading>

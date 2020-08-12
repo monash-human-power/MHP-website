@@ -30,23 +30,36 @@ const IndexPage = () => {
               buttonText
               id
             }
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluidLimitPresentationSize
+                }
+              }
+            }
+            heading
           }
         }
       }
     }
   `);
 
-  const infoBlockArr = data.file.childMarkdownRemark.frontmatter.blocks;
+  const indexData = data.file.childMarkdownRemark.frontmatter;
+  const infoBlockArr = indexData.blocks;
 
   return (
     <Layout>
       <SEO title="Home" />
 
       {/* Main graphic when the page loads*/}
-      <MainGraphic />
+      <MainGraphic
+        image={indexData.image.childImageSharp.fluid}
+        heading={indexData.heading}
+      />
 
       {/* Main content */}
-      <div className="container my-5">
+      <div className="container mb-5">
         {/* Info Blocks */}
         <div>
           {infoBlockArr.map((blockData, index) => (
