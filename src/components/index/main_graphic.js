@@ -1,11 +1,9 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import Img from "gatsby-image";
 
-// TODO: remove these and put something more permanent
+// TODO: remove these and put something more permanent (changeable)
 import MHP_green_crosshair from "../../images/crosshair.svg";
-import MHP_bike_graphic from "../../images/outter_bike.png";
 
 const Heading = styled.h1`
   color: white;
