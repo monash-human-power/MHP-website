@@ -22,7 +22,7 @@ const universalButtonStyle = `
   } 
 `;
 
-const LinkButton = styled(Link)`
+const SubmitButton = styled(Link)`
   ${universalButtonStyle}
 `;
 const RealButton = styled.button`
@@ -35,9 +35,9 @@ const BUTTON_TYPES = { button: "button", submit: "submit" };
 const Button = ({ children, href, type }) => {
   if (type === BUTTON_TYPES.button) {
     return (
-      <LinkButton className="btn btn-block" to={href}>
+      <SubmitButton className="btn btn-block" to={href}>
         {children}
-      </LinkButton>
+      </SubmitButton>
     );
   } else if (type === BUTTON_TYPES.submit) {
     return (
@@ -46,9 +46,11 @@ const Button = ({ children, href, type }) => {
       </RealButton>
     );
   } else {
-    throw `The type attribute specified is not a valid BUTTON_TYPES such as [${Object.keys(
-      BUTTON_TYPES
-    )}]`;
+    throw Error(
+      `The type attribute specified is not a valid BUTTON_TYPES such as [${Object.keys(
+        BUTTON_TYPES
+      )}]`
+    );
   }
 };
 

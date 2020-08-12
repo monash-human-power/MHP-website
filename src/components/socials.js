@@ -20,6 +20,7 @@ const MhpSocialContainer = styled.div`
 const SocialLink = styled(Link)`
   padding: 0px 10px 0px 10px;
   font-size: 28px;
+  height: 28px;
   color: var(--MHP-white);
 
   &:hover {
