@@ -41,11 +41,11 @@ const NotFoundPage = () => {
 
       <div className="container" style={{ height: "100vh" }}>
         <div className="row">
-          <div className="col-md-12 p-3">
+          <div className="col-md-12 m-3">
             <CentreImage src={pageNotFoundData.image.publicURL} />
           </div>
 
-          <div className="col-md-12 p-3" style={{ textAlign: "center" }}>
+          <div className="col-md-12 m-3" style={{ textAlign: "center" }}>
             <h2>{pageNotFoundData.subtext}</h2>
           </div>
         </div>
