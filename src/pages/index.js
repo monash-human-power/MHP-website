@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
-import Button from "../components/button";
+import ContactForm from "../components/index/contact_form";
 
 // TODO: remove these and put something more permanent
 import MHP_green_crosshair from "../images/Group 4.svg";
@@ -82,7 +82,7 @@ const IndexPage = () => {
               href={blockData.href}
               image={blockData.image.childImageSharp.fluid}
               key={index}
-              // Example key would be
+              // Example key would be 1 (index of the data)
               id={blockData.id}
               // Flips the order for every second block
               reverseOrder={index % 2 === 1}
@@ -90,68 +90,8 @@ const IndexPage = () => {
           ))}
         </div>
 
-        {/* Contact form */}
-        <a name="contact" />
-        {/* Add y axis margin for clarity */}
-        <div className="row justify-content-md-center my-5">
-          <div className="col col-lg-6">
-            {/* Contact Us Title */}
-            <h2 className="text-center">Contact Us</h2>
-
-            <form
-              name="contact"
-              method="post"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-            >
-              {/* This hidden type is needed for the netlify form to work */}
-              <input type="hidden" name="form-name" value="contact" />
-
-              {/* Name Input */}
-              <div className="form-group">
-                <label htmlFor="inputName">Name</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="inputName"
-                  placeholder="John Doe"
-                  required
-                />
-              </div>
-
-              {/* Email Input */}
-              <div className="form-group">
-                <label htmlFor="inputEmail">Email Address</label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="inputEmail"
-                  aria-describedby="emailHelp"
-                  placeholder="john.doe@gmail.com"
-                  required
-                />
-              </div>
-
-              {/* Text Input */}
-              <div className="form-group">
-                <label htmlFor="inputText">Message</label>
-                <textarea
-                  className="form-control"
-                  id="inputText"
-                  placeholder="I <3 MHP"
-                  required
-                />
-              </div>
-
-              {/* Submit Button */}
-              <div className="row">
-                <div className="col">
-                  <Button type="submit">Submit</Button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+        {/* Contact Form */}
+        <ContactForm></ContactForm>
       </div>
     </Layout>
   );
