@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
 import ContactForm from "../components/index/contact_form";
 import MainGraphic from "../components/index/main_graphic";
-import Sponsors from "../components/index/Sponsors";
+import Sponsors from "../components/index/sponsors";
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
