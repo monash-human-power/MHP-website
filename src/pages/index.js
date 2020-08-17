@@ -80,14 +80,14 @@ const IndexPage = () => {
           ))}
         </div>
 
-        {/* Contact Form */}
-        <ContactForm />
-
         {/* Sub-Teams Section */}
         <SubTeams />
 
         {/* Sponsor Section */}
         <Sponsors />
+
+        {/* Contact Form */}
+        <ContactForm />
       </div>
     </Layout>
   );
