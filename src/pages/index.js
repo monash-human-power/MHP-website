@@ -7,6 +7,7 @@ import InfoBlock from "../components/info_block";
 import ContactForm from "../components/index/contact_form";
 import MainGraphic from "../components/index/main_graphic";
 import Sponsors from "../components/index/sponsors";
+import SubTeams from "../components/index/subteams";
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -81,6 +82,9 @@ const IndexPage = () => {
 
         {/* Contact Form */}
         <ContactForm />
+
+        {/* Sub-Teams Section */}
+        <SubTeams />
 
         {/* Sponsor Section */}
         <Sponsors />
