@@ -31,26 +31,28 @@ blocks:
 subteams:
   - name: aerodynamics
     description: Responsible for the design and testing of the aerodynamic components of the bike
-    button_text: Apply Here
-    button_href: https://www.google.com
+    button_text: ""
+    button_href: ""
   - name: corporate
     description: Working behind the scenes to support the technical side of the team however we can
-    button_text: Apply Here
-    button_href: https://www.google.com
+    button_text: ""
+    button_href: ""
   - name: Chassis
     description: Responsible for the design and manufacture of all mechanical components on the vehicle
-    button_text: Apply Here
-    button_href: https://www.google.com
+    button_text: ""
+    button_href: ""
   - name: electrical
     description: Handling both the electrical and software aspects of the bike
-    button_text: Apply Here
-    button_href: https://www.google.com
+    button_text: ""
+    button_href: ""
   - name: Materials
     description: Responsible for the design, prototyping and manufacture of the fairing of the human-powered bike.
-    button_text: Apply Here
-    button_href: https://www.google.com
+    button_text: ""
+    button_href: ""
   - name: Rider dev
     description: Focusing on all things directly relating to the rider.
-    button_text: Apply Here
-    button_href: https://www.google.com
+    button_text: ""
+    button_href: ""
 ---
+
+# button_text = potentially apply here with a link

@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import Img from "gatsby-image";
 import Button from "../button";
+import propTypes from "prop-types";
 
 import x from "../../images/lightning_bolt.png";
 
@@ -13,26 +14,32 @@ const SubTeamHeading = styled.h2`
   align-text: centre;
 `;
 
+const SubTeamBox = styled.div`
+  border: 10px black solid;
+`;
+
 const SubTeamSquare = ({ name, description, button_text, button_href }) => (
-  <div
-    className="col-md m-1 p-3 align-self-stretch"
-    style={{ border: "10px black solid" }}
-  >
-    <div className="m-auto">
-      <h2>{name}</h2>
-      <p>{description}</p>
+  <SubTeamBox className="col-md m-1 p-3">
+    <div className="row">
+      <div className="col">
+        <h2>{name}</h2>
+        <p>{description}</p>
+      </div>
     </div>
-    <div class="row text-middle">
-      <div className="col ">
-        {/* Button is hidable if nothing is added */}
-        <Button href={button_href}>{button_text}</Button>
+
+    <div class="row">
+      <div className="col">
+        {/* Button is hidable if nothing is added aka "" */}
+        {button_text !== "" && (
+          <Button href={button_href}>{button_text}</Button>
+        )}
       </div>
 
       <div className="col text-right">
         <img src={x} style={{ height: 30, width: 30 }}></img>
       </div>
     </div>
-  </div>
+  </SubTeamBox>
 );
 
 const SubTeams = () => {
@@ -75,6 +82,21 @@ const SubTeams = () => {
       </div>
     </>
   );
+};
+
+SubTeams.propTypes = {
+  heading: propTypes.string,
+  description: propTypes.string,
+  buttonText: propTypes.string,
+  href: propTypes.string,
+  reverseOrder: propTypes.bool,
+};
+
+SubTeams.defaultProps = {
+  name: "",
+  description: "",
+  button_text: null,
+  button_href: null,
 };
 
 export default SubTeams;
