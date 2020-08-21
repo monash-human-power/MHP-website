@@ -8,16 +8,15 @@ import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
 
-const SubTeamsPage = () => {
+const IndexPage = () => {
   const data = useStaticQuery(graphql`
-    query SubTeamsPageQuery {
+    query IndexPageQueryss {
       file(
         relativePath: { eq: "subteams.md" }
         sourceInstanceName: { eq: "markdown" }
       ) {
         childMarkdownRemark {
           frontmatter {
-            heading
             subteams {
               image {
                 childImageSharp {
@@ -37,19 +36,19 @@ const SubTeamsPage = () => {
     }
   `);
 
-  const subTeamData = data.file.childMarkdownRemark.frontmatter;
-  const subTeamArr = subTeamData.subteams;
+  const indexData = data.file.childMarkdownRemark.frontmatter;
+  const subTeamData = indexData.subteams;
 
   return (
     <Layout>
       <SEO title="Home" />
-      <SubpageHeading> {subTeamData.heading} </SubpageHeading>
+      <SubpageHeading> bike </SubpageHeading>
 
       {/* Main content */}
       <div className="container mb-5">
         {/* Info Blocks */}
         <div>
-          {subTeamArr.map((blockData, index) => (
+          {subTeamData.map((blockData, index) => (
             <InfoBlock
               heading={blockData.name}
               description={blockData.description}
@@ -69,4 +68,4 @@ const SubTeamsPage = () => {
   );
 };
 
-export default SubTeamsPage;
+export default IndexPage;
