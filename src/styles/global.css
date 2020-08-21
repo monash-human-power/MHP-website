@@ -21,6 +21,15 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
 @media only screen and (max-width: 600px) {
   /* Make h1 only 25% larger than h2 on mobile */
   h1 {
@@ -30,11 +39,10 @@ h1 {
   h2 {
     font-size: 1.5rem;
   }
-}
 
-h2 {
-  text-transform: uppercase;
-  font-weight: bold;
+  p {
+    font-size: 1rem;
+  }
 }
 
 /* Remove ugly bounding box for hamburger menu */
