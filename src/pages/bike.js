@@ -12,10 +12,11 @@ import styled from "styled-components";
 import MHP_purple_crosshair from "../images/crosshair_purple.svg";
 
 const CrosshairLayout = styled(Layout)`
-  background: repeat center/50px url(${MHP_purple_crosshair});
+//   background: repeat center/50px url(${MHP_purple_crosshair});
 `;
 
 const StatsSubheading = styled.p`
+  text-transform: uppercase;
   padding: 0px;
   margin: 0px;
 `;
@@ -40,7 +41,7 @@ const BikeInfoBlock = bikeObj => (
         </WhiteDiv>
 
         <WhiteDiv className="col-sm  py-2">
-          <StatsSubheading> BUILT </StatsSubheading>
+          <StatsSubheading> built </StatsSubheading>
           <StatsInfo className="p-2 m-0">
             {" "}
             {bikeObj.start_year} - {bikeObj.end_year}{" "}
@@ -48,7 +49,7 @@ const BikeInfoBlock = bikeObj => (
         </WhiteDiv>
 
         <WhiteDiv className="col-sm  py-2">
-          <StatsSubheading>MAX SPEED</StatsSubheading>
+          <StatsSubheading>🔥 max speed 🔥</StatsSubheading>
           <StatsInfo className="p-2 m-0">
             {bikeObj.top_speed_km} KM/H{" "}
           </StatsInfo>
