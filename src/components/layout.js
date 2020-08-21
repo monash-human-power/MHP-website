@@ -1,9 +1,14 @@
 import React from "react";
 import propTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
+import styled from "styled-components";
 
 import Header from "./header";
 import Footer from "./footer";
+
+const MinHeightMain = styled.main`
+  min-height: 95vh;
+`;
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -19,7 +24,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      <MinHeightMain style={{ minHeight: "95vh" }}>{children}</MinHeightMain>
       <Footer />
     </>
   );

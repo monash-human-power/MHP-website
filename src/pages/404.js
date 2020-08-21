@@ -39,14 +39,14 @@ const NotFoundPage = () => {
       <SEO title="404: Not found" />
       <SubpageHeading> {pageNotFoundData.heading} </SubpageHeading>
 
-      <div className="container" style={{ height: "100vh" }}>
+      <div className="container">
         <div className="row">
-          <div className="col-md-12 m-3">
-            <CentreImage src={pageNotFoundData.image.publicURL} />
-          </div>
-
           <div className="col-md-12 m-3" style={{ textAlign: "center" }}>
             <h2>{pageNotFoundData.subtext}</h2>
+          </div>
+
+          <div className="col-md-12 m-3">
+            <CentreImage src={pageNotFoundData.image.publicURL} />
           </div>
         </div>
       </div>
