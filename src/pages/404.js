@@ -32,6 +32,7 @@ const NotFoundPage = () => {
       }
     }
   `);
+
   const pageNotFoundData = data.file.childMarkdownRemark.frontmatter;
 
   return (

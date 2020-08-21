@@ -22,10 +22,9 @@ const InfoBlock = ({
   reverseOrder,
   id,
 }) => (
-  <div className="row pt-3 mb-5" id={id}>
+  <div className="row pt-3 mb-5 mt-3" id={id}>
     {/* Text component */}
-    {console.log(buttonText)}{" "}
-    <div className={`col-md my-3 ${reverseOrder && "order-md-2 order-xs-1"} `}>
+    <div className={`col-md ${reverseOrder && "order-md-2 order-xs-1"} `}>
       <InfoHeading> {heading} </InfoHeading>
       <p> {description} </p>
 
@@ -38,8 +37,9 @@ const InfoBlock = ({
         </div>
       </div>
     </div>
+
     {/* Image component */}
-    <div className={`col-md mb-5 ${reverseOrder && "order-md-1 order-xs-2"} `}>
+    <div className={`col-md ${reverseOrder && "order-md-1 order-xs-2"} `}>
       <Img fluid={image} />
     </div>
   </div>

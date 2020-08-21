@@ -10,7 +10,7 @@ const MinHeightMain = styled.main`
   min-height: 95vh;
 `;
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -22,11 +22,11 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <>
+    <div>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <MinHeightMain style={{ minHeight: "95vh" }}>{children}</MinHeightMain>
+      <MinHeightMain className={className}>{children}</MinHeightMain>
       <Footer />
-    </>
+    </div>
   );
 };
 
