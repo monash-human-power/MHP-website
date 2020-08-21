@@ -58,7 +58,7 @@ const SubTeamsPage = () => {
               image={blockData.image.childImageSharp.fluid}
               key={index}
               // Example key would be 1 (index of the data)
-              id={2}
+              id={index}
               // Flips the order for every second block
               reverseOrder={index % 2 === 1}
             />

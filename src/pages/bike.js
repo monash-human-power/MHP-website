@@ -8,16 +8,23 @@ import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
 
-const IndexPage = () => {
+const BikePage = () => {
   const data = useStaticQuery(graphql`
-    query IndexPageQueryss {
+    query BikePageQuery {
       file(
-        relativePath: { eq: "subteams.md" }
+        relativePath: { eq: "bike.md" }
         sourceInstanceName: { eq: "markdown" }
       ) {
         childMarkdownRemark {
           frontmatter {
-            subteams {
+            heading
+            bikes {
+              name
+              version
+              description
+              start_year
+              end_year
+              top_speed_km
               image {
                 childImageSharp {
                   fluid {
@@ -25,10 +32,6 @@ const IndexPage = () => {
                   }
                 }
               }
-              name
-              description
-              button_text
-              button_href
             }
           }
         }
@@ -36,28 +39,26 @@ const IndexPage = () => {
     }
   `);
 
-  const indexData = data.file.childMarkdownRemark.frontmatter;
-  const subTeamData = indexData.subteams;
+  const bikeData = data.file.childMarkdownRemark.frontmatter;
+  const bikeArr = bikeData.bikes;
 
   return (
     <Layout>
       <SEO title="Home" />
-      <SubpageHeading> bike </SubpageHeading>
+      <SubpageHeading> {bikeData.heading} </SubpageHeading>
 
       {/* Main content */}
       <div className="container mb-5">
         {/* Info Blocks */}
         <div>
-          {subTeamData.map((blockData, index) => (
+          {bikeArr.map((blockData, index) => (
             <InfoBlock
               heading={blockData.name}
               description={blockData.description}
-              buttonText={blockData.button_text}
-              href={blockData.button_href}
               image={blockData.image.childImageSharp.fluid}
               key={index}
               // Example key would be 1 (index of the data)
-              id={2}
+              id={index}
               // Flips the order for every second block
               reverseOrder={index % 2 === 1}
             />
@@ -68,4 +69,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default BikePage;
