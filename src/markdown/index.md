@@ -1,5 +1,5 @@
 ---
-image: ../images/outter_bike.png
+image: ../images/V3_render_cool.png
 heading: Monash Human Power
 blocks:
   - heading: Who we are
