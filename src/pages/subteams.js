@@ -8,9 +8,9 @@ import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
 
-const IndexPage = () => {
+const SubTeamsPage = () => {
   const data = useStaticQuery(graphql`
-    query IndexPageQueryx {
+    query SubTeamsPageQuery {
       file(
         relativePath: { eq: "subteams.md" }
         sourceInstanceName: { eq: "markdown" }
@@ -68,4 +68,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default SubTeamsPage;
