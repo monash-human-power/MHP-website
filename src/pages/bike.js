@@ -22,42 +22,42 @@ const StatsSubheading = styled.p`
 
 const StatsInfo = styled.h2`
   background: var(--MHP-purple);
-  color: white;
+  color: var(--MHP-white);
+`;
+
+const WhiteDiv = styled.div`
+  background: var(--MHP-white);
 `;
 
 const BikeInfoBlock = bikeObj => (
-  <div className="row py-3 mb-5">
+  <div className="row py-3 my-5">
     {/* Text component */}
-    <div className="col-md" style={{ background: "white" }}>
-      <div className="row py-3 justify-content-between">
-        <div
-          className="col-md-12 "
-          style={{ background: "white", border: "0px solid black" }}
-        >
+    <div className="col-lg">
+      <div className="row">
+        <WhiteDiv className="col-md-12 py-3">
           <h2> {bikeObj.name} </h2>
           <p> {bikeObj.description} </p>
-        </div>
+        </WhiteDiv>
 
-        <div className="col-sm my-2 py-2">
+        <WhiteDiv className="col-sm  py-2">
           <StatsSubheading> BUILT </StatsSubheading>
           <StatsInfo className="p-2 m-0">
             {" "}
             {bikeObj.start_year} - {bikeObj.end_year}{" "}
           </StatsInfo>
-        </div>
+        </WhiteDiv>
 
-        <div className="col-sm my-2 py-2">
+        <WhiteDiv className="col-sm  py-2">
           <StatsSubheading>MAX SPEED</StatsSubheading>
           <StatsInfo className="p-2 m-0">
             {bikeObj.top_speed_km} KM/H{" "}
           </StatsInfo>
-        </div>
+        </WhiteDiv>
       </div>
-
-      <div className="row"></div>
     </div>
+
     {/* Image component */}
-    <div className="col-md align-self-center">
+    <div className="col-md">
       <Img fluid={bikeObj.image.childImageSharp.fluid} />
       <p
         className="p-0 m-0"
