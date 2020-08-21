@@ -53,8 +53,8 @@ const ContactForm = () => (
         </div>
 
         {/* Submit Button */}
-        <div className="row">
-          <div className="col">
+        <div className="row justify-content-center">
+          <div className="col-5">
             <Button type="submit">Submit</Button>
           </div>
         </div>

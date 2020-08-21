@@ -27,4 +27,30 @@ blocks:
     description: Monash Human Power Team is proud to offer a robust schools program that is tailored to the inquiry skills of the Victorian Curriculum. We hope to foster the same love for STEM and sustainability that we experienced when we were in school in your students in hopes of inspiring them to pursue it in their tertiary education too. We also help schools competing in the Victorian HPV Super series use the wind tunnel for testing and provide workshop tours.
     image: ../images/outreach.png
     id: outreach
+
+subteams:
+  - name: aerodynamics
+    description: Responsible for the design and testing of the aerodynamic components of the bike
+    button_text: Apply Here
+    button_href: https://www.google.com
+  - name: corporate
+    description: Working behind the scenes to support the technical side of the team however we can
+    button_text: Apply Here
+    button_href: https://www.google.com
+  - name: Chassis
+    description: Responsible for the design and manufacture of all mechanical components on the vehicle
+    button_text: Apply Here
+    button_href: https://www.google.com
+  - name: electrical
+    description: Handling both the electrical and software aspects of the bike
+    button_text: Apply Here
+    button_href: https://www.google.com
+  - name: Materials
+    description: Responsible for the design, prototyping and manufacture of the fairing of the human-powered bike.
+    button_text: Apply Here
+    button_href: https://www.google.com
+  - name: Rider dev
+    description: Focusing on all things directly relating to the rider.
+    button_text: Apply Here
+    button_href: https://www.google.com
 ---
