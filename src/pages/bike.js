@@ -12,7 +12,7 @@ import styled from "styled-components";
 import MHP_purple_crosshair from "../images/crosshair_purple.svg";
 
 const CrosshairLayout = styled(Layout)`
-//   background: repeat center/50px url(${MHP_purple_crosshair});
+  background: repeat center/50px url(${MHP_purple_crosshair});
 `;
 
 const StatsSubheading = styled.p`
@@ -30,12 +30,12 @@ const WhiteDiv = styled.div`
   background: var(--MHP-white);
 `;
 
-const BikeInfoBlock = bikeObj => (
+const BikeInfoBlock = (bikeObj, reverseOrder) => (
   <div className="row py-3 my-5">
     {/* Text component */}
-    <div className="col-lg">
+    <div className={`col-md ${reverseOrder && "order-md-2 order-xs-1"}`}>
       <div className="row">
-        <WhiteDiv className="col-md-12 py-3">
+        <WhiteDiv className="col-md-12 py-3 ">
           <h2> {bikeObj.name} </h2>
           <p> {bikeObj.description} </p>
         </WhiteDiv>
@@ -48,7 +48,7 @@ const BikeInfoBlock = bikeObj => (
           </StatsInfo>
         </WhiteDiv>
 
-        <WhiteDiv className="col-sm  py-2">
+        <WhiteDiv className="col-sm py-2">
           <StatsSubheading>🔥 max speed 🔥</StatsSubheading>
           <StatsInfo className="p-2 m-0">
             {bikeObj.top_speed_km} KM/H{" "}
@@ -58,7 +58,7 @@ const BikeInfoBlock = bikeObj => (
     </div>
 
     {/* Image component */}
-    <div className="col-md">
+    <div className={`col-md ${reverseOrder && "order-md-1 order-xs-2"}`}>
       <Img fluid={bikeObj.image.childImageSharp.fluid} />
       <p
         className="p-0 m-0"
@@ -118,9 +118,9 @@ const BikePage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
-        {BikeInfoBlock(bikeArr[0])}
-        {BikeInfoBlock(bikeArr[1])}
-        {BikeInfoBlock(bikeArr[2])}
+        {bikeArr.map((bikeArrElement, index) =>
+          BikeInfoBlock(bikeArrElement, index % 2 === 1)
+        )}
       </div>
     </CrosshairLayout>
   );
