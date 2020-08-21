@@ -55,4 +55,4 @@ subteams:
     button_href: ""
 ---
 
-# button_text = potentially apply here with a link
+# button_text = can be used to point people in the direction of a application for MHP
