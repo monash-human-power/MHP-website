@@ -23,7 +23,7 @@ const ContactForm = () => (
             type="text"
             className="form-control"
             id="inputName"
-            placeholder="John Doe"
+            placeholder=""
             required
           />
         </div>
@@ -36,7 +36,7 @@ const ContactForm = () => (
             className="form-control"
             id="inputEmail"
             aria-describedby="emailHelp"
-            placeholder="john.doe@gmail.com"
+            placeholder=""
             required
           />
         </div>
@@ -47,7 +47,7 @@ const ContactForm = () => (
           <textarea
             className="form-control"
             id="inputText"
-            placeholder="I <3 MHP"
+            placeholder=""
             required
           />
         </div>

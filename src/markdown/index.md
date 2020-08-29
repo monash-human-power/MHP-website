@@ -53,6 +53,14 @@ subteams:
     description: Focusing on all things directly relating to the rider.
     button_text: ""
     button_href: ""
+
+sponsors:
+  - name: "C5 systems"
+    image: ../images/sponsor_C5.png
+  - name: "MAE"
+    image: ../images/sponsor_MAE.png
+  - name: "Nord VPN"
+    image: ../images/sponsor_nord.png
 ---
 
 # button_text = can be used to point people in the direction of a application for MHP
