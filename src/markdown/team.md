@@ -1,5 +1,6 @@
 ---
 heading: The team
+description: Monash Human power is composed of like minded people. etc../ etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../etc../
 team_members:
   - name: John Smith
     degree: Engineering
