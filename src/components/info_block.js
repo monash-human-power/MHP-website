@@ -30,7 +30,7 @@ const InfoBlock = ({
 
       {/* Button component */}
       <div className="row">
-        <div className="col-md-8">
+        <div className="col-md-8 mb-3">
           {buttonText !== "" && buttonText !== null && (
             <Button href={href}> {buttonText} </Button>
           )}

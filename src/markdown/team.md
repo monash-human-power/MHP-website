@@ -1,4 +1,5 @@
 ---
+heading: The team
 team_members:
   - name: John Smith
     degree: Engineering

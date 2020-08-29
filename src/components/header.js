@@ -56,10 +56,10 @@ const Header = () => {
   `);
 
   const pageLinks = [
-    { title: "About Us", link: "/" },
-    { title: "Our Team", link: "/team" },
-    { title: "The Bike", link: "/bike" },
-    { title: "The Subteams", link: "/subteams" },
+    { title: "About", link: "/" },
+    { title: "Team", link: "/team" },
+    { title: "Bike", link: "/bike" },
+    { title: "Subteams", link: "/subteams" },
   ];
 
   return (
