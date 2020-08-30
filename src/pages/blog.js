@@ -10,7 +10,10 @@ import { map } from "jquery";
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
     query BlogPageQuery {
-      allFile(filter: { sourceInstanceName: { eq: "blog" } }) {
+      allFile(
+        filter: { sourceInstanceName: { eq: "blog" } }
+        sort: { order: DESC, fields: childMarkdownRemark___frontmatter___date }
+      ) {
         edges {
           node {
             id
