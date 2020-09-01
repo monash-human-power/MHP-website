@@ -26,12 +26,19 @@ This website is automatically deployed using Netlify. See the live site [here](h
 
 ### Project Layout
 
-| File/Folder         |                                                           Information                                                            |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
-| `gatsby-config.js`  | Configures Gatsby and used to import Gatsby plugins. [More info](https://www.gatsbyjs.com/tutorial/plugin-and-theme-tutorials/). |
-| `gatsby-node.js`    |                 Logic to dynamically generate blog posts. [More info](https://www.gatsbyjs.org/docs/node-apis/).                 |
-| `gatsby-browser.js` |  Imports CSS and modules to be used in the browsers global namespace. [More info](https://www.gatsbyjs.org/docs/browser-apis/).  |
-| `gatsby-node`       |                                      [More info](https://www.gatsbyjs.org/docs/node-apis/)                                       |
+| File/Folder               |                                                           Information                                                            |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
+| `gatsby-config.js`        | Configures Gatsby and used to import Gatsby plugins. [More info](https://www.gatsbyjs.com/tutorial/plugin-and-theme-tutorials/). |
+| `gatsby-node.js`          |                 Logic to dynamically generate blog posts. [More info](https://www.gatsbyjs.org/docs/node-apis/).                 |
+| `gatsby-browser.js`       |  Imports CSS and modules to be used in the browsers global namespace. [More info](https://www.gatsbyjs.org/docs/browser-apis/).  |
+| `netlify.toml`            |                                                  Configures the netlify build.                                                   |
+| `src/components`          |                                          Contains React components used to build pages.                                          |
+| `src/images`              |                                                     Contains website images.                                                     |
+| `src/markdown`            |                                     Contains markdown files used to build pages (non-blog).                                      |
+| `src/blog`                |                                        Contains markdown files used to build blog pages.                                         |
+| `src/pages`               |                           Contains React files that are associated with pages. eg. 404.js == 404 page                            |
+| `src/styles`              |                                                    Contains global CSS files.                                                    |
+| `static/admin/config.yml` |                              Config file for Netlify CMS. [More info](https://www.netlifycms.org/).                              |
 
 ## Contributors ✨
 
