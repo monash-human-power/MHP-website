@@ -24,11 +24,14 @@ This website is automatically deployed using Netlify. See the live site [here](h
 4. Install gatsby using `npm install -g gatsby-cli`
 5. Start developing using `gatsby develop`
 
-## TODOs
+### Project Layout
 
-- [ ] Github actions linting check
-- [ ] Basic unit tests
-- [ ] Contributor bots
+| File/Folder         |                                                           Information                                                            |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
+| `gatsby-config.js`  | Configures Gatsby and used to import Gatsby plugins. [More info](https://www.gatsbyjs.com/tutorial/plugin-and-theme-tutorials/). |
+| `gatsby-node.js`    |                 Logic to dynamically generate blog posts. [More info](https://www.gatsbyjs.org/docs/node-apis/).                 |
+| `gatsby-browser.js` |  Imports CSS and modules to be used in the browsers global namespace. [More info](https://www.gatsbyjs.org/docs/browser-apis/).  |
+| `gatsby-node`       |                                      [More info](https://www.gatsbyjs.org/docs/node-apis/)                                       |
 
 ## Contributors ✨
 
