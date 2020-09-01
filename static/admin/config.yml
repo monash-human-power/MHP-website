@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "/src/images" # Media files will be stored in the repo under /src/images/uploads
+public_folder: "../images" # So that the images get imported correctly in the markdown files
+
+collections:
+  - label: "MHP" # Used in the UI
+    name: "MHP" # Used in routes, e.g., /admin/collections/MHP
+    files:
+      - label: "Social Links" # Used in the UI
+        name: "socials" # Used in routes, e.g., /admin/collections/MHP
+        file: "/src/markdown/socials.md" # What the markdown is called
+        fields:
+          - { label: Instagram Link, name: instagram, widget: string }
+          - { label: Facebook Link, name: facebook, widget: string }
+          - { label: LinkedIn Link, name: linkedIn, widget: string }
+      - label: "Index"
+        name: "index"
+        file: "/src/markdown/index.md"
+        fields:
+          - label: Info Blocks
+            name: blocks
+            widget: list
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Description, name: description, widget: string }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Button Link, name: href, widget: string }
+              - { label: ID for header, name: id, widget: string }
+      - label: "Team"
+        name: "team"
+        file: "/src/markdown/team.md"
+        fields:
+          - label: Team Members
+            name: team_members
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Degree, name: degree, widget: string }
+              - { label: Position, name: position, widget: string }
+              - { label: Photo, name: photo, widget: image }
+              - { label: LinkedIn, name: linkedIn, widget: string }

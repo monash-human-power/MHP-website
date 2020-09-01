@@ -1,69 +1,99 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
+import ContactForm from "../components/index/contact_form";
+import MainGraphic from "../components/index/main_graphic";
+import Sponsors from "../components/index/sponsors";
+import SubTeams from "../components/index/subteams";
 
-import MHP_green_crosshair from "../images/Group 4.svg";
-import MHP_bike_graphic from "../images/outter_bike.png";
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query IndexPageQuery {
+      file(
+        relativePath: { eq: "index.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            blocks {
+              image {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              href
+              heading
+              description
+              buttonText
+              id
+            }
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                  ...GatsbyImageSharpFluidLimitPresentationSize
+                }
+              }
+            }
 
-    {/* Bike graphic */}
-    <div
-      className="container-fluid py-5"
-      style={{
-        background: `repeat center/50px url(${MHP_green_crosshair}), black`,
-      }}
-    >
-      <div className="row justify-content-center pt-4 mt-4">
-        <img src={MHP_bike_graphic} alt="MHP bike graphic" />
+            heading
+          }
+        }
+      }
+    }
+  `);
+
+  const indexData = data.file.childMarkdownRemark.frontmatter;
+  const infoBlockArr = indexData.blocks;
+  const subTeamData = indexData.subteams;
+
+  return (
+    <Layout>
+      <SEO title="Home" />
+
+      {/* Main graphic when the page loads*/}
+      <MainGraphic
+        image={indexData.image.childImageSharp.fluid}
+        heading={indexData.heading}
+      />
+
+      {/* Main content */}
+      <div className="container mb-5">
+        {/* Info Blocks */}
+        <div>
+          {infoBlockArr.map((blockData, index) => (
+            <InfoBlock
+              heading={blockData.heading}
+              description={blockData.description}
+              buttonText={blockData.buttonText}
+              href={blockData.href}
+              image={blockData.image.childImageSharp.fluid}
+              key={index}
+              // Example key would be 1 (index of the data)
+              id={blockData.id}
+              // Flips the order for every second block
+              reverseOrder={index % 2 === 1}
+            />
+          ))}
+        </div>
+
+        {/* Sub-Teams Section */}
+        <SubTeams />
+
+        {/* Sponsor Section */}
+        <Sponsors />
+
+        {/* Contact Form */}
+        <ContactForm />
       </div>
-
-      <div className="row justify-content-center">
-        <h1
-          style={{
-            color: "white",
-            backgroundColor: "black",
-            textAlign: "center",
-          }}
-          className="p-2 m-3"
-        >
-          MONASH HUMAN POWER
-        </h1>
-      </div>
-    </div>
-
-    {/* Main content */}
-    <div className="container my-5">
-      <InfoBlock
-        heading="Who we are"
-        buttonText="Meet the team"
-        href="/team"
-        reverseOrder={false}
-      />
-      <InfoBlock
-        heading="Our Mission"
-        buttonText="See the bike"
-        href="/bike"
-        reverseOrder={true}
-      />
-      <InfoBlock
-        heading="Our Goal"
-        buttonText="See the race"
-        href="/race"
-        reverseOrder={false}
-      />
-      <InfoBlock
-        heading="Outreach"
-        buttonText="See the outreach"
-        href="/outreach"
-        reverseOrder={true}
-      />
-    </div>
-  </Layout>
-);
+    </Layout>
+  );
+};
 
 export default IndexPage;

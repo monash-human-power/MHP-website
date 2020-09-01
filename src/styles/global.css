@@ -16,13 +16,33 @@ body {
 }
 
 h1 {
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 60px;
 }
 
-/* MHP background colour */
-.MHP-bg {
-  background-color: var(--MHP-black);
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Make h1 only 25% larger than h2 on mobile */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
 
 /* Remove ugly bounding box for hamburger menu */

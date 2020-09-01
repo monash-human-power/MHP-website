@@ -6,6 +6,7 @@ import Socials from "./socials";
 
 const MhpFooter = styled.footer`
   text-align: center;
+  background-color: var(--MHP-black);
   color: var(--MHP-white);
 `;
 
@@ -22,10 +23,14 @@ const FooterParagraph = styled.p`
   text-align: left;
 `;
 
+const TinyFooterParagraph = styled.p`
+  font-size: 0.8rem;
+`;
+
 const CURRENT_YEAR = new Date().getFullYear();
 
 const Footer = () => (
-  <MhpFooter className="MHP-bg py-3">
+  <MhpFooter className="pt-3">
     <div className="container">
       <div className="row">
         {/* Sponsor section */}
@@ -66,8 +71,11 @@ const Footer = () => (
 
       <div className="row">
         {/* Col is xl as it should always collapse */}
-        <div className="col-xl pt-5">
-          <p> &#169; {CURRENT_YEAR}, Monash Human Power </p>
+        <div className="col-xl">
+          <TinyFooterParagraph>
+            {" "}
+            &#169; {CURRENT_YEAR}, Monash Human Power{" "}
+          </TinyFooterParagraph>
         </div>
       </div>
     </div>

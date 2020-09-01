@@ -1,11 +1,16 @@
 import React from "react";
 import propTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
+import styled from "styled-components";
 
 import Header from "./header";
 import Footer from "./footer";
 
-const Layout = ({ children }) => {
+const MinHeightMain = styled.main`
+  min-height: 95vh;
+`;
+
+const Layout = ({ children, className }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -17,11 +22,11 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <>
+    <div>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      <MinHeightMain className={className}>{children}</MinHeightMain>
       <Footer />
-    </>
+    </div>
   );
 };
 
