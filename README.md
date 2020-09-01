@@ -42,6 +42,8 @@ This website is automatically deployed using Netlify. See the live site [here](h
 
 ## More Information
 
+Still confused? More info can be found at the notion page [here](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
