@@ -24,7 +24,7 @@ This website is automatically deployed using Netlify. See the live site [here](h
 4. Install gatsby using `npm install -g gatsby-cli`
 5. Start developing using `gatsby develop`
 
-### Project Layout
+## Project Layout
 
 | File/Folder               |                                                           Information                                                            |
 | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
@@ -40,9 +40,25 @@ This website is automatically deployed using Netlify. See the live site [here](h
 | `src/styles`              |                                                    Contains global CSS files.                                                    |
 | `static/admin/config.yml` |                              Config file for Netlify CMS. [More info](https://www.netlifycms.org/).                              |
 
+## More Information
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Blake-Haydon"><img src="https://avatars2.githubusercontent.com/u/23159604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Blake</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->

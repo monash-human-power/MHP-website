@@ -1,14 +1,24 @@
 {
+  "projectName": "MHP-Website",
+  "projectOwner": "monash-human-power ",
+  "repoType": "github",
+  "repoHost": "https://github.com",
   "files": [
     "README.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
+  "commitConvention": "gitmoji",
   "contributors": [
+    {
+      "login": "Blake-Haydon",
+      "name": "Blake",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23159604?v=4",
+      "profile": "https://github.com/Blake-Haydon",
+      "contributions": [
+        "code"
+      ]
+    }
   ],
-  "contributorsPerLine": 7,
-  "projectName": "init-template",
-  "projectOwner": "monash-human-power",
-  "repoType": "github",
-  "repoHost": "https://github.com"
+  "contributorsPerLine": 7
 }
