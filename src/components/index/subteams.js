@@ -36,13 +36,13 @@ const SubTeamSquare = ({ name, description, button_text, button_href }) => (
       </div>
 
       <div className="col text-right">
-        <img src={x} style={{ height: 30, width: 30 }}></img>
+        {/* <img src={x} style={{ height: 30, width: 30 }}></img> */}
       </div>
     </div>
   </SubTeamBox>
 );
 
-const SubTeams = () => {
+const SubTeams = ({ className }) => {
   const data = useStaticQuery(graphql`
     query SubteamsQuery {
       file(
@@ -66,7 +66,7 @@ const SubTeams = () => {
   const subteamsArray = data.file.childMarkdownRemark.frontmatter.subteams;
 
   return (
-    <>
+    <div className={className}>
       <div className="row justify-content-center">
         <SubTeamHeading className="p-3 my-2">× SubTeams ×</SubTeamHeading>
       </div>
@@ -80,23 +80,8 @@ const SubTeams = () => {
           <Button href="/subteams">Meet the teams</Button>
         </div>
       </div>
-    </>
+    </div>
   );
-};
-
-SubTeams.propTypes = {
-  heading: propTypes.string,
-  description: propTypes.string,
-  buttonText: propTypes.string,
-  href: propTypes.string,
-  reverseOrder: propTypes.bool,
-};
-
-SubTeams.defaultProps = {
-  name: "",
-  description: "",
-  button_text: null,
-  button_href: null,
 };
 
 export default SubTeams;

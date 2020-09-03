@@ -9,7 +9,7 @@ const SponsorHeading = styled.h2`
   align-text: centre;
 `;
 
-const Sponsors = () => {
+const Sponsors = ({ className }) => {
   const data = useStaticQuery(graphql`
     query SponsorsQuery {
       file(
@@ -37,7 +37,7 @@ const Sponsors = () => {
   const sponsorArr = data.file.childMarkdownRemark.frontmatter.sponsors;
 
   return (
-    <>
+    <div className={className}>
       <SponsorHeading className="p-3 my-2"> Sponsors </SponsorHeading>
       <div className="row">
         {sponsorArr.map(sponsorObj => (
@@ -49,7 +49,7 @@ const Sponsors = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
