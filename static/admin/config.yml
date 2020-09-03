@@ -34,7 +34,12 @@ collections:
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Image, name: image, widget: image }
               - { label: Button Link, name: href, widget: string }
-              - { label: ID for header, name: id, widget: string }
+              - {
+                  label: ID for header,
+                  name: id,
+                  widget: string,
+                  hint: "If you are not changing the header, don't mess with it!",
+                }
       - label: "Team"
         name: "team"
         file: "/src/markdown/team.md"
@@ -70,14 +75,14 @@ collections:
                   label: Button Text,
                   name: button_text,
                   widget: string,
-                  hint: "This could be used for a recruiting link",
+                  hint: "This could be used for recruiting text eg. Apply Here",
                   default: "",
                 }
               - {
                   label: Button Link,
                   name: button_href,
-                  widget: image,
-                  hint: "This could be used for a recruiting link",
+                  widget: string,
+                  hint: "This could be used for a recruiting link eg. a google doc",
                   default: "",
                 }
               - { label: Image, name: image, widget: string }
