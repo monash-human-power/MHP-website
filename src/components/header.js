@@ -65,16 +65,6 @@ const Header = () => {
   return (
     <header>
       <Navbar className="navbar fixed-top navbar-expand-lg navbar-dark">
-        {/* MHP logo */}
-        {/* <div>
-          <Link className="navbar-brand m-0 p-0" to="/">
-            <Img
-              className="d-inline-block align-top"
-              fixed={data.file.childImageSharp.fixed}
-            />
-          </Link>
-        </div> */}
-
         {/* Button that allows for the menu toggler icon */}
         <button
           className="navbar-toggler"
@@ -93,6 +83,8 @@ const Header = () => {
           <div style={{ width: 200, margin: "auto" }}>
             <ul className="navbar-nav">
               {navItem("MHP", "/")}
+
+              {/* MHP logo */}
               <Img
                 className=" align-top"
                 fixed={data.file.childImageSharp.fixed}
