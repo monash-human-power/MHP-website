@@ -157,6 +157,6 @@ collections:
                   label: Top Speed,
                   name: top_speed_km,
                   widget: string,
-                  hint: "eg. a string such as 81.2 or unknown",
+                  hint: "eg. a string such as '81.2' or 'unknown'",
                 }
               - { label: Image, name: image, widget: image }
