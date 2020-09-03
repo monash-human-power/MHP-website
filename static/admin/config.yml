@@ -55,3 +55,29 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subtext, name: subtext, widget: string }
+      - label: "SubTeams"
+        name: "subteams"
+        file: "/src/markdown/subteams.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - label: SubTeams Info Blocks
+            name: subteams
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - {
+                  label: Button Text,
+                  name: button_text,
+                  widget: string,
+                  hint: "This could be used for a recruiting link",
+                  default: "",
+                }
+              - {
+                  label: Button Link,
+                  name: button_href,
+                  widget: image,
+                  hint: "This could be used for a recruiting link",
+                  default: "",
+                }
+              - { label: Image, name: image, widget: string }
