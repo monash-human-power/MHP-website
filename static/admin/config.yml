@@ -75,6 +75,8 @@ collections:
         name: "team"
         file: "/src/markdown/team.md"
         fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Description, name: description, widget: text }
           - label: Team Members
             name: team_members
             widget: list
