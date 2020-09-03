@@ -71,7 +71,7 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Image, name: image, widget: image }
 
-      - label: "Team"
+      - label: "Team Page"
         name: "team"
         file: "/src/markdown/team.md"
         fields:
@@ -86,6 +86,7 @@ collections:
               - { label: Position, name: position, widget: string }
               - { label: Photo, name: photo, widget: image }
               - { label: LinkedIn, name: linkedIn, widget: string }
+
       - label: "404"
         name: "404_page"
         file: "/src/markdown/404.md"
@@ -93,7 +94,8 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subtext, name: subtext, widget: string }
-      - label: "SubTeams"
+
+      - label: "SubTeams Page"
         name: "subteams"
         file: "/src/markdown/subteams.md"
         fields:
@@ -120,4 +122,41 @@ collections:
                   default: "",
                   required: false,
                 }
-              - { label: Image, name: image, widget: string }
+              - { label: Image, name: image, widget: image }
+
+      - label: "Bike Page"
+        name: "bike"
+        file: "/src/markdown/bike.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - label: Bike Info
+            name: bikes
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: version,
+                  name: version,
+                  widget: number,
+                  hint: "eg. 2.5 or 3",
+                }
+              - { label: Description, name: description, widget: text }
+              - {
+                  label: Start Year,
+                  name: start_year,
+                  widget: number,
+                  hint: "eg. 2020",
+                }
+              - {
+                  label: End Year,
+                  name: end_year,
+                  widget: number,
+                  hint: "eg. 2020",
+                }
+              - {
+                  label: Top Speed,
+                  name: top_speed_km,
+                  widget: string,
+                  hint: "eg. a string such as 81.2 or unknown",
+                }
+              - { label: Image, name: image, widget: image }
