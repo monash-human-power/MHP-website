@@ -12,7 +12,7 @@ import styled from "styled-components";
 import MHP_purple_crosshair from "../images/crosshair_purple.svg";
 
 const CrosshairLayout = styled(Layout)`
-  background: repeat center/50px url(${MHP_purple_crosshair});
+  // background: repeat center/50px url(${MHP_purple_crosshair});
 `;
 
 const StatsSubheading = styled.p`
