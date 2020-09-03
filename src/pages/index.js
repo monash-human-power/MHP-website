@@ -84,13 +84,13 @@ const IndexPage = () => {
         </div>
 
         {/* Sub-Teams Section */}
-        <SubTeams className="my-5" />
+        <SubTeams className="my-5 py-5" />
 
         {/* Sponsor Section */}
-        <Sponsors />
+        <Sponsors className="my-5 py-5" />
 
         {/* Contact Form */}
-        <ContactForm />
+        <ContactForm className="my-5 py-5" />
       </div>
     </Layout>
   );
