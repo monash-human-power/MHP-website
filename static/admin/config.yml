@@ -10,6 +10,8 @@ public_folder: "../images" # So that the images get imported correctly in the ma
 collections:
   - label: "MHP" # Used in the UI
     name: "MHP" # Used in routes, e.g., /admin/collections/MHP
+    editor:
+      preview: false
     files:
       - label: "Social Links" # Used in the UI
         name: "socials" # Used in routes, e.g., /admin/collections/MHP
