@@ -18,6 +18,7 @@ collections:
           - { label: Instagram Link, name: instagram, widget: string }
           - { label: Facebook Link, name: facebook, widget: string }
           - { label: LinkedIn Link, name: linkedIn, widget: string }
+          - { label: Github Link, name: github, widget: string }
       - label: "Index"
         name: "index"
         file: "/src/markdown/index.md"
