@@ -10,9 +10,9 @@ const ContactUsHeading = styled.h2`
 
 const ContactForm = ({ className }) => (
   <div className={className}>
-    {/* Contact Us Title */}
     <div id="contact" className="row justify-content-md-center">
       <div className="col col-lg-6">
+        {/* Contact Us Title */}
         <ContactUsHeading className="p-3">Contact Us</ContactUsHeading>
 
         <form
