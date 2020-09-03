@@ -81,12 +81,12 @@ const Header = () => {
         <CollapsingDiv className="collapse navbar-collapse" id="navbarContent">
           {/* MHP name */}
           <div style={{ width: 200, margin: "auto" }}>
-            <ul className="navbar-nav">
+            <ul className="navbar-nav pt-1">
               {navItem("MHP", "/")}
 
               {/* MHP logo */}
               <Img
-                className=" align-top"
+                className="align-top"
                 fixed={data.file.childImageSharp.fixed}
               />
             </ul>
