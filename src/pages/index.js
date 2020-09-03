@@ -84,7 +84,7 @@ const IndexPage = () => {
         </div>
 
         {/* Sub-Teams Section */}
-        <SubTeams />
+        <SubTeams className="my-5" />
 
         {/* Sponsor Section */}
         <Sponsors />
