@@ -82,13 +82,19 @@ const Header = () => {
           {/* MHP name */}
           <div style={{ width: 200, margin: "auto" }}>
             <ul className="navbar-nav pt-1">
-              {navItem("MHP", "/")}
-
-              {/* MHP logo */}
-              <Img
-                className="align-top"
-                fixed={data.file.childImageSharp.fixed}
-              />
+              <NavLinkContainer
+                className="nav-item"
+                style={{ display: "flex" }}
+              >
+                {/* MHP logo */}
+                <Img
+                  className="align-top"
+                  fixed={data.file.childImageSharp.fixed}
+                />
+                <NavLink className="nav-link" to="/">
+                  MHP
+                </NavLink>
+              </NavLinkContainer>
             </ul>
           </div>
 
