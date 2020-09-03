@@ -42,7 +42,7 @@ collections:
                   widget: string,
                   hint: "If you are not changing the header, don't mess with it!",
                 }
-          - label: Subteam Section
+          - label: Subteam Information Section
             name: subteams
             widget: list
             fields:
@@ -65,7 +65,7 @@ collections:
                   required: false,
                 }
           - label: Sponsor Section
-            name: subteams
+            name: sponsors
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
