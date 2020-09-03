@@ -46,3 +46,10 @@ collections:
               - { label: Position, name: position, widget: string }
               - { label: Photo, name: photo, widget: image }
               - { label: LinkedIn, name: linkedIn, widget: string }
+      - label: "404"
+        name: "404_page"
+        file: "/src/markdown/404.md"
+        fields:
+          - { label: Image, name: image, widget: image }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Subtext, name: subtext, widget: string }
