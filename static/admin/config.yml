@@ -25,12 +25,14 @@ collections:
         name: "index"
         file: "/src/markdown/index.md"
         fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Image, name: image, widget: image }
           - label: Info Blocks
             name: blocks
             widget: list
             fields:
               - { label: Heading, name: heading, widget: string }
-              - { label: Description, name: description, widget: string }
+              - { label: Description, name: description, widget: text }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Image, name: image, widget: image }
               - { label: Button Link, name: href, widget: string }
@@ -40,6 +42,35 @@ collections:
                   widget: string,
                   hint: "If you are not changing the header, don't mess with it!",
                 }
+          - label: Subteam Section
+            name: subteams
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - {
+                  label: Button Text,
+                  name: button_text,
+                  widget: string,
+                  hint: "This could be used for recruiting text eg. Apply Here",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: Button Link,
+                  name: button_href,
+                  widget: string,
+                  hint: "This could be used for a recruiting link eg. a google doc",
+                  default: "",
+                  required: false,
+                }
+          - label: Sponsor Section
+            name: subteams
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+
       - label: "Team"
         name: "team"
         file: "/src/markdown/team.md"
@@ -77,6 +108,7 @@ collections:
                   widget: string,
                   hint: "This could be used for recruiting text eg. Apply Here",
                   default: "",
+                  required: false,
                 }
               - {
                   label: Button Link,
@@ -84,5 +116,6 @@ collections:
                   widget: string,
                   hint: "This could be used for a recruiting link eg. a google doc",
                   default: "",
+                  required: false,
                 }
               - { label: Image, name: image, widget: string }

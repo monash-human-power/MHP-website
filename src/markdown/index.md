@@ -62,5 +62,3 @@ sponsors:
   - name: "Nord VPN"
     image: ../images/sponsor_nord.png
 ---
-
-# button_text = can be used to point people in the direction of a application for MHP
