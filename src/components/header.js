@@ -66,14 +66,14 @@ const Header = () => {
     <header>
       <Navbar className="navbar fixed-top navbar-expand-lg navbar-dark">
         {/* MHP logo */}
-        <div>
+        {/* <div>
           <Link className="navbar-brand m-0 p-0" to="/">
             <Img
               className="d-inline-block align-top"
               fixed={data.file.childImageSharp.fixed}
             />
           </Link>
-        </div>
+        </div> */}
 
         {/* Button that allows for the menu toggler icon */}
         <button
@@ -90,13 +90,19 @@ const Header = () => {
 
         <CollapsingDiv className="collapse navbar-collapse" id="navbarContent">
           {/* MHP name */}
-          <div>
-            <ul className="navbar-nav ml-auto">{navItem("MHP", "/")}</ul>
+          <div style={{ width: 200, margin: "auto" }}>
+            <ul className="navbar-nav">
+              {navItem("MHP", "/")}
+              <Img
+                className=" align-top"
+                fixed={data.file.childImageSharp.fixed}
+              />
+            </ul>
           </div>
 
           {/* Page Links */}
           <div>
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav">
               {pageLinks.map((item, index) =>
                 navItem(item.title, item.link, index)
               )}
@@ -104,7 +110,7 @@ const Header = () => {
           </div>
 
           {/* Social Media Icons */}
-          <div>
+          <div style={{ width: 200, margin: "auto" }}>
             <Socials />
           </div>
         </CollapsingDiv>
