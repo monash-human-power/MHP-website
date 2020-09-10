@@ -15,15 +15,13 @@ subteams:
     button_href: ""
     image: ../images/aero.png
   - name: corporate
-    description: "The Corporate sub-team identify and engage the relevant external
-      stakeholders to bring efficiency and cohesion to MHP's operations. This
-      includes our flagship 'Build an HPV' school outreach program which
-      promotes STEM and sustainable transport through the framework of HPV. The
-      program has recently been converted to 'Design an HPV' to accommodate
-      online learning. Corporate consists of 3 intertwined streams: sponsorship,
-      events, and marketing. Whether it's organising an event or liaising with
-      industry partners, they are here to support the technical side of the team
-      however they can."
+    description: "Whether it's organising an event or liaising with industry
+      partners, the Corporate sub-team is here to support the technical side of
+      the team. They identify and engage the relevant external stakeholders to
+      bring efficiency and cohesion to MHP's operations. This includes our
+      flagship 'Build an HPV' school outreach program which promotes STEM and
+      sustainable transport through the framework of HPV. Corporate consists of
+      3 intertwined streams: sponsorship, events, and marketing. "
     button_text: ""
     button_href: ""
     image: ../images/corp.png
