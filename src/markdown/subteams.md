@@ -14,16 +14,6 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/aero.png
-  - name: corporate
-    description: "The Corporate sub-team identify and engage the relevant external
-      stakeholders to bring efficiency and cohesion to MHP's operations. This
-      includes our flagship 'Build an HPV' school outreach program which
-      promotes STEM and sustainable transport through the framework of HPV. They
-      support the technical side by coordinating sponsorship, events, and
-      marketing. "
-    button_text: ""
-    button_href: ""
-    image: ../images/corp.png
   - name: chassis & drive-train
     description: "The Chassis & Drive-Train subteam is responsible for the design
       and manufacture of all mechanical components on the vehicle. This includes
@@ -37,6 +27,16 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/chassis.png
+  - name: corporate
+    description: "The Corporate sub-team identify and engage the relevant external
+      stakeholders to bring efficiency and cohesion to MHP's operations. This
+      includes our flagship 'Build an HPV' school outreach program which
+      promotes STEM and sustainable transport through the framework of HPV. They
+      support the technical side by coordinating sponsorship, events, and
+      marketing. "
+    button_text: ""
+    button_href: ""
+    image: ../images/corp.png
   - name: electrical
     description: The Electrical sub-team handles both the electrical and software
       aspects of the bike. There are no windows on our fairing, so the rider
