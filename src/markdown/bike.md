@@ -31,8 +31,8 @@ bikes:
     image: ../images/bike_v2.png
   - name: Black Smith
     version: 1
-    description: Blacksmith was the first bike, originating from a final year
-      project, which turned into MHP.
+    description: Blacksmith was originally a final year project of and engineering
+      student that turned into MHP.
     start_year: 2014
     end_year: 2018
     top_speed_km: "64.8"
