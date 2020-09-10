@@ -15,13 +15,15 @@ subteams:
     button_href: ""
     image: ../images/aero.png
   - name: corporate
-    description: We are everything not that is not the bike in the engineering bike
-      team. Doesn't make sense? Let's break it down. We identify and engage the
-      relevant external stakeholders to bring efficiency and cohesion to MHP's
-      operations and educate the public on HPV & sustainable transport. We do
-      this in 3 intertwined streams sponsorship, events, and marketing. Whether
-      it's making a good meme or liaising, we're here to support the technical
-      side of the team however we can.
+    description: "The Corporate sub-team identify and engage the relevant external
+      stakeholders to bring efficiency and cohesion to MHP's operations. This
+      includes our flagship 'Build an HPV' school outreach program which
+      promotes STEM and sustainable transport through the framework of HPV. The
+      program has recently been converted to 'Design an HPV' to accommodate
+      online learning. Corporate consists of 3 intertwined streams: sponsorship,
+      events, and marketing. Whether it's organising an event or liaising with
+      industry partners, they are here to support the technical side of the team
+      however they can."
     button_text: ""
     button_href: ""
     image: ../images/corp.png
