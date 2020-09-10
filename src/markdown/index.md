@@ -23,54 +23,52 @@ blocks:
     href: /bike
     id: bike
   - heading: The competition
-    description: The World Human Powered Speed Challenge is held every year at
-      Battle Mountain, Nevada. Cyclists from around the world gather on State
-      Route 305 outside Battle Mountain, Nevada in a quest to break the
-      human-powered land speed record. The record currently stands at 89.59 MPH
-      (144.17 KPH).
+    description: The World Human Powered Speed Challenge (link to their website)
+      takes place annually at Battle Mountain, Nevada. Teams from around the
+      world gather on State Route 305 in a quest to break the human-powered land
+      speed record. The current record Australian record there is 80 km/h.
     buttonText: See the race
     image: ../images/battle_mountain2.png
     href: http://ihpva.org/whpsc/
     id: race
   - heading: Outreach
-    description: Monash Human Power Team is proud to offer a robust schools program
-      that is tailored to the inquiry skills of the Victorian Curriculum. We
-      hope to foster the same love for STEM and sustainability that we
-      experienced when we were in school in your students in hopes of inspiring
-      them to pursue it in their tertiary education too. We also help schools
-      competing in the Victorian HPV Super series use the wind tunnel for
-      testing and provide workshop tours.
+    description: Monash Human Power is proud to offer a robust schools program that
+      is tailored to the 'Science as a human endeavour' Level 9 and 10 Science
+      achievement standards of the Victorian Curriculum. We hope to inspire a
+      passion for STEM and sustainability in your students. We also run
+      workshops for schools competing in the Victorian HPV Super Series and help
+      to facilitate wind tunnel testing of their vehicles.
     image: ../images/outreach.png
     id: outreach
     buttonText: "?"
     href: "?"
 subteams:
   - name: aerodynamics
-    description: Responsible for the design and testing of the aerodynamic
-      components of the bike
+    description: Responsible for the design and testing of the fairing (outter
+      capsule) and other aerodynamic components of the bike.
     button_text: ""
     button_href: ""
   - name: corporate
     description: Working behind the scenes to support the technical side of the team
-      however we can
+      by coordinating marketing, events, and sponsorship
     button_text: ""
     button_href: ""
-  - name: Chassis
-    description: Responsible for the design and manufacture of all mechanical
-      components on the vehicle
+  - name: chassis & drive-train
+    description: Responsible for the design and manufacture of the chassis and other
+      mechanical components on the vehicle
     button_text: ""
     button_href: ""
   - name: electrical
-    description: Handling both the electrical and software aspects of the bike
+    description: The eyes of the rider - handling the camera, internal display, and
+      recording data
     button_text: ""
     button_href: ""
   - name: Materials
-    description: Responsible for the design, prototyping and manufacture of the
-      fairing of the human-powered bike.
+    description: Responsible for the prototyping and manufacture of the fairing of our bike.
     button_text: ""
     button_href: ""
-  - name: Rider dev
-    description: Focusing on all things directly relating to the rider.
+  - name: rider development
+    description: Maximising the power output of our riders
     button_text: ""
     button_href: ""
 sponsors:
