@@ -72,10 +72,10 @@ subteams:
     button_text: ""
     button_href: ""
 sponsors:
-  - name: C5 systems
-    image: ../images/sponsor_C5.png
   - name: MAE
     image: ../images/sponsor_MAE.png
-  - name: Nord VPN
-    image: ../images/sponsor_nord.png
+  - name: C5 systems
+    image: ../images/sponsor_C5.png
+  - name: Ford
+    image: ../images/ford-logo-icon-0.png
 ---
