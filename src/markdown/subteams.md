@@ -40,12 +40,13 @@ subteams:
     button_href: ""
     image: ../images/chassis.png
   - name: electrical
-    description: The Electrical team handles both the electrical and software
-      aspects of the bike. They design the camera and data acquisition system to
-      improve rider's safety and performance. The systems consist of Raspberry
-      Pi, microcontrollers and a network of sensors. The team also create custom
-      software to view, analyzing data from field testing and control different
-      systems on the bike.
+    description: The Electrical sub-team handles both the electrical and software
+      aspects of the bike. There are no windows on our fairing, so we rely on
+      this sub-team to give the rider vision. They design the camera and data
+      acquisition system to improve the rider's safety and performance. The
+      systems consist of Raspberry Pi, microcontrollers, and a network of
+      sensors. They also create custom software to view and analyse data from
+      field testing and control different systems on the bike.
     button_text: ""
     button_href: ""
     image: ../images/electrical.png
