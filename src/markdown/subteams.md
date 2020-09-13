@@ -62,7 +62,7 @@ subteams:
       tools and surface finishing ."
     button_text: ""
     button_href: ""
-    image: ../images/materials.png
+    image: ../images/materials.jpg
   - name: rider development
     description: The Rider Development sub-team focuses on maximising rider output.
       Their tasks include cycling and strength training for the riders,
