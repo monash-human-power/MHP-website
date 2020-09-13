@@ -28,7 +28,7 @@ bikes:
     start_year: 2018
     end_year: 2019
     top_speed_km: "81.4"
-    image: ../images/bike_v2.png
+    image: ../images/wombat.jpg
   - name: Black Smith
     version: 1
     description: Blacksmith was originally a final year project of and engineering
