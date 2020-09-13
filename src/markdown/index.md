@@ -19,7 +19,7 @@ blocks:
       framework for learning STEM and use it to promote sustainability in
       schools.
     buttonText: See the bike
-    image: ../images/cool_angle.png
+    image: ../images/our-mission.jpeg
     href: /bike
     id: bike
   - heading: The competition
@@ -38,7 +38,7 @@ blocks:
       passion for STEM and sustainability in your students. We also run
       workshops for schools competing in the Victorian HPV Super Series and help
       to facilitate wind tunnel testing of their vehicles.
-    image: ../images/outreach.png
+    image: ../images/outreach2.png
     id: outreach
     buttonText: "?"
     href: "?"
