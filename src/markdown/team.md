@@ -1,13 +1,12 @@
 ---
 heading: The team
-description: Monash Human power is composed of like minded people.
+description: Current members of the team.
 team_members:
-  - name: John Smith
+  - name: Bob
     degree: Engineering
     position: Electrical Lead
-    photo: ../../images/smith.jpg
+    photo: ../images/MHP_logo_green_black.png
     linkedIn: https://www.linkedin.com/
-
   - name: Joe Smith
     degree: Engineering
     position: Aero Lead
