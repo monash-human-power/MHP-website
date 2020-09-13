@@ -24,12 +24,13 @@ bikes:
     image: ../images/bike_v3.png
   - name: Wombat
     version: 2
-    description: Wombat was the second iteration of our bike and achie
+    description: Wombat was the second iteration of our bike and achieved a top
+      speed of 81.4 km/h on the Holden Proving Grounds test track.
     start_year: 2018
     end_year: 2019
     top_speed_km: "81.4"
     image: ../images/wombat.jpg
-  - name: Black Smith
+  - name: Blacksmith
     version: 1
     description: Blacksmith was originally a final year project of and engineering
       student that turned into MHP.
