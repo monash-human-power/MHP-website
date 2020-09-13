@@ -3,9 +3,10 @@ heading: Monash Human Power
 image: ../images/V3_render_cool.png
 blocks:
   - heading: Who we are
-    description: "Monash Human Power is a student-led engineering team that designs,
-      manufactures and races a fully-faired human-powered vehicle (HPV). Our
-      goal is to push the limits of human speed. "
+    description: "Monash Human Power is a student-led engineering team from Monash
+      University in Melbourne, Australia. Since 2015 we have been designing,
+      manufacturing, and racing fully-faired human-powered vehicles (HPV) to
+      push the limits of human speed. "
     buttonText: Meet the team
     image: ../images/main_raceday_2.png
     href: /team
