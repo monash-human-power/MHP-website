@@ -42,7 +42,7 @@ subteams:
       aspects of the bike. There are no windows on our fairing, so the rider
       relies on this sub-team for vision. They design the camera and data
       acquisition system to improve the rider's safety and performance. The
-      systems consist of Raspberry Pi, microcontrollers, and a network of
+      systems consist of Raspberry Pis, microcontrollers, and a network of
       sensors. They also create custom software to view and analyse data from
       field testing and control different systems on the bike.
     button_text: ""
