@@ -6,11 +6,11 @@ subteams:
       design and testing of the aerodynamic components of our bike, such as the
       outer shell and wheel covers. The key purpose of the external shell
       (referred to as the 'fairing') is to reduce drag on the bike. This means
-      that the fairing is designed to optimise the airflow to increase the speed
-      that the bike is going at. Through the use of computational fluid dynamics
-      (CFD), as well as experimental testing in the Monash Wind Tunnel, the team
-      is able to make aerodynamic design choices that can have a significant
-      impact on the performance of the bike in the field.
+      that the fairing is designed to optimise the airflow to increase the
+      maximum speed that the bike can reach. Through the use of computational
+      fluid dynamics (CFD), as well as experimental testing in the Monash Wind
+      Tunnel, the team is able to make aerodynamic design choices that can have
+      a significant impact on the performance of the bike in the field.
     button_text: ""
     button_href: ""
     image: ../images/aero.png
