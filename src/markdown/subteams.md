@@ -27,7 +27,7 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/chassis.png
-  - name: corporate
+  - name: Corporate
     description: "The Corporate sub-team identify and engage the relevant external
       stakeholders to bring efficiency and cohesion to MHP's operations. This
       includes our flagship 'Build an HPV' school outreach program which
