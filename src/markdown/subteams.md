@@ -49,17 +49,17 @@ subteams:
     button_href: ""
     image: ../images/electrical.png
   - name: materials
-    description: "The primary purpose of the Materials sub-team is to prototype and
+    description: The primary purpose of the Materials sub-team is to prototype and
       manufacture the fairing that covers the human-powered bike. This includes
       undergoing a design process to test and optimise the quality of the
-      fairing to ensure aerodynamic performance of the bike and rider safety.
-      The fairing is currently fabricated using the resin infusion technique
-      which injects epoxy resin into carbon fibre while under a vacuum seal.
-      Once the infusion process is complete, the carbon fibre is either painted
-      or coated in a clear lacquer and decals are applied. The team itself
+      fairing to ensure the aerodynamic performance of the bike and rider
+      safety. The fairing is currently fabricated using the resin infusion
+      technique which injects epoxy resin into carbon fibre while under a vacuum
+      seal. Once the infusion process is complete, the carbon fibre is either
+      painted or coated in clear lacquer and decals are applied. The team itself
       provides all members with hands-on manufacturing experience which includes
-      but is not limited to: creating composite components, the use of power
-      tools and surface finishing ."
+      but is not limited to creating composite components, the use of power
+      tools and surface finishing.
     button_text: ""
     button_href: ""
     image: ../images/materials.jpg
