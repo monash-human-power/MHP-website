@@ -29,11 +29,10 @@ subteams:
     image: ../images/chassis.png
   - name: Corporate
     description: "The Corporate sub-team identify and engage the relevant external
-      stakeholders to bring efficiency and cohesion to MHP's operations. This
+      stakeholders to effectively facilitate the operations of MHP. This
       includes our flagship 'Build an HPV' school outreach program which
-      promotes STEM and sustainable transport through the framework of HPV. They
-      support the technical side by coordinating sponsorship, events, and
-      marketing. "
+      promotes STEM and sustainable transport. They support the technical side
+      by coordinating sponsorship, events, and marketing. "
     button_text: ""
     button_href: ""
     image: ../images/corp.png
