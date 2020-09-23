@@ -46,7 +46,7 @@ blocks:
 subteams:
   - name: aerodynamics
     description: Responsible for the design and testing of the fairing (outter
-      capsule) and other aerodynamic components of the bike.
+      capsule) and other aerodynamic components of the bike
     button_text: ""
     button_href: ""
   - name: corporate
@@ -64,8 +64,8 @@ subteams:
       recording data
     button_text: ""
     button_href: ""
-  - name: Materials
-    description: Responsible for the prototyping and manufacture of the fairing of our bike.
+  - name: materials
+    description: Responsible for the prototyping and manufacture of the fairing of our bike
     button_text: ""
     button_href: ""
   - name: rider development
