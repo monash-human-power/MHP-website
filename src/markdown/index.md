@@ -23,11 +23,11 @@ blocks:
     image: ../images/our-mission.jpeg
     href: /bike
     id: bike
-  - heading: The competition
-    description: The World Human Powered Speed Challenge (link to their website)
-      takes place annually at Battle Mountain, Nevada. Teams from around the
-      world gather on State Route 305 in a quest to break the human-powered land
-      speed record. The current record Australian record there is 80 km/h.
+  - heading: The Competition
+    description: The World Human Powered Speed Challenge takes place annually at
+      Battle Mountain, Nevada. Teams from around the world gather on State Route
+      305 in a quest to break the human-powered land speed record. The current
+      record Australian record there is 80 km/h.
     buttonText: See the race
     image: ../images/battle_mountain2.png
     href: http://ihpva.org/whpsc/
@@ -41,8 +41,8 @@ blocks:
       to facilitate wind tunnel testing of their vehicles.
     image: ../images/outreach2.png
     id: outreach
-    buttonText: More
-    href: /more
+    buttonText: Contact us
+    href: /askBlake
 subteams:
   - name: aerodynamics
     description: Responsible for the design and testing of the fairing (outter
