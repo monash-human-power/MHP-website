@@ -17,17 +17,17 @@ subteams:
   - name: chassis & drive-train
     description: "The Chassis & Drive-Train subteam is responsible for the design
       and manufacture of all mechanical components on the vehicle. This includes
-      the frame or skeleton and the moving parts of the vehicle. The design
-      process involves modelling components through the use of CAD software and
-      then verifying that they are capable of withstanding the relevant loading
-      through testing on FEA software, or through hand calculations. The
-      sub-team utilises the resources available at the university to create the
-      components, through manufacturing techniques such as welding, grinding,
-      drilling and turning. "
+      the structural frame (chassis) and the moving parts of the vehicle. The
+      design process involves modelling components through the use of CAD
+      software and then verifying that they are capable of withstanding the
+      relevant loading through testing on FEA software, or through hand
+      calculations. The sub-team utilises the resources available at the
+      university to create the components, through manufacturing techniques such
+      as welding, grinding, drilling and turning. "
     button_text: ""
     button_href: ""
     image: ../images/chassis.png
-  - name: Corporate
+  - name: corporate
     description: "The Corporate sub-team identify and engage the relevant external
       stakeholders to effectively facilitate the operations of MHP. This
       includes our flagship 'Build an HPV' school outreach program which
