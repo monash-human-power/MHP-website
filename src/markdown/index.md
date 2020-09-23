@@ -41,8 +41,8 @@ blocks:
       to facilitate wind tunnel testing of their vehicles.
     image: ../images/outreach2.png
     id: outreach
-    buttonText: "?"
-    href: "?"
+    buttonText: More
+    href: /more
 subteams:
   - name: aerodynamics
     description: Responsible for the design and testing of the fairing (outter
