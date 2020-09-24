@@ -16,9 +16,9 @@ blocks:
       record of 94.6km/h. This year marks our largest recruitment to date,
       bringing our team up to 60 interdisciplinary students. We take pride in
       developing industry-ready graduates through our collaborative design and
-      manufacturing process. We believe that HPV is an accessible and hands-on
-      framework for learning STEM and use it to promote sustainability in
-      schools.
+      manufacturing process. We believe that HPV provides a relevant and
+      immersive framework for learning STEM and we use this framework to promote
+      sustainability in schools.
     buttonText: See the bike
     image: ../images/our-mission.jpeg
     href: /bike
@@ -27,10 +27,10 @@ blocks:
     description: The World Human Powered Speed Challenge takes place annually at
       Battle Mountain, Nevada. Teams from around the world gather on State Route
       305 in a quest to break the human-powered land speed record. The current
-      record Australian record there is 80 km/h.
-    buttonText: See the race
-    image: ../images/battle_mountain2.png
-    href: http://ihpva.org/whpsc/
+      Australian record in this competition is 80 km/h.
+    buttonText: '""'
+    image: ../images/battle_mountain_2020_poster.jpg
+    href: '""'
     id: race
   - heading: Outreach
     description: Monash Human Power is proud to offer a robust schools program that
@@ -44,36 +44,36 @@ blocks:
     buttonText: Contact us
     href: /askBlake
 subteams:
-  - name: aerodynamics
-    description: Responsible for the design and testing of the fairing (outter
-      capsule) and other aerodynamic components of the bike
+  - name: Aerodynamics
+    description: Responsible for the design and testing of the external shell
+      (fairing) and other aerodynamic components of the bike.
     button_text: ""
     button_href: ""
-  - name: corporate
-    description: Working behind the scenes to support the technical side of the team
-      by coordinating marketing, events, and sponsorship
+  - name: Corporate
+    description: Works behind the scenes to support the technical side of the team
+      by coordinating marketing, events, and sponsorship.
     button_text: ""
     button_href: ""
-  - name: chassis & drive-train
-    description: Responsible for the design and manufacture of the structural frame
-      (chassis) and other mechanical components on the vehicle
+  - name: Chassis & Drive-train
+    description: Responsible for the design and manufacture of the chassis and other
+      mechanical components of the vehicle.
     button_text: ""
     button_href: ""
-  - name: electrical
-    description: The eyes of the rider - handling the camera, internal display, and
-      recording data
+  - name: Electrical
+    description: Responsible for the camera, internal display and the recording of data.
     button_text: ""
     button_href: ""
-  - name: materials
-    description: Responsible for the prototyping and manufacture of the fairing of our bike
+  - name: Materials
+    description: Responsible for the prototyping and manufacture of the fairing.
     button_text: ""
     button_href: ""
-  - name: rider development
-    description: Maximising the power output of our riders
+  - name: Rider Development
+    description: |
+      Maximises the power output of our riders.
     button_text: ""
     button_href: ""
 sponsors:
-  - name: MAE
+  - name: The Department of Mechanical and Aerospace Engineering
     image: ../images/sponsor_MAE.png
   - name: C5 systems
     image: ../images/sponsor_C5.png
