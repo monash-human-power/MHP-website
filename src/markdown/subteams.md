@@ -21,14 +21,14 @@ subteams:
       design process involves modelling components through the use of CAD
       software and then verifying that they are capable of withstanding the
       relevant loading through testing on FEA software, or through hand
-      calculations. The sub-team utilises the resources available at the
+      calculations. The subteam utilises the resources available at the
       university to create the components, through manufacturing techniques such
       as welding, grinding, drilling and turning. "
     button_text: ""
     button_href: ""
     image: ../images/chassis.png
   - name: corporate
-    description: "The Corporate sub-team identify and engage the relevant external
+    description: "The Corporate subteam identify and engage the relevant external
       stakeholders to effectively facilitate the operations of MHP. This
       includes our flagship 'Build an HPV' school outreach program which
       promotes STEM and sustainable transport. They support the technical side
@@ -37,9 +37,9 @@ subteams:
     button_href: ""
     image: ../images/corp.png
   - name: electrical
-    description: The Electrical sub-team handles both the electrical and software
+    description: The Electrical subteam handles both the electrical and software
       aspects of the bike. There are no windows on our fairing, so the rider
-      relies on this sub-team for vision. They design the camera and data
+      relies on this subteam for vision. They design the camera and data
       acquisition system to improve the rider's safety and performance. The
       systems consist of Raspberry Pis, microcontrollers, and a network of
       sensors. They also create custom software to view and analyse data from
@@ -48,7 +48,7 @@ subteams:
     button_href: ""
     image: ../images/electrical.png
   - name: materials
-    description: The primary purpose of the Materials sub-team is to prototype and
+    description: The primary purpose of the Materials subteam is to prototype and
       manufacture the fairing that covers the human-powered bike. This includes
       undergoing a design process to test and optimise the quality of the
       fairing to ensure the aerodynamic performance of the bike and rider
@@ -63,11 +63,11 @@ subteams:
     button_href: ""
     image: ../images/materials.jpg
   - name: rider development
-    description: The Rider Development sub-team focuses on maximising rider output.
+    description: The Rider Development subteam focuses on maximising rider output.
       Their tasks include cycling and strength training for the riders,
       competency training to ride the recumbent bikes, rider power plans for
       maximising speed, and physically testing the mechanical and electrical
-      systems of the bike. The Rider Development sub-team is also in charge of
+      systems of the bike. The Rider Development subteam is also in charge of
       running event testing days at the Holden and Ford Proving Grounds.
     button_text: ""
     button_href: ""
