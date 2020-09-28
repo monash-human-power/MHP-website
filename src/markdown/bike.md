@@ -24,16 +24,19 @@ bikes:
     image: ../images/bike_v3.png
   - name: Wombat
     version: 2
-    description: Wombat was the second iteration of our bike and achieved a top
-      speed of 81.4 km/h on the Holden Proving Grounds test track.
+    description: Wombat is the second iteration of our bike. The significance of
+      Wombat lies in design process, where the integration of each subsystem was
+      considered holistically for the first time. In this iteration, there was a
+      clear relationship between each component of the bike, which lead to a
+      better understanding of the function and contribution of each component
     start_year: 2018
     end_year: 2019
     top_speed_km: "81.4"
     image: ../images/wombat.jpg
   - name: Blacksmith
     version: 1
-    description: Blacksmith was originally a final year project of and engineering
-      student that turned into MHP.
+    description: Blacksmith was originally a final year project of an engineering
+      student that turned into the foundation of MHP.
     start_year: 2014
     end_year: 2018
     top_speed_km: "64.8"
