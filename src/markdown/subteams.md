@@ -40,34 +40,27 @@ subteams:
     button_href: ""
     image: ../images/corp.png
   - name: Electrical
-    description: >
-      The Electrical subteam handles both the electrical and software aspects of
-      the bike. There are no windows on the fairing, so the rider relies on the
-      camera system designed by the electrical subteam.
-
-      They design the camera and data acquisition system to improve the rider's safety and performance. 
-
-      The systems consist of Raspberry Pis, microcontrollers, and a network of sensors. They also create custom software to record data from field testing, which is used to review and analyse the performance of the bike.
-
-
-      The camera and data acquisition system consist of Raspberry Pis, microcontrollers, and a network of sensors which are designed to improve the rider's safety and performance. 
-
-
-      The camera system displays information to the rider during the run.
+    description: The Electrical subteam handles both the electrical and software
+      aspects of the bike. They design the camera and data acquisition system to
+      improve the rider's safety and performance. There are no windows on the
+      fairing, so the rider relies on this camera system to display the bikes
+      surroundings and other information during the run. The systems consist of
+      Raspberry Pis, microcontrollers, and a network of sensors. They also
+      create custom software to record data from field testing, which later is
+      used to review and analyse the performance of the bike.
     button_text: ""
     button_href: ""
     image: ../images/electrical.png
   - name: Materials
-    description: "The primary purpose of the Materials subteam is to prototype and
+    description: The primary purpose of the Materials subteam is to prototype and
       manufacture the fairing. This includes undergoing a design process to test
       and optimise the quality of the fairing to ensure the aerodynamic
-      performance of the bike and rider safety. The fairing is currently
-      fabricated using the resin infusion technique which injects epoxy resin
-      into carbon fibre while under a vacuum seal. Once the infusion process is
-      complete, the carbon fibre is either painted or coated in clear lacquer
-      and decals are applied. The Materials subteam uses power tools, applies
-      surface finishing processes and creates composite components to produce
-      the fairing. "
+      performance of the bike and rider safety. They research the most viable
+      methods and materials to produce the fairing. Currently, the fairing is
+      fabricated using a resin infusion technique, which uses epoxy resin and
+      carbon fibre. The Materials subteam uses power tools, applies surface
+      finishing processes and creates composite components in order to produce
+      the fairing.
     button_text: ""
     button_href: ""
     image: ../images/materials.jpg
