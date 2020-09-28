@@ -69,7 +69,7 @@ subteams:
     button_href: ""
   - name: Rider Development
     description: |
-      Maximises the power output of our riders.
+      Focuses on maximising the performance of our riders.
     button_text: ""
     button_href: ""
 sponsors:
