@@ -9,30 +9,33 @@ subteams:
       means that it is designed to optimise the airflow to increase the maximum
       speed that the bike can reach. Through the use of computational fluid
       dynamics (CFD), as well as experimental testing in the Monash Wind Tunnel,
-      the team is able to make aerodynamic design choices that can have a
-      significant impact on the performance of the bike.
+      the team is able to make aerodynamic design choices that can significantly
+      improve the performance of the bike.
     button_text: ""
     button_href: ""
     image: ../images/aero.png
   - name: Chassis & Drive-train
-    description: "The Chassis & Drive-train subteam is responsible for the design
-      and manufacture of all mechanical components on the vehicle. This includes
-      the structural frame (referred to as the chassis) and the moving parts of
-      the vehicle. The design process involves modelling components through the
-      use of CAD software and then verifying that they are capable of
-      withstanding the relevant loading through testing on FEA software, or
-      through hand calculations. The subteam utilises the resources available at
-      Monash University to create the components, through manufacturing
-      techniques such as welding, grinding, drilling and turning. "
+    description: The Chassis & Drive-train subteam is responsible for the design and
+      manufacture of all mechanical components on the vehicle. This includes the
+      structural frame (referred to as the chassis) and the moving parts of the
+      vehicle. The design process involves modelling components through the use
+      of CAD software, and then verifying that they are capable of withstanding
+      the relevant loading through testing on FEA software or through hand
+      calculations. The subteam utilises the resources available at Monash
+      University to create the components, using manufacturing techniques such
+      as welding, grinding, drilling and turning.
     button_text: ""
     button_href: ""
     image: ../images/chassis.png
   - name: Corporate
-    description: "The Corporate subteam identify and engage the relevant external
+    description: "The Corporate subteam identifies and engages the relevant external
       stakeholders to effectively facilitate the operations of MHP. This
-      includes our flagship 'Build a HPV' school outreach program which promotes
-      STEM and sustainable transport. They support the technical side by
-      coordinating sponsorship, events, and marketing. "
+      includes coordinating with sponsors and marketing the activities MHP. They
+      are also in charge of organising events to promote the missions of MHP,
+      such as our flagship 'Build a HPV' school outreach program which
+      encourages STEM pathways and educates students on sustainable transport.
+      The Corporate subteam provides support to the technical side to assist in
+      the efficient and cohesive production of the bike. "
     button_text: ""
     button_href: ""
     image: ../images/corp.png
