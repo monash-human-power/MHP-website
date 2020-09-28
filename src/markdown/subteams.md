@@ -65,12 +65,14 @@ subteams:
     button_href: ""
     image: ../images/materials.jpg
   - name: Rider Development
-    description: The Rider Development subteam focuses on maximising rider output.
-      Their tasks include cycling and strength training for the riders,
-      competency training to ride the recumbent bikes, rider power plans for
-      maximising speed, and physically testing the mechanical and electrical
-      systems of the bike. The Rider Development subteam is also in charge of
-      running event testing days at the Holden and Ford Proving Grounds.
+    description: "The Rider Development subteam focuses on maximising the
+      performance of the rider. Composed of both riders and technical members,
+      this subteam arranges cycling and strength training for the riders and
+      constructs personal rider power plans. They organise competency training
+      to ride the recumbent bikes and physically test its mechanical and
+      electrical systems. The Rider Development subteam is also in charge of
+      organising and coordinating testing days at the Holden and Ford Proving
+      Grounds. "
     button_text: ""
     button_href: ""
     image: ../images/rider_dev.png
