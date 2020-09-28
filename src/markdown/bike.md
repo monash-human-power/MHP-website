@@ -3,40 +3,38 @@ heading: Our Bikes
 bikes:
   - name: Priscilla
     version: 3
-    description: >+
-      The third iteration of our bike, nicknamed Priscilla, is currently under
-      development. In manufacturing, we have added wheel skirts, wells, and
-      wheel covers to optimise each wheel rotation. The fairing has been updated
-      to a more aerodynamic shape that is made of Carbon Fibre and Kevlar Shell.
-      Our new Integration Latch method allows us to lock our roof and base
-      fairings together from both inside and out. Our wireless sensors allow us
-      to communicate with the central DAS, a network of antenna nodes connected
-      to the bike. The Vision System Bit has also been optimised for a better
-      field of view and aerodynamics. The DAS communicates with both the Vision
-      System Bit and the rest of the team back at the chase car.  Due to the
-      coronavirus pandemic, we have been forced to pause manufacturing. However,
-      we are using this time to refine our designs, research, and train, while
-      we eagerly anticipate returning to the workshop. 
-
+    description: Version 3 of our bike, named Priscilla, is currently under
+      development. Key improvements implemented on Pricilla include the
+      optimisation of the wheel rotations, and a more aerodynamic fairing
+      design. The data acquisition system has also been enhanced to help further
+      analyse the performance of the bike. Unfortunately, due to the coronavirus
+      pandemic, we have suspended all manufacturing. However, we are using this
+      time to research and refine our designs while we eagerly anticipate
+      returning to the workshop.
     start_year: 2019
     end_year: 2021
-    top_speed_km: Remains to be seen
+    top_speed_km: (TBD)
     image: ../images/bike_v3.png
   - name: Wombat
     version: 2
-    description: Wombat is the second iteration of our bike. The significance of
-      Wombat lies in design process, where the integration of each subsystem was
-      considered holistically for the first time. In this iteration, there was a
+    description: "Version 2 of our bike is called Wombat. The significance of Wombat
+      lies in design process, where the integration of each subsystem was
+      considered holistically for the first time. In this version, there was a
       clear relationship between each component of the bike, which lead to a
-      better understanding of the function and contribution of each component
+      better understanding of the function and contribution of each component. "
     start_year: 2018
     end_year: 2019
     top_speed_km: "81.4"
     image: ../images/wombat.jpg
   - name: Blacksmith
     version: 1
-    description: Blacksmith was originally a final year project of an engineering
-      student that turned into the foundation of MHP.
+    description: "Blacksmith was originally built by a team of final year
+      engineering students for their Final Year Project at Monash University.
+      This formed Version 1 of the bike and the foundation of MHP. In order for
+      Blacksmith to be competitive, its design was further revised for better
+      performance and to address safety requirements. The completed design –
+      incorporating the modifications made from Version 1 – is referred to as
+      Version 1.5. "
     start_year: 2014
     end_year: 2018
     top_speed_km: "64.8"
