@@ -55,8 +55,8 @@ subteams:
     button_text: ""
     button_href: ""
   - name: Chassis & Drive-train
-    description: Responsible for the design and manufacture of the chassis and other
-      mechanical components of the vehicle.
+    description: Responsible for the design and manufacture of the chassis and all
+      other mechanical components of the vehicle.
     button_text: ""
     button_href: ""
   - name: Electrical
