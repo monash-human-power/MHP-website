@@ -55,12 +55,12 @@ subteams:
     description: The primary purpose of the Materials subteam is to prototype and
       manufacture the fairing. This includes undergoing a design process to test
       and optimise the quality of the fairing to ensure the aerodynamic
-      performance of the bike and rider safety. They research the most viable
-      methods and materials to produce the fairing. Currently, the fairing is
-      fabricated using a resin infusion technique, which uses epoxy resin and
-      carbon fibre. The Materials subteam uses power tools, applies surface
-      finishing processes and creates composite components in order to produce
-      the fairing.
+      performance of the bike and rider safety. They also carry out extensive
+      research to find the most viable methods and materials to produce the
+      fairing. Currently, the fairing is fabricated using a resin infusion
+      technique, which uses epoxy resin and carbon fibre. The Materials subteam
+      uses power tools, applies surface finishing processes and creates
+      composite components in order to produce the fairing.
     button_text: ""
     button_href: ""
     image: ../images/materials.jpg
