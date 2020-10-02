@@ -77,15 +77,20 @@ collections:
         fields:
           - { label: Heading, name: heading, widget: string }
           - { label: Description, name: description, widget: text }
-          - label: Team Members
-            name: team_members
+          - label: Subteam
+            name: subteam
             widget: list
             fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Degree, name: degree, widget: string }
-              - { label: Position, name: position, widget: string }
-              - { label: Photo, name: photo, widget: image }
-              - { label: LinkedIn, name: linkedIn, widget: string }
+              - { label: SubteamName, name: subteamName, widget: text }
+              - label: Team Members
+                name: teamMembers
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Degree, name: degree, widget: string }
+                  - { label: Position, name: position, widget: string }
+                  - { label: Photo, name: photo, widget: image }
+                  - { label: LinkedIn, name: linkedIn, widget: string }
 
       - label: "404"
         name: "404_page"
