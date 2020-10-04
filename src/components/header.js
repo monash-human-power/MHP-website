@@ -57,7 +57,7 @@ const Header = () => {
 
   const pageLinks = [
     { title: "About", link: "/" },
-    { title: "Team", link: "/team" },
+    // { title: "Team", link: "/team" },
     { title: "Bike", link: "/bike" },
     { title: "Subteams", link: "/subteams" },
   ];
