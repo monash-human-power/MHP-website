@@ -41,7 +41,7 @@ blocks:
       to facilitate wind tunnel testing of their vehicles.
     image: ../images/outreach2.png
     id: outreach
-    buttonText: Contact us
+    buttonText: Contact us or below
     href: https://www.facebook.com/MonashHPT/
 subteams:
   - name: Aerodynamics
