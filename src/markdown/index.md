@@ -29,7 +29,7 @@ blocks:
       305 in a quest to break the human-powered land speed record. The current
       Australian record in this competition is 80 km/h.
     buttonText: See the Competition
-    image: ../images/battle_mountain_2020_poster3.jpg
+    image: ../images/battle_mountain_2020_poster4.jpg
     href: http://www.ihpva.org/home/
     id: race
   - heading: Outreach
