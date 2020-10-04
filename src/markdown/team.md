@@ -12,5 +12,12 @@ team_members:
     position: Aero Lead
     photo: ../../images/smith.jpg
     linkedIn: https://www.linkedin.com/
-subteam: []
+subteam:
+  - subteamName: Management
+    teamMembers:
+      - name: Matt Madsen
+        degree: " Mechanical Engineering and Science"
+        position: " Chief Engineer"
+        photo: ../images/matt_madsen.jpg
+        linkedIn: '""'
 ---
