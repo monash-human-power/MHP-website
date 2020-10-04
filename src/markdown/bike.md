@@ -13,7 +13,7 @@ bikes:
       returning to the workshop.
     start_year: 2019
     end_year: 2021
-    top_speed_km: (TBD)
+    top_speed_km: --
     image: ../images/bike_v3.png
   - name: Wombat
     version: 2
