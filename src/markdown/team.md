@@ -20,4 +20,11 @@ subteam:
         position: " Chief Engineer"
         photo: ../images/matt_madsen.jpg
         linkedIn: '""'
+  - subteamName: Aerodynamics
+    teamMembers:
+      - name: Van Vu
+        degree: " Aerospace Engineering"
+        position: " Team Lead"
+        photo: ../images/van_vu.jpg
+        linkedIn: '""'
 ---
