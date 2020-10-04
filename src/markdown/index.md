@@ -28,9 +28,9 @@ blocks:
       Battle Mountain, Nevada. Teams from around the world gather on State Route
       305 in a quest to break the human-powered land speed record. The current
       Australian record in this competition is 80 km/h.
-    buttonText: '""'
-    image: ../images/battle_mountain_2020_poster.jpg
-    href: '""'
+    buttonText: See the Competition
+    image: ../images/battle_mountain_2020_poster2.jpg
+    href: http://www.ihpva.org/home/
     id: race
   - heading: Outreach
     description: Monash Human Power is proud to offer a robust schools program that
