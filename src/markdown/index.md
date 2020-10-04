@@ -42,7 +42,7 @@ blocks:
     image: ../images/outreach2.png
     id: outreach
     buttonText: Contact us
-    href: /askBlake
+    href: https://www.facebook.com/MonashHPT/
 subteams:
   - name: Aerodynamics
     description: Responsible for the design and testing of the external shell
