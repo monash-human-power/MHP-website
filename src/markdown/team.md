@@ -20,6 +20,11 @@ subteam:
         position: " Chief Engineer"
         photo: ../images/matt_madsen.jpg
         linkedIn: '""'
+      - name: Kate Dunwoody
+        degree: Environmental Engineering and Arts
+        position: Team Manager
+        photo: ../images/kate_dunwoody.jpg
+        linkedIn: '""'
   - subteamName: Aerodynamics
     teamMembers:
       - name: Van Vu
