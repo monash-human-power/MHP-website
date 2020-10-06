@@ -25,6 +25,11 @@ subteam:
         position: Team Manager
         photo: ../images/kate_dunwoody.jpg
         linkedIn: '""'
+      - name: steve
+        degree: a
+        position: s
+        linkedIn: d
+        photo: ../images/cool_angle.png
   - subteamName: Aerodynamics
     teamMembers:
       - name: Van Vu
