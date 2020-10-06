@@ -32,4 +32,9 @@ subteam:
         position: " Team Lead"
         photo: ../images/van_vu.jpg
         linkedIn: '""'
+      - name: Mac
+        degree: Mech
+        position: Aero
+        photo: ../images/MHP_logo_green_black.png
+        linkedIn: cat
 ---
