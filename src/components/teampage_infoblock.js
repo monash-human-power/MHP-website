@@ -3,14 +3,6 @@ import propTypes from "prop-types";
 import styled from "styled-components";
 import Img from "gatsby-image";
 
-const InfoHeading = styled.h2`
-  &::before {
-    content: "×";
-    color: var(--MHP-purple);
-    padding-right: 10px;
-  }
-`;
-
 const Centered = styled.h5`
   text-align: center;
   margin-top: 10px;
@@ -29,7 +21,12 @@ flexBasis: auto;
 flexShrink: 1;
 flex-wrap: wrap;
 flexDirection: row;
+color: var(--MHP-purple);
 `;
+
+const colour = {
+  color: "#4831d4",
+};
 
 const TeamPage_InfoBlock = ({
   name,
@@ -49,7 +46,12 @@ const TeamPage_InfoBlock = ({
     {/* Name, degree and linkedIn heading */}
     <Centered> {name} </Centered>
     <Centered2>{degree}</Centered2>
-    <Centered3>{linkedIn}</Centered3>
+    <Centered3>
+      {" "}
+      <a style={colour} href={linkedIn}>
+        LinkedIn
+      </a>
+    </Centered3>
   </div>
 );
 
