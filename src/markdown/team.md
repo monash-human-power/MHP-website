@@ -19,7 +19,7 @@ subteam:
         degree: " Mechanical Engineering and Science"
         position: " Chief Engineer"
         photo: ../images/matt_madsen.jpg
-        linkedIn: '""'
+        linkedIn: https://www.linkedin.com/in/matt-madsen5/
       - name: Kate Dunwoody
         degree: Environmental Engineering and Arts
         position: Team Manager
