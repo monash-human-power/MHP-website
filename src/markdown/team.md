@@ -1,6 +1,6 @@
 ---
 heading: The Team
-description: Current members of the team.
+description: The current members of the team.
 team_members:
   - name: Bob
     degree: Engineering
