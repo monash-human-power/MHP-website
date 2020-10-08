@@ -32,9 +32,14 @@ subteam:
         position: " Team Lead"
         photo: ../images/van_vu.jpg
         linkedIn: https://www.linkedin.com/in/van-nhan-vu
-      - name: Mac
-        degree: Mech
+      - name: Avishka Wickramarachchi
+        degree: "Mechanical Engineering "
+        position: Aerodynamics Team Member
+        photo: ../images/avishka-wickramarachchi.jpg
+        linkedIn: "?"
+      - name: Chi Bao Ho
+        degree: Mechanical Engineering
         position: Aero
-        photo: ../images/MHP_logo_green_black.png
-        linkedIn: cat
+        photo: ../images/chi-bao-ho.jpg
+        linkedIn: "?"
 ---
