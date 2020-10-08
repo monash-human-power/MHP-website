@@ -39,7 +39,7 @@ subteam:
         linkedIn: "?"
       - name: Chi Bao Ho
         degree: Mechanical Engineering
-        position: Aero
+        position: Aerodynamics Team Member
         photo: ../images/chi-bao-ho.jpg
         linkedIn: "?"
 ---
