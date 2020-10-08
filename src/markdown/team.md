@@ -31,7 +31,7 @@ subteam:
         degree: " Aerospace Engineering"
         position: " Team Lead"
         photo: ../images/van_vu.jpg
-        linkedIn: '""'
+        linkedIn: https://www.linkedin.com/in/van-nhan-vu
       - name: Mac
         degree: Mech
         position: Aero
