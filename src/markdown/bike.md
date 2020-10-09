@@ -4,13 +4,10 @@ bikes:
   - name: Priscilla
     version: 3
     description: Version 3 of our bike, named Priscilla, is currently under
-      development. Key improvements implemented on Pricilla include the
-      optimisation of the wheel rotations, and a more aerodynamic fairing
-      design. The data acquisition system has also been enhanced to help further
-      analyse the performance of the bike. Unfortunately, due to the coronavirus
-      pandemic, we have suspended all manufacturing. However, we are using this
-      time to research and refine our designs while we eagerly anticipate
-      returning to the workshop.
+      development. Unfortunately, due to the coronavirus pandemic, we have
+      suspended all manufacturing. However, we are using this time to research
+      and refine our designs while we eagerly anticipate returning to the
+      workshop.
     start_year: 2019
     end_year: 2021
     top_speed_km: --
@@ -25,7 +22,7 @@ bikes:
     start_year: 2018
     end_year: 2019
     top_speed_km: "81.4"
-    image: ../images/wombat.jpg
+    image: ../images/wombat-better-resized.jpg
   - name: Blacksmith
     version: 1
     description: "Blacksmith was originally built by a team of final year
