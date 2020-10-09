@@ -46,12 +46,16 @@ const TeamPage_InfoBlock = ({
     {/* Name, degree and linkedIn heading */}
     <Centered> {name} </Centered>
     <Centered2>{degree}</Centered2>
-    <Centered3>
-      {" "}
-      <a style={colour} href={linkedIn}>
-        LinkedIn
-      </a>
-    </Centered3>
+
+    {/* LinkedIn, will not display if there isn't one */}
+    {linkedIn !== "" && linkedIn !== null && (
+      <Centered3>
+        <a style={colour} href={linkedIn}>
+          {" "}
+          LinkedIn{" "}
+        </a>
+      </Centered3>
+    )}
   </div>
 );
 
