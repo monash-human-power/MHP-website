@@ -73,10 +73,14 @@ subteams:
     button_text: ""
     button_href: ""
 sponsors:
+  - name: Monash University
+    image: ../images/monash-hq-logo.png
   - name: The Department of Mechanical and Aerospace Engineering
-    image: ../images/sponsor_MAE.png
-  - name: C5 systems
-    image: ../images/sponsor_C5.png
+    image: ../images/mae-hq-logo.png
   - name: Ford
     image: ../images/ford-logo-icon-0.png
+  - name: "Leap "
+    image: ../images/leap-hq-logo.png
+  - name: C5 systems
+    image: ../images/c5-logo.png
 ---
