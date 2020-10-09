@@ -22,7 +22,7 @@ bikes:
     start_year: 2018
     end_year: 2019
     top_speed_km: "81.4"
-    image: ../images/wombat-better-resized.jpg
+    image: ../images/wombat-better-resized-2.jpg
   - name: Blacksmith
     version: 1
     description: "Blacksmith was originally built by a team of final year
