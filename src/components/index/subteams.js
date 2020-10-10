@@ -18,11 +18,15 @@ const SubTeamBox = styled.div`
   border: 10px black solid;
 `;
 
+const SubTeamBoxHeading = styled.h2`
+  font-size: 1.4rem;
+`;
+
 const SubTeamSquare = ({ name, description, button_text, button_href }) => (
   <SubTeamBox className="col-md m-1 p-3">
     <div className="row">
       <div className="col">
-        <h2>{name}</h2>
+        <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
         <p>{description}</p>
       </div>
     </div>
