@@ -93,7 +93,7 @@ const TeamPage = () => {
       </div>
 
       {/* Main content */}
-      {/* Proper team Block please god*/}
+      {/* Entire team Block*/}
       <div className="container mb-5">
         {teamArr.map((blockData, index) => (
           <div>

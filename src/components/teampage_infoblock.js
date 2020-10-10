@@ -3,6 +3,8 @@ import propTypes from "prop-types";
 import styled from "styled-components";
 import Img from "gatsby-image";
 
+import Link from "./link";
+
 const Centered = styled.h5`
   text-align: center;
   margin-top: 10px;
@@ -14,19 +16,10 @@ const Centered2 = styled.h6`
 `;
 
 const Centered3 = styled.h6`
-text-align: center;
-margin-bottom: 30px
-flexGrow: 0;
-flexBasis: auto;
-flexShrink: 1;
-flex-wrap: wrap;
-flexDirection: row;
-color: var(--MHP-purple);
+  color: var(--MHP-purple);
+  text-align: center;
+  margin-bottom: 30px;
 `;
-
-const colour = {
-  color: "#4831d4",
-};
 
 const TeamPage_InfoBlock = ({
   name,
@@ -49,12 +42,10 @@ const TeamPage_InfoBlock = ({
 
     {/* LinkedIn, will not display if there isn't one */}
     {linkedIn !== "" && linkedIn !== null && (
-      <Centered3>
-        <a style={colour} href={linkedIn}>
-          {" "}
-          LinkedIn{" "}
-        </a>
-      </Centered3>
+      <Link to={linkedIn}>
+        {" "}
+        <Centered3> LinkedIn </Centered3>{" "}
+      </Link>
     )}
   </div>
 );
@@ -70,7 +61,7 @@ TeamPage_InfoBlock.defaultProps = {
   name: "",
   degree: "",
   position: "",
-  linkedIn: "/",
+  linkedIn: "/team",
 };
 
 export default TeamPage_InfoBlock;
