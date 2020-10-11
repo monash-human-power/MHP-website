@@ -29,7 +29,7 @@ const TeamPage_InfoBlock = ({
   linkedIn,
   id,
 }) => (
-  <div className="col-sm-6 col-md-3" id={id}>
+  <div className="col-sm-6 col-md-4 col-lg-3" id={id}>
     {/* Position heading component */}
     <Centered> {position} </Centered>
 
