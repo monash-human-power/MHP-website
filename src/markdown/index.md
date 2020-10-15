@@ -7,7 +7,7 @@ blocks:
       University in Melbourne, Australia. Since 2015 we have been designing,
       manufacturing, and racing fully-faired human-powered vehicles (HPV) to
       push the limits of human speed. "
-    buttonText: .
+    buttonText: '""'
     image: ../images/img_1579.jpg
     href: /team
     id: team
