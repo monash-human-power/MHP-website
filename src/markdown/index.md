@@ -74,7 +74,7 @@ subteams:
     button_href: ""
 sponsors:
   - name: Monash University
-    image: ../images/monash-hq-logo.png
+    image: ../images/monash-current-logo.png
   - name: The Department of Mechanical and Aerospace Engineering
     image: ../images/mae-hq-logo.png
   - name: Ford
