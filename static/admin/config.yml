@@ -33,9 +33,21 @@ collections:
             fields:
               - { label: Heading, name: heading, widget: string }
               - { label: Description, name: description, widget: text }
-              - { label: Button Text, name: buttonText, widget: string }
+              - {
+                  label: Button Text,
+                  name: buttonText,
+                  widget: string,
+                  default: "",
+                  required: false,
+                }
               - { label: Image, name: image, widget: image }
-              - { label: Button Link, name: href, widget: string }
+              - {
+                  label: Button Link,
+                  name: href,
+                  widget: string,
+                  default: "",
+                  required: false,
+                }
               - {
                   label: ID for header,
                   name: id,
