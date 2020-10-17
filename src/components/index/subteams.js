@@ -81,7 +81,7 @@ const SubTeams = ({ className }) => {
 
       <div className="row justify-content-center">
         <div className="col-md-3 col-sm my-3">
-          <Button href="/subteams">Meet the teams</Button>
+          <Button href="/subteams">Meet the subteams</Button>
         </div>
       </div>
     </div>

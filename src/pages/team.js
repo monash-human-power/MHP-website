@@ -75,8 +75,6 @@ const TeamPage = () => {
   `);
 
   const teamData = data.file.childMarkdownRemark.frontmatter;
-  const teamElectricalArr = teamData.subteam[0].teamMembers;
-  const teamAeroArr = teamData.subteam[1].teamMembers;
   const teamArr = teamData.subteam;
 
   return (
@@ -95,42 +93,27 @@ const TeamPage = () => {
       </div>
 
       {/* Main content */}
-      {/* ELectrical team Block */}
+      {/* Entire team Block*/}
       <div className="container mb-5">
-        <InfoHeading> {teamData.subteam[0].subteamName} </InfoHeading>
-        <Wrapper>
-          {teamElectricalArr.map((blockData, index) => (
-            <TeamPage_InfoBlock
-              name={blockData.name}
-              degree={blockData.degree}
-              position={blockData.position}
-              photo={blockData.photo.childImageSharp.fluid}
-              linkedIn={blockData.linkedIn}
-              key={index}
-              // Example key would be 1 (index of the data)
-              id={index}
-            />
-          ))}
-        </Wrapper>
-      </div>
-
-      {/* Aero team Block */}
-      <div className="container mb-5">
-        <InfoHeading> {teamData.subteam[1].subteamName} </InfoHeading>
-        <Wrapper>
-          {teamAeroArr.map((blockData, index) => (
-            <TeamPage_InfoBlock
-              name={blockData.name}
-              degree={blockData.degree}
-              position={blockData.position}
-              photo={blockData.photo.childImageSharp.fluid}
-              linkedIn={blockData.linkedIn}
-              key={index}
-              // Example key would be 1 (index of the data)
-              id={index}
-            />
-          ))}
-        </Wrapper>
+        {teamArr.map((blockData, index) => (
+          <div>
+            <InfoHeading> {blockData.subteamName} </InfoHeading>
+            <Wrapper>
+              {blockData.teamMembers.map((memberInfo, index) => (
+                <TeamPage_InfoBlock
+                  name={memberInfo.name}
+                  degree={memberInfo.degree}
+                  position={memberInfo.position}
+                  photo={memberInfo.photo.childImageSharp.fluid}
+                  linkedIn={memberInfo.linkedIn}
+                  key={index}
+                  // Example key would be 1 (index of the data)
+                  id={index}
+                />
+              ))}
+            </Wrapper>
+          </div>
+        ))}
       </div>
     </Layout>
   );

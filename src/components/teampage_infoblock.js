@@ -3,13 +3,7 @@ import propTypes from "prop-types";
 import styled from "styled-components";
 import Img from "gatsby-image";
 
-const InfoHeading = styled.h2`
-  &::before {
-    content: "×";
-    color: var(--MHP-purple);
-    padding-right: 10px;
-  }
-`;
+import Link from "./link";
 
 const Centered = styled.h5`
   text-align: center;
@@ -22,13 +16,9 @@ const Centered2 = styled.h6`
 `;
 
 const Centered3 = styled.h6`
-text-align: center;
-margin-bottom: 30px
-flexGrow: 0;
-flexBasis: auto;
-flexShrink: 1;
-flex-wrap: wrap;
-flexDirection: row;
+  color: var(--MHP-purple);
+  text-align: center;
+  margin-bottom: 30px;
 `;
 
 const TeamPage_InfoBlock = ({
@@ -39,7 +29,7 @@ const TeamPage_InfoBlock = ({
   linkedIn,
   id,
 }) => (
-  <div className="col-sm-6 col-md-3" id={id}>
+  <div className="col-sm-6 col-md-4 col-lg-3" id={id}>
     {/* Position heading component */}
     <Centered> {position} </Centered>
 
@@ -49,7 +39,14 @@ const TeamPage_InfoBlock = ({
     {/* Name, degree and linkedIn heading */}
     <Centered> {name} </Centered>
     <Centered2>{degree}</Centered2>
-    <Centered3>{linkedIn}</Centered3>
+
+    {/* LinkedIn, will not display if there isn't one */}
+    {linkedIn !== "" && linkedIn !== null && (
+      <Link to={linkedIn}>
+        {" "}
+        <Centered3> LinkedIn </Centered3>{" "}
+      </Link>
+    )}
   </div>
 );
 
@@ -64,7 +61,7 @@ TeamPage_InfoBlock.defaultProps = {
   name: "",
   degree: "",
   position: "",
-  linkedIn: "/",
+  linkedIn: "/team",
 };
 
 export default TeamPage_InfoBlock;

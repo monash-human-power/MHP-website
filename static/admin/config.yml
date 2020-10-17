@@ -102,7 +102,13 @@ collections:
                   - { label: Degree, name: degree, widget: string }
                   - { label: Position, name: position, widget: string }
                   - { label: Photo, name: photo, widget: image }
-                  - { label: LinkedIn, name: linkedIn, widget: string }
+                  - {
+                      label: LinkedIn,
+                      name: linkedIn,
+                      widget: string,
+                      default: "",
+                      required: false,
+                    }
 
       - label: "404"
         name: "404_page"
