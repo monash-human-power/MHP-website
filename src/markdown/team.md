@@ -202,4 +202,46 @@ subteam:
         name: Haotong Wang
         degree: Software Engineering and Computer Science
         photo: ../images/haotong_wang_resized.jpeg
+  - teamMembers:
+      - linkedIn: https://www.linkedin.com/in/kritika-warrier-0b8987163
+        name: Kritika Warrier
+        position: Team Lead
+        degree: Mechanical Engineering and Biomedical Science
+        photo: ../images/kritika_warrier_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
+        name: Harry Blackburn
+        position: Assistant Team Lead
+        degree: Mechatronics Engineering and Finance
+        photo: ../images/harry_blackburn_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/a-watts/
+        name: Angie Watts
+        degree: Mechanical Engineering and Industrial Design
+        position: Team Member
+        photo: ../images/angie_watts_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/khin-yoon-thar-16244a182/
+        name: Khin Yoon Thar
+        degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/khin_yoon_thar_resized.jpg
+      - linkedIn: ""
+        name: Lauren Earls
+        degree: Mechanical Engineering and Industrial Design
+        position: Team Member
+        photo: ../images/lauren_earls_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/raymond-chan-02736b149/
+        name: Raymond Chan
+        degree: Civil Engineering and Finance
+        position: Team Member
+        photo: ../images/raymond_chan_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/sandy-awad/
+        name: Sandy Awad
+        degree: Materials Engineering
+        position: Team Member
+        photo: ../images/sandy_awad_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
+        name: Sydney Buntine
+        degree: Materials Engineering
+        position: Team Member
+        photo: ../images/sydney_buntine_resized.jpg
+    subteamName: Materials
 ---
