@@ -192,6 +192,11 @@ subteam:
         name: Kunj Dave
         degree: Software Engineering and Finance
         photo: ../images/kunj_dave_resized.jpg
+      - linkedIn: https://www.linkedin.com/mwlite/in/laksh-jaisinghani-3348b01a1
+        name: Laksh Jaisinghani
+        degree: Mechatronics Engineering
+        position: Team Member
+        photo: ../images/laksh_jaisinghani_resized.jpg
       - linkedIn: https://www.linkedin.com/in/nicholaschua0718/
         position: Team Member
         name: Nicholas Chua
@@ -244,4 +249,41 @@ subteam:
         position: Team Member
         photo: ../images/sydney_buntine_resized.jpg
     subteamName: Materials
+  - subteamName: Rider Development
+    teamMembers:
+      - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
+        name: Charles Barber
+        degree: Mechanical Engineering
+        position: Team Lead
+        photo: ../images/charles_barber_resized.jpg
+      - linkedIn: ""
+        name: Alastair Haslam
+        degree: Aerospace Engineering
+        position: Assistant Team Lead
+        photo: ../images/alastair_haslam_resized.jpg
+      - linkedIn: ""
+        name: Ben Thiele
+        degree: "Mechanical Engineering and Science "
+        position: Team Member
+        photo: ../images/ben_thiele_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/clive-woo-913507190/
+        name: Clive Woo
+        degree: Civil Engineering
+        position: Team Member
+        photo: ../images/clive_woo_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/ellen-lowery-128885107/
+        name: Ellen Lowery
+        degree: Masters of Data Science
+        position: Team Member
+        photo: ../images/ellen_lowery_resized.jpg
+      - linkedIn: https://www.linkedin.com/mwlite/in/laksh-jaisinghani-3348b01a1
+        name: Laksh Jaisinghani
+        degree: Mechatronics Engineering
+        position: Team Member
+        photo: ../images/laksh_jaisinghani_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/thea-adamson/
+        name: Thea Adamson
+        degree: Resources Engineering
+        position: Team Member
+        photo: ../images/thea_adamson_resized.jpg
 ---
