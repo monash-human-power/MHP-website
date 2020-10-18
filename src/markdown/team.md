@@ -41,4 +41,11 @@ subteam:
         position: Aero member
         photo: ../images/wombat.jpg
         linkedIn: https://www.linkedin.com/
+  - subteamName: Management
+    teamMembers:
+      - linkedIn: ""
+        name: " Kate Dunwoody"
+        degree: " Environmental Engineering and Arts"
+        position: " Team Manager"
+        photo: ../images/kate_dunwoody_resized.jpg
 ---
