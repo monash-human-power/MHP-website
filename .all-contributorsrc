@@ -16,7 +16,27 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/23159604?v=4",
       "profile": "https://github.com/Blake-Haydon",
       "contributions": [
-        "code"
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "clarayew",
+      "name": "clarayew",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/71205412?v=4",
+      "profile": "https://github.com/clarayew",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "angieaulia",
+      "name": "angieaulia",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/71426239?v=4",
+      "profile": "https://github.com/angieaulia",
+      "contributions": [
+        "code",
+        "content"
       ]
     }
   ],
