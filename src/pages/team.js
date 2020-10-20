@@ -7,13 +7,16 @@ import TeamPage_InfoBlock from "../components/teampage_infoblock";
 
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
+import Img from "gatsby-image";
 
 import temp_team_image from "../images/main_raceday_2.png";
 
-const CenteredImage = styled.img`
+const CenteredImage = styled(Img)`
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
+  width: 100%;
 `;
 
 const InfoHeading = styled.h2`
@@ -52,6 +55,14 @@ const TeamPage = () => {
           frontmatter {
             heading
             description
+            mainPhoto {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluidLimitPresentationSize
+                }
+              }
+            }
             subteam {
               subteamName
               teamMembers {
@@ -84,17 +95,17 @@ const TeamPage = () => {
 
       {/* Main image */}
       <div className="container mb-5">
-        <div className="row py-3 my-5">
-          <CenteredImage src={temp_team_image} />
+        <div className="row py-3 my-3">
+          <CenteredImage fluid={teamData.mainPhoto.childImageSharp.fluid} />
         </div>
-        <div className="row py-3 my-5">
+        <div className="row py-3 my-2">
           <p>{teamData.description}</p>
         </div>
       </div>
 
       {/* Main content */}
       {/* Entire team Block*/}
-      <div className="container mb-5">
+      <div className="container my-5">
         {teamArr.map((blockData, index) => (
           <div>
             <InfoHeading> {blockData.subteamName} </InfoHeading>
