@@ -1,7 +1,7 @@
 ---
 heading: The team
 description: Current members of the team.
-mainPhoto: ../images/main_raceday_2.png
+# mainPhoto:
 subteam:
   - subteamName: Management
     teamMembers:

@@ -55,14 +55,6 @@ const TeamPage = () => {
           frontmatter {
             heading
             description
-            mainPhoto {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                  ...GatsbyImageSharpFluidLimitPresentationSize
-                }
-              }
-            }
             subteam {
               subteamName
               teamMembers {
@@ -94,14 +86,24 @@ const TeamPage = () => {
       <SubpageHeading> {teamData.heading} </SubpageHeading>
 
       {/* Main image */}
-      <div className="container mb-5">
-        <div className="row py-3 my-3">
-          <CenteredImage fluid={teamData.mainPhoto.childImageSharp.fluid} />
-        </div>
-        <div className="row py-3 my-2">
-          <p>{teamData.description}</p>
-        </div>
-      </div>
+
+      {/* Add the following to query string when we have  Main Image
+              mainPhoto {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluidLimitPresentationSize
+                }
+              }
+            } */}
+      {/* <div className="container mb-5">
+          <div className="row py-3 my-3">
+            <CenteredImage fluid ={teamData.mainPhoto.childImageSharp.fluid} />
+          </div>
+          <div className="row py-3 my-2">
+            <p>{teamData.description}</p>
+          </div>
+        </div> */}
 
       {/* Main content */}
       {/* Entire team Block*/}

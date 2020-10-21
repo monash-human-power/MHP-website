@@ -95,7 +95,12 @@ collections:
               default: "",
               required: false,
             }
-          - { label: mainPhoto, name: photo, widget: image, required: false }
+          # - {
+          #     label: mainPhoto,
+          #     name: photo,
+          #     widget: image,
+          #     required: false
+          #   }
           - label: Subteam
             name: subteam
             widget: list
