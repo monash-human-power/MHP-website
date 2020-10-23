@@ -29,8 +29,8 @@ const WhiteDiv = styled.div`
   background: var(--MHP-white);
 `;
 
-const BikeInfoBlock = (bikeObj, reverseOrder) => (
-  <div className="row py-3 my-5">
+const BikeInfoBlock = (bikeObj, reverseOrder, index) => (
+  <div className="row py-3 my-5" key={index}>
     {/* Text component */}
     <div className={`col-md ${reverseOrder && "order-md-2 order-xs-1"}`}>
       <div className="row">
@@ -126,7 +126,7 @@ const BikePage = () => {
       {/* Main content */}
       <div className="container mb-5">
         {bikeArr.map((bikeArrElement, index) =>
-          BikeInfoBlock(bikeArrElement, index % 2 === 1)
+          BikeInfoBlock(bikeArrElement, index % 2 === 1, index)
         )}
       </div>
     </CrosshairLayout>
