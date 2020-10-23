@@ -40,8 +40,8 @@ const Sponsors = ({ className }) => {
     <div className={className}>
       <SponsorHeading className="p-3 my-2"> Sponsors </SponsorHeading>
       <div className="row">
-        {sponsorArr.map(sponsorObj => (
-          <div className="col">
+        {sponsorArr.map((sponsorObj, index) => (
+          <div className="col" key={index}>
             <Img
               className="m-2"
               fluid={sponsorObj.image.childImageSharp.fluid}
