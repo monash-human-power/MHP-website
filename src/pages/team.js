@@ -7,8 +7,8 @@ import TeamPage_InfoBlock from "../components/teampage_infoblock";
 
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
-import Img from "gatsby-image";
 
+/* INFO: UNCOMMENT IF MAIN TEAM IMAGE IS USED
 const CenteredImage = styled(Img)`
   display: block;
   margin-left: auto;
@@ -16,6 +16,7 @@ const CenteredImage = styled(Img)`
   height: 100%;
   width: 100%;
 `;
+*/
 
 const InfoHeading = styled.h2`
   &::before {
@@ -83,28 +84,27 @@ const TeamPage = () => {
       <SEO title="Team" />
       <SubpageHeading> {teamData.heading} </SubpageHeading>
 
-      {/* Main image */}
+      {/* INFO: UNCOMMENT IF MAIN TEAM IMAGE IS USED 
 
-      {/* Add the following to query string when we have  Main Image
-              mainPhoto {
+            mainPhoto {
               childImageSharp {
                 fluid {
                   ...GatsbyImageSharpFluid
                   ...GatsbyImageSharpFluidLimitPresentationSize
                 }
               }
-            } */}
-      {/* <div className="container mb-5">
+            } 
+        <div className="container mb-5">
           <div className="row py-3 my-3">
             <CenteredImage fluid ={teamData.mainPhoto.childImageSharp.fluid} />
           </div>
           <div className="row py-3 my-2">
             <p>{teamData.description}</p>
           </div>
-        </div> */}
+        </div> 
+      */}
 
-      {/* Main content */}
-      {/* Entire team Block*/}
+      {/* Entire Team Images Block */}
       <div className="container my-5">
         {teamArr.map((blockData, index) => (
           <div>
