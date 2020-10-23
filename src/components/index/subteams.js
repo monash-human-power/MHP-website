@@ -34,10 +34,6 @@ const SubTeamSquare = ({ name, description, button_text, button_href }) => (
           <Button href={button_href}>{button_text}</Button>
         )}
       </div>
-
-      <div className="col text-right">
-        {/* <img src={x} style={{ height: 30, width: 30 }}></img> */}
-      </div>
     </div>
   </SubTeamBox>
 );
