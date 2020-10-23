@@ -2,11 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import styled from "styled-components";
-import Img from "gatsby-image";
 import Button from "../button";
-import propTypes from "prop-types";
-
-import x from "../../images/lightning_bolt.png";
 
 const SubTeamHeading = styled.h2`
   background: black;

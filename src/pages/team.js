@@ -9,8 +9,6 @@ import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
 import Img from "gatsby-image";
 
-import temp_team_image from "../images/main_raceday_2.png";
-
 const CenteredImage = styled(Img)`
   display: block;
   margin-left: auto;

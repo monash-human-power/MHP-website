@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import InfoBlock from "../components/info_block";
 
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
@@ -49,7 +48,15 @@ const BikeInfoBlock = (bikeObj, reverseOrder) => (
         </WhiteDiv>
 
         <WhiteDiv className="col-sm py-2">
-          <StatsSubheading>🔥 max speed 🔥</StatsSubheading>
+          <StatsSubheading>
+            <span role="img" aria-label="fire">
+              🔥
+            </span>
+            max speed
+            <span role="img" aria-label="fire">
+              🔥
+            </span>
+          </StatsSubheading>
           <StatsInfo className="p-2 m-0">
             {bikeObj.top_speed_km} KM/H{" "}
           </StatsInfo>
