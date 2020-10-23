@@ -106,20 +106,20 @@ const TeamPage = () => {
 
       {/* Entire Team Images Block */}
       <div className="container my-5">
-        {teamArr.map((blockData, index) => (
-          <div>
+        {teamArr.map((blockData, index_outer) => (
+          <div key={index_outer}>
             <InfoHeading> {blockData.subteamName} </InfoHeading>
             <Wrapper>
-              {blockData.teamMembers.map((memberInfo, index) => (
+              {blockData.teamMembers.map((memberInfo, index_inner) => (
                 <InfoBlock
                   name={memberInfo.name}
                   degree={memberInfo.degree}
                   position={memberInfo.position}
                   photo={memberInfo.photo.childImageSharp.fluid}
                   linkedIn={memberInfo.linkedIn}
-                  key={index}
-                  // Example key would be 1 (index of the data)
-                  id={index}
+                  key={index_inner}
+                  // Example key would be 1 (index_inner of the data)
+                  id={index_inner}
                 />
               ))}
             </Wrapper>
