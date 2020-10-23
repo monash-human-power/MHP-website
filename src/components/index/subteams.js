@@ -18,8 +18,11 @@ const SubTeamBoxHeading = styled.h2`
   font-size: 1.4rem;
 `;
 
-const SubTeamSquare = ({ name, description, button_text, button_href }) => (
-  <SubTeamBox className="col-md m-1 p-3">
+const SubTeamSquare = (
+  { name, description, button_text, button_href },
+  index
+) => (
+  <SubTeamBox className="col-md m-1 p-3" key={index}>
     <div className="row">
       <div className="col">
         <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
