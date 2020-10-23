@@ -2,11 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import styled from "styled-components";
-import Img from "gatsby-image";
 import Button from "../button";
-import propTypes from "prop-types";
-
-import x from "../../images/lightning_bolt.png";
 
 const SubTeamHeading = styled.h2`
   background: black;
@@ -22,8 +18,11 @@ const SubTeamBoxHeading = styled.h2`
   font-size: 1.4rem;
 `;
 
-const SubTeamSquare = ({ name, description, button_text, button_href }) => (
-  <SubTeamBox className="col-md m-1 p-3">
+const SubTeamSquare = (
+  { name, description, button_text, button_href },
+  index
+) => (
+  <SubTeamBox className="col-md m-1 p-3" key={index}>
     <div className="row">
       <div className="col">
         <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
@@ -31,16 +30,12 @@ const SubTeamSquare = ({ name, description, button_text, button_href }) => (
       </div>
     </div>
 
-    <div class="row">
+    <div className="row">
       <div className="col">
         {/* Button is hidable if nothing is added aka "" */}
         {button_text !== "" && (
           <Button href={button_href}>{button_text}</Button>
         )}
-      </div>
-
-      <div className="col text-right">
-        {/* <img src={x} style={{ height: 30, width: 30 }}></img> */}
       </div>
     </div>
   </SubTeamBox>

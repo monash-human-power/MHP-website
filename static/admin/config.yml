@@ -88,7 +88,19 @@ collections:
         file: "/src/markdown/team.md"
         fields:
           - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: text }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              default: "",
+              required: false,
+            }
+          # - {
+          #     label: mainPhoto,
+          #     name: photo,
+          #     widget: image,
+          #     required: false
+          #   }
           - label: Subteam
             name: subteam
             widget: list

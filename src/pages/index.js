@@ -51,7 +51,6 @@ const IndexPage = () => {
 
   const indexData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = indexData.blocks;
-  const subTeamData = indexData.subteams;
 
   return (
     <Layout>

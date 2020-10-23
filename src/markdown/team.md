@@ -1,6 +1,7 @@
 ---
 heading: The team
 description: Current members of the team.
+# mainPhoto:
 subteam:
   - subteamName: Management
     teamMembers:

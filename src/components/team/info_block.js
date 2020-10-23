@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 import styled from "styled-components";
 import Img from "gatsby-image";
 
-import Link from "./link";
+import Link from "../link";
 
 const Centered = styled.h5`
   text-align: center;
