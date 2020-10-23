@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import TeamPage_InfoBlock from "../components/team/teampage_infoblock";
+import InfoBlock from "../components/team/info_block";
 
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
@@ -111,7 +111,7 @@ const TeamPage = () => {
             <InfoHeading> {blockData.subteamName} </InfoHeading>
             <Wrapper>
               {blockData.teamMembers.map((memberInfo, index) => (
-                <TeamPage_InfoBlock
+                <InfoBlock
                   name={memberInfo.name}
                   degree={memberInfo.degree}
                   position={memberInfo.position}
