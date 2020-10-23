@@ -30,7 +30,7 @@ const SubTeamSquare = (
       </div>
     </div>
 
-    <div class="row">
+    <div className="row">
       <div className="col">
         {/* Button is hidable if nothing is added aka "" */}
         {button_text !== "" && (
