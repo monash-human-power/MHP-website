@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import TeamPage_InfoBlock from "../components/teampage_infoblock";
+import TeamPage_InfoBlock from "../components/team/teampage_infoblock";
 
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
