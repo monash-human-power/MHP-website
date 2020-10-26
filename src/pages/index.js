@@ -89,7 +89,8 @@ const IndexPage = () => {
         <Sponsors className="my-5 py-5" />
 
         {/* Contact Form */}
-        <ContactForm className="my-5 py-5" />
+        {/* Hide contact form as it's currently broken */}
+        {/* <ContactForm className="my-5 py-5" /> */}
       </div>
     </Layout>
   );
