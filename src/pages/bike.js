@@ -121,7 +121,7 @@ const BikePage = () => {
 
   return (
     <CrosshairLayout>
-      <SEO title="Bike" description={bikeData.meta_page_description} />
+      <SEO title="Bikes" description={bikeData.meta_page_description} />
       <SubpageHeading> {bikeData.heading} </SubpageHeading>
 
       {/* Main content */}

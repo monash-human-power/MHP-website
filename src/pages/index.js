@@ -53,7 +53,10 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="" description={indexData.meta_page_description} />
+      <SEO
+        title="Monash Human Power"
+        description={indexData.meta_page_description}
+      />
 
       {/* Main graphic when the page loads*/}
       <MainGraphic
