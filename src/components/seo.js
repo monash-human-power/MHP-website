@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
     `
   );
 
+  // If description == "", it will default to the global site.siteMetadata.description
   const metaDescription = description || site.siteMetadata.description;
 
   return (
