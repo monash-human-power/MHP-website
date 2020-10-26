@@ -16,13 +16,12 @@ const ContactForm = ({ className }) => (
         <ContactUsHeading className="p-3">Contact Us</ContactUsHeading>
 
         <form
-          // "name" attribute is what the form is called on Netlify
-          name="contact"
+          name="contact" // "name" HTML attribute is the displayed form name on Netlify
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          {/* IMPORTANT: every input has to have a name attribute. This will show up on netlify UI */}
+          {/* IMPORTANT: Every input has to have a name attribute. This will show up on netlify UI. */}
 
           {/* This hidden type is needed for the netlify form to work with Gatsby */}
           <input type="hidden" name="form-name" value="contact" />
