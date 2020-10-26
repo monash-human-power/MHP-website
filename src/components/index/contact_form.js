@@ -22,10 +22,13 @@ const ContactForm = ({ className }) => (
           data-netlify="true"
           netlify-honeypot="bot-field"
         >
+          {/* IMPORTANT: every input has to have a name attribute. This will show up on netlify UI */}
+
           {/* Name Input */}
           <div className="form-group">
             <label htmlFor="inputName">Name</label>
             <input
+              name="name"
               type="text"
               className="form-control"
               id="inputName"
@@ -38,6 +41,7 @@ const ContactForm = ({ className }) => (
           <div className="form-group">
             <label htmlFor="inputEmail">Email Address</label>
             <input
+              name="email"
               type="email"
               className="form-control"
               id="inputEmail"
@@ -51,6 +55,7 @@ const ContactForm = ({ className }) => (
           <div className="form-group">
             <label htmlFor="inputText">Message</label>
             <textarea
+              name="message"
               className="form-control"
               id="inputText"
               placeholder=""
