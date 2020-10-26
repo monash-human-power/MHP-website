@@ -16,6 +16,7 @@ const ContactForm = ({ className }) => (
         <ContactUsHeading className="p-3">Contact Us</ContactUsHeading>
 
         <form
+          // "name" attribute is what the form is called on Netlify
           name="contact"
           method="POST"
           data-netlify="true"
