@@ -20,9 +20,12 @@ const ContactForm = ({ className }) => (
           name="contact"
           method="POST"
           data-netlify="true"
-          netlify-honeypot="bot-field"
+          data-netlify-honeypot="bot-field"
         >
           {/* IMPORTANT: every input has to have a name attribute. This will show up on netlify UI */}
+
+          {/* This hidden type is needed for the netlify form to work with Gatsby */}
+          <input type="hidden" name="form-name" value="contact" />
 
           {/* Name Input */}
           <div className="form-group">
