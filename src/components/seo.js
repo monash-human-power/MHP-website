@@ -24,7 +24,7 @@ function SEO({ description, lang, meta, title }) {
 
   // If title == "", it will default to the global site.siteMetadata.title
   const metaTitle = title
-    ? `${title} | ${site.siteMetadata.shortTitle}`
+    ? `${title} | ${site.siteMetadata.title}`
     : site.siteMetadata.title;
 
   return (
