@@ -21,9 +21,6 @@ const ContactForm = ({ className }) => (
           data-netlify="true"
           netlify-honeypot="bot-field"
         >
-          {/* This hidden type is needed for the netlify form to work */}
-          <input type="hidden" name="form-name" value="contact" />
-
           {/* Name Input */}
           <div className="form-group">
             <label htmlFor="inputName">Name</label>
