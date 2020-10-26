@@ -39,11 +39,12 @@ const Sponsors = ({ className }) => {
   return (
     <div className={className}>
       <SponsorHeading className="p-3 my-2"> Sponsors </SponsorHeading>
-      <div className="row">
+      <div className="row justify-content-md-center">
         {sponsorArr.map((sponsorObj, index) => (
-          <div className="col" key={index}>
+          <div className="col-6 col-md-3" key={index}>
             <Img
-              className="m-2"
+              // TODO: Find out why this works
+              className="m-4 mx-auto"
               fluid={sponsorObj.image.childImageSharp.fluid}
             />
           </div>
