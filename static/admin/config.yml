@@ -21,12 +21,20 @@ collections:
           - { label: Facebook Link, name: facebook, widget: string }
           - { label: LinkedIn Link, name: linkedIn, widget: string }
           - { label: Github Link, name: github, widget: string }
+
       - label: "Index"
         name: "index"
         file: "/src/markdown/index.md"
         fields:
           - { label: Heading, name: heading, widget: string }
           - { label: Image, name: image, widget: image }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
           - label: Info Blocks
             name: blocks
             widget: list
@@ -95,6 +103,14 @@ collections:
               default: "",
               required: false,
             }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
+
           # - {
           #     label: mainPhoto,
           #     name: photo,
@@ -126,6 +142,13 @@ collections:
         name: "404_page"
         file: "/src/markdown/404.md"
         fields:
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subtext, name: subtext, widget: string }
@@ -135,6 +158,13 @@ collections:
         file: "/src/markdown/subteams.md"
         fields:
           - { label: Heading, name: heading, widget: string }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
           - label: SubTeams Info Blocks
             name: subteams
             widget: list
@@ -164,6 +194,13 @@ collections:
         file: "/src/markdown/bike.md"
         fields:
           - { label: Heading, name: heading, widget: string }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
           - label: Bike Info
             name: bikes
             widget: list
