@@ -1,6 +1,6 @@
 ---
 heading: Our Bikes
-meta_page_description: "This is the Bikes page TODO: CHANGE!!"
+meta_page_description: ""
 bikes:
   - name: Priscilla
     version: 3

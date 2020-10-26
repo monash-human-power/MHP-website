@@ -1,6 +1,6 @@
 ---
 heading: Monash Human Power
-meta_page_description: "This is the index page TODO: CHANGE!!"
+meta_page_description: ""
 image: ../images/V3_render_cool.png
 blocks:
   - heading: Who we are

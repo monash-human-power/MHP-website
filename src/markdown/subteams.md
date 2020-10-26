@@ -1,6 +1,6 @@
 ---
 heading: Subteams
-meta_page_description: "This is the Subteams page TODO: CHANGE!!"
+meta_page_description: ""
 subteams:
   - name: Aerodynamics
     description: The Aerodynamics subteam at MHP is chiefly responsible for the
