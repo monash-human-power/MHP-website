@@ -22,12 +22,17 @@ function SEO({ description, lang, meta, title }) {
   // If description == "", it will default to the global site.siteMetadata.description
   const metaDescription = description || site.siteMetadata.description;
 
+  // If title == "", it will default to the global site.siteMetadata.title
+  const metaTitle = title
+    ? `${title} | ${site.siteMetadata.shortTitle}`
+    : site.siteMetadata.title;
+
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={metaTitle}
       meta={[
         {
           name: `description`,
@@ -35,7 +40,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
@@ -55,7 +60,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           name: `twitter:description`,
