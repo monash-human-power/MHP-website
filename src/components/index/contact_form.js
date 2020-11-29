@@ -16,18 +16,21 @@ const ContactForm = ({ className }) => (
         <ContactUsHeading className="p-3">Contact Us</ContactUsHeading>
 
         <form
-          name="contact"
-          method="post"
+          name="contact" // "name" HTML attribute is the displayed form name on Netlify
+          method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          {/* This hidden type is needed for the netlify form to work */}
+          {/* IMPORTANT: Every input has to have a name attribute. This will show up on netlify UI. */}
+
+          {/* This hidden type is needed for the netlify form to work with Gatsby */}
           <input type="hidden" name="form-name" value="contact" />
 
           {/* Name Input */}
           <div className="form-group">
             <label htmlFor="inputName">Name</label>
             <input
+              name="name"
               type="text"
               className="form-control"
               id="inputName"
@@ -40,6 +43,7 @@ const ContactForm = ({ className }) => (
           <div className="form-group">
             <label htmlFor="inputEmail">Email Address</label>
             <input
+              name="email"
               type="email"
               className="form-control"
               id="inputEmail"
@@ -53,6 +57,7 @@ const ContactForm = ({ className }) => (
           <div className="form-group">
             <label htmlFor="inputText">Message</label>
             <textarea
+              name="message"
               className="form-control"
               id="inputText"
               placeholder=""

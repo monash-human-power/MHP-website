@@ -217,7 +217,7 @@ subteam:
         photo: ../images/kritika_warrier_resized.jpg
       - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
         name: Harry Blackburn
-        position: Assistant Team Lead
+        position: Team Lead
         degree: Mechatronics Engineering and Finance
         photo: ../images/harry_blackburn_resized.jpg
       - linkedIn: https://www.linkedin.com/in/a-watts/
