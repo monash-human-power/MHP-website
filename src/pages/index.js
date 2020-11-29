@@ -18,6 +18,8 @@ const IndexPage = () => {
       ) {
         childMarkdownRemark {
           frontmatter {
+            heading
+            meta_page_description
             blocks {
               image {
                 childImageSharp {
@@ -32,7 +34,6 @@ const IndexPage = () => {
               buttonText
               id
             }
-
             image {
               childImageSharp {
                 fluid {
@@ -41,8 +42,6 @@ const IndexPage = () => {
                 }
               }
             }
-
-            heading
           }
         }
       }
@@ -54,7 +53,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="" description={indexData.meta_page_description} />
 
       {/* Main graphic when the page loads*/}
       <MainGraphic

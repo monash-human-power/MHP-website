@@ -1,6 +1,8 @@
 ---
 heading: The team
 description: Current members of the team.
+meta_page_description: ""
+# mainPhoto:
 subteam:
   - subteamName: Management
     teamMembers:

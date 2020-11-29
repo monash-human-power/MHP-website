@@ -1,5 +1,6 @@
 ---
 heading: Our Bikes
+meta_page_description: ""
 bikes:
   - name: Priscilla
     version: 3
@@ -14,7 +15,8 @@ bikes:
     image: ../images/bike_v3.png
   - name: Wombat
     version: 2
-    description: "Version 2 of our bike is called Wombat. The significance of Wombat
+    description:
+      "Version 2 of our bike is called Wombat. The significance of Wombat
       lies in design process, where the integration of each subsystem was
       considered holistically for the first time. In this version, there was a
       clear relationship between each component of the bike, which lead to a

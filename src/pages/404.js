@@ -26,6 +26,7 @@ const NotFoundPage = () => {
             image {
               publicURL
             }
+            meta_page_description
           }
         }
       }
@@ -36,7 +37,7 @@ const NotFoundPage = () => {
 
   return (
     <Layout>
-      <SEO title="404: Not found" />
+      <SEO title="404" description={pageNotFoundData.meta_page_description} />
       <SubpageHeading> {pageNotFoundData.heading} </SubpageHeading>
 
       <div className="container">

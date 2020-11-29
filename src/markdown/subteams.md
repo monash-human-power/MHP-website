@@ -1,5 +1,6 @@
 ---
 heading: Subteams
+meta_page_description: ""
 subteams:
   - name: Aerodynamics
     description: The Aerodynamics subteam at MHP is chiefly responsible for the
@@ -15,7 +16,8 @@ subteams:
     button_href: ""
     image: ../images/aero.png
   - name: Chassis & Drive-train
-    description: The Chassis & Drive-train subteam is responsible for the design and
+    description:
+      The Chassis & Drive-train subteam is responsible for the design and
       manufacture of all mechanical components on the vehicle. This includes the
       structural frame (referred to as the chassis) and the moving parts of the
       vehicle. The design process involves modelling components through the use
@@ -28,7 +30,8 @@ subteams:
     button_href: ""
     image: ../images/chassis.png
   - name: Corporate
-    description: The Corporate subteam identifies and engages the relevant external
+    description:
+      The Corporate subteam identifies and engages the relevant external
       stakeholders to effectively facilitate the operations of MHP. This
       includes coordinating with sponsors and marketing the activities MHP. They
       are also in charge of organising events to promote the missions of MHP,
@@ -52,7 +55,8 @@ subteams:
     button_href: ""
     image: ../images/electrical.png
   - name: Materials
-    description: The primary purpose of the Materials subteam is to prototype and
+    description:
+      The primary purpose of the Materials subteam is to prototype and
       manufacture the fairing. This includes undergoing a design process to test
       and optimise the quality of the fairing to ensure the aerodynamic
       performance of the bike and rider safety. They also carry out extensive

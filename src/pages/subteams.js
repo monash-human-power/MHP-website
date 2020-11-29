@@ -17,6 +17,7 @@ const SubTeamsPage = () => {
         childMarkdownRemark {
           frontmatter {
             heading
+            meta_page_description
             subteams {
               image {
                 childImageSharp {
@@ -41,7 +42,7 @@ const SubTeamsPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Subteams" description={subTeamData.meta_page_description} />
       <SubpageHeading> {subTeamData.heading} </SubpageHeading>
 
       {/* Main content */}

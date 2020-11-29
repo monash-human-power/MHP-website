@@ -54,6 +54,7 @@ const TeamPage = () => {
           frontmatter {
             heading
             description
+            meta_page_description
             subteam {
               subteamName
               teamMembers {
@@ -81,7 +82,7 @@ const TeamPage = () => {
 
   return (
     <Layout>
-      <SEO title="Team" />
+      <SEO title="Team" description={teamData.meta_page_description} />
       <SubpageHeading> {teamData.heading} </SubpageHeading>
 
       {/* INFO: UNCOMMENT IF MAIN TEAM IMAGE IS USED 
