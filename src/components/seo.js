@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title }) {
         {
           // Yandex Search Verification
           name: `yandex-verification`,
-          content: "c3367187f5e701d6",
+          content: "12f39728c929ae6f",
         },
       ].concat(meta)}
     />
