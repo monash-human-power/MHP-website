@@ -67,7 +67,7 @@ const SubTeams = ({ className }) => {
   return (
     <div className={className}>
       <div className="row justify-content-center">
-        <SubTeamHeading className="p-3 my-2">× SubTeams ×</SubTeamHeading>
+        <SubTeamHeading className="p-3 my-2">SubTeams</SubTeamHeading>
       </div>
 
       {/* TODO: This is bad, really need to change :( */}
