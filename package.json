@@ -1,9 +1,11 @@
 {
-  "name": "monash-human-power-website",
-  "private": true,
+  "name": "MHP-website",
   "description": "Monash Human Power's public website, showcasing the best of MHP",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "main": "src/pages/index.js",
+  "repository": "git@github.com:monash-human-power/MHP-website.git",
   "author": "Monash Human Power <electrical.mhp@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -41,25 +43,13 @@
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/monash-human-power/MHP-website"
-  },
-  "bugs": {
-    "url": "https://github.com/monash-human-power/MHP-website/issues"
   },
   "husky": {
     "hooks": {
