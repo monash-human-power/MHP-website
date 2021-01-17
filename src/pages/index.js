@@ -18,6 +18,8 @@ const IndexPage = () => {
       ) {
         childMarkdownRemark {
           frontmatter {
+            heading
+            meta_page_description
             blocks {
               image {
                 childImageSharp {
@@ -32,7 +34,6 @@ const IndexPage = () => {
               buttonText
               id
             }
-
             image {
               childImageSharp {
                 fluid {
@@ -41,8 +42,6 @@ const IndexPage = () => {
                 }
               }
             }
-
-            heading
           }
         }
       }
@@ -51,11 +50,10 @@ const IndexPage = () => {
 
   const indexData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = indexData.blocks;
-  const subTeamData = indexData.subteams;
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="" description={indexData.meta_page_description} />
 
       {/* Main graphic when the page loads*/}
       <MainGraphic
@@ -84,13 +82,13 @@ const IndexPage = () => {
         </div>
 
         {/* Sub-Teams Section */}
-        <SubTeams />
+        <SubTeams className="my-5 py-5" />
 
         {/* Sponsor Section */}
-        <Sponsors />
+        <Sponsors className="my-5 py-5" />
 
         {/* Contact Form */}
-        <ContactForm />
+        <ContactForm className="my-5 py-5" />
       </div>
     </Layout>
   );

@@ -1,33 +1,82 @@
 ---
 heading: Subteams
+meta_page_description: ""
 subteams:
-  - name: aerodynamics
-    description: The aerodynamics team at Monash Human Power is chiefly responsible for the design and testing of the aerodynamic components of our bike. The external shell (referred to as the 'fairing'), plays a huge role in allowing our bike to reach high speeds, and its design is one of our main focuses. Through the use of computational fluid dynamics (CFD), as well as experimental testing in the Monash Wind Tunnel, the team is able to make aerodynamic design choices that can have a significant impact on the performance of our bike in the field.
+  - name: Aerodynamics
+    description: The Aerodynamics subteam at MHP is chiefly responsible for the
+      design and testing of the aerodynamic components of the bike, such as the
+      external shell and wheel covers. The key purpose of the external shell
+      (also referred to as the 'fairing') is to reduce drag on the bike. This
+      means that it is designed to optimise the airflow to increase the maximum
+      speed that the bike can reach. Through the use of computational fluid
+      dynamics (CFD), as well as experimental testing in the Monash Wind Tunnel,
+      the team is able to make aerodynamic design choices that can significantly
+      improve the performance of the bike.
     button_text: ""
     button_href: ""
     image: ../images/aero.png
-  - name: corporate
-    description: We are everything not that is not the bike in the engineering bike team. Doesn't make sense? Let's break it down. We identify and engage the relevant external stakeholders to bring efficiency and cohesion to MHP's operations and educate the public on HPV & sustainable transport. We do this in 3 intertwined streams sponsorship, events, and marketing. Whether it's making a good meme or liaising, we're here to support the technical side of the team however we can.
-    button_text: ""
-    button_href: ""
-    image: ../images/corp.png
-  - name: Chassis and drive train
-    description: The Chassis & DT subteam are responsible for the design and manufacture of all mechanical components on the vehicle. This includes the frame or skeleton and the moving parts of the vehicle. The design process involves modelling components through the use of CAD software and then verifying that they are capable of withstanding the relevant loading through testing on FEA software, or through hand calculations. The sub-team will then utilise the resources available at the university to create the components, through manufacturing techniques such as welding, grinding, drilling and turning. Members will also have the opportunity to liaise with workshop experts for outsourced jobs that require complex machining.
+  - name: Chassis & Drive-train
+    description:
+      The Chassis & Drive-train subteam is responsible for the design and
+      manufacture of all mechanical components on the vehicle. This includes the
+      structural frame (referred to as the chassis) and the moving parts of the
+      vehicle. The design process involves modelling components through the use
+      of CAD software, and then verifying that they are capable of withstanding
+      the relevant loading through testing on FEA software or through hand
+      calculations. The subteam utilises the resources available at Monash
+      University to create the components, using manufacturing techniques such
+      as welding, grinding, drilling and turning.
     button_text: ""
     button_href: ""
     image: ../images/chassis.png
-  - name: electrical
-    description: The Electrical team handles both the electrical and software aspects of the bike. They design the camera and data acquisition system to improve rider's safety and performance. The systems consist of Raspberry Pi, microcontrollers and a network of sensors. The team also create custom software to view, analyzing data from field testing and control different systems on the bike.
+  - name: Corporate
+    description:
+      The Corporate subteam identifies and engages the relevant external
+      stakeholders to effectively facilitate the operations of MHP. This
+      includes coordinating with sponsors and marketing the activities MHP. They
+      are also in charge of organising events to promote the missions of MHP,
+      such as our flagship 'Build a HPV' school outreach program which
+      encourages STEM pathways and educates students on sustainable transport.
+      The Corporate subteam provides support to the technical side of MHP and
+      their endeavours to efficiently manufacture the bike.
+    button_text: ""
+    button_href: ""
+    image: ../images/corp.png
+  - name: Electrical
+    description: The Electrical subteam handles both the electrical and software
+      aspects of the bike. They design the camera and data acquisition system to
+      improve the rider's safety and performance. There are no windows on the
+      fairing, so the rider relies on this camera system to display the bikes
+      surroundings and other information during the run. The systems consist of
+      Raspberry Pis, microcontrollers, and a network of sensors. They also
+      create custom software to record data from field testing, which later is
+      used to review and analyse the performance of the bike.
     button_text: ""
     button_href: ""
     image: ../images/electrical.png
   - name: Materials
-    description: The primary purpose of the Materials sub-team is to prototype and manufacture the fairing of the human-powered bike. This includes undergoing a design process to test and optimise the quality of the fairing since it performs a very important role in improving the aerodynamics of the bike but is also imperative for the rider's safety. The fairing is fabricated using big-scale processes that evolve with each version of the bike so as to provide the members with an opportunity to develop their knowledge via an efficient material application.
+    description:
+      The primary purpose of the Materials subteam is to prototype and
+      manufacture the fairing. This includes undergoing a design process to test
+      and optimise the quality of the fairing to ensure the aerodynamic
+      performance of the bike and rider safety. They also carry out extensive
+      research to find the most viable methods and materials to produce the
+      fairing. Currently, the fairing is fabricated using a resin infusion
+      technique, which uses epoxy resin and carbon fibre. The Materials subteam
+      uses power tools, applies surface finishing processes and creates
+      composite components in order to produce the fairing.
     button_text: ""
     button_href: ""
-    image: ../images/materials.png
-  - name: Rider dev
-    description: The Rider Development subteam focuses on all things relating to the rider. Their tasks include cycling and strength training for the riders, competency training to ride our recumbent bikes, rider power plans for maximising speed, physically testing the mechanical and electrical systems of the bike, and all projects relating to rider fit such as package space and negative fairing. The Rider Development subteam is also in charge of running event testing days at the Holden and Ford Proving Grounds.
+    image: ../images/materials.jpg
+  - name: Rider Development
+    description: "The Rider Development subteam focuses on maximising the
+      performance of the rider. Composed of both riders and technical members,
+      this subteam arranges cycling and strength training for the riders and
+      constructs personal rider power plans. They organise competency training
+      to ride the recumbent bikes and physically test its mechanical and
+      electrical systems. The Rider Development subteam is also in charge of
+      organising and coordinating testing days at the Holden and Ford Proving
+      Grounds. "
     button_text: ""
     button_href: ""
     image: ../images/rider_dev.png

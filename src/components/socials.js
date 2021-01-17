@@ -10,6 +10,7 @@ import {
   faFacebookSquare,
   faLinkedin,
   faInstagramSquare,
+  faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
 
 const MhpSocialContainer = styled.div`
@@ -19,8 +20,6 @@ const MhpSocialContainer = styled.div`
 
 const SocialLink = styled(Link)`
   padding: 0px 10px 0px 10px;
-  font-size: 28px;
-  height: 28px;
   color: var(--MHP-white);
 
   &:hover {
@@ -41,6 +40,7 @@ const Socials = () => {
             facebook
             instagram
             linkedIn
+            github
           }
         }
       }
@@ -48,19 +48,37 @@ const Socials = () => {
   `);
 
   const social_link = data.file.childMarkdownRemark.frontmatter;
+  const iconSize = 28; //px
 
+  // Inline style for FontAwesomeIcon ensures that the styles gets loaded immediately with the HTML (no huge icons)
   return (
     <MhpSocialContainer>
       <SocialLink to={social_link.facebook}>
-        <FontAwesomeIcon icon={faFacebookSquare} />
+        <FontAwesomeIcon
+          style={{ height: iconSize, width: iconSize }}
+          icon={faFacebookSquare}
+        />
       </SocialLink>
 
       <SocialLink to={social_link.instagram}>
-        <FontAwesomeIcon icon={faInstagramSquare} />
+        <FontAwesomeIcon
+          style={{ height: iconSize, width: iconSize }}
+          icon={faInstagramSquare}
+        />
       </SocialLink>
 
       <SocialLink to={social_link.linkedIn}>
-        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon
+          style={{ height: iconSize, width: iconSize }}
+          icon={faLinkedin}
+        />
+      </SocialLink>
+
+      <SocialLink to={social_link.github}>
+        <FontAwesomeIcon
+          style={{ height: iconSize, width: iconSize }}
+          icon={faGithubSquare}
+        />
       </SocialLink>
     </MhpSocialContainer>
   );

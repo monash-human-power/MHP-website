@@ -2,11 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import styled from "styled-components";
-import Img from "gatsby-image";
 import Button from "../button";
-import propTypes from "prop-types";
-
-import x from "../../images/lightning_bolt.png";
 
 const SubTeamHeading = styled.h2`
   background: black;
@@ -18,31 +14,34 @@ const SubTeamBox = styled.div`
   border: 10px black solid;
 `;
 
-const SubTeamSquare = ({ name, description, button_text, button_href }) => (
-  <SubTeamBox className="col-md m-1 p-3">
+const SubTeamBoxHeading = styled.h2`
+  font-size: 1.4rem;
+`;
+
+const SubTeamSquare = (
+  { name, description, button_text, button_href },
+  index
+) => (
+  <SubTeamBox className="col-md m-1 p-3" key={index}>
     <div className="row">
       <div className="col">
-        <h2>{name}</h2>
+        <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
         <p>{description}</p>
       </div>
     </div>
 
-    <div class="row">
+    <div className="row">
       <div className="col">
         {/* Button is hidable if nothing is added aka "" */}
         {button_text !== "" && (
           <Button href={button_href}>{button_text}</Button>
         )}
       </div>
-
-      <div className="col text-right">
-        <img src={x} style={{ height: 30, width: 30 }}></img>
-      </div>
     </div>
   </SubTeamBox>
 );
 
-const SubTeams = () => {
+const SubTeams = ({ className }) => {
   const data = useStaticQuery(graphql`
     query SubteamsQuery {
       file(
@@ -66,9 +65,9 @@ const SubTeams = () => {
   const subteamsArray = data.file.childMarkdownRemark.frontmatter.subteams;
 
   return (
-    <>
+    <div className={className}>
       <div className="row justify-content-center">
-        <SubTeamHeading className="p-3 my-2">× SubTeams ×</SubTeamHeading>
+        <SubTeamHeading className="p-3 my-2">SubTeams</SubTeamHeading>
       </div>
 
       {/* TODO: This is bad, really need to change :( */}
@@ -77,26 +76,11 @@ const SubTeams = () => {
 
       <div className="row justify-content-center">
         <div className="col-md-3 col-sm my-3">
-          <Button href="/subteams">Meet the teams</Button>
+          <Button href="/subteams">Meet the subteams</Button>
         </div>
       </div>
-    </>
+    </div>
   );
-};
-
-SubTeams.propTypes = {
-  heading: propTypes.string,
-  description: propTypes.string,
-  buttonText: propTypes.string,
-  href: propTypes.string,
-  reverseOrder: propTypes.bool,
-};
-
-SubTeams.defaultProps = {
-  name: "",
-  description: "",
-  button_text: null,
-  button_href: null,
 };
 
 export default SubTeams;

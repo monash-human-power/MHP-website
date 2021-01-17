@@ -6,7 +6,6 @@ import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
 
 import SubpageHeading from "../components/subpage_heading";
-import styled from "styled-components";
 
 const SubTeamsPage = () => {
   const data = useStaticQuery(graphql`
@@ -18,6 +17,7 @@ const SubTeamsPage = () => {
         childMarkdownRemark {
           frontmatter {
             heading
+            meta_page_description
             subteams {
               image {
                 childImageSharp {
@@ -42,7 +42,7 @@ const SubTeamsPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Subteams" description={subTeamData.meta_page_description} />
       <SubpageHeading> {subTeamData.heading} </SubpageHeading>
 
       {/* Main content */}

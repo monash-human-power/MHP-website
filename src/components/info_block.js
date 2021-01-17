@@ -7,8 +7,8 @@ import Button from "./button";
 
 const InfoHeading = styled.h2`
   &::before {
-    content: "×";
-    color: var(--MHP-purple);
+    content: "◼";
+    color: var(--MHP-purple-2);
     padding-right: 10px;
   }
 `;

@@ -9,7 +9,7 @@ const SponsorHeading = styled.h2`
   align-text: centre;
 `;
 
-const Sponsors = () => {
+const Sponsors = ({ className }) => {
   const data = useStaticQuery(graphql`
     query SponsorsQuery {
       file(
@@ -37,19 +37,20 @@ const Sponsors = () => {
   const sponsorArr = data.file.childMarkdownRemark.frontmatter.sponsors;
 
   return (
-    <>
+    <div className={className}>
       <SponsorHeading className="p-3 my-2"> Sponsors </SponsorHeading>
-      <div className="row">
-        {sponsorArr.map(sponsorObj => (
-          <div className="col">
+      <div className="row justify-content-md-center">
+        {sponsorArr.map((sponsorObj, index) => (
+          <div className="col-6 col-md-3" key={index}>
             <Img
-              className="m-2"
+              // TODO: Find out why this works
+              className="m-4 mx-auto"
               fluid={sponsorObj.image.childImageSharp.fluid}
             />
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -24,17 +24,42 @@ This website is automatically deployed using Netlify. See the live site [here](h
 4. Install gatsby using `npm install -g gatsby-cli`
 5. Start developing using `gatsby develop`
 
-## TODOs
+## Project Layout
 
-- [ ] Github actions linting check
-- [ ] Basic unit tests
-- [ ] Contributor bots
+| File/Folder               |                                                           Information                                                            |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
+| `gatsby-config.js`        | Configures Gatsby and used to import Gatsby plugins. [More info](https://www.gatsbyjs.com/tutorial/plugin-and-theme-tutorials/). |
+| `gatsby-node.js`          |                 Logic to dynamically generate blog posts. [More info](https://www.gatsbyjs.org/docs/node-apis/).                 |
+| `gatsby-browser.js`       |  Imports CSS and modules to be used in the browsers global namespace. [More info](https://www.gatsbyjs.org/docs/browser-apis/).  |
+| `netlify.toml`            |                                                  Configures the netlify build.                                                   |
+| `src/components`          |                                          Contains React components used to build pages.                                          |
+| `src/images`              |                                                     Contains website images.                                                     |
+| `src/markdown`            |                                     Contains markdown files used to build pages (non-blog).                                      |
+| `src/blog`                |                                        Contains markdown files used to build blog pages.                                         |
+| `src/pages`               |                           Contains React files that are associated with pages. eg. 404.js == 404 page                            |
+| `src/styles`              |                                                    Contains global CSS files.                                                    |
+| `static/admin/config.yml` |                              Config file for Netlify CMS. [More info](https://www.netlifycms.org/).                              |
+
+## More Information
+
+Still confused? Don't know how to use the CMS? More info can be found at the notion page [here](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
 
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Blake-Haydon"><img src="https://avatars2.githubusercontent.com/u/23159604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Blake</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Code">💻</a> <a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/clarayew"><img src="https://avatars0.githubusercontent.com/u/71205412?v=4?s=100" width="100px;" alt=""/><br /><sub><b>clarayew</b></sub></a><br /><a href="#content-clarayew" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/angieaulia"><img src="https://avatars2.githubusercontent.com/u/71426239?v=4?s=100" width="100px;" alt=""/><br /><sub><b>angieaulia</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=angieaulia" title="Code">💻</a> <a href="#content-angieaulia" title="Content">🖋</a></td>
+  </tr>
+</table>
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
