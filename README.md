@@ -2,7 +2,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e11de4f-08a6-455e-a138-2c241560a582/deploy-status)](https://app.netlify.com/sites/mhp-test/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
-
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
@@ -19,10 +18,19 @@ This website is automatically deployed using Netlify. See the live site [here](h
 ### Run Locally
 
 1. [Install node.js](https://nodejs.org)
-2. Run `git clone git@github.com:monash-human-power/MHP-website.git`
-3. Install dependencies using `npm install`
-4. Install gatsby using `npm install -g gatsby-cli`
-5. Start developing using `gatsby develop`
+2. [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
+3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
+4. Install dependencies using `yarn install`
+5. Start developing using `yarn develop`
+
+### Build Locally
+
+1. [Install node.js](https://nodejs.org)
+2. [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
+3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
+4. Install dependencies using `yarn install`
+5. Start developing using `yarn build`
+6. [OPTIONAL] Run a test server using `yarn serve`
 
 ## Project Layout
 
