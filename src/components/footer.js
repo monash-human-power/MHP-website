@@ -76,6 +76,11 @@ const Footer = () => (
             {" "}
             &#169; {CURRENT_YEAR}, Monash Human Power{" "}
           </TinyFooterParagraph>
+          <TinyFooterParagraph>
+            We wish to acknowledge the Wurundjeri People of the Kulin Nations,
+            on whose land we build our bikes and pay our respects to their
+            Elders, past and present.
+          </TinyFooterParagraph>
         </div>
       </div>
     </div>
