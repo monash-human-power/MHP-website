@@ -12,8 +12,8 @@ subteams:
       dynamics (CFD), as well as experimental testing in the Monash Wind Tunnel,
       the team is able to make aerodynamic design choices that can significantly
       improve the performance of the bike.
-    button_text: ""
-    button_href: ""
+    button_text: "APPLY HERE NOW!"
+    button_href: "https://forms.gle/HFEtey1VZ1f3g7687"
     image: ../images/aero.png
   - name: Chassis & Drive-train
     description:
@@ -26,8 +26,8 @@ subteams:
       calculations. The subteam utilises the resources available at Monash
       University to create the components, using manufacturing techniques such
       as welding, grinding, drilling and turning.
-    button_text: ""
-    button_href: ""
+    button_text: "APPLY HERE NOW!"
+    button_href: "https://forms.gle/HFEtey1VZ1f3g7687"
     image: ../images/chassis.png
   - name: Corporate
     description:
@@ -39,8 +39,8 @@ subteams:
       encourages STEM pathways and educates students on sustainable transport.
       The Corporate subteam provides support to the technical side of MHP and
       their endeavours to efficiently manufacture the bike.
-    button_text: ""
-    button_href: ""
+    button_text: "APPLY HERE NOW!"
+    button_href: "https://forms.gle/HFEtey1VZ1f3g7687"
     image: ../images/corp.png
   - name: Electrical
     description: The Electrical subteam handles both the electrical and software
@@ -51,8 +51,8 @@ subteams:
       Raspberry Pis, microcontrollers, and a network of sensors. They also
       create custom software to record data from field testing, which later is
       used to review and analyse the performance of the bike.
-    button_text: ""
-    button_href: ""
+    button_text: "APPLY HERE NOW!"
+    button_href: "https://forms.gle/HFEtey1VZ1f3g7687"
     image: ../images/electrical.png
   - name: Materials
     description:
@@ -65,8 +65,8 @@ subteams:
       technique, which uses epoxy resin and carbon fibre. The Materials subteam
       uses power tools, applies surface finishing processes and creates
       composite components in order to produce the fairing.
-    button_text: ""
-    button_href: ""
+    button_text: "APPLY HERE NOW!"
+    button_href: "https://forms.gle/HFEtey1VZ1f3g7687"
     image: ../images/materials.jpg
   - name: Rider Development
     description: "The Rider Development subteam focuses on maximising the
@@ -77,8 +77,8 @@ subteams:
       electrical systems. The Rider Development subteam is also in charge of
       organising and coordinating testing days at the Holden and Ford Proving
       Grounds. "
-    button_text: ""
-    button_href: ""
+    button_text: "APPLY HERE NOW!"
+    button_href: "https://forms.gle/HFEtey1VZ1f3g7687"
     image: ../images/rider_dev.png
 ---
 

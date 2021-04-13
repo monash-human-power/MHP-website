@@ -12,6 +12,19 @@ import SubTeams from "../components/index/subteams";
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query IndexPageQuery {
+      allFile(filter: { relativePath: { eq: "applications_open.jpg" } }) {
+        edges {
+          node {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_tracedSVG
+                ...GatsbyImageSharpFluidLimitPresentationSize
+              }
+            }
+          }
+        }
+      }
+
       file(
         relativePath: { eq: "index.md" }
         sourceInstanceName: { eq: "markdown" }
@@ -63,6 +76,24 @@ const IndexPage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
+        {/* Recruiting section */}
+        {/* TODO: REMOVE AT THE END OF RECRUITING */}
+        <InfoBlock
+          heading={"Join MHP!"}
+          description={
+            "Monash Human Power's 2021 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
+          }
+          buttonText2={"More info"}
+          href2={
+            "https://docs.google.com/presentation/d/14wiwPjfxUd51Xmb0O59G0oaNowEzcm43EqR8rChSi10"
+          }
+          buttonText={"Apply Here!"}
+          href={"https://forms.gle/HFEtey1VZ1f3g7687"}
+          image={data.allFile.edges[0].node.childImageSharp.fluid}
+          key={0}
+          reverseOrder={0}
+        />
+
         {/* Info Blocks */}
         <div>
           {infoBlockArr.map((blockData, index) => (
@@ -76,7 +107,7 @@ const IndexPage = () => {
               // Example key would be 1 (index of the data)
               id={blockData.id}
               // Flips the order for every second block
-              reverseOrder={index % 2 === 1}
+              reverseOrder={index % 2 === 0}
             />
           ))}
         </div>
