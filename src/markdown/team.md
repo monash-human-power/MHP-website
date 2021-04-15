@@ -31,7 +31,7 @@ subteam:
         name: George Rubinstein
         degree: Aerospace Engineering
         position: Team Member
-        photo: ../images/george_rubinstein-george-rubinstein.jpg
+        photo: ../images/george_rubinstein_resized.png
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazuaki Shirakata
         photo: ../images/kazuaki_shirakata.jpg
@@ -41,12 +41,12 @@ subteam:
         name: Rowan Goffin
         degree: Bachelor of Aerospace Engineering
         position: Team Member
-        photo: ../images/rown_goffin_resized.png
+        photo: ../images/rowan_goffin_resized.png
       - linkedIn: https://www.linkedin.com/in/shashwat-maheshwari-4714b11b9/
         name: Shashwat Maheshwari
         degree: "Mechanical engineering "
         position: Team Member
-        photo: ../images/shashwat_maheshwari-shashwat-maheshwari.jpg
+        photo: ../images/shashwat_maheshwari_resized.png
   - subteamName: Chassis & Drive-train
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/reich-alexander
@@ -68,7 +68,7 @@ subteam:
         name: Alec Loschiavo
         position: Team Member
         degree: Mechanical Engineering and Commerce
-        photo: ../images/alec_loschiavo-alec-loschiavo.jpg
+        photo: ../images/alec_loschiavo_resized.png
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
@@ -110,7 +110,7 @@ subteam:
         name: Angelica Aulia
         degree: Mechatronics Engineering and Arts
         position: Team Member
-        photo: ../images/angelica_aulia_resized.jpg
+        photo: ../images/angie_aulia.jpg
       - linkedIn: https://www.linkedin.com/in/dzemal-efendic-82140a160/
         name: Dzemal Efendic
         degree: Civil Engineering and Commerce
@@ -246,10 +246,10 @@ subteam:
         name: Ruth de la Pena
         degree: Electrical Engineering and Arts
         position: Team Member
-        photo: ../images/ruth_delapena-ruth-de-la-pena.jpg
+        photo: ../images/ruth_delapena-ruth-de-la-pena_resized.png
       - linkedIn: https://www.linkedin.com/in/michael-vincent-484997175/
         name: Michael Vincent
         degree: Civil Engineering and Commerce
         position: Team Member
-        photo: ../images/mhp_photo_for_corp-michael-vincent.jpg
+        photo: ../images/michael_vincent_resized.jpg
 ---
