@@ -64,7 +64,7 @@ subteams:
       composite components in order to produce the fairing.
     button_text: ""
     button_href: ""
-    image: ../images/subteam2021_materials.jpg
+    image: ../images/subteam2021_materials_2.jpg
   - name: Rider Development
     description: "The Rider Development subteam focuses on maximising the
       performance of the rider. Composed of both riders and technical members,
