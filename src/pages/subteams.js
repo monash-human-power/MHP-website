@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
-
 import SubpageHeading from "../components/subpage_heading";
 
 const SubTeamsPage = () => {
