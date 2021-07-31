@@ -1,5 +1,4 @@
 import React from "react";
-import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
@@ -8,6 +7,19 @@ import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
 import InfoBlock from "../components/info_block";
 import ContactForm from "../components/index/contact_form";
+
+const ReviewCol = styled.div`
+  border: 1px solid black;
+
+  /* Dispose of shadow */
+  transition: 0.1s;
+
+  &:hover {
+    /* Show shadow */
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+`;
 
 const BikePage = () => {
   const data = useStaticQuery(graphql`
@@ -73,14 +85,17 @@ const BikePage = () => {
         </div>
 
         {/* Reviews */}
+        <h2> Reviews </h2>
         <div className="row">
           {reviewsArr.map((reviewData, index) => (
-            <div className="col" key={index}>
-              <h2>{reviewData.person}</h2>
-              <h2>
-                <i>{reviewData.quote}</i>
-              </h2>
-            </div>
+            <ReviewCol className="col-md m-2 p-3" key={index}>
+              <p>
+                <b>
+                  <i>"{reviewData.quote}"</i>
+                </b>
+              </p>
+              <p>{reviewData.person}</p>
+            </ReviewCol>
           ))}
         </div>
 
