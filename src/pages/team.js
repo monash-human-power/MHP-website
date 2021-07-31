@@ -86,7 +86,6 @@ const TeamPage = () => {
       <SubpageHeading> {teamData.heading} </SubpageHeading>
 
       {/* INFO: UNCOMMENT IF MAIN TEAM IMAGE IS USED 
-
             mainPhoto {
               childImageSharp {
                 fluid {
