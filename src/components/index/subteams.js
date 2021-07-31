@@ -1,17 +1,23 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-
 import styled from "styled-components";
+
 import Button from "../button";
 
-const SubTeamHeading = styled.h2`
-  background: black;
-  color: white;
-  align-text: centre;
-`;
-
 const SubTeamBox = styled.div`
-  border: 10px black solid;
+  // Click cursor look
+  cursor: pointer;
+
+  border: 1px solid black;
+
+  /* Dispose of shadow */
+  transition: 0.1s;
+
+  &:hover {
+    /* Show shadow */
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 `;
 
 const SubTeamBoxHeading = styled.h2`
@@ -22,7 +28,13 @@ const SubTeamSquare = (
   { name, description, button_text, button_href },
   index
 ) => (
-  <SubTeamBox className="col-md m-1 p-3" key={index}>
+  <SubTeamBox
+    className="col-md m-2 p-3"
+    key={index}
+    onClick={() => {
+      window.location.href = `subteams/#${encodeURI(name)}`;
+    }}
+  >
     <div className="row">
       <div className="col">
         <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
@@ -66,19 +78,11 @@ const SubTeams = ({ className }) => {
 
   return (
     <div className={className}>
-      <div className="row justify-content-center">
-        <SubTeamHeading className="p-3 my-2">SubTeams</SubTeamHeading>
-      </div>
+      <h2>Subteams</h2>
 
       {/* TODO: This is bad, really need to change :( */}
       <div className="row">{subteamsArray.slice(0, 3).map(SubTeamSquare)}</div>
       <div className="row">{subteamsArray.slice(3, 6).map(SubTeamSquare)}</div>
-
-      <div className="row justify-content-center">
-        <div className="col-md-3 col-sm my-3">
-          <Button href="/subteams">Meet the subteams</Button>
-        </div>
-      </div>
     </div>
   );
 };
