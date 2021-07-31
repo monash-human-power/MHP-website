@@ -22,6 +22,8 @@ const SocialLink = styled(Link)`
   padding: 0px 10px 0px 10px;
   color: var(--MHP-white);
 
+  transition: 0.1s;
+
   &:hover {
     color: var(--MHP-green);
     transition: 0.3s;
