@@ -3,12 +3,6 @@ import styled from "styled-components";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
 
-const SponsorHeading = styled.h2`
-  background: black;
-  color: white;
-  align-text: centre;
-`;
-
 const Sponsors = ({ className }) => {
   const data = useStaticQuery(graphql`
     query SponsorsQuery {
@@ -38,7 +32,11 @@ const Sponsors = ({ className }) => {
 
   return (
     <div className={className}>
-      <SponsorHeading className="p-3 my-2"> Sponsors </SponsorHeading>
+      {/* Sponsors */}
+      <div className="row">
+        <h2 className="p-3 outline-black-white-heading"> Sponsors </h2>
+      </div>
+
       <div className="row justify-content-md-center">
         {sponsorArr.map((sponsorObj, index) => (
           <div className="col-6 col-md-3" key={index}>

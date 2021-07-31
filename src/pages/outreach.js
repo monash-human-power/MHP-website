@@ -85,7 +85,10 @@ const BikePage = () => {
         </div>
 
         {/* Reviews */}
-        <h2> Reviews </h2>
+        <div className="row">
+          <h2 className="p-3 outline-black-white-heading"> Reviews </h2>
+        </div>
+
         <div className="row">
           {reviewsArr.map((reviewData, index) => (
             <ReviewCol className="col-md m-2 p-3" key={index}>

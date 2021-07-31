@@ -24,6 +24,13 @@ const SubTeamBoxHeading = styled.h2`
   font-size: 1.4rem;
 `;
 
+const ReviewHeading = styled.h2`
+  background: black;
+  color: white;
+  align-text: centre;
+  box-shadow: white 5px 5px 0px -2px, var(--MHP-black) 5px 5px;
+`;
+
 const SubTeamSquare = (
   { name, description, button_text, button_href },
   index
@@ -78,7 +85,10 @@ const SubTeams = ({ className }) => {
 
   return (
     <div className={className}>
-      <h2>Subteams</h2>
+      {/* Subteams */}
+      <div className="row">
+        <h2 className="p-3 outline-black-white-heading"> Subteams </h2>
+      </div>
 
       {/* TODO: This is bad, really need to change :( */}
       <div className="row">{subteamsArray.slice(0, 3).map(SubTeamSquare)}</div>
