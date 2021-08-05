@@ -2,23 +2,30 @@
 heading: Outreach
 meta_page_description: ""
 blocks:
-  - heading: Hands on Education
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  - heading: Build A Human Powered Vehicle
+    description: "Based on the Victorian Curriculum's Cross-curriculum Priority: Learning about Sustainability, these hands-on STEM lessons guide secondary students through a systems engineering approach that takes into account the aerodynamic and eco-friendly aspects of their HPV."
     image: ../images/main_outreach_1.JPG
-    id: hands_on_education
-  - heading: Fun for all
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    id: build_hpv
+  - heading: Design online or in person
+    description: "Our flagship school outreach program has been updated to include more flexible options. Choose between two engineering focuses, design or manufacturing? Online or offline? Upper or lower secondary?"
     image: ../images/main_outreach_2.JPG
-    id: fun
-  - heading: Engaging STEM
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    id: online_or_in_person
+  - heading: "Science Understanding: Science as a human endeavour"
+    description: "Scientific understanding, including models and theories, are contestable and are refined over time through a process of review by the scientific community"
     image: ../images/main_outreach_3.JPG
     id: race
+    buttonText: See the curriculum
+    href: https://victoriancurriculum.vcaa.vic.edu.au/Curriculum/ContentDescription/VCSSU114
+  - heading: "Science Inquiry Skills: Communicating"
+    description: "Communicate scientific ideas and information for a particular purpose, including constructing evidence-based arguments and using appropriate scientific language, conventions and representations"
+    image: ../images/main_outreach_4.JPG
+    id: communicating
+    buttonText: See the curriculum
+    href: https://victoriancurriculum.vcaa.vic.edu.au/Curriculum/ContentDescription/VCSSU140
+
 reviews:
   - person: "STEM Teacher at Westall Secondary College"
     quote: "The kids loved it and the others that missed out were super jealous!"
-  - person: "Blake Haydon"
-    quote: "It was such a fun thing to do really enjoyed it!"
-  - person: "Blake Haydon"
-    quote: "It was such a fun thing to do really enjoyed it!"
+  - person: "Blake Haydon (MHP member)"
+    quote: "It was really fun! Had a blast being creative while teaching important STEM skills."
 ---

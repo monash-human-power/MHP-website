@@ -43,6 +43,8 @@ const BikePage = () => {
               heading
               description
               id
+              buttonText
+              href
             }
             reviews {
               person
@@ -80,6 +82,8 @@ const BikePage = () => {
               id={blockData.id}
               // Flips the order for every second block
               reverseOrder={index % 2 === 0}
+              buttonText={blockData.buttonText}
+              href={blockData.href}
             />
           ))}
         </div>
