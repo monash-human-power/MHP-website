@@ -85,8 +85,8 @@ const TeamPage = () => {
       <SEO title="Team" description={teamData.meta_page_description} />
       <SubpageHeading> {teamData.heading} </SubpageHeading>
 
+      {/* TODO: Remove this if we never use it */}
       {/* INFO: UNCOMMENT IF MAIN TEAM IMAGE IS USED 
-
             mainPhoto {
               childImageSharp {
                 fluid {

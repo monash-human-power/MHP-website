@@ -15,9 +15,11 @@ const universalButtonStyle = `
 
   color: var(--MHP-white) !important;
   background-color: var(--MHP-purple);
+  transition: 0.1s;
 
   &:hover {
     /* Slightly darker purple */
+    transition: 0.3s;
     background-color: #37279e;
   } 
 `;

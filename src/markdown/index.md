@@ -4,7 +4,8 @@ image: ../images/V3_render_cool.png
 meta_page_description: ""
 blocks:
   - heading: Who we are
-    description: "Monash Human Power is a student-led engineering team from Monash
+    description:
+      "Monash Human Power is a student-led engineering team from Monash
       University in Melbourne, Australia. Since 2015 we have been designing,
       manufacturing, and racing fully-faired human-powered vehicles (HPV) to
       push the limits of human speed. "
@@ -34,7 +35,8 @@ blocks:
     href: http://www.ihpva.org/home/
     id: race
   - heading: Outreach
-    description: Monash Human Power is proud to offer a robust schools program that
+    description:
+      Monash Human Power is proud to offer a robust schools program that
       is tailored to the 'Science as a human endeavour' Level 9 and 10 Science
       achievement standards of the Victorian Curriculum. We hope to inspire a
       passion for STEM and sustainability in your students. We also run
@@ -42,8 +44,8 @@ blocks:
       to facilitate wind tunnel testing of their vehicles.
     image: ../images/outreach2.png
     id: outreach
-    buttonText: Contact us
-    href: https://www.facebook.com/MonashHPT/
+    buttonText: Learn More
+    href: /outreach
 subteams:
   - name: Aerodynamics
     description: Responsible for the design and testing of the external shell
@@ -51,12 +53,14 @@ subteams:
     button_text: ""
     button_href: ""
   - name: Corporate
-    description: Works behind the scenes to support the technical side of the team
+    description:
+      Works behind the scenes to support the technical side of the team
       by coordinating marketing, events, and sponsorship.
     button_text: ""
     button_href: ""
   - name: Chassis & Drive-train
-    description: Responsible for the design and manufacture of the chassis and all
+    description:
+      Responsible for the design and manufacture of the chassis and all
       other mechanical components of the vehicle.
     button_text: ""
     button_href: ""
