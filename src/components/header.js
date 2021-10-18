@@ -88,10 +88,12 @@ const Header = () => {
                 style={{ display: "flex" }}
               >
                 {/* MHP logo */}
-                <Img
-                  className="align-top"
-                  fixed={data.file.childImageSharp.fixed}
-                />
+                <Link to="/">
+                  <Img
+                    className="align-top"
+                    fixed={data.file.childImageSharp.fixed}
+                  />
+                </Link>
                 <NavLink className="nav-link" to="/">
                   MHP
                 </NavLink>
