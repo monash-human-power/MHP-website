@@ -266,13 +266,6 @@ collections:
                   hint: "If you are not changing the header, don't mess with it!",
                 }
               - {
-                  label: Button Text,
-                  name: buttonText,
-                  widget: string,
-                  default: "",
-                  required: false,
-                }
-              - {
                   label: Button Link,
                   name: href,
                   widget: string,
