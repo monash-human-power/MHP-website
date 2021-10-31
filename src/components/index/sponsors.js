@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Link from "../link";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -21,6 +22,7 @@ const Sponsors = ({ className }) => {
                   }
                 }
               }
+              link
             }
           }
         }
@@ -40,11 +42,13 @@ const Sponsors = ({ className }) => {
       <div className="row justify-content-md-center">
         {sponsorArr.map((sponsorObj, index) => (
           <div className="col-6 col-md-3" key={index}>
-            <Img
-              // TODO: Find out why this works
-              className="m-4 mx-auto"
-              fluid={sponsorObj.image.childImageSharp.fluid}
-            />
+            <Link to={sponsorObj.link} target="_blank">
+              <Img
+                // TODO: Find out why this works
+                className="m-4 mx-auto"
+                fluid={sponsorObj.image.childImageSharp.fluid}
+              />
+            </Link>
           </div>
         ))}
       </div>

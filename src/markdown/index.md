@@ -80,14 +80,20 @@ subteams:
 sponsors:
   - name: Monash University
     image: ../images/monash-current-logo.png
+    link: "https://www.monash.edu"
   - name: The Department of Mechanical and Aerospace Engineering
     image: ../images/mae-hq-logo.png
+    link: "https://www.monash.edu/engineering/departments/mechanical"
   - name: AARC
     image: ../images/aarc-logo_high-res.jpg
+    link: "https://aarconline.com"
   - name: Ford
     image: ../images/ford-logo-icon-0.png
+    link: "https://www.ford.com.au"
   - name: "Leap "
     image: ../images/leap-hq-logo.png
+    link: "https://www.leapaust.com.au"
   - name: C5 systems
     image: ../images/c5-logo.png
+    link: "https://c5systems.com.au"
 ---
