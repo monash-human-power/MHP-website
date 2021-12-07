@@ -56,7 +56,7 @@ const Footer = () => (
           <FooterHeading>Join Us</FooterHeading>
           <FooterParagraph>
             Connect with us on
-            <FooterLink to="https://www.facebook.com/MonashHPT/">
+            <FooterLink to="https://www.facebook.com/MonashHumanPower/">
               {" "}
               Facebook
             </FooterLink>
