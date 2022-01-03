@@ -96,4 +96,7 @@ sponsors:
   - name: C5 systems
     image: ../images/c5-logo.png
     link: "https://c5systems.com.au"
+  - name: Yarra Energy
+    image: ../YE_logo_col.png
+    link: "https://c5systems.com.au"
 ---
