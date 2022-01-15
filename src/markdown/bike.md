@@ -5,7 +5,7 @@ bikes:
   - name: Priscilla
     version: 3
     description: Version 3 of our bike, named Priscilla, is currently under
-      development. Unfortunately, due to the coronavirus pandemic, we have
+      development. Due to the coronavirus pandemic, we have
       suspended all manufacturing. However, we are using this time to research
       and refine our designs while we eagerly anticipate returning to the
       workshop.
