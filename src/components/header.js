@@ -78,8 +78,6 @@ const Header = () => {
     },
   ];
 
-  console.log(pageLinks);
-
   return (
     <header>
       <Navbar className="navbar fixed-top navbar-expand-lg navbar-dark">
