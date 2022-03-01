@@ -45,10 +45,20 @@ function navItem(text, anchor = "#", key) {
 const Header = () => {
   const data = useStaticQuery(graphql`
     query Logo {
-      file(relativePath: { eq: "MHP_logo_green_transparent.png" }) {
+      logoData: file(relativePath: { eq: "MHP_logo_green_transparent.png" }) {
         childImageSharp {
           fixed(height: 30) {
             ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      recruitmentData: file(
+        relativePath: { eq: "index.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            recruitment_link
           }
         }
       }
@@ -61,7 +71,14 @@ const Header = () => {
     { title: "Bike", link: "/bike" },
     { title: "Subteams", link: "/subteams" },
     { title: "Outreach", link: "/outreach" },
+    {
+      title: "Join Us",
+      link:
+        data.recruitmentData.childMarkdownRemark.frontmatter.recruitment_link,
+    },
   ];
+
+  console.log(pageLinks);
 
   return (
     <header>
@@ -91,7 +108,7 @@ const Header = () => {
                 <Link to="/">
                   <Img
                     className="align-top"
-                    fixed={data.file.childImageSharp.fixed}
+                    fixed={data.logoData.childImageSharp.fixed}
                   />
                 </Link>
                 <NavLink className="nav-link" to="/">
