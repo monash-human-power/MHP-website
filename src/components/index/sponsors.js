@@ -42,7 +42,7 @@ const Sponsors = ({ className }) => {
       <div className="row justify-content-md-center">
         {sponsorArr.map((sponsorObj, index) => (
           <div className="col-6 col-md-3" key={index}>
-            <Link to={sponsorObj.link} target="_blank">
+            <Link to={sponsorObj.link}>
               <Img
                 // TODO: Find out why this works
                 className="m-4 mx-auto"

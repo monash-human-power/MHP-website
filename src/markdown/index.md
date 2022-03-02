@@ -2,6 +2,7 @@
 heading: Monash Human Power
 image: ../images/V3_render_cool.png
 meta_page_description: ""
+recruitment_link: https://docs.google.com/forms/d/e/1FAIpQLSfy0FNRq9MqouoOTNTW6ZqT5IwkO91LOtFDFkxVfRAw_OkN2A/viewform
 blocks:
   - heading: Who we are
     description:
