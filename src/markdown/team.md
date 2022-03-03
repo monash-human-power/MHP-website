@@ -32,11 +32,6 @@ subteam:
         degree: Aerospace Engineering
         position: Team Lead
         photo: ../images/Rowan_Goffin.jpg
-      - linkedIn: https://www.linkedin.com/in/van-nhan-vu/
-        name: Van Nhan Vu
-        degree: Aerospace Engineering
-        position: Team Member
-        photo: ../images/van_vu_resized.jpg
       - linkedIn: ""
         name: Gabriel Morin
         degree: Mechanical Engineering
@@ -52,7 +47,7 @@ subteam:
         degree: "Mechanical engineering "
         position: Team Member
         photo: ../images/shashwat_maheshwari_resized.png
-      - linkedIn: ""
+      - linkedIn: https://www.linkedin.com/in/alex-katelis-812186212/
         name: Alexander Katelis
         degree: "Aerospace Engineering"
         position: Team Member
@@ -84,7 +79,7 @@ subteam:
         degree: Mechanical Engineering and Industrial Design
         position: Team Member
         photo: ../images/walt_liu.png
-      - linkedIn: ""
+      - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: "Mechanical Engineering and Commerce"
         position: Team Member
@@ -94,6 +89,11 @@ subteam:
         degree: "Mechatronics Engineering"
         position: Team Member
         photo: ../images/Lucy_Savory.jpg
+      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
+        name: Kit Kirby
+        degree: "Materials Engineering"
+        position: Team Member
+        photo: ../images/Kit_Kirby.jpg
   - subteamName: Corporate
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/emily-johnston5/
@@ -121,6 +121,11 @@ subteam:
         degree: "Arts and Commerce"
         position: Team Member
         photo: ../images/Geoffrey_Meng.jpg
+      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
+        name: Harry Blackburn
+        position: Team Member
+        degree: Mechatronics Engineering and Finance
+        photo: ../images/harry_blackburn_resized.jpg
   - subteamName: Electrical
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/hallgchris
@@ -165,18 +170,13 @@ subteam:
         photo: ../images/Bahar_AbbasPour.jpg
   - subteamName: Materials
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
-        name: Harry Blackburn
-        position: Team Lead
-        degree: Mechatronics Engineering and Finance
-        photo: ../images/harry_blackburn_resized.jpg
       - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
         name: Sydney Buntine
-        degree: Materials Engineering
+        degree: Materials Engineering and Commerce
         position: Team Lead
         photo: ../images/Sydney_Buntine.jpg
       - linkedIn: ""
-        position: Team Member
+        position: Team Lead
         name: Alasdair McKenzie
         degree: Materials Engineering and Science
         photo: ../images/Alasdair_McKenzie.jpg
@@ -190,6 +190,11 @@ subteam:
         degree: Civil Engineering and Finance
         position: Team Member
         photo: ../images/Raymond_Chan.jpg
+      - linkedIn: ""
+        name: Vignesh Pakkiam
+        degree: Materials Engineering and Science
+        position: Team Member
+        photo: ../images/Vignesh Pakkiam.jpg
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
