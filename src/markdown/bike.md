@@ -10,7 +10,7 @@ bikes:
       and refine our designs while we eagerly anticipate returning to the
       workshop.
     start_year: 2019
-    end_year: 2021
+    end_year: 2022
     top_speed_km: --
     image: ../images/bike_v3.png
   - name: Wombat

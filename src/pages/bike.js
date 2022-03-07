@@ -21,7 +21,7 @@ const StatsSubheading = styled.p`
 `;
 
 const StatsInfo = styled.h2`
-  background: var(--MHP-purple);
+  background: var(--MHP-purple-2);
   color: var(--MHP-white);
 `;
 
