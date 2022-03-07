@@ -121,11 +121,11 @@ subteam:
         degree: "Arts and Commerce"
         position: Team Member
         photo: ../images/Geoffrey_Meng.jpg
-      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
-        name: Harry Blackburn
+      - linkedIn: https://www.linkedin.com/in/komal-gupta-524847198/
+        name: Komal Gupta
         position: Team Member
-        degree: Mechatronics Engineering and Finance
-        photo: ../images/harry_blackburn_resized.jpg
+        degree: Engineering and Science
+        photo: ../images/Komal_Gupta.JPG
   - subteamName: Electrical
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/hallgchris
@@ -195,6 +195,11 @@ subteam:
         degree: Materials Engineering and Science
         position: Team Member
         photo: ../images/Vignesh Pakkiam.jpg
+      - linkedIn: ""
+        name: Alex Mavros
+        degree: "Mechanical Engineering and Biomedical Science"
+        position: Team Member
+        photo: ../images/Alex_Mavros.jpg
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
