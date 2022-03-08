@@ -126,6 +126,11 @@ subteam:
         position: Team Member
         degree: Engineering and Science
         photo: ../images/Komal_Gupta.JPG
+      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
+        name: Harry Blackburn
+        position: Team Member
+        degree: Mechatronics Engineering and Finance
+        photo: ../images/harry_blackburn_resized.jpg
   - subteamName: Electrical
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/hallgchris
