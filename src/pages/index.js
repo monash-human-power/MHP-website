@@ -78,7 +78,7 @@ const IndexPage = () => {
       <div className="container mb-5">
         {/* Recruiting section */}
         {/* TODO: REMOVE AT THE END OF RECRUITING */}
-        {/* <InfoBlock
+        <InfoBlock
           heading={"Join MHP!"}
           description={
             "Monash Human Power's 2021 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
@@ -88,11 +88,11 @@ const IndexPage = () => {
             "https://docs.google.com/presentation/d/14wiwPjfxUd51Xmb0O59G0oaNowEzcm43EqR8rChSi10"
           }
           buttonText={"Apply Here!"}
-          href={"https://forms.gle/HFEtey1VZ1f3g7687"}
+          href={"https://forms.gle/fRsfEiXTxbA2gPfw8"}
           image={data.allFile.edges[0].node.childImageSharp.fluid}
           key={0}
           reverseOrder={0}
-        /> */}
+        />
 
         {/* Info Blocks */}
         <div>
