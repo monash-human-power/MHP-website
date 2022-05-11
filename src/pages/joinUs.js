@@ -1,26 +1,17 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
-// import InfoBlock from "../components/info_block";
 import styled from "styled-components";
 import Button from "../components/button.js";
+import { ProgressBar, Accordion } from "react-bootstrap";
 
-const ReviewCol = styled.div`
-  border: 20px solid black;
-  }
-`;
-
-const ReviewColR = styled.div`
-  border: 20px solid red;
-  }
-`;
-
-const ReviewColBlue = styled.div`
-  border: 20px solid blue;
-  }
+const Btn = styled.button`
+  /* Remove bootstrap border and radius */
+  border: 0px;
+  border-radius 0px;
+  width: 800px;
 `;
 
 const JoinUsPage = () => {
@@ -38,6 +29,11 @@ const JoinUsPage = () => {
               buttonText
               link
             }
+            FAQs {
+              question
+              answer
+              id
+            }
           }
         }
       }
@@ -46,8 +42,7 @@ const JoinUsPage = () => {
 
   const joinUsData = data.file.childMarkdownRemark.frontmatter;
   const buttonsArr = joinUsData.buttons;
-  //   const infoBlockArr = outreachData.blocks;
-  //   const reviewsArr = outreachData.reviews;
+  const faqsArr = joinUsData.FAQs;
 
   return (
     <Layout>
@@ -59,28 +54,73 @@ const JoinUsPage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
-        <ReviewCol>
-          <div className="row pt-2 mb-5 mt-3">
-            <ReviewColR>
-              {/* Apply Buttons */}
-              <div className="row">
-                {buttonsArr.map(buttonData => (
-                  <div className="row pt-2 mb-5 mt-3">
-                    <ReviewColBlue>
-                      {buttonData.buttonText !== "" &&
-                        buttonData.buttonText !== null && (
-                          <Button href={buttonData.link}>
-                            {" "}
-                            {buttonData.buttonText}{" "}
-                          </Button>
-                        )}
-                    </ReviewColBlue>
-                  </div>
-                ))}
-              </div>
-            </ReviewColR>
+        {/* row of buttons */}
+        <div className="row m-4">
+          {/* Apply Buttons */}
+          {buttonsArr.map(buttonData => (
+            <div className="col-lg m-5">
+              {buttonData.buttonText !== "" &&
+                buttonData.buttonText !== null && (
+                  <Button href={buttonData.link}>
+                    {" "}
+                    {buttonData.buttonText}{" "}
+                  </Button>
+                )}
+            </div>
+          ))}
+        </div>
+        {/* Recruitment Process */}
+        <div className="row m-4">
+          <div className="col text-center">
+            <h2 className="p-3">Recruitment Process</h2>
+            {/* TODO: use a progress bar https://getbootstrap.com/docs/5.0/components/progress/ */}
+            <ProgressBar style={{ fontSize: "100%", blockSize: "50%" }}>
+              <ProgressBar now={25} key={1} label={"Apply".toUpperCase()} />
+              <ProgressBar
+                variant="warning"
+                now={25}
+                key={2}
+                label={"Interview Invite".toUpperCase()}
+              />
+              <ProgressBar
+                variant="danger"
+                now={25}
+                key={3}
+                label={"Interview".toUpperCase()}
+              />
+              <ProgressBar
+                variant="success"
+                now={25}
+                key={3}
+                label={"Result".toUpperCase()}
+              />
+            </ProgressBar>
           </div>
-        </ReviewCol>
+        </div>
+        <div className="row m-5">
+          <div className="col text-center">
+            <h2 className="p-4">FAQs</h2>
+            {/* FAQs Accordion */}
+            <div class="accordion accordion-flush" id="FaqAccordion">
+              {/* TODO: use accordion from react bootstrap  https://getbootstrap.com/docs/5.0/components/accordion/ */}
+              <Accordion>
+                {faqsArr.map(faqsData => (
+                  <Accordion>
+                    <Accordion.Item eventKey={faqsData.id}>
+                      <Accordion.Header
+                        as={"h3"}
+                        style={{ tabSize: "100%", blockSize: "100%" }}
+                      >
+                        {faqsData.question}
+                      </Accordion.Header>
+                      <Accordion.Body>{faqsData.answer}</Accordion.Body>
+                    </Accordion.Item>
+                  </Accordion>
+                ))}
+              </Accordion>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
