@@ -2,6 +2,19 @@
 heading: Subteams
 meta_page_description: ""
 subteams:
+  - name: Rider Development
+    description: "The Rider Development subteam focuses on maximising the
+      performance of the rider. Composed of both riders and technical members,
+      this subteam arranges cycling and strength training for the riders and
+      constructs personal rider power plans. They organise competency training
+      to ride the recumbent bikes and physically test its mechanical and
+      electrical systems. The Rider Development subteam is also in charge of
+      organising and coordinating testing days at the Holden and Ford Proving
+      Grounds. "
+    # TODO: Remove once the application process is complete
+    button_text: "Apply to become a Rider"
+    button_href: https://forms.gle/gk1J7QKkQrUmCotN7
+    image: ../images/subteam2021_riderdev.jpeg
   - name: Aerodynamics
     description: The Aerodynamics subteam at MHP is chiefly responsible for the
       design and testing of the aerodynamic components of the bike, such as the
@@ -16,7 +29,8 @@ subteams:
     button_href: ""
     image: ../images/subteam2021_aero.jpg
   - name: Chassis & Drive-train
-    description: The Chassis & Drive-train subteam is responsible for the design and
+    description:
+      The Chassis & Drive-train subteam is responsible for the design and
       manufacture of all mechanical components on the vehicle. This includes the
       structural frame (referred to as the chassis) and the moving parts of the
       vehicle. The design process involves modelling components through the use
@@ -29,7 +43,8 @@ subteams:
     button_href: ""
     image: ../images/subteam2021_chassisdt_2.jpg
   - name: Corporate
-    description: The Corporate subteam identifies and engages the relevant external
+    description:
+      The Corporate subteam identifies and engages the relevant external
       stakeholders to effectively facilitate the operations of MHP. This
       includes coordinating with sponsors and marketing the activities MHP. They
       are also in charge of organising events to promote the missions of MHP,
@@ -53,7 +68,8 @@ subteams:
     button_href: ""
     image: ../images/subteam2021_electrical.jpg
   - name: Materials
-    description: The primary purpose of the Materials subteam is to prototype and
+    description:
+      The primary purpose of the Materials subteam is to prototype and
       manufacture the fairing. This includes undergoing a design process to test
       and optimise the quality of the fairing to ensure the aerodynamic
       performance of the bike and rider safety. They also carry out extensive
@@ -65,18 +81,6 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_materials_2.jpg
-  - name: Rider Development
-    description: "The Rider Development subteam focuses on maximising the
-      performance of the rider. Composed of both riders and technical members,
-      this subteam arranges cycling and strength training for the riders and
-      constructs personal rider power plans. They organise competency training
-      to ride the recumbent bikes and physically test its mechanical and
-      electrical systems. The Rider Development subteam is also in charge of
-      organising and coordinating testing days at the Holden and Ford Proving
-      Grounds. "
-    button_text: ""
-    button_href: ""
-    image: ../images/subteam2021_riderdev.jpeg
 ---
 
 # button_text = can be used to point people in the direction of a application for MHP
