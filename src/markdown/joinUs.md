@@ -9,8 +9,6 @@ buttons:
 FAQs:
   - question: "When is MHP Recruitment?"
     answer: "Questionable"
-    id: faq1
   - question: "What does MHP do?"
     answer: "Questionable"
-    id: faq2
 ---

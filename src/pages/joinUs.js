@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
 import Button from "../components/button";
-import { ProgressBar, Accordion } from "react-bootstrap";
+import { ProgressBar } from "react-bootstrap";
 
 const JoinUsPage = () => {
   const data = useStaticQuery(graphql`
@@ -24,7 +24,6 @@ const JoinUsPage = () => {
             FAQs {
               question
               answer
-              id
             }
           }
         }
@@ -65,7 +64,7 @@ const JoinUsPage = () => {
         <div className="row m-4">
           <div className="col text-center">
             <h2 className="p-3">Recruitment Process</h2>
-            {/* TODO: use a progress bar https://getbootstrap.com/docs/5.0/components/progress/ */}
+            {/* TODO: replace with a photo of the process */}
             <ProgressBar style={{ fontSize: "100%", blockSize: "50%" }}>
               <ProgressBar now={25} key={1} label={"Apply".toUpperCase()} />
               <ProgressBar
@@ -91,25 +90,37 @@ const JoinUsPage = () => {
         </div>
         <div className="row m-5">
           <div className="col text-center">
-            <h2 className="p-4">FAQs</h2>
-            {/* FAQs Accordion */}
-            <div class="accordion accordion-flush" id="FaqAccordion">
-              {/* TODO: use accordion from react bootstrap  https://getbootstrap.com/docs/5.0/components/accordion/ */}
-              <Accordion>
-                {faqsArr.map(faqsData => (
-                  <Accordion>
-                    <Accordion.Item eventKey={faqsData.id}>
-                      <Accordion.Header
-                        as={"h3"}
-                        style={{ tabSize: "100%", blockSize: "100%" }}
+            <h2 className="p-4">FAQ</h2>
+            {/* 
+              FAQ Accordion.
+              TODO: When upgraded to bootstrap v5 use default accordion https://getbootstrap.com/docs/5.0/components/accordion/ 
+            */}
+            <div className="accordion accordion-flush" id="FaqAccordion">
+              <div className="accordion" id="accordionFAQ">
+                {faqsArr.map((faqsData, index) => (
+                  <div className="card">
+                    <div className="card-head" id={`heading-${index}`}>
+                      <h3
+                        className="mb-0"
+                        data-toggle="collapse"
+                        data-target={`#collapse-${index}`}
+                        aria-controls={`collapse-${index}`}
                       >
                         {faqsData.question}
-                      </Accordion.Header>
-                      <Accordion.Body>{faqsData.answer}</Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
+                      </h3>
+                    </div>
+
+                    <div
+                      id={`collapse-${index}`}
+                      className="collapse"
+                      aria-labelledby={`#heading-${index}`}
+                      data-parent="#accordionFAQ"
+                    >
+                      <div className="card-body">{faqsData.answer}</div>
+                    </div>
+                  </div>
                 ))}
-              </Accordion>
+              </div>
             </div>
           </div>
         </div>
