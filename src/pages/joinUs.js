@@ -3,16 +3,8 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
-import styled from "styled-components";
-import Button from "../components/button.js";
+import Button from "../components/button";
 import { ProgressBar, Accordion } from "react-bootstrap";
-
-const Btn = styled.button`
-  /* Remove bootstrap border and radius */
-  border: 0px;
-  border-radius 0px;
-  width: 800px;
-`;
 
 const JoinUsPage = () => {
   const data = useStaticQuery(graphql`

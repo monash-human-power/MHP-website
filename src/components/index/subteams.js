@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Button from "../button";
 
 const SubTeamBox = styled.div`
-  // Click cursor look
+  // Clickable cursor look
   cursor: pointer;
 
   border: 1px solid black;
@@ -22,13 +22,6 @@ const SubTeamBox = styled.div`
 
 const SubTeamBoxHeading = styled.h2`
   font-size: 1.4rem;
-`;
-
-const ReviewHeading = styled.h2`
-  background: black;
-  color: white;
-  align-text: centre;
-  box-shadow: white 5px 5px 0px -2px, var(--MHP-black) 5px 5px;
 `;
 
 const SubTeamSquare = (

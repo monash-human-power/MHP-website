@@ -1,6 +1,6 @@
 ---
-heading: Join Us !
-meta_page_description: ""
+heading: Join Us
+meta_page_description: "Monash Human Power application and recruitment page"
 buttons:
   - buttonText: Apply for Rider Dev
     link: ""
