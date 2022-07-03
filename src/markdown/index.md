@@ -2,7 +2,9 @@
 heading: Monash Human Power
 image: ../images/V3_render_cool.png
 meta_page_description: ""
-recruitment_link: https://forms.gle/fRsfEiXTxbA2gPfw8
+recruitment_link: https://forms.gle/rA1Yco6HEWE6M8H69
+recruitment_info: https://drive.google.com/file/d/1_XYREHCh-j9D_5-NSQZdt8gWla-9d5Bf/view
+recruitment_description: "Monash Human Power's 2022 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
 blocks:
   - heading: Who we are
     description:
