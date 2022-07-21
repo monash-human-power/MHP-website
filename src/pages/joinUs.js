@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
 import Button from "../components/button";
-import { ProgressBar } from "react-bootstrap";
 
 const JoinUsPage = () => {
   const data = useStaticQuery(graphql`
