@@ -8,7 +8,7 @@ buttons:
     link: ""
 FAQs:
   - question: "When is MHP Recruitment?"
-    answer: "Questionable"
+    answer: "MHP recruitment occurs every 6 months. Be sure to check social media and this website for updates."
   - question: "What does MHP do?"
-    answer: "Questionable"
+    answer: "MHP is a Monash engineering student team whose goal is to produce the fastest human powered vehicle in the world."
 ---

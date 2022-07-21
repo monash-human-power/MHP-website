@@ -47,81 +47,56 @@ const JoinUsPage = () => {
       <div className="container mb-5">
         {/* row of buttons */}
         <div className="row m-4">
-          {/* Apply Buttons */}
+          {/* apply Buttons */}
           {buttonsArr.map(buttonData => (
-            <div className="col-lg m-5">
+            <div className="col-lg m-3">
               {buttonData.buttonText !== "" &&
                 buttonData.buttonText !== null && (
                   <Button href={buttonData.link}>
-                    {" "}
-                    {buttonData.buttonText}{" "}
+                    {buttonData.buttonText}
                   </Button>
                 )}
             </div>
           ))}
         </div>
+
         {/* Recruitment Process */}
         <div className="row m-4">
           <div className="col text-center">
             <h2 className="p-3">Recruitment Process</h2>
-            {/* TODO: replace with a photo of the process */}
-            <ProgressBar style={{ fontSize: "100%", blockSize: "50%" }}>
-              <ProgressBar now={25} key={1} label={"Apply".toUpperCase()} />
-              <ProgressBar
-                variant="warning"
-                now={25}
-                key={2}
-                label={"Interview Invite".toUpperCase()}
-              />
-              <ProgressBar
-                variant="danger"
-                now={25}
-                key={3}
-                label={"Interview".toUpperCase()}
-              />
-              <ProgressBar
-                variant="success"
-                now={25}
-                key={3}
-                label={"Result".toUpperCase()}
-              />
-            </ProgressBar>
+            <div className="text-center p-2">
+              <button className="btn btn-primary" disabled>
+                {"1) Apply".toUpperCase()}
+              </button>
+            </div>
+            <div className="text-center p-2">
+              <button className="btn btn-primary" disabled>
+                {"2) Interview Invite".toUpperCase()}
+              </button>
+            </div>
+            <div className="text-center p-2">
+              <button className="btn btn-primary" disabled>
+                {"3) Interview".toUpperCase()}
+              </button>
+            </div>
+            <div className="text-center p-2">
+              <button className="btn btn-primary" disabled>
+                {"4) Result".toUpperCase()}
+              </button>
+            </div>
           </div>
         </div>
-        <div className="row m-5">
+
+        {/* FAQs */}
+        <div className="row m-4">
           <div className="col text-center">
             <h2 className="p-4">FAQ</h2>
-            {/* 
-              FAQ Accordion.
-              TODO: When upgraded to bootstrap v5 use default accordion https://getbootstrap.com/docs/5.0/components/accordion/ 
-            */}
-            <div className="accordion accordion-flush" id="FaqAccordion">
-              <div className="accordion" id="accordionFAQ">
-                {faqsArr.map((faqsData, index) => (
-                  <div className="card">
-                    <div className="card-head" id={`heading-${index}`}>
-                      <h3
-                        className="mb-0"
-                        data-toggle="collapse"
-                        data-target={`#collapse-${index}`}
-                        aria-controls={`collapse-${index}`}
-                      >
-                        {faqsData.question}
-                      </h3>
-                    </div>
-
-                    <div
-                      id={`collapse-${index}`}
-                      className="collapse"
-                      aria-labelledby={`#heading-${index}`}
-                      data-parent="#accordionFAQ"
-                    >
-                      <div className="card-body">{faqsData.answer}</div>
-                    </div>
-                  </div>
-                ))}
+            {faqsArr.map((faqsData, index) => (
+              <div id={`faq-${index}`}>
+                <h3>{faqsData.question}</h3>
+                <p>{faqsData.answer}</p>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
