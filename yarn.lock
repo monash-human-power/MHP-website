@@ -3360,10 +3360,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.1.tgz#bc25380c2c14192374e8dec07cf01b2742d222a2"
-  integrity sha512-0dj+VgI9Ecom+rvvpNZ4MUZJz8dcX7WCX+eTID9+/8HgOkv3dsRzi8BGeZJCQU6flWQVYxwTQnEZFrmJSEO7og==
+bootstrap@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.0.tgz#838727fb60f1630db370fe57c63cbcf2962bb3d3"
+  integrity sha512-qlnS9GL6YZE6Wnef46GxGv1UpGGzAwO0aPL1yOjzDIJpeApeMvqV24iL+pjr2kU4dduoBA9fINKWKgMToobx9A==
 
 boxen@^4.2.0:
   version "4.2.0"
@@ -12852,10 +12852,10 @@ react-aria-menubutton@^6.0.0:
     react-display-name "^0.2.4"
     teeny-tap "^0.2.0"
 
-react-bootstrap@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-2.3.1.tgz#f14239efb89ca24044766e20cc829b7a264db11d"
-  integrity sha512-+k68LdaSS62Zc/1gr18NC9QpDk/wwhNk+90QgcTMYSA8BzlXC1G2ogWWrz2LFuP2FlmCtVjcr/UXw3mpdxVmWw==
+react-bootstrap@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-2.4.0.tgz#99bf9656e2e7a23ae1ae135d18fd5ad7c344b416"
+  integrity sha512-dn599jNK1Fg5GGjJH+lQQDwELVzigh/MdusKpB/0el+sCjsO5MZDH5gRMmBjRhC+vb7VlCDr6OXffPIDSkNMLw==
   dependencies:
     "@babel/runtime" "^7.17.2"
     "@restart/hooks" "^0.4.6"

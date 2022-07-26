@@ -1,5 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import { Accordion } from "react-bootstrap";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
@@ -88,13 +89,15 @@ const JoinUsPage = () => {
 
         {/* FAQs */}
         <div className="row m-4">
-          <div className="col text-center">
-            <h2 className="p-4">FAQ</h2>
+          <div className="col">
+            <h2 className="p-4 text-center">FAQ</h2>
             {faqsArr.map((faqsData, index) => (
-              <div id={`faq-${index}`}>
-                <h3>{faqsData.question}</h3>
-                <p>{faqsData.answer}</p>
-              </div>
+              <Accordion defaultActiveKey={`${index}`}>
+                <Accordion.Item eventKey={`${index}`}>
+                  <Accordion.Header>{faqsData.question}</Accordion.Header>
+                  <Accordion.Body>{faqsData.answer}</Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
             ))}
           </div>
         </div>
