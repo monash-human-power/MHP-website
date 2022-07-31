@@ -65,12 +65,13 @@ const Footer = () => {
           {/* Address section */}
           <div className="col-md">
             <FooterHeading>Say Hello</FooterHeading>
+            <FooterParagraph>Monash Makerspace</FooterParagraph>
             <FooterParagraph>
-              17 Alliance Lane, Monash University
+              23 College Walk, Monash University VIC 3800
             </FooterParagraph>
           </div>
 
-          {/* Social text */}
+          {/* Join section */}
           <div className="col-md">
             <FooterHeading>Join Us</FooterHeading>
             <FooterParagraph>
@@ -94,6 +95,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Copytight and Indigenous acknoledgement */}
         <div className="row">
           {/* Col is xl as it should always collapse */}
           <div className="col-xl">
