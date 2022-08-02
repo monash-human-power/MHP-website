@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { Accordion } from "react-bootstrap";
+import { Stepper } from "react-form-stepper";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
@@ -49,7 +50,7 @@ const JoinUsPage = () => {
         <div className="row m-4">
           {/* apply Buttons */}
           {buttonsArr.map(buttonData => (
-            <div className="col-lg m-3">
+            <div className="col text-center">
               {buttonData.buttonText !== "" &&
                 buttonData.buttonText !== null && (
                   <Button href={buttonData.link}>
@@ -64,26 +65,16 @@ const JoinUsPage = () => {
         <div className="row m-4">
           <div className="col text-center">
             <h2 className="p-3">Recruitment Process</h2>
-            <div className="text-center p-2">
-              <button className="btn btn-primary" disabled>
-                {"1) Apply".toUpperCase()}
-              </button>
-            </div>
-            <div className="text-center p-2">
-              <button className="btn btn-primary" disabled>
-                {"2) Interview Invite".toUpperCase()}
-              </button>
-            </div>
-            <div className="text-center p-2">
-              <button className="btn btn-primary" disabled>
-                {"3) Interview".toUpperCase()}
-              </button>
-            </div>
-            <div className="text-center p-2">
-              <button className="btn btn-primary" disabled>
-                {"4) Result".toUpperCase()}
-              </button>
-            </div>
+            <Stepper
+              steps={[
+                { label: "Apply" },
+                { label: "Interview Invite" },
+                { label: "Interview" },
+                { label: "Result" },
+              ]}
+              activeColor="#37279e"
+              activeStep={3}
+            />
           </div>
         </div>
 
@@ -92,9 +83,11 @@ const JoinUsPage = () => {
           <div className="col">
             <h2 className="p-4 text-center">FAQ</h2>
             {faqsArr.map((faqsData, index) => (
-              <Accordion defaultActiveKey={`${index}`}>
+              <Accordion className="m-1">
                 <Accordion.Item eventKey={`${index}`}>
-                  <Accordion.Header>{faqsData.question}</Accordion.Header>
+                  <Accordion.Header style={{ color: "red" }}>
+                    {faqsData.question}
+                  </Accordion.Header>
                   <Accordion.Body>{faqsData.answer}</Accordion.Body>
                 </Accordion.Item>
               </Accordion>

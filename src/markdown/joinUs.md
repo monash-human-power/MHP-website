@@ -3,9 +3,9 @@ heading: Join Us
 meta_page_description: "Monash Human Power application and recruitment page"
 buttons:
   - buttonText: Apply for Rider Dev
-    link: ""
+    link: "https://forms.gle/w1D8tzLVDUgdsJa98"
   - buttonText: Apply for other teams
-    link: ""
+    link: "https://forms.gle/fRsfEiXTxbA2gPfw8"
 FAQs:
   - question: "When is MHP Recruitment?"
     answer: "MHP recruitment occurs every 6 months. Be sure to check social media and this website for updates."
