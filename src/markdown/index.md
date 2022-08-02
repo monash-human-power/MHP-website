@@ -102,5 +102,7 @@ sponsors:
   - name: Yarra Energy
     image: ../images/yarraenergy-logo.png
     link: "https://yarraenergy.com.au/"
-  # TODO: HSC sponsor
+  - name: HSC Ceramics
+    image: ../images/hsc-logo.jpg
+    link: https://www.hscceramics.com.au/
 ---
