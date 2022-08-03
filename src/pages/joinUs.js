@@ -1,6 +1,5 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { Accordion } from "react-bootstrap";
 import { Stepper } from "react-form-stepper";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -82,16 +81,34 @@ const JoinUsPage = () => {
         <div className="row m-4">
           <div className="col">
             <h2 className="p-4 text-center">FAQ</h2>
-            {faqsArr.map((faqsData, index) => (
-              <Accordion className="m-1">
-                <Accordion.Item eventKey={`${index}`}>
-                  <Accordion.Header style={{ color: "red" }}>
-                    {faqsData.question}
-                  </Accordion.Header>
-                  <Accordion.Body>{faqsData.answer}</Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            ))}
+            <div class="accordion" id="accordionFAQ">
+              {faqsArr.map((faqsData, index) => (
+                <div class="card m-1">
+                  <div class="card-header" id={`${index}`}>
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-block text-left"
+                        data-toggle="collapse"
+                        data-target={`#collapse${index}`}
+                        aria-expanded="true"
+                        aria-controls={`collapse${index}`}
+                      >
+                        {faqsData.question}
+                      </button>
+                    </h2>
+                  </div>
+                  {/* Set class below to "collapse show" to make not hide the contents by default */}
+                  <div
+                    id={`collapse${index}`}
+                    class="collapse"
+                    aria-labelledby={`heading${index}`}
+                    data-parent="#accordionFAQ"
+                  >
+                    <div class="card-body">{faqsData.answer}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
