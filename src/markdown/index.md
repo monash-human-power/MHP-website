@@ -93,10 +93,16 @@ sponsors:
   - name: Ford
     image: ../images/ford-logo-icon-0.png
     link: "https://www.ford.com.au"
-  - name: "Leap "
+  - name: "Leap"
     image: ../images/leap-hq-logo.png
     link: "https://www.leapaust.com.au"
   - name: C5 systems
     image: ../images/c5-logo.png
     link: "https://c5systems.com.au"
+  - name: Yarra Energy
+    image: ../images/yarraenergy-logo.png
+    link: "https://yarraenergy.com.au/"
+  - name: HSC Ceramics
+    image: ../images/hsc-logo.jpg
+    link: https://www.hscceramics.com.au/
 ---
