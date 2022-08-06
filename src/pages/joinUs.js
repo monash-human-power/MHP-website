@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
 import Button from "../components/button";
+import InfoBlock from "../components/info_block";
 
 const JoinUsPage = () => {
   const data = useStaticQuery(graphql`
@@ -17,9 +18,20 @@ const JoinUsPage = () => {
           frontmatter {
             heading
             meta_page_description
-            buttons {
-              buttonText
+            eoi_link
+            recruitment_categories {
+              name
+              is_open
+              description
+              closed_description
               link
+              image {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             FAQs {
               question
@@ -32,7 +44,7 @@ const JoinUsPage = () => {
   `);
 
   const joinUsData = data.file.childMarkdownRemark.frontmatter;
-  const buttonsArr = joinUsData.buttons;
+  const recruitmentArr = joinUsData.recruitment_categories;
   const faqsArr = joinUsData.FAQs;
 
   return (
@@ -45,18 +57,32 @@ const JoinUsPage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
-        {/* row of buttons */}
-        <div className="row m-4">
-          {/* apply Buttons */}
-          {buttonsArr.map(buttonData => (
-            <div className="col text-center">
-              {buttonData.buttonText !== "" &&
-                buttonData.buttonText !== null && (
-                  <Button href={buttonData.link}>
-                    {buttonData.buttonText}
-                  </Button>
-                )}
-            </div>
+        {/* Recruitment categories */}
+        <div>
+          {recruitmentArr.map((blockData, index) => (
+            <InfoBlock
+              heading={blockData.name}
+              description={
+                blockData.is_open
+                  ? blockData.description
+                  : blockData.closed_description
+              }
+              // Only show EOI link if it's not empty
+              buttonText={
+                blockData.is_open
+                  ? "Apply now!"
+                  : joinUsData.eoi_link !== ""
+                  ? "Expression of interest"
+                  : ""
+              }
+              href={blockData.is_open ? blockData.link : joinUsData.eoi_link}
+              image={blockData.image.childImageSharp.fluid}
+              key={index}
+              // Example key would be 1 (index of the data)
+              id={index}
+              // Flips the order for every second block
+              reverseOrder={index % 2 === 1}
+            />
           ))}
         </div>
 
@@ -81,13 +107,13 @@ const JoinUsPage = () => {
         <div className="row m-4">
           <div className="col">
             <h2 className="p-4 text-center">FAQ</h2>
-            <div class="accordion" id="accordionFAQ">
+            <div className="accordion" id="accordionFAQ">
               {faqsArr.map((faqsData, index) => (
-                <div class="card m-1">
-                  <div class="card-header" id={`${index}`}>
-                    <h2 class="mb-0">
+                <div className="card m-1">
+                  <div className="card-header" id={`${index}`}>
+                    <h2 className="mb-0">
                       <button
-                        class="btn btn-block text-left"
+                        className="btn btn-block text-left"
                         data-toggle="collapse"
                         data-target={`#collapse${index}`}
                         aria-expanded="true"
@@ -100,11 +126,11 @@ const JoinUsPage = () => {
                   {/* Set class below to "collapse show" to make not hide the contents by default */}
                   <div
                     id={`collapse${index}`}
-                    class="collapse"
+                    className="collapse"
                     aria-labelledby={`heading${index}`}
                     data-parent="#accordionFAQ"
                   >
-                    <div class="card-body">{faqsData.answer}</div>
+                    <div className="card-body">{faqsData.answer}</div>
                   </div>
                 </div>
               ))}
