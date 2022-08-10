@@ -126,7 +126,8 @@ const Header = () => {
           </div>
 
           {/* Social Media Icons */}
-          <div style={{ width: 200, margin: "auto" }}>
+          {/* Recommended width: 50 per social media */}
+          <div style={{ width: 250, margin: "auto" }}>
             <Socials />
           </div>
         </CollapsingDiv>

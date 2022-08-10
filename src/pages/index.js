@@ -33,6 +33,9 @@ const IndexPage = () => {
           frontmatter {
             heading
             meta_page_description
+            recruitment_link
+            recruitment_info
+            recruitment_description
             blocks {
               image {
                 childImageSharp {
@@ -80,15 +83,11 @@ const IndexPage = () => {
         {/* TODO: REMOVE AT THE END OF RECRUITING */}
         <InfoBlock
           heading={"Join MHP!"}
-          description={
-            "Monash Human Power's 2021 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
-          }
+          description={indexData.recruitment_description}
           buttonText2={"More info"}
-          href2={
-            "https://docs.google.com/presentation/d/14wiwPjfxUd51Xmb0O59G0oaNowEzcm43EqR8rChSi10"
-          }
+          href2={indexData.recruitment_info}
           buttonText={"Apply Here!"}
-          href={"https://forms.gle/fRsfEiXTxbA2gPfw8"}
+          href={indexData.recruitment_link}
           image={data.allFile.edges[0].node.childImageSharp.fluid}
           key={0}
           reverseOrder={0}

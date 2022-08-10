@@ -24,6 +24,10 @@ const FooterParagraph = styled.p`
   text-align: left;
 `;
 
+const MhpAddress = styled.address`
+  text-align: left;
+`;
+
 const TinyFooterParagraph = styled.p`
   font-size: 0.8rem;
 `;
@@ -65,12 +69,14 @@ const Footer = () => {
           {/* Address section */}
           <div className="col-md">
             <FooterHeading>Say Hello</FooterHeading>
-            <FooterParagraph>
-              17 Alliance Lane, Monash University
-            </FooterParagraph>
+            <MhpAddress>
+              Monash Makerspace <br />
+              23 College Walk <br />
+              Monash University VIC 3800
+            </MhpAddress>
           </div>
 
-          {/* Social text */}
+          {/* Join section */}
           <div className="col-md">
             <FooterHeading>Join Us</FooterHeading>
             <FooterParagraph>
@@ -94,6 +100,7 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Copyright and Indigenous acknowledgement */}
         <div className="row">
           {/* Col is xl as it should always collapse */}
           <div className="col-xl">

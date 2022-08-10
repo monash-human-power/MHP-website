@@ -2,7 +2,9 @@
 heading: Monash Human Power
 image: ../images/V3_render_cool.png
 meta_page_description: ""
-recruitment_link: https://forms.gle/fRsfEiXTxbA2gPfw8
+recruitment_link: https://forms.gle/rA1Yco6HEWE6M8H69
+recruitment_info: https://drive.google.com/file/d/1_XYREHCh-j9D_5-NSQZdt8gWla-9d5Bf/view
+recruitment_description: "Monash Human Power's 2022 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
 blocks:
   - heading: Who we are
     description:
@@ -91,10 +93,16 @@ sponsors:
   - name: Ford
     image: ../images/ford-logo-icon-0.png
     link: "https://www.ford.com.au"
-  - name: "Leap "
+  - name: "Leap"
     image: ../images/leap-hq-logo.png
     link: "https://www.leapaust.com.au"
   - name: C5 systems
     image: ../images/c5-logo.png
     link: "https://c5systems.com.au"
+  - name: Yarra Energy
+    image: ../images/yarraenergy-logo.png
+    link: "https://yarraenergy.com.au/"
+  - name: HSC Ceramics
+    image: ../images/hsc-logo.jpg
+    link: https://www.hscceramics.com.au/
 ---

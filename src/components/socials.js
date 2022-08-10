@@ -7,10 +7,11 @@ import Link from "./link";
 // Import social logos
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookSquare,
+  faFacebook,
   faLinkedin,
-  faInstagramSquare,
-  faGithubSquare,
+  faInstagram,
+  faGithub,
+  faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 
 const MhpSocialContainer = styled.div`
@@ -43,6 +44,7 @@ const Socials = () => {
             instagram
             linkedIn
             github
+            tiktok
           }
         }
       }
@@ -58,14 +60,14 @@ const Socials = () => {
       <SocialLink to={social_link.facebook}>
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
-          icon={faFacebookSquare}
+          icon={faFacebook}
         />
       </SocialLink>
 
       <SocialLink to={social_link.instagram}>
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
-          icon={faInstagramSquare}
+          icon={faInstagram}
         />
       </SocialLink>
 
@@ -79,7 +81,14 @@ const Socials = () => {
       <SocialLink to={social_link.github}>
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
-          icon={faGithubSquare}
+          icon={faGithub}
+        />
+      </SocialLink>
+
+      <SocialLink to={social_link.tiktok}>
+        <FontAwesomeIcon
+          style={{ height: iconSize, width: iconSize }}
+          icon={faTiktok}
         />
       </SocialLink>
     </MhpSocialContainer>
