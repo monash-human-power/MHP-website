@@ -33,12 +33,12 @@ subteam:
         name: David Cheng
         degree: Mechanical Engineering and Biomedical Science
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Diego Portilla
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/george-rubinstein-b659b51b7
         name: George Rubinstein
         degree: Aerospace Engineering
@@ -58,7 +58,7 @@ subteam:
         name: Oscar Varney
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/shashwat-maheshwari-4714b11b9/
         name: Shashwat Maheshwari
         degree: Mechanical Engineering and Law
@@ -80,7 +80,7 @@ subteam:
         name: Hugh Mayer
         degree: ""
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
@@ -95,7 +95,7 @@ subteam:
         name: Tyrone Rossouw
         degree: Mechanical Enginering
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Walt Liu
         degree: Mechanical Enginering and Industrial Design
@@ -122,17 +122,17 @@ subteam:
         name: Petros Koutroumpinas
         degree: Aerospace Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Zeyang (Sunny) Zhang
         degree: Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Arosh Heenkenda
         degree: Software Engineering and Computer Science
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
   - subteamName: Materials
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
@@ -159,22 +159,22 @@ subteam:
         name: Clarisse Liew
         degree: ""
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: James Cookson
         degree: Engineering and Science
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Jonathan La
         degree: ""
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Kosei Liu
         degree: ""
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/raymond-chan-02736b149/
         name: Raymond Chan
         degree: Civil Engineering and Finance
@@ -213,10 +213,10 @@ subteam:
         name: Jack Graves
         degree: Mechatronics Engineering and Commerce
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Khanh Le
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.webp
+        photo: ../images/000-placeholder-person.png
 ---
