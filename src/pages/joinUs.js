@@ -24,6 +24,7 @@ const JoinUsPage = () => {
               description
               closed_description
               link
+              more_info_link
               eoi_link
               image {
                 childImageSharp {
@@ -76,6 +77,13 @@ const JoinUsPage = () => {
                   : ""
               }
               href={blockData.is_open ? blockData.link : blockData.eoi_link}
+              // Link to more info about the recruitment
+              buttonText2={
+                blockData.is_open && blockData.more_info_link !== ""
+                  ? "More info"
+                  : ""
+              }
+              href2={blockData.more_info_link}
               image={blockData.image.childImageSharp.fluid}
               key={index}
               // Example key would be 1 (index of the data)

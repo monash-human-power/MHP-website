@@ -7,6 +7,7 @@ recruitment_categories:
     description: Let's beat the world record together!
     closed_description: Recruitments are currently closed. Keep an eye out on our socials!
     link: https://forms.gle/w1D8tzLVDUgdsJa98
+    more_info_link: ""
     eoi_link: "" # TODO: EOI link when it exists
     image: ../images/subteam2021_riderdev.jpeg
   - name: General Recruitment
@@ -14,6 +15,7 @@ recruitment_categories:
     description: Let's beat the world record together!
     closed_description: Recruitments are currently closed. Keep an eye out on our socials!
     link: https://forms.gle/fRsfEiXTxbA2gPfw8
+    more_info_link: https://drive.google.com/file/d/1_XYREHCh-j9D_5-NSQZdt8gWla-9d5Bf/view
     eoi_link: "" # TODO: EOI link when it exists
     image: ../images/subteam2021_corporate.jpg
 
