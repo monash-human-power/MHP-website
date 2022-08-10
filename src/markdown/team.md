@@ -4,6 +4,7 @@ description: Current members of the team.
 meta_page_description: ""
 subteam:
   # TODO: linkedin profile for each person
+  # TODO: degree for each person
   # TODO: photo for each person
   - subteamName: Management
     teamMembers:
@@ -64,7 +65,12 @@ subteam:
         degree: Mechanical Engineering and Law
         position: Team Member
         photo: ../images/shashwat_maheshwari_resized.png
-  - subteamName: Chassis and Drivetrain
+      - linkedIn: ""
+        name: Zhi (Joshua) Tai
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+  - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/nickadshead1/
         name: Nick Adshead
@@ -101,6 +107,41 @@ subteam:
         degree: Mechanical Enginering and Industrial Design
         position: Team Member
         photo: ../images/walt_liu.png
+      - linkedIn: ""
+        name: Dominic Bongiorno
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Julie Fitt
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Noah Alwyn
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Anthony Joseph Micheletto
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Vinura Abeygunawardhane
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Alex Pearson
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Arsheda Ali
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
   - subteamName: Electrical
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/hallgchris
@@ -131,6 +172,36 @@ subteam:
       - linkedIn: ""
         name: Arosh Heenkenda
         degree: Software Engineering and Computer Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Winnie Chui
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Mitchell De Nardis
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Jessica Mark
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Samuel Zhang
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Omar Afifi
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Manuja Herath Kirinde
+        degree: ""
         position: Team Member
         photo: ../images/000-placeholder-person.png
   - subteamName: Materials
@@ -197,6 +268,21 @@ subteam:
         degree: Civil Engineering and Business Analytics
         position: Team Member
         photo: ../images/Michael_Vincent.jpg
+      - linkedIn: ""
+        name: Alastair Haslam
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Ellen Lowery
+        degree: ""
+        position: Rider
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Jonte Armitstead
+        degree: ""
+        position: Rider
+        photo: ../images/000-placeholder-person.png
   - subteamName: Operations
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/angelica-aulia
@@ -217,6 +303,36 @@ subteam:
       - linkedIn: ""
         name: Khanh Le
         degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Felipe Jiménez
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Akbar Fadiansyah
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Frank Hutton
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Jane Hantanto
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Amanda Zhou
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: James Liang
+        degree: ""
         position: Team Member
         photo: ../images/000-placeholder-person.png
 ---
