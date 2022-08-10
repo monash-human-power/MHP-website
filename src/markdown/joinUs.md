@@ -1,19 +1,20 @@
 ---
 heading: Join Us
 meta_page_description: "Monash Human Power application and recruitment page"
-eoi_link: "" # TODO: EOI link when it exists
 recruitment_categories:
   - name: Rider Recruitment
     is_open: true
     description: Let's beat the world record together!
     closed_description: Recruitments are currently closed. Keep an eye out on our socials!
     link: https://forms.gle/w1D8tzLVDUgdsJa98
+    eoi_link: "" # TODO: EOI link when it exists
     image: ../images/subteam2021_riderdev.jpeg
   - name: General Recruitment
     is_open: false
     description: Let's beat the world record together!
     closed_description: Recruitments are currently closed. Keep an eye out on our socials!
     link: https://forms.gle/fRsfEiXTxbA2gPfw8
+    eoi_link: "" # TODO: EOI link when it exists
     image: ../images/subteam2021_corporate.jpg
 
 FAQs:

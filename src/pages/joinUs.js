@@ -18,13 +18,13 @@ const JoinUsPage = () => {
           frontmatter {
             heading
             meta_page_description
-            eoi_link
             recruitment_categories {
               name
               is_open
               description
               closed_description
               link
+              eoi_link
               image {
                 childImageSharp {
                   fluid {
@@ -71,11 +71,11 @@ const JoinUsPage = () => {
               buttonText={
                 blockData.is_open
                   ? "Apply now!"
-                  : joinUsData.eoi_link !== ""
+                  : blockData.eoi_link !== ""
                   ? "Expression of interest"
                   : ""
               }
-              href={blockData.is_open ? blockData.link : joinUsData.eoi_link}
+              href={blockData.is_open ? blockData.link : blockData.eoi_link}
               image={blockData.image.childImageSharp.fluid}
               key={index}
               // Example key would be 1 (index of the data)
