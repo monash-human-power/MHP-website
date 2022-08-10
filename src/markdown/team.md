@@ -109,7 +109,7 @@ subteam:
         photo: ../images/walt_liu.png
       - linkedIn: ""
         name: Dominic Bongiorno
-        degree: ""
+        degree: Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
@@ -119,27 +119,27 @@ subteam:
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Noah Alwyn
-        degree: ""
+        degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Anthony Joseph Micheletto
-        degree: ""
+        degree: Mechanical Engineering and Education
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Vinura Abeygunawardhane
-        degree: ""
+        degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Alex Pearson
-        degree: ""
+        degree: Chemical Engineering and Commerce
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Arsheda Ali
-        degree: ""
+        degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
   - subteamName: Electrical
@@ -176,17 +176,17 @@ subteam:
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Winnie Chui
-        degree: ""
+        degree: Software Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Mitchell De Nardis
-        degree: ""
+        degree: Aerospace Engineering and Computer Science
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Jessica Mark
-        degree: ""
+        degree: Software Engineering and Computer Science
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
@@ -196,7 +196,7 @@ subteam:
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Omar Afifi
-        degree: ""
+        degree: Electrical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
@@ -275,12 +275,12 @@ subteam:
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Ellen Lowery
-        degree: ""
+        degree: Master of Data Science
         position: Rider
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Jonte Armitstead
-        degree: ""
+        degree: Engineering
         position: Rider
         photo: ../images/000-placeholder-person.png
   - subteamName: Operations
@@ -307,12 +307,12 @@ subteam:
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Felipe Jiménez
-        degree: ""
+        degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Akbar Fadiansyah
-        degree: ""
+        degree: Software Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
@@ -327,7 +327,7 @@ subteam:
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Amanda Zhou
-        degree: ""
+        degree: Civil Engineering and Commerce
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
