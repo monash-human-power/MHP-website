@@ -4,7 +4,6 @@ import { Stepper } from "react-form-stepper";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
-import Button from "../components/button";
 import InfoBlock from "../components/info_block";
 
 const JoinUsPage = () => {

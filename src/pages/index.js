@@ -33,6 +33,7 @@ const IndexPage = () => {
           frontmatter {
             heading
             meta_page_description
+            recruitment_open
             recruitment_link
             recruitment_info
             recruitment_description
@@ -80,18 +81,20 @@ const IndexPage = () => {
       {/* Main content */}
       <div className="container mb-5">
         {/* Recruiting section */}
-        {/* TODO: REMOVE AT THE END OF RECRUITING */}
-        <InfoBlock
-          heading={"Join MHP!"}
-          description={indexData.recruitment_description}
-          buttonText2={"More info"}
-          href2={indexData.recruitment_info}
-          buttonText={"Apply Here!"}
-          href={indexData.recruitment_link}
-          image={data.allFile.edges[0].node.childImageSharp.fluid}
-          key={0}
-          reverseOrder={0}
-        />
+        {/* Use the recruitment_open toggle on index.md to show/hide this section */}
+        {indexData.recruitment_open && (
+          <InfoBlock
+            heading={"Join MHP!"}
+            description={indexData.recruitment_description}
+            buttonText2={"More info"}
+            href2={indexData.recruitment_info}
+            buttonText={"Apply Here!"}
+            href={indexData.recruitment_link}
+            image={data.allFile.edges[0].node.childImageSharp.fluid}
+            key={0}
+            reverseOrder={0}
+          />
+        )}
 
         {/* Info Blocks */}
         <div>
