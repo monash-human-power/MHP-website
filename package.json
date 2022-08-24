@@ -33,7 +33,9 @@
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^16.12.0",
+    "react-form-stepper": "^2.0.3",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.1.1"
   },
@@ -46,6 +48,7 @@
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
