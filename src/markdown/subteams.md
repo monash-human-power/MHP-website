@@ -42,16 +42,21 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_chassisdt_2.jpg
-  - name: Corporate
-    description:
-      The Corporate subteam identifies and engages the relevant external
-      stakeholders to effectively facilitate the operations of MHP. This
-      includes coordinating with sponsors and marketing the activities MHP. They
-      are also in charge of organising events to promote the missions of MHP,
-      such as our flagship 'Build a HPV' school outreach program which
-      encourages STEM pathways and educates students on sustainable transport.
-      The Corporate subteam provides support to the technical side of MHP and
-      their endeavours to efficiently manufacture the bike.
+  - name: Operations
+    description: The Operations subteam identifies and engages
+      external stakeholders to effectively facilitate the
+      operations of MHP. This includes coordinating
+      with sponsors and marketing the MHP activities.
+      They are also in charge of organising events to
+      promote the missions of MHP, such as our
+      flagship 'Build a HPV' school outreach program
+      which encourages STEM pathways and educates
+      students on sustainable transport. The Operations
+      subteam provides support to the technical side of
+      MHP and their endeavours to efficiently
+      manufacture the bike. Members of the operations subteam
+      are also highly involved in graphic design
+      and the branding of MHP.
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_corporate.jpg
