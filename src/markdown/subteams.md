@@ -2,6 +2,7 @@
 heading: Subteams
 meta_page_description: ""
 subteams:
+  # button_text = can be used to point people in the direction of a application for MHP
   - name: Rider Development
     description: "The Rider Development subteam focuses on maximising the
       performance of the rider. Composed of both riders and technical members,
@@ -10,8 +11,7 @@ subteams:
       to ride the recumbent bikes and physically test its mechanical and
       electrical systems. The Rider Development subteam is also in charge of
       organising and coordinating testing days at the Holden and Ford Proving
-      Grounds. "
-    # TODO: Remove once the application process is complete
+      Grounds."
     button_text: "Apply to become a Rider"
     button_href: https://forms.gle/gk1J7QKkQrUmCotN7
     image: ../images/subteam2021_riderdev.jpeg
@@ -27,7 +27,7 @@ subteams:
       improve the performance of the bike.
     button_text: ""
     button_href: ""
-    image: ../images/subteam2021_aero.jpg
+    image: ../images/subteam_aero.jpg
   - name: Chassis & Drive-train
     description:
       The Chassis & Drive-train subteam is responsible for the design and
@@ -87,5 +87,3 @@ subteams:
     button_href: ""
     image: ../images/subteam2021_materials_2.jpg
 ---
-
-# button_text = can be used to point people in the direction of a application for MHP
