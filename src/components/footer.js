@@ -43,7 +43,7 @@ const Footer = () => {
       ) {
         childMarkdownRemark {
           frontmatter {
-            recruitment_link
+            recruitment_info
           }
         }
       }
@@ -85,11 +85,10 @@ const Footer = () => {
               <FooterLink
                 to={
                   recruitment_data.file.childMarkdownRemark.frontmatter
-                    .recruitment_link
+                    .recruitment_info
                 }
               >
-                {" "}
-                Apply here
+                Recruitment page
               </FooterLink>
             </FooterParagraph>
           </div>

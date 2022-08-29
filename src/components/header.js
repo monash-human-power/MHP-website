@@ -73,8 +73,8 @@ const Header = () => {
     { title: "Outreach", link: "/outreach" },
     {
       title: "Join Us",
-      link:
-        data.recruitmentData.childMarkdownRemark.frontmatter.recruitment_link,
+      link: "/joinUs",
+      // data.recruitmentData.childMarkdownRemark.frontmatter.recruitment_link,
     },
   ];
 
