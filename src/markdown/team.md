@@ -40,11 +40,6 @@ subteam:
         degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/george-rubinstein-b659b51b7
-        name: George Rubinstein
-        degree: Aerospace Engineering
-        position: Team Member
-        photo: ../images/George_Rubinstein.jpg
       - linkedIn: https://www.linkedin.com/in/komal-gupta-524847198/
         name: Komal Gupta
         degree: Engineering and Science
@@ -242,11 +237,6 @@ subteam:
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
-        name: Jonathan La
-        degree: ""
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
         name: Kosei Liu
         degree: ""
         position: Team Member
@@ -323,11 +313,6 @@ subteam:
       - linkedIn: ""
         name: Frank Hutton
         degree: ""
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
-        name: Jack Graves
-        degree: Mechatronics Engineering and Commerce
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
