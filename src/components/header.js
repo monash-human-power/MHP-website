@@ -66,7 +66,7 @@ const Header = () => {
   `);
 
   const pageLinks = [
-    { title: "About", link: "/" },
+    { title: "About", link: "/about" },
     { title: "Team", link: "/team" },
     { title: "Bike", link: "/bike" },
     { title: "Subteams", link: "/subteams" },
