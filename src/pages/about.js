@@ -32,6 +32,12 @@ const AboutPage = () => {
               buttonText
               id
             }
+            subteams {
+              name
+              description
+              button_text
+              button_href
+            }
             image {
               childImageSharp {
                 fluid {
@@ -48,6 +54,7 @@ const AboutPage = () => {
 
   const aboutData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = aboutData.blocks;
+  const subteamsArray = data.file.childMarkdownRemark.frontmatter.subteams;
 
   return (
     <Layout>
@@ -74,7 +81,7 @@ const AboutPage = () => {
         </div>
 
         {/* Sub-Teams Section */}
-        <SubTeams className="my-5 py-5" />
+        <SubTeams className="my-5 py-5" subteamsArray={subteamsArray} />
       </div>
     </Layout>
   );

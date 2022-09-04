@@ -1,5 +1,4 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 
 import Button from "../button";
@@ -53,29 +52,7 @@ const SubTeamSquare = (
   </SubTeamBox>
 );
 
-const SubTeams = ({ className }) => {
-  const data = useStaticQuery(graphql`
-    query SubteamsQuery {
-      file(
-        relativePath: { eq: "index.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            subteams {
-              name
-              description
-              button_text
-              button_href
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  const subteamsArray = data.file.childMarkdownRemark.frontmatter.subteams;
-
+const SubTeams = ({ className, subteamsArray }) => {
   return (
     <div className={className}>
       {/* Subteams */}
