@@ -2,6 +2,14 @@
 heading: Monash Human Power
 image: ../images/V3_render_cool.png
 meta_page_description: ""
+
+splash:
+  heading: Pushing the boundaries of human-powered vehicles
+  body: Monash Human Power is a Monash engineering student team whose goal is to produce the fastest human powered vehicle in the world.
+  trailer_link: "https://youtube.com/embed/vsKBsVNKGyg"
+  about_link: ""
+  competitions_link: ""
+
 # Change this to true when recruitment are open
 recruitment_open: false
 recruitment_link: https://forms.gle/rA1Yco6HEWE6M8H69

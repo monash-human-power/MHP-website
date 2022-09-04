@@ -27,7 +27,7 @@ const AboutPage = () => {
 
   return (
     <Layout>
-      <SEO title="Subteams" description={aboutData.meta_page_description} />
+      <SEO title="About" description={aboutData.meta_page_description} />
       <SubpageHeading> {aboutData.heading} </SubpageHeading>
       {/* Main content */}
       <div className="container mb-5">Hello world</div>

@@ -8,6 +8,7 @@ import ContactForm from "../components/index/contact_form";
 import MainGraphic from "../components/index/main_graphic";
 import Sponsors from "../components/index/sponsors";
 import SubTeams from "../components/index/subteams";
+import Video from "../components/video";
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -33,6 +34,11 @@ const IndexPage = () => {
           frontmatter {
             heading
             meta_page_description
+            splash {
+              heading
+              body
+              trailer_link
+            }
             recruitment_open
             recruitment_link
             recruitment_info
@@ -66,6 +72,7 @@ const IndexPage = () => {
   `);
 
   const indexData = data.file.childMarkdownRemark.frontmatter;
+  const splashData = indexData.splash;
   const infoBlockArr = indexData.blocks;
 
   return (
@@ -80,6 +87,22 @@ const IndexPage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          className="row py-2"
+        >
+          <h2 style={{ textAlign: "center" }}>{splashData.heading}</h2>
+          <p style={{ textAlign: "center" }}>{splashData.body}</p>
+          <Video
+            videoSrcURL={splashData.trailer_link}
+            videoTitle={"MHP Trailer"}
+          />
+        </div>
+
         {/* Recruiting section */}
         {/* Use the recruitment_open toggle on index.md to show/hide this section */}
         {indexData.recruitment_open && (
