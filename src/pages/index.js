@@ -8,6 +8,7 @@ import ContactForm from "../components/index/contact_form";
 import MainGraphic from "../components/index/main_graphic";
 import Sponsors from "../components/index/sponsors";
 import Video from "../components/video";
+import Button from "../components/button";
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -37,6 +38,9 @@ const IndexPage = () => {
               heading
               body
               trailer_link
+              about_link
+              bike_link
+              competitions_link
             }
             recruitment_open
             recruitment_link
@@ -99,6 +103,20 @@ const IndexPage = () => {
             videoSrcURL={splashData.trailer_link}
             videoTitle={"MHP Trailer"}
           />
+        </div>
+
+        <div className="row py-2">
+          <div className="col mb-3">
+            <Button href={splashData.about_link}>About Us</Button>
+          </div>
+          <div className="col mb-3">
+            <Button href={splashData.bike_link}>Our Bikes</Button>
+          </div>
+          <div className="col mb-3">
+            <Button href={splashData.competitions_link}>
+              The Competitions
+            </Button>
+          </div>
         </div>
 
         {/* Recruiting section */}

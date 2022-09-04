@@ -45,4 +45,36 @@ blocks:
     id: outreach
     buttonText: Learn More
     href: /outreach
+
+subteams:
+  - name: Aerodynamics
+    description: Responsible for the design and testing of the external shell
+      (fairing) and other aerodynamic components of the bike.
+    button_text: ""
+    button_href: ""
+  - name: Corporate
+    description:
+      Works behind the scenes to support the technical side of the team
+      by coordinating marketing, events, and sponsorship.
+    button_text: ""
+    button_href: ""
+  - name: Chassis & Drive-train
+    description:
+      Responsible for the design and manufacture of the chassis and all
+      other mechanical components of the vehicle.
+    button_text: ""
+    button_href: ""
+  - name: Electrical
+    description: Responsible for the camera, internal display and the recording of data.
+    button_text: ""
+    button_href: ""
+  - name: Materials
+    description: Responsible for the prototyping and manufacture of the fairing.
+    button_text: ""
+    button_href: ""
+  - name: Rider Development
+    description: |
+      Focuses on maximising the performance of our riders.
+    button_text: ""
+    button_href: ""
 ---

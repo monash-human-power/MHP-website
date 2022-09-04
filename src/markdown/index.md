@@ -7,7 +7,8 @@ splash:
   heading: Pushing the boundaries of human-powered vehicles
   body: Monash Human Power is a Monash engineering student team whose goal is to produce the fastest human powered vehicle in the world.
   trailer_link: "https://youtube.com/embed/vsKBsVNKGyg"
-  about_link: ""
+  about_link: /about
+  bike_link: /bike
   competitions_link: ""
 
 # Change this to true when recruitment are open
@@ -15,6 +16,7 @@ recruitment_open: false
 recruitment_link: https://forms.gle/rA1Yco6HEWE6M8H69
 recruitment_info: /joinUs
 recruitment_description: "Monash Human Power's 2022 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
+
 subteams:
   - name: Aerodynamics
     description: Responsible for the design and testing of the external shell
