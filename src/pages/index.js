@@ -7,7 +7,6 @@ import InfoBlock from "../components/info_block";
 import ContactForm from "../components/index/contact_form";
 import MainGraphic from "../components/index/main_graphic";
 import Sponsors from "../components/index/sponsors";
-import SubTeams from "../components/index/subteams";
 import Video from "../components/video";
 
 const IndexPage = () => {
@@ -73,7 +72,6 @@ const IndexPage = () => {
 
   const indexData = data.file.childMarkdownRemark.frontmatter;
   const splashData = indexData.splash;
-  const infoBlockArr = indexData.blocks;
 
   return (
     <Layout>
@@ -118,28 +116,6 @@ const IndexPage = () => {
             reverseOrder={0}
           />
         )}
-
-        {/* Info Blocks */}
-        <div>
-          {infoBlockArr.map((blockData, index) => (
-            <InfoBlock
-              heading={blockData.heading}
-              description={blockData.description}
-              buttonText={blockData.buttonText}
-              href={blockData.href}
-              image={blockData.image.childImageSharp.fluid}
-              key={index}
-              // Example key would be 1 (index of the data)
-              id={blockData.id}
-              // Flips the order for every second block
-              reverseOrder={index % 2 === 0}
-            />
-          ))}
-        </div>
-
-        {/* Sub-Teams Section */}
-        <SubTeams className="my-5 py-5" />
-
         {/* Sponsor Section */}
         <Sponsors className="my-5 py-5" />
 
