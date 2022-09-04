@@ -34,8 +34,15 @@ const Sponsors = ({ className }) => {
   return (
     <div className={className}>
       {/* Sponsors */}
-      <div className="row">
-        <h2 className="p-3 outline-black-white-heading"> Sponsors </h2>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        className="row"
+      >
+        <h2 style={{ textAlign: "center" }}> Sponsors </h2>
       </div>
 
       <div className="row justify-content-md-center">

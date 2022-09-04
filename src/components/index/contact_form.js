@@ -3,9 +3,7 @@ import Button from "../button";
 import styled from "styled-components";
 
 const ContactUsHeading = styled.h2`
-  background: black;
-  color: white;
-  align-text: centre;
+  text-align: center;
 `;
 
 const ContactForm = ({ className }) => (

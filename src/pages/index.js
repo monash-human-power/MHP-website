@@ -9,6 +9,21 @@ import MainGraphic from "../components/index/main_graphic";
 import Sponsors from "../components/index/sponsors";
 import Video from "../components/video";
 import Button from "../components/button";
+import styled from "styled-components";
+
+const IndexHeading = styled.h2`
+  text-align: center;
+`;
+
+const IndexParagraph = styled.p`
+  text-align: center;
+`;
+
+const IndexSection = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -89,21 +104,14 @@ const IndexPage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-          className="row py-2"
-        >
-          <h2 style={{ textAlign: "center" }}>{splashData.heading}</h2>
-          <p style={{ textAlign: "center" }}>{splashData.body}</p>
+        <IndexSection className="row py-2">
+          <IndexHeading>{splashData.heading}</IndexHeading>
+          <IndexParagraph>{splashData.body}</IndexParagraph>
           <Video
             videoSrcURL={splashData.trailer_link}
             videoTitle={"MHP Trailer"}
           />
-        </div>
+        </IndexSection>
 
         <div className="row py-2">
           <div className="col mb-3">
@@ -121,6 +129,7 @@ const IndexPage = () => {
 
         {/* Recruiting section */}
         {/* Use the recruitment_open toggle on index.md to show/hide this section */}
+
         {indexData.recruitment_open && (
           <InfoBlock
             heading={"Join MHP!"}
