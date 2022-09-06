@@ -52,7 +52,7 @@ subteams:
       (fairing) and other aerodynamic components of the bike.
     button_text: ""
     button_href: ""
-  - name: Corporate
+  - name: Operations
     description:
       Works behind the scenes to support the technical side of the team
       by coordinating marketing, events, and sponsorship.
