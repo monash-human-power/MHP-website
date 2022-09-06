@@ -85,15 +85,15 @@ const AboutPage = () => {
           ))}
         </div>
 
-        {/* Sub-Teams Section */}
-        <SubTeams className="mb-5" subteamsArray={subteamsArray} />
-
         {/* Our values section */}
         <NumberedTextGrid
           className="mb-5"
           gridHeading="Our Values"
           cellArray={valuesArray}
         />
+
+        {/* Sub-Teams Section */}
+        <SubTeams className="mb-5" subteamsArray={subteamsArray} />
       </div>
     </Layout>
   );
