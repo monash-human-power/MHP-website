@@ -132,11 +132,6 @@ subteam:
         degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
-        name: Walt Liu
-        degree: Mechanical Enginering and Industrial Design
-        position: Team Member
-        photo: ../images/walt_liu.png
   - subteamName: Electrical
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/hallgchris
