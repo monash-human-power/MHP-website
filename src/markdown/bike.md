@@ -9,7 +9,7 @@ bikes:
       improvements to almost every aspect compared to the previous generation.
     start_year: 2019
     end_year: 2022
-    top_speed_km: --
+    top_speed_km: "87.4"
     image: ../images/bike_v3.jpg
   - name: Wombat
     version: 2
