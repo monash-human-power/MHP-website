@@ -52,7 +52,10 @@ const SubTeamSquare = (
   </SubTeamBox>
 );
 
+const SUBTEAMS_PER_ROW = 3;
+
 const SubTeams = ({ className, subteamsArray }) => {
+  let numRows = Math.ceil(subteamsArray.length / SUBTEAMS_PER_ROW);
   return (
     <div className={className}>
       {/* Subteams */}
@@ -60,9 +63,16 @@ const SubTeams = ({ className, subteamsArray }) => {
         <h2 className="p-3 outline-black-white-heading"> Subteams </h2>
       </div>
 
-      {/* TODO: This is bad, really need to change :( */}
-      <div className="row">{subteamsArray.slice(0, 3).map(SubTeamSquare)}</div>
-      <div className="row">{subteamsArray.slice(3, 6).map(SubTeamSquare)}</div>
+      {/* Dynamically generate subteam cells */}
+      {[...Array(numRows).keys()].map(row => {
+        return (
+          <div className="row">
+            {subteamsArray
+              .slice(row * SUBTEAMS_PER_ROW, (row + 1) * SUBTEAMS_PER_ROW)
+              .map(SubTeamSquare)}
+          </div>
+        );
+      })}
     </div>
   );
 };
