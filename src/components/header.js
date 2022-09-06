@@ -70,6 +70,7 @@ const Header = () => {
     { title: "Team", link: "/team" },
     { title: "Bike", link: "/bike" },
     { title: "Subteams", link: "/subteams" },
+    { title: "Competitions", link: "/competitions" },
     { title: "Outreach", link: "/outreach" },
     {
       title: "Join Us",
