@@ -77,4 +77,9 @@ subteams:
       Focuses on maximising the performance of our riders.
     button_text: ""
     button_href: ""
+
+our_values:
+  - content: Quality
+  - content: Consistency
+  - content: Making something we can all be proud of
 ---

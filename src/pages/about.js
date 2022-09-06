@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 import SubTeams from "../components/index/subteams";
+import NumberedTextGrid from "../components/index/numbered_text_grid";
 
 const AboutPage = () => {
   const data = useStaticQuery(graphql`
@@ -38,6 +39,9 @@ const AboutPage = () => {
               button_text
               button_href
             }
+            our_values {
+              content
+            }
             image {
               childImageSharp {
                 fluid {
@@ -54,7 +58,8 @@ const AboutPage = () => {
 
   const aboutData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = aboutData.blocks;
-  const subteamsArray = data.file.childMarkdownRemark.frontmatter.subteams;
+  const subteamsArray = aboutData.subteams;
+  const valuesArray = aboutData.our_values;
 
   return (
     <Layout>
@@ -81,7 +86,14 @@ const AboutPage = () => {
         </div>
 
         {/* Sub-Teams Section */}
-        <SubTeams className="my-5 py-5" subteamsArray={subteamsArray} />
+        <SubTeams className="mb-5" subteamsArray={subteamsArray} />
+
+        {/* Our values section */}
+        <NumberedTextGrid
+          className="mb-5"
+          gridHeading="Our Values"
+          cellArray={valuesArray}
+        />
       </div>
     </Layout>
   );
