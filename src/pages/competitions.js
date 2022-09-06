@@ -17,6 +17,20 @@ const CompetitionsPage = () => {
           frontmatter {
             heading
             meta_page_description
+            blocks {
+              image {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              href
+              heading
+              description
+              buttonText
+              id
+            }
           }
         }
       }
@@ -24,6 +38,7 @@ const CompetitionsPage = () => {
   `);
 
   const competitionsData = data.file.childMarkdownRemark.frontmatter;
+  const infoBlockArr = competitionsData.blocks;
 
   return (
     <Layout>
@@ -35,14 +50,22 @@ const CompetitionsPage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
-        {/* Current competitions */}
-        <div className="my-5 py-5">
-          <div className="row">
-            <h2 className="p-3 outline-black-white-heading">
-              {" "}
-              Current Competitions{" "}
-            </h2>
-          </div>
+        {/* Info Blocks */}
+        <div>
+          {infoBlockArr.map((blockData, index) => (
+            <InfoBlock
+              heading={blockData.heading}
+              description={blockData.description}
+              buttonText={blockData.buttonText}
+              href={blockData.href}
+              image={blockData.image.childImageSharp.fluid}
+              key={index}
+              // Example key would be 1 (index of the data)
+              id={blockData.id}
+              // Flips the order for every second block
+              reverseOrder={index % 2 === 0}
+            />
+          ))}
         </div>
       </div>
     </Layout>

@@ -22,15 +22,12 @@ blocks:
     image: ../images/our-mission.jpeg
     href: /bike
     id: bike
-  - heading: The Competition
-    description: The World Human Powered Speed Challenge takes place annually at
-      Battle Mountain, Nevada. Teams from around the world gather on State Route
-      305 in a quest to break the human-powered land speed record. The current
-      world record in this competition is 144 km/h.
-    buttonText: See the Competition
+  - heading: The Competitions
+    description: MHP participates in several HPV competitions in Australia and around the world, such as the World Human Powered Speed Challenge in Nevada.
+    buttonText: See the Competitions
     image: ../images/battle_mountain_2020_poster4.jpg
-    href: http://www.ihpva.org/home/
-    id: race
+    href: /competitions
+    id: competitions
   - heading: Outreach
     description:
       Monash Human Power is proud to offer a robust schools program that
@@ -71,8 +68,7 @@ subteams:
     button_text: ""
     button_href: ""
   - name: Rider Development
-    description: |
-      Focuses on maximising the performance of our riders.
+    description: Focuses on maximising the performance of our riders.
     button_text: ""
     button_href: ""
 
