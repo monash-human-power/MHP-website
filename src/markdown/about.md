@@ -14,12 +14,10 @@ blocks:
     id: team
   - heading: Our Mission
     description: Our team is aiming to break the Australian HPV F200 land speed
-      record of 94.6km/h. This year marks our largest recruitment to date,
-      bringing our team up to 60 interdisciplinary students. We take pride in
-      developing industry-ready graduates through our collaborative design and
-      manufacturing process. We believe that HPV provides a relevant and
-      immersive framework for learning STEM and we use this framework to promote
-      sustainability in schools.
+      record of 96.7 km/h, as well as represent Australia at the World Human Powered Vehicle Speed Challenge in Las
+      Vegas, NV. We take pride in developing industry-ready graduates through our collaborative design and manufacturing
+      process. We believe that HPV provides a relevant and immersive framework for learning STEM and we use this
+      framework to promote sustainability in schools.
     buttonText: See the bike
     image: ../images/our-mission.jpeg
     href: /bike
