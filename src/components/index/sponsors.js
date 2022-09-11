@@ -2,6 +2,7 @@ import React from "react";
 import Link from "../link";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
+import { SectionHeading } from "../content";
 
 const Sponsors = ({ className }) => {
   const data = useStaticQuery(graphql`
@@ -42,7 +43,7 @@ const Sponsors = ({ className }) => {
         }}
         className="row"
       >
-        <h2 style={{ textAlign: "center" }}> Sponsors </h2>
+        <SectionHeading>Sponsors</SectionHeading>
       </div>
 
       <div className="row justify-content-md-center">

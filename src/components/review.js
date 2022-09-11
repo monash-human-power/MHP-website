@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { CenteredSection, SectionHeading } from "./content";
 
 const ReviewCol = styled.div`
   border: 1px solid black;
@@ -31,9 +32,9 @@ const ReviewGrid = ({ className, reviewsArray }) => {
   let numRows = Math.ceil(reviewsArray.length / CELLS_PER_ROW);
   return (
     <div className={className}>
-      <div className="row">
-        <h2 className="p-3 outline-black-white-heading">Reviews</h2>
-      </div>
+      <CenteredSection className="row p-3">
+        <SectionHeading>Reviews</SectionHeading>
+      </CenteredSection>
       {/* Dynamically generate cells */}
       {[...Array(numRows).keys()].map(row => {
         return (

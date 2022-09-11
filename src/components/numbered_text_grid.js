@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { CenteredSection, SectionHeading } from "./content";
 
 const TextCellBox = styled.div`
   border: 1px solid black;
@@ -33,6 +34,7 @@ const TextCellHeading = styled.p`
 
 const TextCell = ({ heading, content }, index, startIndex, showNumber) => (
   <TextCellBox className="col-md m-2 p-3" key={index}>
+    {/* only show number if enabled */}
     {showNumber && (
       <div className="row">
         <div className="col d-flex justify-content-center">
@@ -78,9 +80,9 @@ const NumberedTextGrid = ({
   console.log(JSON.stringify(cellArray));
   return (
     <div className={className}>
-      <div className="row">
-        <h2 className="p-3 outline-black-white-heading">{gridHeading}</h2>
-      </div>
+      <CenteredSection className="row p-3">
+        <SectionHeading>{gridHeading}</SectionHeading>
+      </CenteredSection>
 
       {/* Dynamically generate cells */}
       {[...Array(numRows).keys()].map(row => {

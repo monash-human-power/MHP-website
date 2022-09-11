@@ -10,14 +10,7 @@ import Sponsors from "../components/index/sponsors";
 import Video from "../components/video";
 import Button from "../components/button";
 import styled from "styled-components";
-
-const IndexHeading = styled.h2`
-  text-align: center;
-`;
-
-const IndexParagraph = styled.p`
-  text-align: center;
-`;
+import { SectionHeading, SectionParagraph } from "../components/content";
 
 const IndexSection = styled.div`
   display: flex;
@@ -105,8 +98,8 @@ const IndexPage = () => {
       {/* Main content */}
       <div className="container mb-5">
         <IndexSection className="row py-2">
-          <IndexHeading>{splashData.heading}</IndexHeading>
-          <IndexParagraph>{splashData.body}</IndexParagraph>
+          <SectionHeading>{splashData.heading}</SectionHeading>
+          <SectionParagraph>{splashData.body}</SectionParagraph>
           <Video
             videoSrcURL={splashData.trailer_link}
             videoTitle={"MHP Trailer"}

@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
 import InfoBlock from "../components/info_block";
 import NumberedTextGrid from "../components/numbered_text_grid";
+import { CenteredSection, SectionHeading } from "../components/content";
 
 const JoinUsPage = () => {
   const data = useStaticQuery(graphql`
@@ -110,10 +111,10 @@ const JoinUsPage = () => {
 
         {/* FAQs */}
         <div className="mb-5">
-          <div className="row">
-            <h2 className="p-3 outline-black-white-heading">FAQ</h2>
-          </div>
-          <div className="row m-4">
+          <CenteredSection className="row p-3">
+            <SectionHeading>FAQ</SectionHeading>
+          </CenteredSection>
+          <div className="row mb-4">
             <div className="col">
               <div className="accordion" id="accordionFAQ">
                 {faqsArr.map((faqsData, index) => (

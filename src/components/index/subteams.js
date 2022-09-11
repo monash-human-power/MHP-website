@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import Button from "../button";
+import { CenteredSection, SectionHeading } from "../content";
 
 const SubTeamBox = styled.div`
   // Clickable cursor look
@@ -59,9 +60,9 @@ const SubTeams = ({ className, subteamsArray }) => {
   return (
     <div className={className}>
       {/* Subteams */}
-      <div className="row">
-        <h2 className="p-3 outline-black-white-heading"> Subteams </h2>
-      </div>
+      <CenteredSection className="row p-3">
+        <SectionHeading> Subteams </SectionHeading>
+      </CenteredSection>
 
       {/* Dynamically generate subteam cells */}
       {[...Array(numRows).keys()].map(row => {
