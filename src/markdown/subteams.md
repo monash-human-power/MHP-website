@@ -13,7 +13,7 @@ subteams:
       organising and coordinating testing days at the Holden and Ford Proving
       Grounds."
     button_text: "Apply to become a Rider"
-    button_href: https://forms.gle/gk1J7QKkQrUmCotN7
+    button_href: /joinUs#rider-recruitment
     image: ../images/subteam2021_riderdev.jpeg
   - name: Aerodynamics
     description: The Aerodynamics subteam at MHP is chiefly responsible for the

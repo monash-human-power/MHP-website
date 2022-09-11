@@ -25,6 +25,7 @@ const JoinUsPage = () => {
               link
               more_info_link
               eoi_link
+              id
               image {
                 childImageSharp {
                   fluid {
@@ -86,7 +87,7 @@ const JoinUsPage = () => {
               image={blockData.image.childImageSharp.fluid}
               key={index}
               // Example key would be 1 (index of the data)
-              id={index}
+              id={blockData.id}
               // Flips the order for every second block
               reverseOrder={index % 2 === 1}
             />

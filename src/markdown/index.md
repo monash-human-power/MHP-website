@@ -14,7 +14,7 @@ splash:
 
 # Change this to true when recruitment are open
 recruitment_open: false
-recruitment_link: https://forms.gle/rA1Yco6HEWE6M8H69
+recruitment_link: /joinUs#general-recruitment
 recruitment_info: /joinUs
 recruitment_description: "Monash Human Power's 2022 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
 
