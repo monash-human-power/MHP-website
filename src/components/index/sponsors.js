@@ -54,6 +54,8 @@ const Sponsors = ({ className }) => {
                 // TODO: Find out why this works
                 className="m-4 mx-auto"
                 fluid={sponsorObj.image.childImageSharp.fluid}
+                alt={`Logo of ${sponsorObj.name}`}
+                title={sponsorObj.name}
               />
             </Link>
           </div>
