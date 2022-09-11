@@ -55,19 +55,20 @@ const TextCell = ({ heading, content }, index, startIndex) => (
   </TextCellBox>
 );
 
-const DEFAULT_cellsPerRow = 3;
+const DEFAULT_CELLS_PER_ROW = 3;
 
 /**
  * Text grid with a number on top of it.
  * @param className CSS class name for this component
  * @param gridHeading heading for the entire grid
  * @param cellArray an array of text as object {content}
+ * @param cellsPerRow number of cells in each row. Defaults to 3
  */
 const NumberedTextGrid = ({
   className,
   gridHeading,
   cellArray,
-  cellsPerRow = DEFAULT_cellsPerRow,
+  cellsPerRow = DEFAULT_CELLS_PER_ROW,
 }) => {
   let numRows = Math.ceil(cellArray.length / cellsPerRow);
   console.log(JSON.stringify(cellArray));

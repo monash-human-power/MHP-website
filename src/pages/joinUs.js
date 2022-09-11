@@ -108,36 +108,40 @@ const JoinUsPage = () => {
         />
 
         {/* FAQs */}
-        <div className="row m-4">
-          <div className="col">
-            <h2 className="p-4 text-center">FAQ</h2>
-            <div className="accordion" id="accordionFAQ">
-              {faqsArr.map((faqsData, index) => (
-                <div className="card m-1">
-                  <div className="card-header" id={`${index}`}>
-                    <h2 className="mb-0">
-                      <button
-                        className="btn btn-block text-left"
-                        data-toggle="collapse"
-                        data-target={`#collapse${index}`}
-                        aria-expanded="true"
-                        aria-controls={`collapse${index}`}
-                      >
-                        {faqsData.question}
-                      </button>
-                    </h2>
+        <div className="mb-5">
+          <div className="row">
+            <h2 className="p-3 outline-black-white-heading">FAQ</h2>
+          </div>
+          <div className="row m-4">
+            <div className="col">
+              <div className="accordion" id="accordionFAQ">
+                {faqsArr.map((faqsData, index) => (
+                  <div className="card m-1">
+                    <div className="card-header" id={`${index}`}>
+                      <h2 className="mb-0">
+                        <button
+                          className="btn btn-block text-left"
+                          data-toggle="collapse"
+                          data-target={`#collapse${index}`}
+                          aria-expanded="true"
+                          aria-controls={`collapse${index}`}
+                        >
+                          {faqsData.question}
+                        </button>
+                      </h2>
+                    </div>
+                    {/* Set class below to "collapse show" to make not hide the contents by default */}
+                    <div
+                      id={`collapse${index}`}
+                      className="collapse"
+                      aria-labelledby={`heading${index}`}
+                      data-parent="#accordionFAQ"
+                    >
+                      <div className="card-body">{faqsData.answer}</div>
+                    </div>
                   </div>
-                  {/* Set class below to "collapse show" to make not hide the contents by default */}
-                  <div
-                    id={`collapse${index}`}
-                    className="collapse"
-                    aria-labelledby={`heading${index}`}
-                    data-parent="#accordionFAQ"
-                  >
-                    <div className="card-body">{faqsData.answer}</div>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
