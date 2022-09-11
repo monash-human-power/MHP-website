@@ -25,7 +25,7 @@ blocks:
   - heading: The Competitions
     description: MHP participates in several HPV competitions in Australia and around the world, such as the World Human Powered Speed ChalMaking something we can all be proud oflenge in Nevada.
     buttonText: See the Competitions
-    image: ../images/battle_mountain_2020_poster4.jpg
+    image: ../images/competitions-about.jpg
     href: /competitions
     id: competitions
   - heading: Outreach
