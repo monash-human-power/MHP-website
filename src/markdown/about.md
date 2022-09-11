@@ -23,7 +23,7 @@ blocks:
     href: /bike
     id: bike
   - heading: The Competitions
-    description: MHP participates in several HPV competitions in Australia and around the world, such as the World Human Powered Speed Challenge in Nevada.
+    description: MHP participates in several HPV competitions in Australia and around the world, such as the World Human Powered Speed ChalMaking something we can all be proud oflenge in Nevada.
     buttonText: See the Competitions
     image: ../images/battle_mountain_2020_poster4.jpg
     href: /competitions
@@ -74,6 +74,6 @@ subteams:
 
 our_values:
   - content: Quality
+  - content: Pride
   - content: Consistency
-  - content: Making something we can all be proud of
 ---

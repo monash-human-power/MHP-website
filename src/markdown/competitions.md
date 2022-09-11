@@ -11,4 +11,9 @@ blocks:
     image: ../images/whpsc-2022.jpg
     href: http://www.ihpva.org/whpsc/index.htm
     id: whpsc
+  - heading: OzHPV Speed Trials
+    description: The OzHPV Challenge is a series of races to determine the best combination of human powered vehicle and rider. It is held at the Ford Proving Grounds in You Yangs, Victoria. The current Australian record for this competition is 96.68 km/h.
+    buttonText: Learn More
+    image: ../images/ozhpv.png
+    href: https://www.ozhpv.org.au/
 ---
