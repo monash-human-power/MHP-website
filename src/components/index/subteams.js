@@ -31,7 +31,7 @@ const SubTeamSquare = (
     className="col-md m-2 p-3"
     key={index}
     onClick={() => {
-      window.location.href = `subteams/#${encodeURI(name)}`;
+      window.location.href = `subteams#${encodeURI(name)}`;
     }}
   >
     <div className="row">
