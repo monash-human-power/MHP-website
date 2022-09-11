@@ -47,30 +47,36 @@ subteams:
       (fairing) and other aerodynamic components of the bike.
     button_text: ""
     button_href: ""
+    id: aerodynamics
   - name: Operations
     description:
       Works behind the scenes to support the technical side of the team
       by coordinating marketing, events, and sponsorship.
     button_text: ""
     button_href: ""
+    id: operations
   - name: Chassis & Drive-train
     description:
       Responsible for the design and manufacture of the chassis and all
       other mechanical components of the vehicle.
     button_text: ""
     button_href: ""
+    id: chassis-drivetrain
   - name: Electrical
     description: Responsible for the camera, internal display and the recording of data.
     button_text: ""
     button_href: ""
+    id: electrical
   - name: Materials
     description: Responsible for the prototyping and manufacture of the fairing.
     button_text: ""
     button_href: ""
+    id: materials
   - name: Rider Development
     description: Focuses on maximising the performance of our riders.
     button_text: ""
     button_href: ""
+    id: rider-development
 
 our_values:
   - heading: Quality

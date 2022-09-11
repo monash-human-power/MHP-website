@@ -38,6 +38,7 @@ const AboutPage = () => {
               description
               button_text
               button_href
+              id
             }
             our_values {
               heading

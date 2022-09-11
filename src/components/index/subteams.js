@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Button from "../button";
 import { CenteredSection, SectionHeading } from "../content";
@@ -21,35 +22,38 @@ const SubTeamBox = styled.div`
 `;
 
 const SubTeamBoxHeading = styled.h2`
+  color: black;
+  text-decoration: none;
   font-size: 1.4rem;
 `;
 
+const SubTeamBoxContent = styled.p`
+  color: black;
+  text-decoration: none;
+`;
+
 const SubTeamSquare = (
-  { name, description, button_text, button_href },
+  { name, description, button_text, button_href, id },
   index
 ) => (
-  <SubTeamBox
-    className="col-md m-2 p-3"
-    key={index}
-    onClick={() => {
-      window.location.href = `subteams#${encodeURI(name)}`;
-    }}
-  >
-    <div className="row">
-      <div className="col">
-        <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
-        <p>{description}</p>
+  <SubTeamBox className="col-md m-2 p-3" key={index}>
+    <AnchorLink to={`/subteams#${id}`}>
+      <div className="row">
+        <div className="col">
+          <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
+          <SubTeamBoxContent>{description}</SubTeamBoxContent>
+        </div>
       </div>
-    </div>
 
-    <div className="row">
-      <div className="col">
-        {/* Button is hidable if nothing is added aka "" */}
-        {button_text !== "" && (
-          <Button href={button_href}>{button_text}</Button>
-        )}
+      <div className="row">
+        <div className="col">
+          {/* Button is hidable if nothing is added aka "" */}
+          {button_text !== "" && (
+            <Button href={button_href}>{button_text}</Button>
+          )}
+        </div>
       </div>
-    </div>
+    </AnchorLink>
   </SubTeamBox>
 );
 
