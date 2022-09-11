@@ -40,6 +40,7 @@ const AboutPage = () => {
               button_href
             }
             our_values {
+              heading
               content
             }
             image {

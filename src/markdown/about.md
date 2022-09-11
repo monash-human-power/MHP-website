@@ -73,7 +73,10 @@ subteams:
     button_href: ""
 
 our_values:
-  - content: Quality
-  - content: Pride
-  - content: Consistency
+  - heading: Quality
+    content: ""
+  - heading: Pride
+    content: ""
+  - heading: Consistency
+    content: ""
 ---

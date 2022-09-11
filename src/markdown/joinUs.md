@@ -21,6 +21,16 @@ recruitment_categories:
     id: general-recruitment
     image: ../images/subteam2021_corporate.jpg
 
+recruitment_process:
+  - heading: Apply
+    content: ""
+  - heading: Interview Invite
+    content: ""
+  - heading: Interview
+    content: ""
+  - heading: Result
+    content: ""
+
 FAQs:
   - question: "When does MHP Recruit?"
     answer: "MHP recruitment opens up every 6 months for our general positions. Rider recruitment is done on an ongoing basis and is open all year round. Be sure to check our social media and this website for updates."

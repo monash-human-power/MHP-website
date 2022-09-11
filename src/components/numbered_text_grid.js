@@ -25,29 +25,37 @@ const NumberCircle = styled.div`
   color: white;
 `;
 
-const TextCellContent = styled.p`
+const TextCellHeading = styled.p`
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
 `;
 
-const TextCell = ({ content }, index) => (
+const TextCell = ({ heading, content }, index, startIndex) => (
   <TextCellBox className="col-md m-2 p-3" key={index}>
     <div className="row">
       <div className="col d-flex justify-content-center">
-        <NumberCircle>{index + 1}</NumberCircle>
+        <NumberCircle>{startIndex + index + 1}</NumberCircle>
       </div>
     </div>
 
     <div className="row">
       <div className="col d-flex justify-content-center">
-        <TextCellContent>{content}</TextCellContent>
+        <TextCellHeading>{heading}</TextCellHeading>
       </div>
     </div>
+
+    {content !== "" && (
+      <div className="row">
+        <div className="col d-flex justify-content-center">
+          <p>{content}</p>
+        </div>
+      </div>
+    )}
   </TextCellBox>
 );
 
-const CELLS_PER_ROW = 3;
+const DEFAULT_cellsPerRow = 3;
 
 /**
  * Text grid with a number on top of it.
@@ -55,8 +63,13 @@ const CELLS_PER_ROW = 3;
  * @param gridHeading heading for the entire grid
  * @param cellArray an array of text as object {content}
  */
-const NumberedTextGrid = ({ className, gridHeading, cellArray }) => {
-  let numRows = Math.ceil(cellArray.length / CELLS_PER_ROW);
+const NumberedTextGrid = ({
+  className,
+  gridHeading,
+  cellArray,
+  cellsPerRow = DEFAULT_cellsPerRow,
+}) => {
+  let numRows = Math.ceil(cellArray.length / cellsPerRow);
   console.log(JSON.stringify(cellArray));
   return (
     <div className={className}>
@@ -69,8 +82,10 @@ const NumberedTextGrid = ({ className, gridHeading, cellArray }) => {
         return (
           <div className="row">
             {cellArray
-              .slice(row * CELLS_PER_ROW, (row + 1) * CELLS_PER_ROW)
-              .map(TextCell)}
+              .slice(row * cellsPerRow, (row + 1) * cellsPerRow)
+              .map((cell, index) => {
+                return TextCell(cell, index, row * cellsPerRow);
+              })}
           </div>
         );
       })}

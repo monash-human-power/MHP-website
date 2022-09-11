@@ -1,10 +1,10 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { Stepper } from "react-form-stepper";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
 import InfoBlock from "../components/info_block";
+import NumberedTextGrid from "../components/numbered_text_grid";
 
 const JoinUsPage = () => {
   const data = useStaticQuery(graphql`
@@ -34,6 +34,10 @@ const JoinUsPage = () => {
                 }
               }
             }
+            recruitment_process {
+              heading
+              content
+            }
             FAQs {
               question
               answer
@@ -46,6 +50,7 @@ const JoinUsPage = () => {
 
   const joinUsData = data.file.childMarkdownRemark.frontmatter;
   const recruitmentArr = joinUsData.recruitment_categories;
+  const recruitmentProcessArr = joinUsData.recruitment_process;
   const faqsArr = joinUsData.FAQs;
 
   return (
@@ -95,21 +100,12 @@ const JoinUsPage = () => {
         </div>
 
         {/* Recruitment Process */}
-        <div className="row m-4">
-          <div className="col text-center">
-            <h2 className="p-3">Recruitment Process</h2>
-            <Stepper
-              steps={[
-                { label: "Apply" },
-                { label: "Interview Invite" },
-                { label: "Interview" },
-                { label: "Result" },
-              ]}
-              activeColor="#37279e"
-              activeStep={3}
-            />
-          </div>
-        </div>
+        <NumberedTextGrid
+          className="mb-5"
+          gridHeading="Recruitment Process"
+          cellArray={recruitmentProcessArr}
+          cellsPerRow={4}
+        />
 
         {/* FAQs */}
         <div className="row m-4">
