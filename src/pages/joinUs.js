@@ -105,6 +105,7 @@ const JoinUsPage = () => {
           gridHeading="Recruitment Process"
           cellArray={recruitmentProcessArr}
           cellsPerRow={4}
+          showNumber={true}
         />
 
         {/* FAQs */}

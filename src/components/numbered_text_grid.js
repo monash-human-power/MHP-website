@@ -31,13 +31,15 @@ const TextCellHeading = styled.p`
   text-align: center;
 `;
 
-const TextCell = ({ heading, content }, index, startIndex) => (
+const TextCell = ({ heading, content }, index, startIndex, showNumber) => (
   <TextCellBox className="col-md m-2 p-3" key={index}>
-    <div className="row">
-      <div className="col d-flex justify-content-center">
-        <NumberCircle>{startIndex + index + 1}</NumberCircle>
+    {showNumber && (
+      <div className="row">
+        <div className="col d-flex justify-content-center">
+          <NumberCircle>{startIndex + index + 1}</NumberCircle>
+        </div>
       </div>
-    </div>
+    )}
 
     <div className="row">
       <div className="col d-flex justify-content-center">
@@ -63,12 +65,14 @@ const DEFAULT_CELLS_PER_ROW = 3;
  * @param gridHeading heading for the entire grid
  * @param cellArray an array of text as object {content}
  * @param cellsPerRow number of cells in each row. Defaults to 3
+ * @param showNumber show a number for each cell
  */
 const NumberedTextGrid = ({
   className,
   gridHeading,
   cellArray,
   cellsPerRow = DEFAULT_CELLS_PER_ROW,
+  showNumber = false,
 }) => {
   let numRows = Math.ceil(cellArray.length / cellsPerRow);
   console.log(JSON.stringify(cellArray));
@@ -85,7 +89,7 @@ const NumberedTextGrid = ({
             {cellArray
               .slice(row * cellsPerRow, (row + 1) * cellsPerRow)
               .map((cell, index) => {
-                return TextCell(cell, index, row * cellsPerRow);
+                return TextCell(cell, index, row * cellsPerRow, showNumber);
               })}
           </div>
         );
