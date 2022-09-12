@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
-import styled from "styled-components";
 import InfoBlock from "../components/info_block";
 import ContactForm from "../components/index/contact_form";
 import ReviewGrid from "../components/review";
