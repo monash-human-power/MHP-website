@@ -13,8 +13,9 @@ subteams:
       organising and coordinating testing days at the Holden and Ford Proving
       Grounds."
     button_text: "Apply to become a Rider"
-    button_href: https://forms.gle/gk1J7QKkQrUmCotN7
+    button_href: /joinUs#rider-recruitment
     image: ../images/subteam2021_riderdev.jpeg
+    id: rider-development
   - name: Aerodynamics
     description: The Aerodynamics subteam at MHP is chiefly responsible for the
       design and testing of the aerodynamic components of the bike, such as the
@@ -28,6 +29,7 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam_aero.jpg
+    id: aerodynamics
   - name: Chassis & Drive-train
     description:
       The Chassis & Drive-train subteam is responsible for the design and
@@ -42,6 +44,7 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_chassisdt_2.jpg
+    id: chassis-drivetrain
   - name: Operations
     description: The Operations subteam identifies and engages
       external stakeholders to effectively facilitate the operations of MHP. This includes coordinating with sponsors
@@ -53,6 +56,7 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_corporate.jpg
+    id: operations
   - name: Electrical
     description: The Electrical subteam handles both the electrical and software
       aspects of the bike. They design the camera and data acquisition system to
@@ -65,6 +69,7 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_electrical.jpg
+    id: electrical
   - name: Materials
     description:
       The primary purpose of the Materials subteam is to prototype and
@@ -79,4 +84,5 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_materials_2.jpg
+    id: materials
 ---

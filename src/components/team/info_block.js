@@ -34,7 +34,7 @@ const TeamPage_InfoBlock = ({
     <Centered> {position} </Centered>
 
     {/* Image component */}
-    <Img fluid={photo} />
+    <Img fluid={photo} alt={`Photo of ${name}`} />
 
     {/* Name, degree and linkedIn heading */}
     <Centered> {name} </Centered>
