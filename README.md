@@ -66,6 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/angieaulia"><img src="https://avatars2.githubusercontent.com/u/71426239?v=4?s=100" width="100px;" alt=""/><br /><sub><b>angieaulia</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=angieaulia" title="Code">💻</a> <a href="#content-angieaulia" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/kdav108"><img src="https://avatars.githubusercontent.com/u/63642262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kunj Dave</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=kdav108" title="Code">💻</a> <a href="#content-kdav108" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/bahar-ap"><img src="https://avatars.githubusercontent.com/u/81912681?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bahar-ap</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=bahar-ap" title="Code">💻</a> <a href="#content-bahar-ap" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/megascrapper"><img src="https://avatars.githubusercontent.com/u/34503494?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akbar Fadiansyah</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=megascrapper" title="Code">💻</a> <a href="#content-megascrapper" title="Content">🖋</a></td>
   </tr>
 </table>
 
