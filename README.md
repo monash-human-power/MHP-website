@@ -64,6 +64,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Blake-Haydon"><img src="https://avatars2.githubusercontent.com/u/23159604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Blake</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Code">💻</a> <a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/clarayew"><img src="https://avatars0.githubusercontent.com/u/71205412?v=4?s=100" width="100px;" alt=""/><br /><sub><b>clarayew</b></sub></a><br /><a href="#content-clarayew" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/angieaulia"><img src="https://avatars2.githubusercontent.com/u/71426239?v=4?s=100" width="100px;" alt=""/><br /><sub><b>angieaulia</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=angieaulia" title="Code">💻</a> <a href="#content-angieaulia" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/kdav108"><img src="https://avatars.githubusercontent.com/u/63642262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kunj Dave</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=kdav108" title="Code">💻</a> <a href="#content-kdav108" title="Content">🖋</a></td>
   </tr>
 </table>
 
