@@ -2,6 +2,7 @@
 heading: Subteams
 meta_page_description: ""
 subteams:
+  # button_text = can be used to point people in the direction of a application for MHP
   - name: Rider Development
     description: "The Rider Development subteam focuses on maximising the
       performance of the rider. Composed of both riders and technical members,
@@ -10,11 +11,11 @@ subteams:
       to ride the recumbent bikes and physically test its mechanical and
       electrical systems. The Rider Development subteam is also in charge of
       organising and coordinating testing days at the Holden and Ford Proving
-      Grounds. "
-    # TODO: Remove once the application process is complete
+      Grounds."
     button_text: "Apply to become a Rider"
-    button_href: https://forms.gle/gk1J7QKkQrUmCotN7
+    button_href: /joinUs#rider-recruitment
     image: ../images/subteam2021_riderdev.jpeg
+    id: rider-development
   - name: Aerodynamics
     description: The Aerodynamics subteam at MHP is chiefly responsible for the
       design and testing of the aerodynamic components of the bike, such as the
@@ -27,7 +28,8 @@ subteams:
       improve the performance of the bike.
     button_text: ""
     button_href: ""
-    image: ../images/subteam2021_aero.jpg
+    image: ../images/subteam_aero.jpg
+    id: aerodynamics
   - name: Chassis & Drive-train
     description:
       The Chassis & Drive-train subteam is responsible for the design and
@@ -42,19 +44,19 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_chassisdt_2.jpg
-  - name: Corporate
-    description:
-      The Corporate subteam identifies and engages the relevant external
-      stakeholders to effectively facilitate the operations of MHP. This
-      includes coordinating with sponsors and marketing the activities MHP. They
-      are also in charge of organising events to promote the missions of MHP,
-      such as our flagship 'Build a HPV' school outreach program which
-      encourages STEM pathways and educates students on sustainable transport.
-      The Corporate subteam provides support to the technical side of MHP and
-      their endeavours to efficiently manufacture the bike.
+    id: chassis-drivetrain
+  - name: Operations
+    description: The Operations subteam identifies and engages
+      external stakeholders to effectively facilitate the operations of MHP. This includes coordinating with sponsors
+      and marketing MHP activities. They are also in charge of organising events to promote the missions of MHP, such as
+      our flagship 'Build a HPV' school outreach program which encourages STEM pathways and educates students on
+      sustainable transport. The Operations subteam also provides support to the technical side of MHP and their
+      endeavours to efficiently manufacture the bike. Members of the operations subteam are also highly involved in
+      the graphic design and branding of MHP.
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_corporate.jpg
+    id: operations
   - name: Electrical
     description: The Electrical subteam handles both the electrical and software
       aspects of the bike. They design the camera and data acquisition system to
@@ -67,6 +69,7 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_electrical.jpg
+    id: electrical
   - name: Materials
     description:
       The primary purpose of the Materials subteam is to prototype and
@@ -81,6 +84,5 @@ subteams:
     button_text: ""
     button_href: ""
     image: ../images/subteam2021_materials_2.jpg
+    id: materials
 ---
-
-# button_text = can be used to point people in the direction of a application for MHP
