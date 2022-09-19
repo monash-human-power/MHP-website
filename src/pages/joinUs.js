@@ -1,10 +1,11 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { Stepper } from "react-form-stepper";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
 import InfoBlock from "../components/info_block";
+import NumberedTextGrid from "../components/numbered_text_grid";
+import { CenteredSection, SectionHeading } from "../components/content";
 
 const JoinUsPage = () => {
   const data = useStaticQuery(graphql`
@@ -25,6 +26,7 @@ const JoinUsPage = () => {
               link
               more_info_link
               eoi_link
+              id
               image {
                 childImageSharp {
                   fluid {
@@ -32,6 +34,10 @@ const JoinUsPage = () => {
                   }
                 }
               }
+            }
+            recruitment_process {
+              heading
+              content
             }
             FAQs {
               question
@@ -45,6 +51,7 @@ const JoinUsPage = () => {
 
   const joinUsData = data.file.childMarkdownRemark.frontmatter;
   const recruitmentArr = joinUsData.recruitment_categories;
+  const recruitmentProcessArr = joinUsData.recruitment_process;
   const faqsArr = joinUsData.FAQs;
 
   return (
@@ -86,7 +93,7 @@ const JoinUsPage = () => {
               image={blockData.image.childImageSharp.fluid}
               key={index}
               // Example key would be 1 (index of the data)
-              id={index}
+              id={blockData.id}
               // Flips the order for every second block
               reverseOrder={index % 2 === 1}
             />
@@ -94,53 +101,49 @@ const JoinUsPage = () => {
         </div>
 
         {/* Recruitment Process */}
-        <div className="row m-4">
-          <div className="col text-center">
-            <h2 className="p-3">Recruitment Process</h2>
-            <Stepper
-              steps={[
-                { label: "Apply" },
-                { label: "Interview Invite" },
-                { label: "Interview" },
-                { label: "Result" },
-              ]}
-              activeColor="#37279e"
-              activeStep={3}
-            />
-          </div>
-        </div>
+        <NumberedTextGrid
+          className="mb-5"
+          gridHeading="Recruitment Process"
+          cellArray={recruitmentProcessArr}
+          cellsPerRow={4}
+          showNumber={true}
+        />
 
         {/* FAQs */}
-        <div className="row m-4">
-          <div className="col">
-            <h2 className="p-4 text-center">FAQ</h2>
-            <div className="accordion" id="accordionFAQ">
-              {faqsArr.map((faqsData, index) => (
-                <div className="card m-1">
-                  <div className="card-header" id={`${index}`}>
-                    <h2 className="mb-0">
-                      <button
-                        className="btn btn-block text-left"
-                        data-toggle="collapse"
-                        data-target={`#collapse${index}`}
-                        aria-expanded="true"
-                        aria-controls={`collapse${index}`}
-                      >
-                        {faqsData.question}
-                      </button>
-                    </h2>
+        <div className="mb-5">
+          <CenteredSection className="row p-3">
+            <SectionHeading>FAQ</SectionHeading>
+          </CenteredSection>
+          <div className="row mb-4">
+            <div className="col">
+              <div className="accordion" id="accordionFAQ">
+                {faqsArr.map((faqsData, index) => (
+                  <div className="card m-1">
+                    <div className="card-header" id={`${index}`}>
+                      <h2 className="mb-0">
+                        <button
+                          className="btn btn-block text-left"
+                          data-toggle="collapse"
+                          data-target={`#collapse${index}`}
+                          aria-expanded="true"
+                          aria-controls={`collapse${index}`}
+                        >
+                          {faqsData.question}
+                        </button>
+                      </h2>
+                    </div>
+                    {/* Set class below to "collapse show" to make not hide the contents by default */}
+                    <div
+                      id={`collapse${index}`}
+                      className="collapse"
+                      aria-labelledby={`heading${index}`}
+                      data-parent="#accordionFAQ"
+                    >
+                      <div className="card-body">{faqsData.answer}</div>
+                    </div>
                   </div>
-                  {/* Set class below to "collapse show" to make not hide the contents by default */}
-                  <div
-                    id={`collapse${index}`}
-                    className="collapse"
-                    aria-labelledby={`heading${index}`}
-                    data-parent="#accordionFAQ"
-                  >
-                    <div className="card-body">{faqsData.answer}</div>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>

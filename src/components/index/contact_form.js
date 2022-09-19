@@ -1,19 +1,13 @@
 import React from "react";
 import Button from "../button";
-import styled from "styled-components";
-
-const ContactUsHeading = styled.h2`
-  background: black;
-  color: white;
-  align-text: centre;
-`;
+import { SectionHeading } from "../content";
 
 const ContactForm = ({ className }) => (
   <div className={className}>
     <div id="contact" className="row justify-content-md-center">
       <div className="col col-lg-6">
         {/* Contact Us Title */}
-        <ContactUsHeading className="p-3">Contact Us</ContactUsHeading>
+        <SectionHeading className="p-3">Contact Us</SectionHeading>
 
         <form
           name="contact" // "name" HTML attribute is the displayed form name on Netlify

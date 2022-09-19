@@ -2,6 +2,7 @@ import React from "react";
 import Link from "../link";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
+import { SectionHeading } from "../content";
 
 const Sponsors = ({ className }) => {
   const data = useStaticQuery(graphql`
@@ -34,8 +35,15 @@ const Sponsors = ({ className }) => {
   return (
     <div className={className}>
       {/* Sponsors */}
-      <div className="row">
-        <h2 className="p-3 outline-black-white-heading"> Sponsors </h2>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        className="row"
+      >
+        <SectionHeading>Sponsors</SectionHeading>
       </div>
 
       <div className="row justify-content-md-center">
@@ -46,6 +54,8 @@ const Sponsors = ({ className }) => {
                 // TODO: Find out why this works
                 className="m-4 mx-auto"
                 fluid={sponsorObj.image.childImageSharp.fluid}
+                alt={`Logo of ${sponsorObj.name}`}
+                title={sponsorObj.name}
               />
             </Link>
           </div>

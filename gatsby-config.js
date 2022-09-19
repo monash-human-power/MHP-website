@@ -56,6 +56,13 @@ module.exports = {
         icon: `src/images/MHP_logo_green_black.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100,
+        duration: 0,
+      },
+    },
     `gatsby-plugin-styled-components`, // For CSS-in-CSS
     `gatsby-plugin-netlify-cms`, // For Netlify headless CMS
 
