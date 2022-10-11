@@ -8,8 +8,10 @@ import SubpageHeading from "../components/subpage_heading";
 
 const Subheading = styled.p`
   font-style: italic;
-  text-align: center;
-  text-transform: capitalize;
+`;
+
+const Author = styled.span`
+  font-weight: bold;
 `;
 
 export default ({ data }) => {
@@ -20,22 +22,30 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title={postFrontmatter.title} />
-      <SubpageHeading> {postFrontmatter.title} </SubpageHeading>
-
+      <SubpageHeading>Blog</SubpageHeading>
       {/* Main content */}
-      <div className="container mb-5">
+      <div className="container mb-5 pt-5">
+        <div className="row">
+          <div className="col">
+            <h1> {postFrontmatter.title} </h1>
+          </div>
+        </div>
         <div className="row">
           <div className="col">
             <Subheading> {postFrontmatter.subtitle} </Subheading>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <Author>
+              By {postFrontmatter.author} — {postFrontmatter.date}{" "}
+            </Author>
           </div>
         </div>
 
         <div className="row mt-5">
           <div className="col">
             <div dangerouslySetInnerHTML={{ __html: postInnerHTML }} />
-            <p>
-              {postFrontmatter.author} - {postFrontmatter.date}{" "}
-            </p>
           </div>
         </div>
       </div>
@@ -51,7 +61,7 @@ export const query = graphql`
         title
         subtitle
         author
-        date(formatString: "MMMM YYYY")
+        date(formatString: "D MMMM YYYY")
       }
     }
   }

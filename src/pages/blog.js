@@ -25,7 +25,7 @@ const BlogPage = () => {
                 author
                 title
                 subtitle
-                date(formatString: "MMMM YYYY")
+                date(formatString: "D MMMM YYYY")
               }
             }
           }

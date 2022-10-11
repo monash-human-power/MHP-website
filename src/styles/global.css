@@ -9,6 +9,22 @@
   --MHP-dark-purple: #143151;
   --MHP-black: #000000;
   --MHP-white: #ffffff;
+
+  /* Taken from https://github.com/gatsbyjs/gatsby-starter-blog/blob/master/src/style.css*/
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --color-text-light: #4f5969;
 }
 
 /* Add Roboto font to all text in the document */
@@ -60,4 +76,21 @@ p {
   background: black;
   color: white;
   box-shadow: white 5px 5px 0px -2px, var(--MHP-black) 5px 5px;
+}
+
+/* Block quote */
+/* Taken from https://github.com/gatsbyjs/gatsby-starter-blog/blob/master/src/style.css*/
+blockquote {
+  color: var(--color-text-light);
+  margin-left: calc(-1 * var(--spacing-6));
+  margin-right: var(--spacing-8);
+  padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
+  border-left: var(--spacing-1) solid var(--MHP-purple);
+  font-style: italic;
+  margin-bottom: var(--spacing-8);
+}
+
+blockquote > ul,
+blockquote > ol {
+  list-style-position: inside;
 }
