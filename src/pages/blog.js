@@ -7,6 +7,10 @@ import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
 import { map } from "jquery";
 
+export const Author = styled.span`
+  font-weight: bold;
+`;
+
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
     query BlogPageQuery {
@@ -46,15 +50,14 @@ const BlogPage = () => {
           const nodeFields = node.childMarkdownRemark.fields;
           return (
             <div id={node.id} className="row py-3 my-5">
-              <div className="col-6">
+              <div className="col">
                 <Link to={node.childMarkdownRemark.fields.slug}>
                   <h2>{frontMatter.title}</h2>
-                  <p>{frontMatter.subtitle}</p>
                 </Link>
-              </div>
-              <div className="col-6" style={{ textAlign: "right" }}>
-                <p>Written by {frontMatter.author}</p>
-                <p>{frontMatter.date}</p>
+                <Author>
+                  By {frontMatter.author} — {frontMatter.date}
+                </Author>
+                <p>{frontMatter.subtitle}</p>
               </div>
             </div>
           );

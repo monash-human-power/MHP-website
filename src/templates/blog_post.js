@@ -5,13 +5,10 @@ import styled from "styled-components";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import SubpageHeading from "../components/subpage_heading";
+import { Author } from "../pages/blog";
 
 const Subheading = styled.p`
   font-style: italic;
-`;
-
-const Author = styled.span`
-  font-weight: bold;
 `;
 
 export default ({ data }) => {
