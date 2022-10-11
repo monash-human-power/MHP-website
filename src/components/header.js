@@ -72,12 +72,12 @@ const Header = () => {
     { title: "Subteams", link: "/subteams" },
     { title: "Competitions", link: "/competitions" },
     { title: "Outreach", link: "/outreach" },
+    { title: "Blog", link: "/blog" },
     {
       title: "Join Us",
       link: "/joinUs",
       // data.recruitmentData.childMarkdownRemark.frontmatter.recruitment_link,
     },
-    { title: "Blog", link: "/blog" },
   ];
 
   return (
