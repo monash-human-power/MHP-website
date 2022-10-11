@@ -56,7 +56,7 @@ collections:
               - label: Trailer Embed Link
                 name: trailer_link
                 widget: string
-                hint: This link MUST be an embed link e.g. ttps://youtube.com/embed/someVideoId, otherwise it may not work.
+                hint: This link MUST be an embed link e.g. https://youtube.com/embed/someVideoId, otherwise it may not work.
           - label: Sponsor Section
             name: sponsors
             widget: list
