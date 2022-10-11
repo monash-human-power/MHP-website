@@ -37,6 +37,12 @@ collections:
             name: recruitment_open
             widget: boolean
             hint: Toggle this on when recruitments are open.
+          - label: Recruitment Link
+            name: recruitment_link
+            widget: string
+          - label: Recruitment Info Link
+            name: recruitment_info
+            widget: string
           - label: Recruitment Description
             name: recruitment_description
             widget: text
@@ -56,6 +62,7 @@ collections:
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
+              - { label: Link to Sponsor, name: link, widget: string }
               - { label: Image, name: image, widget: image }
 
       - label: "About Page"
@@ -102,6 +109,7 @@ collections:
                 name: heading
               - label: Content
                 name: content
+                widget: text
           - label: Subteam Information Section
             name: subteams
             widget: list
@@ -303,7 +311,7 @@ collections:
                   label: Button Text,
                   name: buttonText,
                   widget: string,
-                  hint: "This could be used to link the competition's gome page",
+                  hint: "Label to link the competition's home page.",
                   default: "",
                   required: false,
                 }
@@ -311,7 +319,7 @@ collections:
                   label: Button Link,
                   name: href,
                   widget: string,
-                  hint: "This could be used to link the competition's gome page",
+                  hint: "Link to the competition's home page.",
                   default: "",
                   required: false,
                 }
@@ -375,3 +383,84 @@ collections:
                   hint: "The person / organization who said the quote",
                 }
               - { label: Quote, name: quote, widget: string }
+
+      - label: "Recruitment Page"
+        name: "recruitment"
+        file: "/src/markdown/joinUs.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
+          - label: Recruitment Categories
+            name: recruitment_categories
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Currenrtly Open, name: is_open, widget: boolean }
+              - {
+                  label: Description (Open),
+                  name: description,
+                  widget: text,
+                  hint: Description when recruitments are open.,
+                }
+              - {
+                  label: Description (Closed),
+                  name: description_closed,
+                  widget: text,
+                  hint: Description when recruitments are closed.,
+                }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Application Link,
+                  name: link,
+                  widget: string,
+                  hint: "Link to application form.",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: More Info Link,
+                  name: more_info_link,
+                  widget: string,
+                  hint: "Link to more information about this category (e.g. position description).",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: Expression of Interest Link,
+                  name: eoi_link,
+                  widget: string,
+                  hint: "Link to EOI form.",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: Anchor ID,
+                  name: id,
+                  widget: string,
+                  hint: "Used to jump to the appropriate section.",
+                  default: "",
+                }
+          - label: Recruitment Process Section
+            name: recruitment_process
+            widget: list
+            fields:
+              - label: Heading
+                name: heading
+              - label: Content
+                name: content
+                widget: text
+          - label: FAQ Section
+            name: FAQs
+            widget: list
+            fields:
+              - label: Question
+                name: question
+              - label: Answer
+                name: answer
+                widget: text
