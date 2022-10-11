@@ -22,6 +22,7 @@ collections:
           - { label: LinkedIn Link, name: linkedIn, widget: string }
           - { label: Github Link, name: github, widget: string }
           - { label: TikTok Link, name: tiktok, widget: string }
+
       - label: "Index"
         name: "index"
         file: "/src/markdown/index.md"
@@ -56,6 +57,7 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Image, name: image, widget: image }
+
       - label: "About Page"
         name: "about"
         file: "/src/markdown/about.md"
@@ -129,6 +131,7 @@ collections:
                   hint: "Used to jump to the appropriate section in the subteam page. Must match the ID in the subteam page.",
                   default: "",
                 }
+
       - label: "Team Page"
         name: "team"
         file: "/src/markdown/team.md"
@@ -226,6 +229,13 @@ collections:
                   required: false,
                 }
               - { label: Image, name: image, widget: image }
+              - {
+                  label: Anchor ID,
+                  name: id,
+                  widget: string,
+                  hint: "Used to jump to the appropriate subteam.",
+                  default: "",
+                }
 
       - label: "Bike Page"
         name: "bike"
@@ -270,6 +280,49 @@ collections:
                   hint: "eg. a string such as '81.2' or 'unknown'",
                 }
               - { label: Image, name: image, widget: image }
+
+      - label: "Competitions Page"
+        name: "competitions"
+        file: "/src/markdown/competitions.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
+          - label: Competitions Info Blocks
+            name: blocks
+            widget: list
+            fields:
+              - { label: Name, name: heading, widget: string }
+              - { label: Description, name: description, widget: text }
+              - {
+                  label: Button Text,
+                  name: buttonText,
+                  widget: string,
+                  hint: "This could be used to link the competition's gome page",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: Button Link,
+                  name: href,
+                  widget: string,
+                  hint: "This could be used to link the competition's gome page",
+                  default: "",
+                  required: false,
+                }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Anchor ID,
+                  name: id,
+                  widget: string,
+                  hint: "Used to jump to the appropriate section.",
+                  default: "",
+                }
 
       - label: "Outreach Page"
         name: "outreach"
