@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
-
 import SubpageHeading from "../components/subpage_heading";
 
 const SubTeamsPage = () => {
@@ -30,6 +29,7 @@ const SubTeamsPage = () => {
               description
               button_text
               button_href
+              id
             }
           }
         }
@@ -58,7 +58,7 @@ const SubTeamsPage = () => {
               image={blockData.image.childImageSharp.fluid}
               key={index}
               // Example key would be 1 (index of the data)
-              id={index}
+              id={blockData.id}
               // Flips the order for every second block
               reverseOrder={index % 2 === 1}
             />

@@ -1,84 +1,83 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-
 import styled from "styled-components";
-import Button from "../button";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-const SubTeamHeading = styled.h2`
-  background: black;
-  color: white;
-  align-text: centre;
-`;
+import Button from "../button";
+import { CenteredSection, SectionHeading } from "../content";
 
 const SubTeamBox = styled.div`
-  border: 10px black solid;
+  // Clickable cursor look
+  cursor: pointer;
+
+  border: 1px solid black;
+
+  /* Dispose of shadow */
+  transition: 0.1s;
+
+  &:hover {
+    /* Show shadow */
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 `;
 
 const SubTeamBoxHeading = styled.h2`
+  color: black;
+  text-decoration: none;
   font-size: 1.4rem;
 `;
 
+const SubTeamBoxContent = styled.p`
+  color: black;
+  text-decoration: none;
+`;
+
 const SubTeamSquare = (
-  { name, description, button_text, button_href },
+  { name, description, button_text, button_href, id },
   index
 ) => (
-  <SubTeamBox className="col-md m-1 p-3" key={index}>
-    <div className="row">
-      <div className="col">
-        <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
-        <p>{description}</p>
+  <SubTeamBox className="col-md m-2 p-3" key={index}>
+    <AnchorLink to={`/subteams#${id}`}>
+      <div className="row">
+        <div className="col">
+          <SubTeamBoxHeading>{name}</SubTeamBoxHeading>
+          <SubTeamBoxContent>{description}</SubTeamBoxContent>
+        </div>
       </div>
-    </div>
 
-    <div className="row">
-      <div className="col">
-        {/* Button is hidable if nothing is added aka "" */}
-        {button_text !== "" && (
-          <Button href={button_href}>{button_text}</Button>
-        )}
+      <div className="row">
+        <div className="col">
+          {/* Button is hidable if nothing is added aka "" */}
+          {button_text !== "" && (
+            <Button href={button_href}>{button_text}</Button>
+          )}
+        </div>
       </div>
-    </div>
+    </AnchorLink>
   </SubTeamBox>
 );
 
-const SubTeams = ({ className }) => {
-  const data = useStaticQuery(graphql`
-    query SubteamsQuery {
-      file(
-        relativePath: { eq: "index.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            subteams {
-              name
-              description
-              button_text
-              button_href
-            }
-          }
-        }
-      }
-    }
-  `);
+const SUBTEAMS_PER_ROW = 3;
 
-  const subteamsArray = data.file.childMarkdownRemark.frontmatter.subteams;
-
+const SubTeams = ({ className, subteamsArray }) => {
+  let numRows = Math.ceil(subteamsArray.length / SUBTEAMS_PER_ROW);
   return (
     <div className={className}>
-      <div className="row justify-content-center">
-        <SubTeamHeading className="p-3 my-2">SubTeams</SubTeamHeading>
-      </div>
+      {/* Subteams */}
+      <CenteredSection className="row p-3">
+        <SectionHeading> Subteams </SectionHeading>
+      </CenteredSection>
 
-      {/* TODO: This is bad, really need to change :( */}
-      <div className="row">{subteamsArray.slice(0, 3).map(SubTeamSquare)}</div>
-      <div className="row">{subteamsArray.slice(3, 6).map(SubTeamSquare)}</div>
-
-      <div className="row justify-content-center">
-        <div className="col-md-3 col-sm my-3">
-          <Button href="/subteams">Meet the subteams</Button>
-        </div>
-      </div>
+      {/* Dynamically generate subteam cells */}
+      {[...Array(numRows).keys()].map(row => {
+        return (
+          <div className="row">
+            {subteamsArray
+              .slice(row * SUBTEAMS_PER_ROW, (row + 1) * SUBTEAMS_PER_ROW)
+              .map(SubTeamSquare)}
+          </div>
+        );
+      })}
     </div>
   );
 };

@@ -1,13 +1,8 @@
 import React from "react";
-import styled from "styled-components";
+import Link from "../link";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
-
-const SponsorHeading = styled.h2`
-  background: black;
-  color: white;
-  align-text: centre;
-`;
+import { SectionHeading } from "../content";
 
 const Sponsors = ({ className }) => {
   const data = useStaticQuery(graphql`
@@ -27,6 +22,7 @@ const Sponsors = ({ className }) => {
                   }
                 }
               }
+              link
             }
           }
         }
@@ -38,15 +34,30 @@ const Sponsors = ({ className }) => {
 
   return (
     <div className={className}>
-      <SponsorHeading className="p-3 my-2"> Sponsors </SponsorHeading>
+      {/* Sponsors */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        className="row"
+      >
+        <SectionHeading>Sponsors</SectionHeading>
+      </div>
+
       <div className="row justify-content-md-center">
         {sponsorArr.map((sponsorObj, index) => (
           <div className="col-6 col-md-3" key={index}>
-            <Img
-              // TODO: Find out why this works
-              className="m-4 mx-auto"
-              fluid={sponsorObj.image.childImageSharp.fluid}
-            />
+            <Link to={sponsorObj.link}>
+              <Img
+                // TODO: Find out why this works
+                className="m-4 mx-auto"
+                fluid={sponsorObj.image.childImageSharp.fluid}
+                alt={`Logo of ${sponsorObj.name}`}
+                title={sponsorObj.name}
+              />
+            </Link>
           </div>
         ))}
       </div>

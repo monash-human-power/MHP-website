@@ -38,6 +38,36 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "kdav108",
+      "name": "Kunj Dave",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63642262?v=4",
+      "profile": "https://github.com/kdav108",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "bahar-ap",
+      "name": "bahar-ap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81912681?v=4",
+      "profile": "https://github.com/bahar-ap",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "megascrapper",
+      "name": "Akbar Fadiansyah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34503494?v=4",
+      "profile": "https://github.com/megascrapper",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7

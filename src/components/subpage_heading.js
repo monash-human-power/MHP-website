@@ -10,7 +10,8 @@ const Heading = styled.h1`
 
 const SubpageHeading = ({ children }) => (
   // Add max padding on top (pt-5) and a little padding on the bottom (pb-1)
-  <Heading className="pt-5 pb-1">{children}</Heading>
+  // No padding on the bottom
+  <Heading className="pt-5 pb-1 mb-0">{children}</Heading>
 );
 
 SubpageHeading.propTypes = {

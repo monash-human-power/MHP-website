@@ -2,17 +2,15 @@
 heading: Our Bikes
 meta_page_description: ""
 bikes:
-  - name: Priscilla
+  - name: Bilby
     version: 3
-    description: Version 3 of our bike, named Priscilla, is currently under
-      development. Unfortunately, due to the coronavirus pandemic, we have
-      suspended all manufacturing. However, we are using this time to research
-      and refine our designs while we eagerly anticipate returning to the
-      workshop.
+    description:
+      Version 3 of our bike, named Bilby, is our latest and greatest bike. Launched in May 2022, it brought
+      improvements to almost every aspect compared to the previous generation.
     start_year: 2019
-    end_year: 2021
-    top_speed_km: --
-    image: ../images/bike_v3.png
+    end_year: 2022
+    top_speed_km: "87.4"
+    image: ../images/bike_v3.jpg
   - name: Wombat
     version: 2
     description:

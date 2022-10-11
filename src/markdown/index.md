@@ -1,91 +1,46 @@
 ---
 heading: Monash Human Power
-meta_page_description: ""
 image: ../images/V3_render_cool.png
-blocks:
-  - heading: Who we are
-    description:
-      "Monash Human Power is a student-led engineering team from Monash
-      University in Melbourne, Australia. Since 2015 we have been designing,
-      manufacturing, and racing fully-faired human-powered vehicles (HPV) to
-      push the limits of human speed. "
-    buttonText: Meet the members
-    image: ../images/img_1579.jpg
-    href: /team
-    id: team
-  - heading: Our Mission
-    description: Our team is aiming to break the Australian HPV F200 land speed
-      record of 94.6km/h. This year marks our largest recruitment to date,
-      bringing our team up to 60 interdisciplinary students. We take pride in
-      developing industry-ready graduates through our collaborative design and
-      manufacturing process. We believe that HPV provides a relevant and
-      immersive framework for learning STEM and we use this framework to promote
-      sustainability in schools.
-    buttonText: See the bike
-    image: ../images/our-mission.jpeg
-    href: /bike
-    id: bike
-  - heading: The Competition
-    description: The World Human Powered Speed Challenge takes place annually at
-      Battle Mountain, Nevada. Teams from around the world gather on State Route
-      305 in a quest to break the human-powered land speed record. The current
-      world record in this competition is 144 km/h.
-    buttonText: See the Competition
-    image: ../images/battle_mountain_2020_poster4.jpg
-    href: http://www.ihpva.org/home/
-    id: race
-  - heading: Outreach
-    description:
-      Monash Human Power is proud to offer a robust schools program that
-      is tailored to the 'Science as a human endeavour' Level 9 and 10 Science
-      achievement standards of the Victorian Curriculum. We hope to inspire a
-      passion for STEM and sustainability in your students. We also run
-      workshops for schools competing in the Victorian HPV Super Series and help
-      to facilitate wind tunnel testing of their vehicles.
-    image: ../images/outreach2.png
-    id: outreach
-    buttonText: Contact us
-    href: https://www.facebook.com/MonashHPT/
-subteams:
-  - name: Aerodynamics
-    description: Responsible for the design and testing of the external shell
-      (fairing) and other aerodynamic components of the bike.
-    button_text: ""
-    button_href: ""
-  - name: Corporate
-    description:
-      Works behind the scenes to support the technical side of the team
-      by coordinating marketing, events, and sponsorship.
-    button_text: ""
-    button_href: ""
-  - name: Chassis & Drive-train
-    description:
-      Responsible for the design and manufacture of the chassis and all
-      other mechanical components of the vehicle.
-    button_text: ""
-    button_href: ""
-  - name: Electrical
-    description: Responsible for the camera, internal display and the recording of data.
-    button_text: ""
-    button_href: ""
-  - name: Materials
-    description: Responsible for the prototyping and manufacture of the fairing.
-    button_text: ""
-    button_href: ""
-  - name: Rider Development
-    description: |
-      Focuses on maximising the performance of our riders.
-    button_text: ""
-    button_href: ""
+meta_page_description: ""
+
+splash:
+  heading: Pushing the boundaries of human-powered vehicles
+  body: Monash Human Power is a Monash engineering student team whose goal is to produce the fastest human powered vehicle in the world.
+  # must use the embed link (e.g. https://youtube.com/embed/someVideoId) instead of normal video link
+  trailer_link: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FMonashHumanPower%2Fvideos%2F514883570018670%2F&show_text=false&width=560&t=0"
+  about_link: /about
+  bike_link: /bike
+  competitions_link: /competitions
+
+# Change this to true when recruitment are open
+recruitment_open: false
+recruitment_link: /joinUs#general-recruitment
+recruitment_info: /joinUs
+recruitment_description: "Monash Human Power's 2022 recruitment is now open! Come join our team as we aim to build the fastest bike in Australia."
+
 sponsors:
   - name: Monash University
     image: ../images/monash-current-logo.png
+    link: "https://www.monash.edu"
   - name: The Department of Mechanical and Aerospace Engineering
     image: ../images/mae-hq-logo.png
+    link: "https://www.monash.edu/engineering/departments/mechanical"
+  - name: AARC
+    image: ../images/aarc-logo_high-res.jpg
+    link: "https://aarconline.com"
   - name: Ford
     image: ../images/ford-logo-icon-0.png
-  - name: "Leap "
+    link: "https://www.ford.com.au"
+  - name: "Leap"
     image: ../images/leap-hq-logo.png
+    link: "https://www.leapaust.com.au"
   - name: C5 systems
     image: ../images/c5-logo.png
+    link: "https://c5systems.com.au"
+  - name: Yarra Energy
+    image: ../images/yarraenergy-logo.png
+    link: "https://yarraenergy.com.au/"
+  - name: HSC Ceramics
+    image: ../images/hsc-logo.jpg
+    link: https://www.hscceramics.com.au/
 ---

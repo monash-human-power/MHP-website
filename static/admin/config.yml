@@ -232,3 +232,55 @@ collections:
                   hint: "eg. a string such as '81.2' or 'unknown'",
                 }
               - { label: Image, name: image, widget: image }
+
+      - label: "Outreach Page"
+        name: "outreach"
+        file: "/src/markdown/outreach.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
+          - label: Outreach Info Blocks
+            name: blocks
+            widget: list
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Description, name: description, widget: text }
+              - {
+                  label: Button Text,
+                  name: buttonText,
+                  widget: string,
+                  default: "",
+                  required: false,
+                }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: ID for header,
+                  name: id,
+                  widget: string,
+                  hint: "If you are not changing the header, don't mess with it!",
+                }
+              - {
+                  label: Button Link,
+                  name: href,
+                  widget: string,
+                  default: "",
+                  required: false,
+                }
+
+          - label: Outreach Reviews
+            name: reviews
+            widget: list
+            fields:
+              - {
+                  label: Person,
+                  name: person,
+                  widget: string,
+                  hint: "The person / organization who said the quote",
+                }
+              - { label: Quote, name: quote, widget: string }

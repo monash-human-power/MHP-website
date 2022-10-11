@@ -21,7 +21,7 @@ const StatsSubheading = styled.p`
 `;
 
 const StatsInfo = styled.h2`
-  background: var(--MHP-purple);
+  background: var(--MHP-purple-2);
   color: var(--MHP-white);
 `;
 
@@ -35,13 +35,15 @@ const BikeInfoBlock = (bikeObj, reverseOrder, index) => (
     <div className={`col-md ${reverseOrder && "order-md-2 order-xs-1"}`}>
       <div className="row">
         <WhiteDiv className="col-md-12 py-3 ">
-          <h2> {bikeObj.name} </h2>
+          <h2> {bikeObj.name.toUpperCase()} </h2>
           <p> {bikeObj.description} </p>
         </WhiteDiv>
 
         <WhiteDiv className="col-sm  py-2">
-          <StatsSubheading> built </StatsSubheading>
-          <StatsInfo className="p-2 m-0">
+          <StatsSubheading>
+            <b> built </b>
+          </StatsSubheading>
+          <StatsInfo className="p-2 m-0" style={{ textAlign: "center" }}>
             {" "}
             {bikeObj.start_year} - {bikeObj.end_year}{" "}
           </StatsInfo>
@@ -49,15 +51,9 @@ const BikeInfoBlock = (bikeObj, reverseOrder, index) => (
 
         <WhiteDiv className="col-sm py-2">
           <StatsSubheading>
-            <span role="img" aria-label="fire">
-              🔥
-            </span>
-            max speed
-            <span role="img" aria-label="fire">
-              🔥
-            </span>
+            <b>max speed</b>
           </StatsSubheading>
-          <StatsInfo className="p-2 m-0">
+          <StatsInfo className="p-2 m-0" style={{ textAlign: "center" }}>
             {bikeObj.top_speed_km} KM/H{" "}
           </StatsInfo>
         </WhiteDiv>
@@ -76,10 +72,7 @@ const BikeInfoBlock = (bikeObj, reverseOrder, index) => (
           bottom: 10,
           color: "var(--MHP-white)",
         }}
-      >
-        {" "}
-        V{bikeObj.version}{" "}
-      </p>
+      ></p>
     </div>
   </div>
 );

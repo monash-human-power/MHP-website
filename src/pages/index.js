@@ -7,11 +7,33 @@ import InfoBlock from "../components/info_block";
 import ContactForm from "../components/index/contact_form";
 import MainGraphic from "../components/index/main_graphic";
 import Sponsors from "../components/index/sponsors";
-import SubTeams from "../components/index/subteams";
+import Video from "../components/video";
+import Button from "../components/button";
+import styled from "styled-components";
+import { SectionHeading, SectionParagraph } from "../components/content";
+
+const IndexSection = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query IndexPageQuery {
+      allFile(filter: { relativePath: { eq: "applications_open.jpg" } }) {
+        edges {
+          node {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_tracedSVG
+                ...GatsbyImageSharpFluidLimitPresentationSize
+              }
+            }
+          }
+        }
+      }
+
       file(
         relativePath: { eq: "index.md" }
         sourceInstanceName: { eq: "markdown" }
@@ -20,6 +42,18 @@ const IndexPage = () => {
           frontmatter {
             heading
             meta_page_description
+            splash {
+              heading
+              body
+              trailer_link
+              about_link
+              bike_link
+              competitions_link
+            }
+            recruitment_open
+            recruitment_link
+            recruitment_info
+            recruitment_description
             blocks {
               image {
                 childImageSharp {
@@ -49,7 +83,7 @@ const IndexPage = () => {
   `);
 
   const indexData = data.file.childMarkdownRemark.frontmatter;
-  const infoBlockArr = indexData.blocks;
+  const splashData = indexData.splash;
 
   return (
     <Layout>
@@ -63,27 +97,45 @@ const IndexPage = () => {
 
       {/* Main content */}
       <div className="container mb-5">
-        {/* Info Blocks */}
-        <div>
-          {infoBlockArr.map((blockData, index) => (
-            <InfoBlock
-              heading={blockData.heading}
-              description={blockData.description}
-              buttonText={blockData.buttonText}
-              href={blockData.href}
-              image={blockData.image.childImageSharp.fluid}
-              key={index}
-              // Example key would be 1 (index of the data)
-              id={blockData.id}
-              // Flips the order for every second block
-              reverseOrder={index % 2 === 1}
-            />
-          ))}
+        <IndexSection className="row py-2">
+          <SectionHeading>{splashData.heading}</SectionHeading>
+          <SectionParagraph>{splashData.body}</SectionParagraph>
+          <Video
+            videoSrcURL={splashData.trailer_link}
+            videoTitle={"MHP Trailer"}
+          />
+        </IndexSection>
+
+        <div className="row py-2">
+          <div className="col mb-3">
+            <Button href={splashData.about_link}>About Us</Button>
+          </div>
+          <div className="col mb-3">
+            <Button href={splashData.bike_link}>Our Bikes</Button>
+          </div>
+          <div className="col mb-3">
+            <Button href={splashData.competitions_link}>
+              The Competitions
+            </Button>
+          </div>
         </div>
 
-        {/* Sub-Teams Section */}
-        <SubTeams className="my-5 py-5" />
+        {/* Recruiting section */}
+        {/* Use the recruitment_open toggle on index.md to show/hide this section */}
 
+        {indexData.recruitment_open && (
+          <InfoBlock
+            heading={"Join MHP!"}
+            description={indexData.recruitment_description}
+            buttonText2={"More info"}
+            href2={indexData.recruitment_info}
+            buttonText={"Apply Here!"}
+            href={indexData.recruitment_link}
+            image={data.allFile.edges[0].node.childImageSharp.fluid}
+            key={0}
+            reverseOrder={0}
+          />
+        )}
         {/* Sponsor Section */}
         <Sponsors className="my-5 py-5" />
 

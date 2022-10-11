@@ -16,13 +16,15 @@ const InfoHeading = styled.h2`
 const InfoBlock = ({
   heading,
   description,
-  buttonText,
   image,
+  buttonText,
   href,
+  buttonText2 = "",
+  href2 = "",
   reverseOrder,
   id,
 }) => (
-  <div className="row pt-3 mb-5 mt-3" id={id}>
+  <div className="row pt-3 mb-5 mt-3" id={id} name={encodeURI(heading)}>
     {/* Text component */}
     <div className={`col-md ${reverseOrder && "order-md-2 order-xs-1"} `}>
       <InfoHeading> {heading} </InfoHeading>
@@ -33,6 +35,10 @@ const InfoBlock = ({
         <div className="col-md-8 mb-3">
           {buttonText !== "" && buttonText !== null && (
             <Button href={href}> {buttonText} </Button>
+          )}
+          {/* TODO: fix this as it is a big hack to get another button into this component */}
+          {buttonText2 !== "" && buttonText2 !== null && (
+            <Button href={href2}> {buttonText2} </Button>
           )}
         </div>
       </div>

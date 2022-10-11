@@ -2,290 +2,327 @@
 heading: The team
 description: Current members of the team.
 meta_page_description: ""
-# mainPhoto:
 subteam:
+  # TODO: linkedin profile for each person
+  # TODO: degree for each person
+  # TODO: photo for each person
   - subteamName: Management
     teamMembers:
-      - linkedIn: ""
-        name: Kate Dunwoody
-        degree: Environmental Engineering and Arts
+      - linkedIn: https://www.linkedin.com/in/emily-johnston5/
+        name: Emily Johnston
+        degree: Civil Engineering and Commerce
         position: Team Manager
-        photo: ../images/kate_dunwoody_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/matt-madsen5/
-        name: Matt Madsen
-        degree: Mechanical Engineering and Science
+        photo: ../images/Emily_Johnston.jpg
+      - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
+        name: Charles Barber
+        degree: Mechanical Engineering
         position: Chief Engineer
-        photo: ../images/matt_madsen_resized_resized.jpg
+        photo: ../images/charles_barber_resized.jpg
   - subteamName: Aerodynamics
     teamMembers:
-      - name: Van Nhan Vu
+      - linkedIn: https://www.linkedin.com/in/rowan-goffin-90222519b/
+        name: Rowan Goffin
         degree: Aerospace Engineering
         position: Team Lead
-        photo: ../images/van_vu_resized.jpg
-        linkedIn: https://www.linkedin.com/in/van-nhan-vu
-      - linkedIn: https://www.linkedin.com/in/avishka-wickramarachchi-721804a9/
-        name: Avishka Wickramarachchi
+        photo: ../images/Rowan_Goffin.jpg
+      - linkedIn: https://www.linkedin.com/in/alex-katelis-812186212/
+        name: Alexander Katelis
+        degree: Aerospace Engineering
+        position: Assistant Team Lead
+        photo: ../images/Alexander Katelis.jpg
+      - linkedIn: ""
+        name: David Cheng
+        degree: Mechanical Engineering and Biomedical Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/diego-portilla-ducuara/
+        name: Diego Portilla
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/avishka_wickramarachchi_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/chibaoho
-        name: Chi Bao Ho
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/komal-gupta-524847198/
+        name: Komal Gupta
+        degree: Engineering and Science
+        position: Team Member
+        photo: ../images/Komal_Gupta.JPG
+      - linkedIn: https://www.linkedin.com/in/neraj-galagedara
+        name: Neraj Galagedara
+        degree: Aerospace Engineering and Science
+        position: Team Member
+        photo: ../images/neraj_galagedara_resized.jpg
+      - linkedIn: ""
+        name: Oscar Varney
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/bao_ho_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/luigi-cortez-03a3781b0/
-        name: Luigi Cortez
-        degree: Engineering
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/shashwat-maheshwari-4714b11b9/
+        name: Shashwat Maheshwari
+        degree: Mechanical Engineering and Law
         position: Team Member
-        photo: ../images/luigi_cortez_resized.jpg
-  - subteamName: Chassis & Drive-train
+        photo: ../images/shashwat_maheshwari_resized.png
+      - linkedIn: ""
+        name: Zhi (Joshua) Tai
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+  - subteamName: Chassis & Drivetrain
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/reich-alexander
-        name: Alexander Reich
+      - linkedIn: https://www.linkedin.com/in/nickadshead1/
+        name: Nick Adshead
         degree: Mechanical Engineering and Commerce
         position: Team Lead
-        photo: ../images/alexander_reich_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/liberty-creighton/
-        name: Liberty Creighton
+        photo: ../images/Nick_Adshead.jpg
+      - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
+        name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
         position: Assistant Team Lead
-        photo: ../images/liberty_creighton_resized.jpg
-      - linkedIn: https://linkedin.com/in/mingyang-aaron-yuan-81b441147
-        name: Aaron Yuan
-        degree: Mechanical Engineering and Commerce
+        photo: ../images/Phoebe_Taylor.jpg
+      - linkedIn: https://www.linkedin.com/in/alex-pearson-aa0462247/
+        name: Alex Pearson
+        degree: Chemical Engineering and Commerce
         position: Team Member
-        photo: ../images/aaron_yuan_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/casimir-liew-914544173/
-        name: Casimir Liew
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Anthony Joseph Micheletto
+        degree: Mechanical Engineering and Education
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/arsheda-ali-68560b216/
+        name: Arsheda Ali
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/casimir_liew_resized.jpg
-      - linkedIn: ""
-        name: Charles Delatycki
-        degree: Mechanical Engineering and Commerce
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/dominicbongiorno/
+        name: Dominic Bongiorno
+        degree: Engineering
         position: Team Member
-        photo: ../images/charlie_delatycki_resized.jpg
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
-        name: Chris Bilston
-        degree: Structural and Civil Engineering
+        name: Hugh Mayer
+        degree: ""
         position: Team Member
-        photo: ../images/chris_bilston_resized.jpg
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
-        name: Elvin Ng
-        degree: Mechanical Engineering
+        name: Julie Fitt
+        degree: ""
         position: Team Member
-        photo: ../images/elvin_ng_resized.jpg
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/kazuaki_shirakata_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/lawrence-l-9a7768122/
-        name: Lawrence Le
-        degree: Mechanical Engineering and Biomedical Science
+      - linkedIn: https://www.linkedin.com/in/lucy-savory-44b172184/
+        name: Lucy Savory
+        degree: Mechatronics Engineering
         position: Team Member
-        photo: ../images/lawrence_le_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/muzaffar-chumroo
-        name: Muzaffar Chumroo
+        photo: ../images/Lucy_Savory.jpg
+      - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
+        name: Noah Alwyn
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/muzaffar_chumroo_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/nickadshead1/
-        name: Nick Adshead
-        degree: Mechanical Engineering and Commerce
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/tyrone-rossouw-362168212/
+        name: Tyrone Rossouw
+        degree: Mechanical Enginering
         position: Team Member
-        photo: ../images/nick_adshead_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/stephanie-zago-74b13316b/
-        name: Stephanie Zago
-        degree: Mechanical Engineering and Commerce
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Vinura Abeygunawardhane
+        degree: Mechatronics Engineering
         position: Team Member
-        photo: ../images/stephanie_zago_resized.jpg
-  - subteamName: Corporate
-    teamMembers:
-      - linkedIn: https://www.linkedin.com/in/clarayew
-        name: Clara Yew
-        degree: Education and Arts
-        position: Team Lead
-        photo: ../images/clara_yew_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/neraj-galagedara
-        name: Neraj Galagedara
-        degree: Aerospace Engineering and Science
-        position: Team Lead
-        photo: ../images/neraj_galagedara_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/AakashBaweja
-        name: Aakash Baweja
-        degree: Commerce
-        position: Team Member
-        photo: ../images/aakash_baweja_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/angelica-aulia
-        name: Angelica Aulia
-        degree: Mechatronics Engineering and Arts
-        position: Team Member
-        photo: ../images/angelica_aulia_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/dzemal-efendic-82140a160/
-        name: Dzemal Efendic
-        degree: Civil Engineering and Commerce
-        position: Team Member
-        photo: ../images/dzemal_efendic_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/emily-johnston5/
-        name: Emily Johnston
-        degree: Civil Engineering and Commerce
-        position: Team Member
-        photo: ../images/emily_johnston_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/ian-tan-5102671aa/
-        name: Ian Tan
-        degree: Computer Science and Commerce
-        position: Team Member
-        photo: ../images/ian_tan_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/nan-wang617729/
-        name: Nan Wang
-        degree: Computer Science and Commerce Specialist
-        position: Team Member
-        photo: ../images/nan_wang_resized.jpg
-      - linkedIn: http://linkedin.com/in/rohhan-jain-1750971a0
-        name: Rohhan Jain
-        degree: Engineering and Law
-        position: Team Member
-        photo: ../images/rohhan-jain_resized.jpg
+        photo: ../images/000-placeholder-person.png
   - subteamName: Electrical
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/minh-nguyen-8023b1136/
-        name: Minh Nguyen
-        degree: Electrical Engineering
-        position: Team Lead
-        photo: ../images/minh_nguyen_resized.jpg
       - linkedIn: https://www.linkedin.com/in/hallgchris
         name: Christopher Hall
         degree: Electrical Engineering and Science
-        position: Assistant Team Lead
+        position: Team Lead
         photo: ../images/christopher_hall_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/angustrau/
-        name: Angus Trau
-        degree: Computer Science
-        position: Team Member
-        photo: ../images/angus_trau_resized.jpg
-      - linkedIn: ""
-        position: Team Member
-        name: Anil Deo
-        degree: Mechatronics Engineering and Finance
-        photo: ../images/anil_deo_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/blake-haydon/
-        position: Team Member
-        name: Blake Haydon
-        degree: Electrical Engineering and Science
-        photo: ../images/blake_haydon_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/brenny-dinh37268
-        position: Team Member
-        name: Brenny Dinh
-        degree: Mechatronics Engineering
-        photo: ../images/brenny_dinh_resized.jpg
-      - linkedIn: ""
-        position: Team Member
-        name: Jotham Gates
-        degree: Engineering and Science
-        photo: ../images/jotham_gates_resized.jpg
-      - linkedIn: ""
-        position: Team Member
-        name: Kenneth Koththigoda
-        degree: Electrical Engineering
-        photo: ../images/kenneth_koththigoda_resized.jpg
       - linkedIn: https://www.linkedin.com/in/kunj-dave/
-        position: Team Member
         name: Kunj Dave
         degree: Software Engineering and Finance
-        photo: ../images/kunj_dave_resized.jpg
-      - linkedIn: https://www.linkedin.com/mwlite/in/laksh-jaisinghani-3348b01a1
-        name: Laksh Jaisinghani
-        degree: Mechatronics Engineering
-        position: Team Member
-        photo: ../images/laksh_jaisinghani_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/nicholaschua0718/
-        position: Team Member
-        name: Nicholas Chua
-        degree: Software Engineering and Arts
-        photo: ../images/nick_chua_resized.jpg
+        position: Team Lead
+        photo: ../images/Kunj_Dave.jpg
       - linkedIn: ""
-        position: Team Member
-        name: Haotong Wang
+        name: Arosh Heenkenda
         degree: Software Engineering and Computer Science
-        photo: ../images/haotong_wang_resized.jpeg
-  - teamMembers:
-      - linkedIn: https://www.linkedin.com/in/kritika-warrier-0b8987163
-        name: Kritika Warrier
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/jessica-mark-35606721b/
+        name: Jessica Mark
+        degree: Software Engineering and Computer Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/jotham-gates-6a460a243/
+        name: Jotham Gates
+        degree: Electrical Engineering and Science
+        position: Team Member
+        photo: ../images/Jotham_Gates.jpg
+      - linkedIn: ""
+        name: Manuja Herath Kirinde
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
+        name: Mitchell De Nardis
+        degree: Aerospace Engineering and Computer Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Omar Afifi
+        degree: Electrical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/petros-koutroumpinas-a37a34234/
+        name: Petros Koutroumpinas
+        degree: Aerospace Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/samuel-zhang-b371b217b/
+        name: Samuel Zhang
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/winnie-chui/
+        name: Winnie Chui
+        degree: Software Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Zeyang (Sunny) Zhang
+        degree: Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+  - subteamName: Materials
+    teamMembers:
+      - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
+        name: Sydney Buntine
+        degree: Materials Engineering
         position: Team Lead
+        photo: ../images/Sydney_Buntine.jpg
+      - linkedIn: https://www.linkedin.com/in/alasdair-mckenzie-296617244/
+        name: Alasdair McKenzie
+        degree: Materials Engineering and Science
+        position: Assistant Team Lead
+        photo: ../images/Alasdair_McKenzie.jpg
+      - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
+        name: Alex Mavros
         degree: Mechanical Engineering and Biomedical Science
-        photo: ../images/kritika_warrier_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
-        name: Harry Blackburn
-        position: Team Lead
-        degree: Mechatronics Engineering and Finance
-        photo: ../images/harry_blackburn_resized.jpg
+        position: Team Member
+        photo: ../images/Alex_Mavros.jpg
       - linkedIn: https://www.linkedin.com/in/a-watts/
         name: Angie Watts
         degree: Mechanical Engineering and Industrial Design
         position: Team Member
         photo: ../images/angie_watts_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/khin-yoon-thar-16244a182/
-        name: Khin Yoon Thar
-        degree: Mechanical Engineering
+      - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
+        name: Clarisse Liew
+        degree: ""
         position: Team Member
-        photo: ../images/khin_yoon_thar_resized.jpg
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
-        name: Lauren Earls
-        degree: Mechanical Engineering and Industrial Design
+        name: Cooper Thurman
+        degree: ""
         position: Team Member
-        photo: ../images/lauren_earls_resized.jpg
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: James Cookson
+        degree: Engineering and Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/kosei-liu-a6a9711a1/
+        name: Kosei Liu
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/ravinduks/
+        name: Ravindu Udawatta
+        degree: Mechatronics Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/raymond-chan-02736b149/
         name: Raymond Chan
         degree: Civil Engineering and Finance
         position: Team Member
-        photo: ../images/raymond_chan_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/sandy-awad/
-        name: Sandy Awad
-        degree: Materials Engineering
+        photo: ../images/Raymond_Chan.jpg
+      - linkedIn: https://www.linkedin.com/in/vignesh-pakkiam/
+        name: Vignesh Pakkiam
+        degree: Materials Engineering and Science
         position: Team Member
-        photo: ../images/sandy_awad_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
-        name: Sydney Buntine
-        degree: Materials Engineering
-        position: Team Member
-        photo: ../images/sydney_buntine_resized.jpg
-    subteamName: Materials
+        photo: ../images/Vignesh Pakkiam.jpg
   - subteamName: Rider Development
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
-        name: Charles Barber
-        degree: Mechanical Engineering
+      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
+        name: Kit Kirby
+        degree: Materials Engineering
         position: Team Lead
-        photo: ../images/charles_barber_resized.jpg
+        photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Alastair Haslam
-        degree: Aerospace Engineering
-        position: Assistant Team Lead
-        photo: ../images/alastair_haslam_resized.jpg
-      - linkedIn: ""
-        name: Ben Thiele
-        degree: "Mechanical Engineering and Science "
+        degree: "Aerospace Engineering"
         position: Team Member
-        photo: ../images/ben_thiele_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/clive-woo-913507190/
-        name: Clive Woo
-        degree: Civil Engineering
-        position: Team Member
-        photo: ../images/clive_woo_resized.jpg
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/ellen-lowery-128885107/
         name: Ellen Lowery
-        degree: Masters of Data Science
+        degree: Master of Data Science
+        position: Rider
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Jonte Armitstead
+        degree: Engineering
+        position: Rider
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/michael-vincent-484997175/
+        name: Michael Vincent
+        degree: Civil Engineering and Business Analytics
         position: Team Member
-        photo: ../images/ellen_lowery_resized.jpg
-      - linkedIn: https://www.linkedin.com/mwlite/in/laksh-jaisinghani-3348b01a1
-        name: Laksh Jaisinghani
-        degree: Mechatronics Engineering
+        photo: ../images/Michael_Vincent.jpg
+  - subteamName: Operations
+    teamMembers:
+      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
+        name: Harry Blackburn
+        degree: Mechatronics Engineering and Finance
+        position: Team Lead
+        photo: ../images/harry_blackburn_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/akbar-fadiansyah-314b79217/
+        name: Akbar Fadiansyah
+        degree: Software Engineering
         position: Team Member
-        photo: ../images/laksh_jaisinghani_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/thea-adamson/
-        name: Thea Adamson
-        degree: Resources Engineering
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
+        name: Amanda Zhou
+        degree: Civil Engineering and Commerce
         position: Team Member
-        photo: ../images/thea_adamson_resized.jpg
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/angelica-aulia
+        name: Angelica Aulia
+        degree: Mechatronics Engineering and Arts
+        position: Team Member
+        photo: ../images/Angelica Aulia.jpg
+      - linkedIn: https://www.linkedin.com/in/felipe-jim%C3%A9nez-6570476b/
+        name: Felipe Jiménez
+        degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/frank-hutton-912400170/
+        name: Frank Hutton
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/james-liang-47b26a1a6/
+        name: James Liang
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/jane-h-b2025014a/
+        name: Jane Hantanto
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/khanh-le-1a712a116/
+        name: Khanh Le
+        degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
 ---

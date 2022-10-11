@@ -45,10 +45,20 @@ function navItem(text, anchor = "#", key) {
 const Header = () => {
   const data = useStaticQuery(graphql`
     query Logo {
-      file(relativePath: { eq: "MHP_logo_green_transparent.png" }) {
+      logoData: file(relativePath: { eq: "MHP_logo_green_transparent.png" }) {
         childImageSharp {
           fixed(height: 30) {
             ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      recruitmentData: file(
+        relativePath: { eq: "index.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            recruitment_link
           }
         }
       }
@@ -56,10 +66,17 @@ const Header = () => {
   `);
 
   const pageLinks = [
-    { title: "About", link: "/" },
+    { title: "About", link: "/about" },
     { title: "Team", link: "/team" },
     { title: "Bike", link: "/bike" },
     { title: "Subteams", link: "/subteams" },
+    { title: "Competitions", link: "/competitions" },
+    { title: "Outreach", link: "/outreach" },
+    {
+      title: "Join Us",
+      link: "/joinUs",
+      // data.recruitmentData.childMarkdownRemark.frontmatter.recruitment_link,
+    },
     { title: "Blog", link: "/blog" },
   ];
 
@@ -88,10 +105,12 @@ const Header = () => {
                 style={{ display: "flex" }}
               >
                 {/* MHP logo */}
-                <Img
-                  className="align-top"
-                  fixed={data.file.childImageSharp.fixed}
-                />
+                <Link to="/">
+                  <Img
+                    className="align-top"
+                    fixed={data.logoData.childImageSharp.fixed}
+                  />
+                </Link>
                 <NavLink className="nav-link" to="/">
                   MHP
                 </NavLink>
@@ -109,7 +128,8 @@ const Header = () => {
           </div>
 
           {/* Social Media Icons */}
-          <div style={{ width: 200, margin: "auto" }}>
+          {/* Recommended width: 50 per social media */}
+          <div style={{ width: 250, margin: "auto" }}>
             <Socials />
           </div>
         </CollapsingDiv>
