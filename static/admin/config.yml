@@ -49,7 +49,7 @@ collections:
           - label: Splash Section
             name: splash
             widget: object
-            hint: Splash section, inclusing video
+            hint: Splash section, including video
             fields:
               - { label: Splash Heading, name: heading, widget: string }
               - { label: Splash Body, name: body, widget: string }
