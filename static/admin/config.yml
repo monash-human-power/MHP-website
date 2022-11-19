@@ -40,9 +40,11 @@ collections:
           - label: Recruitment Link
             name: recruitment_link
             widget: string
+            hint: Link to the recruitment form, or perhaps the general recruitment section of join us page. Whichever is more convenient and provides the most information to applicants.
           - label: Recruitment Info Link
             name: recruitment_info
             widget: string
+            hint: Link to a page/document where people can find out about the recruitment and open positions.
           - label: Recruitment Description
             name: recruitment_description
             widget: text
