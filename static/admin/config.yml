@@ -21,6 +21,7 @@ collections:
           - { label: Facebook Link, name: facebook, widget: string }
           - { label: LinkedIn Link, name: linkedIn, widget: string }
           - { label: Github Link, name: github, widget: string }
+          - { label: TikTok Link, name: tiktok, widget: string }
 
       - label: "Index"
         name: "index"
@@ -28,13 +29,53 @@ collections:
         fields:
           - { label: Heading, name: heading, widget: string }
           - { label: Image, name: image, widget: image }
-          - {
-              label: SEO Page Description,
-              name: meta_page_description,
-              widget: text,
-              required: false,
-              hint: "This text will show up in the Google description of the page (The text under the link)",
-            }
+          - label: SEO Page Description
+            name: meta_page_description
+            required: false
+            hint: "This text will show up in the Google description of the page (The text under the link)"
+          - label: Recruitment Open
+            name: recruitment_open
+            widget: boolean
+            hint: Toggle this on when recruitments are open.
+          - label: Recruitment Link
+            name: recruitment_link
+            widget: string
+            hint: Link to the recruitment form, or perhaps the general recruitment section of join us page. Whichever is more convenient and provides the most information to applicants.
+          - label: Recruitment Info Link
+            name: recruitment_info
+            widget: string
+            hint: Link to a page/document where people can find out about the recruitment and open positions.
+          - label: Recruitment Description
+            name: recruitment_description
+            widget: text
+          - label: Splash Section
+            name: splash
+            widget: object
+            hint: Splash section, including video
+            fields:
+              - { label: Splash Heading, name: heading, widget: string }
+              - { label: Splash Body, name: body, widget: string }
+              - label: Trailer Embed Link
+                name: trailer_link
+                widget: string
+                hint: This link MUST be an embed link e.g. https://youtube.com/embed/someVideoId, otherwise it may not work.
+          - label: Sponsor Section
+            name: sponsors
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link to Sponsor, name: link, widget: string }
+              - { label: Image, name: image, widget: image }
+
+      - label: "About Page"
+        name: "about"
+        file: "/src/markdown/about.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - label: SEO Page Description
+            name: meta_page_description
+            required: false
+            hint: "This text will show up in the Google description of the page (The text under the link)"
           - label: Info Blocks
             name: blocks
             widget: list
@@ -62,6 +103,15 @@ collections:
                   widget: string,
                   hint: "If you are not changing the header, don't mess with it!",
                 }
+          - label: Our Values Section
+            name: our_values
+            widget: list
+            fields:
+              - label: Heading
+                name: heading
+              - label: Content
+                name: content
+                widget: text
           - label: Subteam Information Section
             name: subteams
             widget: list
@@ -84,12 +134,13 @@ collections:
                   default: "",
                   required: false,
                 }
-          - label: Sponsor Section
-            name: sponsors
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Image, name: image, widget: image }
+              - {
+                  label: Anchor ID,
+                  name: id,
+                  widget: string,
+                  hint: "Used to jump to the appropriate section in the subteam page. Must match the ID in the subteam page.",
+                  default: "",
+                }
 
       - label: "Team Page"
         name: "team"
@@ -188,6 +239,13 @@ collections:
                   required: false,
                 }
               - { label: Image, name: image, widget: image }
+              - {
+                  label: Anchor ID,
+                  name: id,
+                  widget: string,
+                  hint: "Used to jump to the appropriate subteam.",
+                  default: "",
+                }
 
       - label: "Bike Page"
         name: "bike"
@@ -232,6 +290,49 @@ collections:
                   hint: "eg. a string such as '81.2' or 'unknown'",
                 }
               - { label: Image, name: image, widget: image }
+
+      - label: "Competitions Page"
+        name: "competitions"
+        file: "/src/markdown/competitions.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
+          - label: Competitions Info Blocks
+            name: blocks
+            widget: list
+            fields:
+              - { label: Name, name: heading, widget: string }
+              - { label: Description, name: description, widget: text }
+              - {
+                  label: Button Text,
+                  name: buttonText,
+                  widget: string,
+                  hint: "Label to link the competition's home page.",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: Button Link,
+                  name: href,
+                  widget: string,
+                  hint: "Link to the competition's home page.",
+                  default: "",
+                  required: false,
+                }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Anchor ID,
+                  name: id,
+                  widget: string,
+                  hint: "Used to jump to the appropriate section.",
+                  default: "",
+                }
 
       - label: "Outreach Page"
         name: "outreach"
@@ -284,3 +385,84 @@ collections:
                   hint: "The person / organization who said the quote",
                 }
               - { label: Quote, name: quote, widget: string }
+
+      - label: "Recruitment Page"
+        name: "recruitment"
+        file: "/src/markdown/joinUs.md"
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - {
+              label: SEO Page Description,
+              name: meta_page_description,
+              widget: text,
+              required: false,
+              hint: "This text will show up in the Google description of the page (The text under the link)",
+            }
+          - label: Recruitment Categories
+            name: recruitment_categories
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Currenrtly Open, name: is_open, widget: boolean }
+              - {
+                  label: Description (Open),
+                  name: description,
+                  widget: text,
+                  hint: Description when recruitments are open.,
+                }
+              - {
+                  label: Description (Closed),
+                  name: description_closed,
+                  widget: text,
+                  hint: Description when recruitments are closed.,
+                }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: Application Link,
+                  name: link,
+                  widget: string,
+                  hint: "Link to application form.",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: More Info Link,
+                  name: more_info_link,
+                  widget: string,
+                  hint: "Link to more information about this category (e.g. position description).",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: Expression of Interest Link,
+                  name: eoi_link,
+                  widget: string,
+                  hint: "Link to EOI form.",
+                  default: "",
+                  required: false,
+                }
+              - {
+                  label: Anchor ID,
+                  name: id,
+                  widget: string,
+                  hint: "Used to jump to the appropriate section.",
+                  default: "",
+                }
+          - label: Recruitment Process Section
+            name: recruitment_process
+            widget: list
+            fields:
+              - label: Heading
+                name: heading
+              - label: Content
+                name: content
+                widget: text
+          - label: FAQ Section
+            name: FAQs
+            widget: list
+            fields:
+              - label: Question
+                name: question
+              - label: Answer
+                name: answer
+                widget: text
