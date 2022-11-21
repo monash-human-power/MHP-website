@@ -17,6 +17,8 @@ const Heading = styled.h1`
 const CentreImage = styled(GatsbyImage)`
   display: block;
   margin: auto;
+  max-height: 325px;
+  max-width: 800px
 `;
 
 const BlackBackground = styled.span`
@@ -29,7 +31,7 @@ const MainGraphic = ({ image, heading }) => (
     <div className="row justify-content-center pt-4 mt-4">
       {/* Bike graphic */}
       <div className="col-md-12">
-        <CentreImage fluid={image} />
+        <CentreImage image={image} alt=""/>
       </div>
 
       {/* Heading text */}
