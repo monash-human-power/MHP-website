@@ -114,15 +114,17 @@ const JoinUsPage = () => {
                   <div className="card m-1">
                     <div className="card-header" id={`${index}`}>
                       <h2 className="mb-0">
-                        <button
-                          className="btn btn-block text-left"
-                          data-toggle="collapse"
-                          data-target={`#collapse${index}`}
-                          aria-expanded="true"
-                          aria-controls={`collapse${index}`}
-                        >
-                          {faqsData.question}
-                        </button>
+                        <div className="d-grid my-0">
+                          <button
+                            className="btn text-left"
+                            data-bs-toggle="collapse"
+                            data-bs-target={`#collapse${index}`}
+                            aria-expanded="true"
+                            aria-controls={`collapse${index}`}
+                          >
+                            {faqsData.question}
+                          </button>
+                        </div>
                       </h2>
                     </div>
                     {/* Set class below to "collapse show" to make not hide the contents by default */}
