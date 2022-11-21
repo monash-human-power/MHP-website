@@ -7,14 +7,18 @@
   "author": "Monash Human Power <electrical.mhp@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.12.3",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@popperjs/core": "^2.11.6",
     "@types/bootstrap": "^5.2.6",
+    "@types/react": ">=16",
+    "babel-eslint": "^10.0.0",
     "babel-plugin-styled-components": "^2.0.7",
     "bootstrap": "^5.2.2",
+    "eslint": ">= 4.12.1",
     "gatsby": "^5.0.1",
     "gatsby-cli": "^5.0.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
@@ -38,7 +42,10 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.1.1"
+    "react-is": ">= 16.8.0",
+    "styled-components": "^5.1.1",
+    "typescript": ">=2.8.0",
+    "webpack": "^5.0.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^6.17.2",
