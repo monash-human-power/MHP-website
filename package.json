@@ -17,7 +17,6 @@
     "bootstrap": "^5.2.2",
     "gatsby": "^5.0.1",
     "gatsby-cli": "^5.0.0",
-    "gatsby-image": "^3.11.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-google-analytics": "^5.0.0",
     "gatsby-plugin-heap": "^1.1.0",
