@@ -7,35 +7,31 @@ import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 
 const CompetitionsPage = () => {
-  const data = useStaticQuery(graphql`
-    query CompetitionsPageQuery {
-      file(
-        relativePath: { eq: "competitions.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            heading
-            meta_page_description
-            blocks {
-              image {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              href
-              heading
-              description
-              buttonText
-              id
+  const data = useStaticQuery(graphql`query CompetitionsPageQuery {
+  file(
+    relativePath: {eq: "competitions.md"}
+    sourceInstanceName: {eq: "markdown"}
+  ) {
+    childMarkdownRemark {
+      frontmatter {
+        heading
+        meta_page_description
+        blocks {
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
+          href
+          heading
+          description
+          buttonText
+          id
         }
       }
     }
-  `);
+  }
+}`);
 
   const competitionsData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = competitionsData.blocks;
@@ -58,7 +54,7 @@ const CompetitionsPage = () => {
               description={blockData.description}
               buttonText={blockData.buttonText}
               href={blockData.href}
-              image={blockData.image.childImageSharp.fluid}
+              image={blockData.image.childImageSharp.gatsbyImageData}
               key={index}
               // Example key would be 1 (index of the data)
               id={blockData.id}

@@ -1,34 +1,27 @@
 import React from "react";
 import Link from "../link";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
 import { SectionHeading } from "../content";
 
 const Sponsors = ({ className }) => {
-  const data = useStaticQuery(graphql`
-    query SponsorsQuery {
-      file(
-        relativePath: { eq: "index.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            sponsors {
-              name
-              image {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              link
+  const data = useStaticQuery(graphql`query SponsorsQuery {
+  file(relativePath: {eq: "index.md"}, sourceInstanceName: {eq: "markdown"}) {
+    childMarkdownRemark {
+      frontmatter {
+        sponsors {
+          name
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
+          link
         }
       }
     }
-  `);
+  }
+}`);
 
   const sponsorArr = data.file.childMarkdownRemark.frontmatter.sponsors;
 
@@ -50,13 +43,12 @@ const Sponsors = ({ className }) => {
         {sponsorArr.map((sponsorObj, index) => (
           <div className="col-6 col-md-3" key={index}>
             <Link to={sponsorObj.link}>
-              <Img
+              <GatsbyImage
+                image={sponsorObj.image.childImageSharp.gatsbyImageData}
                 // TODO: Find out why this works
                 className="m-4 mx-auto"
-                fluid={sponsorObj.image.childImageSharp.fluid}
                 alt={`Logo of ${sponsorObj.name}`}
-                title={sponsorObj.name}
-              />
+                title={sponsorObj.name} />
             </Link>
           </div>
         ))}

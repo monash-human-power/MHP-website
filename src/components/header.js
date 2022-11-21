@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 
 import Link from "./link";
@@ -43,27 +43,23 @@ function navItem(text, anchor = "#", key) {
 }
 
 const Header = () => {
-  const data = useStaticQuery(graphql`
-    query Logo {
-      logoData: file(relativePath: { eq: "MHP_logo_green_transparent.png" }) {
-        childImageSharp {
-          fixed(height: 30) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      recruitmentData: file(
-        relativePath: { eq: "index.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            recruitment_link
-          }
-        }
+  const data = useStaticQuery(graphql`query Logo {
+  logoData: file(relativePath: {eq: "MHP_logo_green_transparent.png"}) {
+    childImageSharp {
+      gatsbyImageData(height: 30, layout: FIXED)
+    }
+  }
+  recruitmentData: file(
+    relativePath: {eq: "index.md"}
+    sourceInstanceName: {eq: "markdown"}
+  ) {
+    childMarkdownRemark {
+      frontmatter {
+        recruitment_link
       }
     }
-  `);
+  }
+}`);
 
   const pageLinks = [
     { title: "About", link: "/about" },
@@ -105,10 +101,10 @@ const Header = () => {
               >
                 {/* MHP logo */}
                 <Link to="/">
-                  <Img
-                    className="align-top"
-                    fixed={data.logoData.childImageSharp.fixed}
-                  />
+                  <GatsbyImage
+                    image={data.logoData.childImageSharp.gatsbyImageData}
+                    alt="MHP logo"
+                    className="align-top" />
                 </Link>
                 <NavLink className="nav-link" to="/">
                   MHP

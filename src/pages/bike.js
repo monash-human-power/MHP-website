@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
@@ -62,7 +62,7 @@ const BikeInfoBlock = (bikeObj, reverseOrder, index) => (
 
     {/* Image component */}
     <div className={`col-md ${reverseOrder && "order-md-1 order-xs-2"}`}>
-      <Img fluid={bikeObj.image.childImageSharp.fluid} />
+      <GatsbyImage image={bikeObj.image.childImageSharp.gatsbyImageData} alt={`Image of bike: ${bikeObj.name}`}/>
       <p
         className="p-0 m-0"
         style={{
@@ -78,36 +78,29 @@ const BikeInfoBlock = (bikeObj, reverseOrder, index) => (
 );
 
 const BikePage = () => {
-  const data = useStaticQuery(graphql`
-    query BikePageQuery {
-      file(
-        relativePath: { eq: "bike.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            heading
-            meta_page_description
-            bikes {
-              name
-              version
-              description
-              start_year
-              end_year
-              top_speed_km
-              image {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
+  const data = useStaticQuery(graphql`query BikePageQuery {
+  file(relativePath: {eq: "bike.md"}, sourceInstanceName: {eq: "markdown"}) {
+    childMarkdownRemark {
+      frontmatter {
+        heading
+        meta_page_description
+        bikes {
+          name
+          version
+          description
+          start_year
+          end_year
+          top_speed_km
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
         }
       }
     }
-  `);
+  }
+}`);
 
   const bikeData = data.file.childMarkdownRemark.frontmatter;
   const bikeArr = bikeData.bikes;

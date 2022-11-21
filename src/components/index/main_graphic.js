@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 // TODO: remove these and put something more permanent (changeable)
 import MHP_green_crosshair from "../../images/crosshair.svg";
@@ -14,7 +14,7 @@ const Heading = styled.h1`
   text-align: center;
 `;
 
-const CentreImage = styled(Img)`
+const CentreImage = styled(GatsbyImage)`
   display: block;
   margin: auto;
 `;

@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import Link from "../link";
 
@@ -34,7 +34,7 @@ const TeamPage_InfoBlock = ({
     <Centered> {position} </Centered>
 
     {/* Image component */}
-    <Img fluid={photo} alt={`Photo of ${name}`} />
+    <GatsbyImage image={photo} alt={`Photo of ${name}`} />
 
     {/* Name, degree and linkedIn heading */}
     <Centered> {name} </Centered>
