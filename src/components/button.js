@@ -21,7 +21,7 @@ const universalButtonStyle = `
     /* Slightly darker purple */
     transition: 0.3s;
     background-color: #37279e;
-  } 
+  }
 `;
 
 const SubmitButton = styled(Link)`
@@ -35,17 +35,22 @@ const RealButton = styled.button`
 const BUTTON_TYPES = { button: "button", submit: "submit" };
 
 const Button = ({ children, href, type }) => {
+  {/* TODO: why is it reversed? i.e. submit returns RealButton and vice versa */}
   if (type === BUTTON_TYPES.button) {
     return (
+      <div className="d-grid gap-2">
       <SubmitButton className="btn btn-block" to={href}>
         {children}
       </SubmitButton>
+      </div>
     );
   } else if (type === BUTTON_TYPES.submit) {
     return (
+      <div className="d-grid gap-2">
       <RealButton className="btn btn-block" type="submit">
         {children}
       </RealButton>
+      </div>
     );
   } else {
     throw Error(
