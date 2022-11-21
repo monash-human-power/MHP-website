@@ -4,6 +4,8 @@ import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
 function SEO({ description, lang, meta, title }) {
+  // TODO: migrate this to gatsby's head API
+  // https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
   const { site } = useStaticQuery(
     graphql`
       query {
