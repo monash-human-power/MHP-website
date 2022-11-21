@@ -35,7 +35,7 @@ const RealButton = styled.button`
 const BUTTON_TYPES = { button: "button", submit: "submit" };
 
 const Button = ({ children, href, type }) => {
-  {/* TODO: why is it reversed? i.e. submit returns RealButton and vice versa */}
+  /* TODO: why is it reversed? i.e. submit returns RealButton and vice versa */
   if (type === BUTTON_TYPES.button) {
     return (
       <div className="d-grid gap-2">
