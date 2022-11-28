@@ -116,7 +116,7 @@ const JoinUsPage = () => {
                       <h2 className="mb-0">
                         <div className="d-grid my-0">
                           <button
-                            className="btn text-left"
+                            className="btn text-start"
                             data-bs-toggle="collapse"
                             data-bs-target={`#collapse${index}`}
                             aria-expanded="true"
