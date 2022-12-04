@@ -8,46 +8,39 @@ import NumberedTextGrid from "../components/numbered_text_grid";
 import { CenteredSection, SectionHeading } from "../components/content";
 
 const JoinUsPage = () => {
-  const data = useStaticQuery(graphql`
-    query JoinUsPageQuery {
-      file(
-        relativePath: { eq: "joinUs.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            heading
-            meta_page_description
-            recruitment_categories {
-              name
-              is_open
-              description
-              closed_description
-              link
-              more_info_link
-              eoi_link
-              id
-              image {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            recruitment_process {
-              heading
-              content
-            }
-            FAQs {
-              question
-              answer
+  const data = useStaticQuery(graphql`query JoinUsPageQuery {
+  file(relativePath: {eq: "joinUs.md"}, sourceInstanceName: {eq: "markdown"}) {
+    childMarkdownRemark {
+      frontmatter {
+        heading
+        meta_page_description
+        recruitment_categories {
+          name
+          is_open
+          description
+          closed_description
+          link
+          more_info_link
+          eoi_link
+          id
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
         }
+        recruitment_process {
+          heading
+          content
+        }
+        FAQs {
+          question
+          answer
+        }
       }
     }
-  `);
+  }
+}`);
 
   const joinUsData = data.file.childMarkdownRemark.frontmatter;
   const recruitmentArr = joinUsData.recruitment_categories;
@@ -90,7 +83,7 @@ const JoinUsPage = () => {
                   : ""
               }
               href2={blockData.more_info_link}
-              image={blockData.image.childImageSharp.fluid}
+              image={blockData.image.childImageSharp.gatsbyImageData}
               key={index}
               // Example key would be 1 (index of the data)
               id={blockData.id}
@@ -121,15 +114,17 @@ const JoinUsPage = () => {
                   <div className="card m-1">
                     <div className="card-header" id={`${index}`}>
                       <h2 className="mb-0">
-                        <button
-                          className="btn btn-block text-left"
-                          data-toggle="collapse"
-                          data-target={`#collapse${index}`}
-                          aria-expanded="true"
-                          aria-controls={`collapse${index}`}
-                        >
-                          {faqsData.question}
-                        </button>
+                        <div className="d-grid my-0">
+                          <button
+                            className="btn text-start"
+                            data-bs-toggle="collapse"
+                            data-bs-target={`#collapse${index}`}
+                            aria-expanded="true"
+                            aria-controls={`collapse${index}`}
+                          >
+                            {faqsData.question}
+                          </button>
+                        </div>
                       </h2>
                     </div>
                     {/* Set class below to "collapse show" to make not hide the contents by default */}

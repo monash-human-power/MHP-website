@@ -9,39 +9,32 @@ import ContactForm from "../components/index/contact_form";
 import ReviewGrid from "../components/review";
 
 const BikePage = () => {
-  const data = useStaticQuery(graphql`
-    query OutreachPageQuery {
-      file(
-        relativePath: { eq: "outreach.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            heading
-            meta_page_description
-            blocks {
-              image {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              heading
-              description
-              id
-              buttonText
-              href
-            }
-            reviews {
-              person
-              quote
+  const data = useStaticQuery(graphql`query OutreachPageQuery {
+  file(relativePath: {eq: "outreach.md"}, sourceInstanceName: {eq: "markdown"}) {
+    childMarkdownRemark {
+      frontmatter {
+        heading
+        meta_page_description
+        blocks {
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
+          heading
+          description
+          id
+          buttonText
+          href
+        }
+        reviews {
+          person
+          quote
         }
       }
     }
-  `);
+  }
+}`);
 
   const outreachData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = outreachData.blocks;
@@ -63,7 +56,7 @@ const BikePage = () => {
             <InfoBlock
               heading={blockData.heading}
               description={blockData.description}
-              image={blockData.image.childImageSharp.fluid}
+              image={blockData.image.childImageSharp.gatsbyImageData}
               key={index}
               // Example key would be 1 (index of the data)
               id={blockData.id}

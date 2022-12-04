@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import Button from "./button";
 
@@ -17,6 +17,7 @@ const InfoBlock = ({
   heading,
   description,
   image,
+  imageAlt = "",
   buttonText,
   href,
   buttonText2 = "",
@@ -46,7 +47,7 @@ const InfoBlock = ({
 
     {/* Image component */}
     <div className={`col-md ${reverseOrder && "order-md-1 order-xs-2"} `}>
-      <Img fluid={image} />
+      <GatsbyImage image={image} alt={imageAlt} />
     </div>
   </div>
 );

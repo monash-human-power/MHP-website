@@ -19,68 +19,54 @@ const IndexSection = styled.div`
 `;
 
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query IndexPageQuery {
-      allFile(filter: { relativePath: { eq: "applications_open.jpg" } }) {
-        edges {
-          node {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid_tracedSVG
-                ...GatsbyImageSharpFluidLimitPresentationSize
-              }
-            }
-          }
+  const data = useStaticQuery(graphql`query IndexPageQuery {
+  allFile(filter: {relativePath: {eq: "applications_open.jpg"}}) {
+    edges {
+      node {
+        childImageSharp {
+          gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
         }
       }
-
-      file(
-        relativePath: { eq: "index.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            heading
-            meta_page_description
-            splash {
-              heading
-              body
-              trailer_link
-              about_link
-              bike_link
-              competitions_link
+    }
+  }
+  file(relativePath: {eq: "index.md"}, sourceInstanceName: {eq: "markdown"}) {
+    childMarkdownRemark {
+      frontmatter {
+        heading
+        meta_page_description
+        splash {
+          heading
+          body
+          trailer_link
+          about_link
+          bike_link
+          competitions_link
+        }
+        recruitment_open
+        recruitment_link
+        recruitment_info
+        recruitment_description
+        blocks {
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
             }
-            recruitment_open
-            recruitment_link
-            recruitment_info
-            recruitment_description
-            blocks {
-              image {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              href
-              heading
-              description
-              buttonText
-              id
-            }
-            image {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                  ...GatsbyImageSharpFluidLimitPresentationSize
-                }
-              }
-            }
+          }
+          href
+          heading
+          description
+          buttonText
+          id
+        }
+        image {
+          childImageSharp {
+            gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
           }
         }
       }
     }
-  `);
+  }
+}`);
 
   const indexData = data.file.childMarkdownRemark.frontmatter;
   const splashData = indexData.splash;
@@ -91,7 +77,7 @@ const IndexPage = () => {
 
       {/* Main graphic when the page loads*/}
       <MainGraphic
-        image={indexData.image.childImageSharp.fluid}
+        image={indexData.image.childImageSharp.gatsbyImageData}
         heading={indexData.heading}
       />
 
@@ -131,7 +117,7 @@ const IndexPage = () => {
             href2={indexData.recruitment_info}
             buttonText={"Apply Here!"}
             href={indexData.recruitment_link}
-            image={data.allFile.edges[0].node.childImageSharp.fluid}
+            image={data.allFile.edges[0].node.childImageSharp.gatsbyImageData}
             key={0}
             reverseOrder={0}
           />

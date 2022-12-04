@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import Link from "../link";
 
@@ -29,12 +29,12 @@ const TeamPage_InfoBlock = ({
   linkedIn,
   id,
 }) => (
-  <div className="col-sm-6 col-md-4 col-lg-3" id={id}>
+  <div className="col-sm-6 col-md-4 col-lg-3 col-xl-2 m-3" id={id}>
     {/* Position heading component */}
     <Centered> {position} </Centered>
 
     {/* Image component */}
-    <Img fluid={photo} alt={`Photo of ${name}`} />
+    <GatsbyImage image={photo} alt={`Photo of ${name}`} />
 
     {/* Name, degree and linkedIn heading */}
     <Centered> {name} </Centered>
