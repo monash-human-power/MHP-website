@@ -1,5 +1,5 @@
 /* Import Roboto fonts from google */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&family=Roboto:ital@0;1&display=swap');
 
 :root {
   --MHP-green: #ccf381;
@@ -32,14 +32,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+code, pre {
+  font-family: "Roboto Mono", monospace !important;
+}
+
 h1 {
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 60px;
 }
 
-h2 {
-  text-transform: capitalize;
+h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
@@ -79,7 +81,7 @@ p {
 }
 
 /* Block quote */
-/* Taken from https://github.com/gatsbyjs/gatsby-starter-blog/blob/master/src/style.css*/
+/* Taken from https://github.com/gatsbyjs/gatsby-starter-blog/blob/master/src/style.css */
 blockquote {
   color: var(--color-text-light);
   margin-left: calc(-1 * var(--spacing-6));

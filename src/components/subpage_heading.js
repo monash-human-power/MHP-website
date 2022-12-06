@@ -3,6 +3,7 @@ import styled from "styled-components";
 import propTypes from "prop-types";
 
 const Heading = styled.h1`
+  text-transform: uppercase;
   text-align: center;
   color: white;
   background: var(--MHP-purple);
