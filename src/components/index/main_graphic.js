@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 // TODO: remove these and put something more permanent (changeable)
 import MHP_green_crosshair from "../../images/crosshair.svg";
@@ -14,9 +14,11 @@ const Heading = styled.h1`
   text-align: center;
 `;
 
-const CentreImage = styled(Img)`
+const CentreImage = styled(GatsbyImage)`
   display: block;
   margin: auto;
+  max-height: 325px;
+  max-width: 800px
 `;
 
 const BlackBackground = styled.span`
@@ -29,7 +31,7 @@ const MainGraphic = ({ image, heading }) => (
     <div className="row justify-content-center pt-4 mt-4">
       {/* Bike graphic */}
       <div className="col-md-12">
-        <CentreImage fluid={image} />
+        <CentreImage image={image} alt=""/>
       </div>
 
       {/* Heading text */}

@@ -44,38 +44,31 @@ const Wrapper = styled.div`
 `;
 
 const TeamPage = () => {
-  const data = useStaticQuery(graphql`
-    query TeamPageQuery {
-      file(
-        relativePath: { eq: "team.md" }
-        sourceInstanceName: { eq: "markdown" }
-      ) {
-        childMarkdownRemark {
-          frontmatter {
-            heading
-            description
-            meta_page_description
-            subteam {
-              subteamName
-              teamMembers {
-                photo {
-                  childImageSharp {
-                    fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                name
-                degree
-                position
-                linkedIn
+  const data = useStaticQuery(graphql`query TeamPageQuery {
+  file(relativePath: {eq: "team.md"}, sourceInstanceName: {eq: "markdown"}) {
+    childMarkdownRemark {
+      frontmatter {
+        heading
+        description
+        meta_page_description
+        subteam {
+          subteamName
+          teamMembers {
+            photo {
+              childImageSharp {
+                gatsbyImageData(width: 500, height: 500, quality: 100, layout: CONSTRAINED)
               }
             }
+            name
+            degree
+            position
+            linkedIn
           }
         }
       }
     }
-  `);
+  }
+}`);
 
   const teamData = data.file.childMarkdownRemark.frontmatter;
   const teamArr = teamData.subteam;
@@ -116,7 +109,7 @@ const TeamPage = () => {
                   name={memberInfo.name}
                   degree={memberInfo.degree}
                   position={memberInfo.position}
-                  photo={memberInfo.photo.childImageSharp.fluid}
+                  photo={memberInfo.photo.childImageSharp.gatsbyImageData}
                   linkedIn={memberInfo.linkedIn}
                   key={index_inner}
                   // Example key would be 1 (index_inner of the data)

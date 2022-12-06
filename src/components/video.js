@@ -8,7 +8,7 @@ import React from "react";
  */
 // Taken from gatsby docs: https://www.gatsbyjs.com/docs/how-to/images-and-media/working-with-video/
 const Video = ({ videoSrcURL, videoTitle }) => (
-  <div className="embed-responsive embed-responsive-16by9">
+  <div className="ratio ratio-16x9">
     <iframe
       src={videoSrcURL}
       title={videoTitle}
