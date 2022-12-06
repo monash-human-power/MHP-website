@@ -11,7 +11,7 @@ const Subheading = styled.p`
   font-style: italic;
 `;
 
-export default ({ data }) => {
+const BlogPost = ({ data }) => {
   const postData = data.markdownRemark;
   const postFrontmatter = postData.frontmatter;
   const postInnerHTML = postData.html;
@@ -63,3 +63,5 @@ export const query = graphql`
     }
   }
 `;
+
+export default BlogPost;
