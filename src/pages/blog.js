@@ -5,7 +5,6 @@ import SEO from "../components/seo";
 import Link from "../components/link";
 import SubpageHeading from "../components/subpage_heading";
 import styled from "styled-components";
-import { map } from "jquery";
 
 export const Author = styled.span`
   font-weight: bold;
