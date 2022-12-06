@@ -60,6 +60,16 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 640,
+            },
+          },
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                // Add the bootstrap table classes to all tables
+                // https://getbootstrap.com/docs/5.0/content/tables/
+                "table": "table"
+              }
             }
           }
         ]
