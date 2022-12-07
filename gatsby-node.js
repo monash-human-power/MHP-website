@@ -16,6 +16,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const parentNode = getNode(node.parent);
 
     // Only create slugs for the blog pages
+    if (parentNode !== undefined){
     if (parentNode.sourceInstanceName === "blog") {
       const slug = createFilePath({ node, getNode, basePath: "blog" });
 
@@ -27,14 +28,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         value: `/blog${slug}`,
       });
     }
-  }
+  }}
 };
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
+  // Prevent non-blog pages and placeholder blog post from being created through this method
   const result = await graphql(`
     query {
-      allMarkdownRemark(filter: { fields: { slug: { ne: null } } }) {
+      allMarkdownRemark(filter: { fields: { slug: { nin: [null, "/blog/.gitkeep/"] } } }) {
         edges {
           node {
             fields {

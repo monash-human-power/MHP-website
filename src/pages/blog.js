@@ -44,7 +44,10 @@ const BlogPage = () => {
       <SEO title="Blog" />
       <SubpageHeading>Blog</SubpageHeading>
       <div className="container mb-5">
-        {blogDataArr.map(({ node }) => {
+        {/* Prevent the placeholder page from being displayed in blog page*/}
+        {blogDataArr
+        .filter(({ node }) => node.childMarkdownRemark.fields.slug !== "/blog/.gitkeep/")
+        .map(({ node }) => {
           const frontMatter = node.childMarkdownRemark.frontmatter;
           const nodeFields = node.childMarkdownRemark.fields;
           return (
