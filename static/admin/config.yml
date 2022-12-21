@@ -22,7 +22,6 @@ collections:
           - { label: LinkedIn Link, name: linkedIn, widget: string }
           - { label: Github Link, name: github, widget: string }
           - { label: TikTok Link, name: tiktok, widget: string }
-
       - label: "Index"
         name: "index"
         file: "/src/markdown/index.md"
@@ -66,7 +65,6 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Link to Sponsor, name: link, widget: string }
               - { label: Image, name: image, widget: image }
-
       - label: "About Page"
         name: "about"
         file: "/src/markdown/about.md"
@@ -141,7 +139,6 @@ collections:
                   hint: "Used to jump to the appropriate section in the subteam page. Must match the ID in the subteam page.",
                   default: "",
                 }
-
       - label: "Team Page"
         name: "team"
         file: "/src/markdown/team.md"
@@ -188,7 +185,6 @@ collections:
                       default: "",
                       required: false,
                     }
-
       - label: "404"
         name: "404_page"
         file: "/src/markdown/404.md"
@@ -203,7 +199,6 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subtext, name: subtext, widget: string }
-
       - label: "SubTeams Page"
         name: "subteams"
         file: "/src/markdown/subteams.md"
@@ -246,7 +241,6 @@ collections:
                   hint: "Used to jump to the appropriate subteam.",
                   default: "",
                 }
-
       - label: "Bike Page"
         name: "bike"
         file: "/src/markdown/bike.md"
@@ -290,7 +284,6 @@ collections:
                   hint: "eg. a string such as '81.2' or 'unknown'",
                 }
               - { label: Image, name: image, widget: image }
-
       - label: "Competitions Page"
         name: "competitions"
         file: "/src/markdown/competitions.md"
@@ -333,7 +326,6 @@ collections:
                   hint: "Used to jump to the appropriate section.",
                   default: "",
                 }
-
       - label: "Outreach Page"
         name: "outreach"
         file: "/src/markdown/outreach.md"
@@ -385,7 +377,6 @@ collections:
                   hint: "The person / organization who said the quote",
                 }
               - { label: Quote, name: quote, widget: string }
-
       - label: "Recruitment Page"
         name: "recruitment"
         file: "/src/markdown/joinUs.md"
@@ -466,3 +457,28 @@ collections:
               - label: Answer
                 name: answer
                 widget: text
+  - label: "MHP Blog Posts"
+    name: blog
+    folder: /src/blog
+    create: true
+    slug: "{{year}}{{month}}{{day}}-{{slug}}"
+    fields:
+      - label: "Title"
+        name: title
+        widget: string
+        required: true
+      - label: "Subtitle"
+        name: subtitle
+        widget: string
+      - label: "Author"
+        name: author
+        widget: string
+        required: true
+      - label: "Date"
+        name: date
+        widget: datetime
+        required: true
+      - label: "Body"
+        name: body
+        widget: markdown
+        required: true

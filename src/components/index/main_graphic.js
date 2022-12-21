@@ -12,6 +12,7 @@ const CrosshairContainer = styled.div`
 const Heading = styled.h1`
   color: white;
   text-align: center;
+  text-transform: uppercase;
 `;
 
 const CentreImage = styled(GatsbyImage)`
