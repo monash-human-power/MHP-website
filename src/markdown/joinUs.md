@@ -9,7 +9,7 @@ recruitment_categories:
     eoi_link: ""
     link: https://forms.gle/w1D8tzLVDUgdsJa98
     id: rider-recruitment
-    image: ../images/subteam2021_riderdev.jpeg
+    image: ../images/velo-session.jpg
     description: If you like riding bikes, you'll love the thrill of riding one of
       ours. Applications are open year round, so if you're interested hit the
       apply button now!
@@ -21,7 +21,7 @@ recruitment_categories:
     eoi_link: ""
     link: https://forms.gle/RmisZWoNEMbE5AjP7
     id: general-recruitment
-    image: ../images/subteam2021_corporate.jpg
+    image: ../images/mhp-team-aarc.jpg
     description: "Whether you like building and repairing bikes, playing around with
       microcontrollers and Raspberry Pis, or just want to get your hands dirty
       in a real world multidisciplinary project, we have something for all of
