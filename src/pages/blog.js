@@ -23,7 +23,7 @@ const EmptyBlogList = () => {
     <EmptyBlogListContainer className="row py-2">
       <SectionHeading>It's pretty quiet here...</SectionHeading>
       <SectionParagraph>
-        Stay tuned for posts from our team. In the meantime, why not check out our social media pages?
+        Stay tuned for posts from us. In the meantime, why not check out our social media pages?
       </SectionParagraph>
     </EmptyBlogListContainer>
   )
