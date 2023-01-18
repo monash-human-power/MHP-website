@@ -24,7 +24,7 @@ const IndexPage = () => {
     edges {
       node {
         childImageSharp {
-          gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
+          gatsbyImageData(layout: CONSTRAINED)
         }
       }
     }
@@ -60,7 +60,7 @@ const IndexPage = () => {
         }
         image {
           childImageSharp {
-            gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
+            gatsbyImageData(layout: CONSTRAINED)
           }
         }
       }

@@ -38,12 +38,12 @@ const InfoBlock = ({
             <Button href={href}> {buttonText} </Button>
           )}
         </div>
+        {/* TODO: fix this as it is a big hack to get another button into this component */}
+        {buttonText2 !== "" && buttonText2 !== null && (
         <div className="col-md mb-3">
-          {/* TODO: fix this as it is a big hack to get another button into this component */}
-          {buttonText2 !== "" && buttonText2 !== null && (
             <Button href={href2}> {buttonText2} </Button>
-          )}
         </div>
+        )}
       </div>
     </div>
 
