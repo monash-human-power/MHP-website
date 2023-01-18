@@ -93,13 +93,13 @@ const IndexPage = () => {
         </IndexSection>
 
         <div className="row py-2">
-          <div className="col mb-3">
+          <div className="col-md mb-3">
             <Button href={splashData.about_link}>About Us</Button>
           </div>
-          <div className="col mb-3">
+          <div className="col-md mb-3">
             <Button href={splashData.bike_link}>Our Bikes</Button>
           </div>
-          <div className="col mb-3">
+          <div className="col-md mb-3">
             <Button href={splashData.competitions_link}>
               The Competitions
             </Button>
