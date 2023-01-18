@@ -33,10 +33,12 @@ const InfoBlock = ({
 
       {/* Button component */}
       <div className="row">
-        <div className="col-md-8 mb-3">
+        <div className="col-md mb-3">
           {buttonText !== "" && buttonText !== null && (
             <Button href={href}> {buttonText} </Button>
           )}
+        </div>
+        <div className="col-md mb-3">
           {/* TODO: fix this as it is a big hack to get another button into this component */}
           {buttonText2 !== "" && buttonText2 !== null && (
             <Button href={href2}> {buttonText2} </Button>
