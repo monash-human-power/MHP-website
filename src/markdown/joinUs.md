@@ -5,7 +5,6 @@ recruitment_categories:
   - more_info_link: ""
     closed_description: Recruitments are currently closed. Keep an eye out on our socials!
     name: Rider Recruitment
-    description_closed: " "
     eoi_link: ""
     link: https://forms.gle/w1D8tzLVDUgdsJa98
     id: rider-recruitment
@@ -17,7 +16,6 @@ recruitment_categories:
   - more_info_link: https://drive.google.com/file/d/1DGRbyxyP4rtEsM69d_fBLwMNjrDaG7mM/view?usp=sharing
     closed_description: Recruitments are currently closed. Keep an eye out on our socials!
     name: General Recruitment
-    description_closed: " "
     eoi_link: ""
     link: https://forms.gle/RmisZWoNEMbE5AjP7
     id: general-recruitment

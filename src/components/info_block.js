@@ -33,15 +33,17 @@ const InfoBlock = ({
 
       {/* Button component */}
       <div className="row">
-        <div className="col-md-8 mb-3">
+        <div className="col-md mb-3">
           {buttonText !== "" && buttonText !== null && (
             <Button href={href}> {buttonText} </Button>
           )}
-          {/* TODO: fix this as it is a big hack to get another button into this component */}
-          {buttonText2 !== "" && buttonText2 !== null && (
-            <Button href={href2}> {buttonText2} </Button>
-          )}
         </div>
+        {/* TODO: fix this as it is a big hack to get another button into this component */}
+        {buttonText2 !== "" && buttonText2 !== null && (
+        <div className="col-md mb-3">
+            <Button href={href2}> {buttonText2} </Button>
+        </div>
+        )}
       </div>
     </div>
 
