@@ -208,11 +208,6 @@ subteam:
         degree: Engineering and Science
         position: Team Member
         photo: ../images/james-cookson.jpg
-      - linkedIn: https://www.linkedin.com/in/kosei-liu-a6a9711a1/
-        name: Kosei Liu
-        degree: " "
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/ravinduks/
         name: Ravindu Udawatta
         degree: Mechatronics Engineering
@@ -223,11 +218,6 @@ subteam:
         degree: Civil Engineering and Finance
         position: Team Member
         photo: ../images/Raymond_Chan.jpg
-      - linkedIn: https://www.linkedin.com/in/vignesh-pakkiam/
-        name: Vignesh Pakkiam
-        degree: Materials Engineering and Science
-        position: Team Member
-        photo: ../images/Vignesh Pakkiam.jpg
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
