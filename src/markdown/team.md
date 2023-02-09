@@ -232,31 +232,31 @@ subteam:
         photo: ../images/000-placeholder-person.png
   - subteamName: Operations
     teamMembers:
+      - linkedIn: https://www.linkedin.com/in/angelica-aulia
+        name: Angelica Aulia
+        degree: Mechatronics Engineering and Arts
+        position: Team Lead
+        photo: ../images/Angelica Aulia.jpg
       - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
         name: Harry Blackburn
         degree: Mechatronics Engineering and Finance
         position: Team Lead
         photo: ../images/harry_blackburn_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/khanh-le-1a712a116/
+        name: Khanh Le
+        degree: Mechanical Engineering
+        position: Team Lead
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
+        name: Amanda Zhou
+        degree: Civil Engineering and Commerce
+        position: HR Manager
+        photo: ../images/amanda-zhou.jpg
       - linkedIn: https://www.linkedin.com/in/akbar-fadiansyah-314b79217/
         name: Akbar Fadiansyah
         degree: Software Engineering
         position: Team Member
         photo: ../images/akbar-fadiansyah.jpg
-      - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
-        name: Amanda Zhou
-        degree: Civil Engineering and Commerce
-        position: Team Member
-        photo: ../images/amanda-zhou.jpg
-      - linkedIn: https://www.linkedin.com/in/angelica-aulia
-        name: Angelica Aulia
-        degree: Mechatronics Engineering and Arts
-        position: Team Member
-        photo: ../images/Angelica Aulia.jpg
-      - linkedIn: https://www.linkedin.com/in/felipe-jim%C3%A9nez-6570476b/
-        name: Felipe Jiménez
-        degree: Mechanical Engineering
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/frank-hutton-912400170/
         name: Frank Hutton
         degree: " "
@@ -270,11 +270,6 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/jane-h-b2025014a/
         name: Jane Hantanto
         degree: " "
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/khanh-le-1a712a116/
-        name: Khanh Le
-        degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
 ---
