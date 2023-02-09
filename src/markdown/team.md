@@ -64,6 +64,11 @@ subteam:
         degree: Mechanical Engineering and Commerce
         position: Team Lead
         photo: ../images/Nick_Adshead.jpg
+      - linkedIn: https://www.linkedin.com/in/hallgchris
+        name: Christopher Hall
+        degree: Electrical Engineering and Science
+        position: Assistant Team Lead
+        photo: ../images/christopher_hall_resized.jpg
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
@@ -93,22 +98,12 @@ subteam:
         name: Hugh Mayer
         degree: " "
         position: Team Member
-        photo: ../images/julie-fitt.jpg
-      - linkedIn: ""
-        name: Julie Fitt
-        degree: " "
-        position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
-        position: Team Member
+        position: Team Member000-placeholder-person.png
         photo: ../images/kazuaki_shirakata_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/lucy-savory-44b172184/
-        name: Lucy Savory
-        degree: Mechatronics Engineering
-        position: Team Member
-        photo: ../images/Lucy_Savory.jpg
       - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
         name: Noah Alwyn
         degree: Mechanical Engineering
@@ -126,31 +121,31 @@ subteam:
         photo: ../images/vinura-abeygunawardhane.jpg
   - subteamName: Electrical
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/hallgchris
-        name: Christopher Hall
-        degree: Electrical Engineering and Science
-        position: Team Lead
-        photo: ../images/christopher_hall_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/kunj-dave/
-        name: Kunj Dave
-        degree: Software Engineering and Finance
-        position: Team Lead
-        photo: ../images/Kunj_Dave.jpg
       - linkedIn: ""
         name: Arosh Heenkenda
         degree: Software Engineering and Computer Science
-        position: Team Member
+        position: Team Lead
         photo: ../images/arosh-heenkenda.jpg
+      - linkedIn: https://www.linkedin.com/in/jotham-gates-6a460a243/
+        name: Jotham Gates
+        degree: Electrical Engineering and Science
+        position: Team Lead
+        photo: ../images/Jotham_Gates.jpg
       - linkedIn: https://www.linkedin.com/in/jessica-mark-35606721b/
         name: Jessica Mark
         degree: Software Engineering and Computer Science
         position: Team Member
         photo: ../images/jessica-mark.jpg
-      - linkedIn: https://www.linkedin.com/in/jotham-gates-6a460a243/
-        name: Jotham Gates
-        degree: Electrical Engineering and Science
+      - linkedIn: ""
+        name: Julie Fitt
+        degree: " "
         position: Team Member
-        photo: ../images/Jotham_Gates.jpg
+        photo: ../images/julie-fitt.jpg
+      - linkedIn: https://www.linkedin.com/in/kunj-dave/
+        name: Kunj Dave
+        degree: Software Engineering and Finance
+        position: Team Member
+        photo: ../images/Kunj_Dave.jpg
       - linkedIn: ""
         name: Manuja Herath Kirinde
         degree: " "
@@ -159,11 +154,6 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
         name: Mitchell De Nardis
         degree: Aerospace Engineering and Computer Science
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
-        name: Omar Afifi
-        degree: Electrical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/petros-koutroumpinas-a37a34234/
@@ -181,11 +171,6 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/winnie-chui.jpg
-      - linkedIn: ""
-        name: Zeyang (Sunny) Zhang
-        degree: Engineering
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
   - subteamName: Materials
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
