@@ -17,16 +17,21 @@ subteam:
         photo: ../images/charles_barber_resized.jpg
   - subteamName: Aerodynamics
     teamMembers:
+      - linkedIn: https://www.linkedin.com/in/alex-katelis-812186212/
+        name: Alexander Katelis
+        degree: Aerospace Engineering
+        position: Team Lead
+        photo: ../images/Alexander Katelis.jpg
       - linkedIn: https://www.linkedin.com/in/rowan-goffin-90222519b/
         name: Rowan Goffin
         degree: Aerospace Engineering
         position: Team Lead
         photo: ../images/Rowan_Goffin.jpg
-      - linkedIn: https://www.linkedin.com/in/alex-katelis-812186212/
-        name: Alexander Katelis
-        degree: Aerospace Engineering
+      - linkedIn: ""
+        name: Oscar Varney
+        degree: Mechanical Engineering
         position: Assistant Team Lead
-        photo: ../images/Alexander Katelis.jpg
+        photo: ../images/oscar-varney.jpg
       - linkedIn: ""
         name: David Cheng
         degree: Mechanical Engineering and Biomedical Science
@@ -37,21 +42,11 @@ subteam:
         degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/komal-gupta-524847198/
-        name: Komal Gupta
-        degree: Engineering and Science
-        position: Team Member
-        photo: ../images/Komal_Gupta.JPG
       - linkedIn: https://www.linkedin.com/in/neraj-galagedara
         name: Neraj Galagedara
         degree: Aerospace Engineering and Science
         position: Team Member
         photo: ../images/neraj_galagedara_resized.jpg
-      - linkedIn: ""
-        name: Oscar Varney
-        degree: Mechanical Engineering
-        position: Team Member
-        photo: ../images/oscar-varney.jpg
       - linkedIn: https://www.linkedin.com/in/shashwat-maheshwari-4714b11b9/
         name: Shashwat Maheshwari
         degree: Mechanical Engineering and Law
