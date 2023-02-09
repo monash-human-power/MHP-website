@@ -228,23 +228,8 @@ subteam:
       - linkedIn: ""
         name: Alastair Haslam
         degree: Aerospace Engineering
-        position: Team Member
+        position: Systems Engineer
         photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/ellen-lowery-128885107/
-        name: Ellen Lowery
-        degree: Master of Data Science
-        position: Rider
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
-        name: Jonte Armitstead
-        degree: Engineering
-        position: Rider
-        photo: ../images/jonte-armitstead.jpg
-      - linkedIn: https://www.linkedin.com/in/michael-vincent-484997175/
-        name: Michael Vincent
-        degree: Civil Engineering and Business Analytics
-        position: Team Member
-        photo: ../images/Michael_Vincent.jpg
   - subteamName: Operations
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
