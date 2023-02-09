@@ -98,7 +98,7 @@ subteam:
         name: Hugh Mayer
         degree: " "
         position: Team Member
-        photo: ../images/julie-fitt.jpg
+        photo: ../images/hugh-mayer.jpg
       - linkedIn: ""
         name: Julie Fitt
         degree: " "
