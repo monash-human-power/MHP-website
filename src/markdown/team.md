@@ -98,7 +98,7 @@ subteam:
         name: Hugh Mayer
         degree: " "
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/hugh-mayer.jpg
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
