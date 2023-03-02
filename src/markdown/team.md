@@ -33,6 +33,11 @@ subteam:
         position: Assistant Team Lead
         photo: ../images/oscar-varney.jpg
       - linkedIn: ""
+        name: Cameron Sturgeon
+        degree: Aerospace Engineering and Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
         name: David Cheng
         degree: Mechanical Engineering and Biomedical Science
         position: Team Member
@@ -40,6 +45,11 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/diego-portilla-ducuara/
         name: Diego Portilla
         degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Martin Nikolov
+        degree: Mechanical Engineering and Biomedical Science
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/neraj-galagedara
@@ -53,8 +63,8 @@ subteam:
         position: Team Member
         photo: ../images/shashwat_maheshwari_resized.png
       - linkedIn: ""
-        name: Zhi (Joshua) Tai
-        degree: " "
+        name: William Thompson
+        degree: Aerospace Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
   - subteamName: Chassis & Drivetrain
@@ -102,7 +112,7 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
-        position: Team Member000-placeholder-person.png
+        position: Team Member
         photo: ../images/kazuaki_shirakata_resized.jpg
       - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
         name: Noah Alwyn
@@ -273,3 +283,11 @@ subteam:
         position: Team Member
         photo: ../images/000-placeholder-person.png
 ---
+
+<!--
+      - linkedIn: ""
+        name:
+        degree:
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+-->
