@@ -47,14 +47,14 @@ const Wrapper = styled.div`
 // A list of team roles and their sort priority. Lower values mean HIGHER priority as they will be placed earlier in the array.
 const teamPositionSorting = {
   "Team Member": 1, // ordinary team members, no special role
-  "Asistant Team Lead": -1,
+  "Assistant Team Lead": -1,
   "Team Lead": -2,
   "Chief Engineer": -3,
   "Team Manager": -4
 }
 
 /**
- * Sort member by position and then by name.
+ * Compare team member by position and then by name.
  * @param {*} member1
  * @param {*} member2
  * @returns
@@ -65,8 +65,13 @@ function compareTeamMembers(member1, member2) {
   if (m1Position > m2Position) { return 1; }
   if (m1Position < m2Position) { return -1; }
 
-  // Within the same role, sort by name
-  return member1.name.localeCompare(member2.name, "en")
+  // if position is not in sorting list, sort alphabetically
+  let positionStringCompare = member1.position.localeCompare(member2.position, "en")
+  if (positionStringCompare > 0) { return 1; }
+  if (positionStringCompare < 0) { return -1; }
+
+  // Within the same position, sort by name
+  return member1.name.localeCompare(member2.name, "en");
 }
 
 const TeamPage = () => {
