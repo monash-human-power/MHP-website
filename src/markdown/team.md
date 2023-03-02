@@ -210,17 +210,12 @@ subteam:
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
         name: Sydney Buntine
-        degree: Materials Engineering
+        degree: Materials Engineering and COmmerce
         position: Team Lead
         photo: ../images/Sydney_Buntine.jpg
-      - linkedIn: https://www.linkedin.com/in/alasdair-mckenzie-296617244/
-        name: Alasdair McKenzie
-        degree: Materials Engineering and Science
-        position: Assistant Team Lead
-        photo: ../images/Alasdair_McKenzie.jpg
       - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
         name: Alex Mavros
-        degree: Mechanical Engineering and Biomedical Science
+        degree: ""
         position: Team Member
         photo: ../images/Alex_Mavros.jpg
       - linkedIn: https://www.linkedin.com/in/a-watts/
@@ -230,14 +225,19 @@ subteam:
         photo: ../images/angie_watts_resized.jpg
       - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
         name: Clarisse Liew
-        degree: " "
+        degree: Materials Engineering and Commerce
         position: Team Member
         photo: ../images/clarisse-liew.jpg
       - linkedIn: ""
         name: Cooper Thurman
-        degree: " "
+        degree: Aerospace Engineering and Science
         position: Team Member
         photo: ../images/cooper-thurman.jpg
+      - linkedIn: ""
+        name: Evanegline Flair
+        degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: James Cookson
         degree: Engineering and Science
@@ -253,6 +253,11 @@ subteam:
         degree: Civil Engineering and Finance
         position: Team Member
         photo: ../images/Raymond_Chan.jpg
+      - linkedIn: ""
+        name: Sammi Dao
+        degree: ""
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
