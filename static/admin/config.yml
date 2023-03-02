@@ -177,7 +177,7 @@ collections:
                   - { label: Name, name: name, widget: string }
                   - { label: Degree, name: degree, widget: string }
                   - { label: Position, name: position, widget: string }
-                  - { label: Photo, name: photo, widget: image }
+                  - { label: Photo, name: photo, widget: image, default: "../images/000-placeholder-person.png" }
                   - {
                       label: LinkedIn,
                       name: linkedIn,
