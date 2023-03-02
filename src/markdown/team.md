@@ -270,6 +270,11 @@ subteam:
         degree: Aerospace Engineering
         position: Systems Engineer
         photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Marley Seckold-Bamford
+        degree: Aerospace Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
   - subteamName: Operations
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/angelica-aulia
@@ -282,34 +287,39 @@ subteam:
         degree: Mechatronics Engineering and Finance
         position: Team Lead
         photo: ../images/harry_blackburn_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/khanh-le-1a712a116/
-        name: Khanh Le
-        degree: Mechanical Engineering
-        position: Team Lead
-        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
         name: Amanda Zhou
         degree: Civil Engineering and Commerce
         position: HR Manager
         photo: ../images/amanda-zhou.jpg
+      - linkedIn: https://www.linkedin.com/in/james-liang-47b26a1a6/
+        name: James Liang
+        degree: Civil Engineering and Computer Science
+        position: Finance Manager
+        photo: ../images/james-liang.jpg
       - linkedIn: https://www.linkedin.com/in/akbar-fadiansyah-314b79217/
         name: Akbar Fadiansyah
         degree: Software Engineering
         position: Team Member
         photo: ../images/akbar-fadiansyah.jpg
-      - linkedIn: https://www.linkedin.com/in/frank-hutton-912400170/
-        name: Frank Hutton
-        degree: " "
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/james-liang-47b26a1a6/
-        name: James Liang
-        degree: " "
-        position: Team Member
-        photo: ../images/james-liang.jpg
       - linkedIn: https://www.linkedin.com/in/jane-h-b2025014a/
         name: Jane Hantanto
         degree: " "
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Nguyen Khang Huynh
+        degree: Software Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Sai Ashish Ramishetty
+        degree: Software Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Valerie Tang
+        degree:
         position: Team Member
         photo: ../images/000-placeholder-person.png
 ---
