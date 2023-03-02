@@ -57,11 +57,11 @@ subteam:
         degree: Aerospace Engineering and Science
         position: Team Member
         photo: ../images/neraj_galagedara_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/shashwat-maheshwari-4714b11b9/
-        name: Shashwat Maheshwari
-        degree: Mechanical Engineering and Law
+      - linkedIn: https://www.linkedin.com/in/petros-koutroumpinas-a37a34234/
+        name: Petros Koutroumpinas
+        degree: Aerospace Engineering
         position: Team Member
-        photo: ../images/shashwat_maheshwari_resized.png
+        photo: ../images/petros-koutroumpinas.jpg
       - linkedIn: ""
         name: William Thompson
         degree: Aerospace Engineering
@@ -166,11 +166,6 @@ subteam:
         degree: Aerospace Engineering and Computer Science
         position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/petros-koutroumpinas-a37a34234/
-        name: Petros Koutroumpinas
-        degree: Aerospace Engineering
-        position: Team Member
-        photo: ../images/petros-koutroumpinas.jpg
       - linkedIn: https://www.linkedin.com/in/samuel-zhang-b371b217b/
         name: Samuel Zhang
         degree: " "
