@@ -94,6 +94,16 @@ subteam:
         degree: Mechanical Engineering and Education
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Aidan Graham
+        degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Martin Grozev
+        degree: Mechanical Engineering and Commerce
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/arsheda-ali-68560b216/
         name: Arsheda Ali
         degree: Mechanical Engineering
@@ -106,7 +116,7 @@ subteam:
         photo: ../images/dominic-bongiorno.jpg
       - linkedIn: ""
         name: Hugh Mayer
-        degree: " "
+        degree: Mechanical Engineering
         position: Team Member
         photo: ../images/hugh-mayer.jpg
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
