@@ -148,19 +148,29 @@ subteam:
         photo: ../images/arosh-heenkenda.jpg
       - linkedIn: https://www.linkedin.com/in/jotham-gates-6a460a243/
         name: Jotham Gates
-        degree: Electrical Engineering and Science
+        degree: Electrical Engineering
         position: Team Lead
         photo: ../images/Jotham_Gates.jpg
+      - linkedIn: ""
+        name: Arnav Acharekar
+        degree: Electrical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Ashwin George
+        degree: Software Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: David Pollard
+        degree: Electrical Engineering and Computer Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/jessica-mark-35606721b/
         name: Jessica Mark
         degree: Software Engineering and Computer Science
         position: Team Member
         photo: ../images/jessica-mark.jpg
-      - linkedIn: ""
-        name: Julie Fitt
-        degree: " "
-        position: Team Member
-        photo: ../images/julie-fitt.jpg
       - linkedIn: https://www.linkedin.com/in/kunj-dave/
         name: Kunj Dave
         degree: Software Engineering and Finance
@@ -171,14 +181,24 @@ subteam:
         degree: " "
         position: Team Member
         photo: ../images/manuja-herath-kirinde.jpg
+      - linkedIn: ""
+        name: Marcus Chow
+        degree: Software Engineering and Computer Science
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
         name: Mitchell De Nardis
         degree: Aerospace Engineering and Computer Science
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Nivantha Abeysekera
+        degree: Electrical Engineering
+        position: Team Member
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/samuel-zhang-b371b217b/
         name: Samuel Zhang
-        degree: " "
+        degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/samuel-zhang.jpg
       - linkedIn: https://www.linkedin.com/in/winnie-chui/
