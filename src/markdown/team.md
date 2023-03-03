@@ -307,7 +307,7 @@ subteam:
         degree:
         position: Team Member
         photo: ../images/000-placeholder-person.png
-  - subteamName: Auxilary
+  - subteamName: Auxiliary
     teamMembers:
       - linkedIn: ""
         name: Alastair Haslam
