@@ -175,8 +175,8 @@ collections:
                 widget: list
                 fields:
                   - { label: Name, name: name, widget: string }
-                  - { label: Degree, name: degree, widget: string }
-                  - { label: Position, name: position, widget: string }
+                  - { label: Degree, name: degree, widget: string, required: false }
+                  - { label: Position, name: position, widget: string, default: "Team Member" }
                   - { label: Photo, name: photo, widget: image, default: "../images/000-placeholder-person.png" }
                   - {
                       label: LinkedIn,
