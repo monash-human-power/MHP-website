@@ -210,7 +210,7 @@ subteam:
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
         name: Sydney Buntine
-        degree: Materials Engineering and COmmerce
+        degree: Materials Engineering and Commerce
         position: Team Lead
         photo: ../images/Sydney_Buntine.jpg
       - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
@@ -304,7 +304,7 @@ subteam:
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Valerie Tang
-        degree:
+        degree: null
         position: Team Member
         photo: ../images/000-placeholder-person.png
   - subteamName: Auxiliary
