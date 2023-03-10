@@ -35,6 +35,6 @@ sponsors:
     image: ../images/yarraenergy_logo_col.png
     link: https://yarraenergy.com.au/
   - name: HSC Ceramics
-    image: ../images/hsc-logo.jpg
+    image: ../images/hscceramics-logo.png
     link: https://www.hscceramics.com.au/
 ---
