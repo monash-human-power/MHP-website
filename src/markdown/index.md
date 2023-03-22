@@ -37,4 +37,10 @@ sponsors:
   - name: HSC Ceramics
     image: ../images/hscceramics-logo.png
     link: https://www.hscceramics.com.au/
+  - name: B&A Motor Body Repairs
+    link: https://bamotors.com.au/
+    image: ../images/bamotors.png
+  - name: Busch
+    link: https://www.buschvacuum.com/au/en/
+    image: ../images/busch_logo_rgb.png
 ---
