@@ -39,7 +39,7 @@ const Sponsors = ({ className }) => {
         <SectionHeading>Sponsors</SectionHeading>
       </div>
 
-      <div className="row justify-content-md-center">
+      <div className="row justify-content-md-center align-items-center">
         {sponsorArr.map((sponsorObj, index) => (
           <div className="col-6 col-md-3" key={index}>
             <Link to={sponsorObj.link}>
