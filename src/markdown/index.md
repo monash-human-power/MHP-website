@@ -32,9 +32,9 @@ sponsors:
     image: ../images/c5-logo.png
     link: https://c5systems.com.au
   - name: Yarra Energy
-    image: ../images/yarraenergy-logo.png
+    image: ../images/yarraenergy_logo_col.png
     link: https://yarraenergy.com.au/
   - name: HSC Ceramics
-    image: ../images/hsc-logo.jpg
+    image: ../images/hscceramics-logo.png
     link: https://www.hscceramics.com.au/
 ---
