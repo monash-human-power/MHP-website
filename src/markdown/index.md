@@ -22,19 +22,25 @@ sponsors:
   - name: AARC
     image: ../images/aarc-logo_high-res.jpg
     link: https://aarconline.com
-  - name: Ford
-    image: ../images/ford-logo-icon-0.png
-    link: https://www.ford.com.au
-  - name: Leap
-    image: ../images/leap-hq-logo.png
-    link: https://www.leapaust.com.au
+  - name: B&A Motor Body Repairs
+    link: https://bamotors.com.au/
+    image: ../images/bamotors.png
+  - name: Busch
+    link: https://www.buschvacuum.com/au/en/
+    image: ../images/busch_logo_rgb.png
   - name: C5 Systems
     image: ../images/c5-logo.png
     link: https://c5systems.com.au
-  - name: Yarra Energy
-    image: ../images/yarraenergy_logo_col.png
-    link: https://yarraenergy.com.au/
+  - name: Ford
+    image: ../images/ford-logo-icon-0.png
+    link: https://www.ford.com.au
   - name: HSC Ceramics
     image: ../images/hscceramics-logo.png
     link: https://www.hscceramics.com.au/
+  - name: Leap
+    image: ../images/leap-hq-logo.png
+    link: https://www.leapaust.com.au
+  - name: Yarra Energy
+    image: ../images/yarraenergy_logo_col.png
+    link: https://yarraenergy.com.au/
 ---
