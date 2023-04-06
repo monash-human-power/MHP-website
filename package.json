@@ -46,7 +46,7 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-is": ">= 16.8.0",
+    "react-is": ">= 18.2.0",
     "styled-components": "^5.3.9",
     "typescript": ">=5.0.3",
     "webpack": "^5.77.0"
