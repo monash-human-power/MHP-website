@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: 18
           cache: yarn
-      - name: Install dependencies
-        run: yarn install
+      - name: Install prettier
+        run: yarn global add prettier
       - name: Set up git
         run: |
           git config user.name "Workflow: Format code"
