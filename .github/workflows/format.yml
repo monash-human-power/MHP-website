@@ -26,5 +26,6 @@ jobs:
         run: |
           yarn format
           git add .
-          git commit -m "Format code -- automatically formatted from CI"
+          # return a success even if there's nothing to commit
+          git commit -m "Format code -- automatically formatted from CI" || true
           git push
