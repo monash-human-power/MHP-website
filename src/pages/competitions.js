@@ -7,31 +7,33 @@ import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 
 const CompetitionsPage = () => {
-  const data = useStaticQuery(graphql`query CompetitionsPageQuery {
-  file(
-    relativePath: {eq: "competitions.md"}
-    sourceInstanceName: {eq: "markdown"}
-  ) {
-    childMarkdownRemark {
-      frontmatter {
-        heading
-        meta_page_description
-        blocks {
-          image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+  const data = useStaticQuery(graphql`
+    query CompetitionsPageQuery {
+      file(
+        relativePath: { eq: "competitions.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            heading
+            meta_page_description
+            blocks {
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
+                }
+              }
+              href
+              heading
+              description
+              buttonText
+              id
             }
           }
-          href
-          heading
-          description
-          buttonText
-          id
         }
       }
     }
-  }
-}`);
+  `);
 
   const competitionsData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = competitionsData.blocks;

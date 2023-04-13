@@ -19,54 +19,59 @@ const IndexSection = styled.div`
 `;
 
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`query IndexPageQuery {
-  allFile(filter: {relativePath: {eq: "applications_open.jpg"}}) {
-    edges {
-      node {
-        childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED)
-        }
-      }
-    }
-  }
-  file(relativePath: {eq: "index.md"}, sourceInstanceName: {eq: "markdown"}) {
-    childMarkdownRemark {
-      frontmatter {
-        heading
-        meta_page_description
-        splash {
-          heading
-          body
-          trailer_link
-          about_link
-          bike_link
-          competitions_link
-        }
-        recruitment_open
-        recruitment_link
-        recruitment_info
-        recruitment_description
-        blocks {
-          image {
+  const data = useStaticQuery(graphql`
+    query IndexPageQuery {
+      allFile(filter: { relativePath: { eq: "applications_open.jpg" } }) {
+        edges {
+          node {
             childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+              gatsbyImageData(layout: CONSTRAINED)
             }
           }
-          href
-          heading
-          description
-          buttonText
-          id
         }
-        image {
-          childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED)
+      }
+      file(
+        relativePath: { eq: "index.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            heading
+            meta_page_description
+            splash {
+              heading
+              body
+              trailer_link
+              about_link
+              bike_link
+              competitions_link
+            }
+            recruitment_open
+            recruitment_link
+            recruitment_info
+            recruitment_description
+            blocks {
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
+                }
+              }
+              href
+              heading
+              description
+              buttonText
+              id
+            }
+            image {
+              childImageSharp {
+                gatsbyImageData(layout: CONSTRAINED)
+              }
+            }
           }
         }
       }
     }
-  }
-}`);
+  `);
 
   const indexData = data.file.childMarkdownRemark.frontmatter;
   const splashData = indexData.splash;

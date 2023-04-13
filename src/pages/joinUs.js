@@ -8,39 +8,44 @@ import NumberedTextGrid from "../components/numbered_text_grid";
 import { CenteredSection, SectionHeading } from "../components/content";
 
 const JoinUsPage = () => {
-  const data = useStaticQuery(graphql`query JoinUsPageQuery {
-  file(relativePath: {eq: "joinUs.md"}, sourceInstanceName: {eq: "markdown"}) {
-    childMarkdownRemark {
-      frontmatter {
-        heading
-        meta_page_description
-        recruitment_categories {
-          name
-          is_open
-          description
-          closed_description
-          link
-          more_info_link
-          eoi_link
-          id
-          image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+  const data = useStaticQuery(graphql`
+    query JoinUsPageQuery {
+      file(
+        relativePath: { eq: "joinUs.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            heading
+            meta_page_description
+            recruitment_categories {
+              name
+              is_open
+              description
+              closed_description
+              link
+              more_info_link
+              eoi_link
+              id
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
+                }
+              }
+            }
+            recruitment_process {
+              heading
+              content
+            }
+            FAQs {
+              question
+              answer
             }
           }
         }
-        recruitment_process {
-          heading
-          content
-        }
-        FAQs {
-          question
-          answer
-        }
       }
     }
-  }
-}`);
+  `);
 
   const joinUsData = data.file.childMarkdownRemark.frontmatter;
   const recruitmentArr = joinUsData.recruitment_categories;

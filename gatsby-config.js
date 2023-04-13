@@ -68,12 +68,12 @@ module.exports = {
               classMap: {
                 // Add the bootstrap table classes to all tables
                 // https://getbootstrap.com/docs/5.0/content/tables/
-                "table": "table"
-              }
-            }
-          }
-        ]
-      }
+                table: "table",
+              },
+            },
+          },
+        ],
+      },
     },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,

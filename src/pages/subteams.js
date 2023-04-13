@@ -7,28 +7,33 @@ import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 
 const SubTeamsPage = () => {
-  const data = useStaticQuery(graphql`query SubTeamsPageQuery {
-  file(relativePath: {eq: "subteams.md"}, sourceInstanceName: {eq: "markdown"}) {
-    childMarkdownRemark {
-      frontmatter {
-        heading
-        meta_page_description
-        subteams {
-          image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+  const data = useStaticQuery(graphql`
+    query SubTeamsPageQuery {
+      file(
+        relativePath: { eq: "subteams.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            heading
+            meta_page_description
+            subteams {
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
+                }
+              }
+              name
+              description
+              button_text
+              button_href
+              id
             }
           }
-          name
-          description
-          button_text
-          button_href
-          id
         }
       }
     }
-  }
-}`);
+  `);
 
   const subTeamData = data.file.childMarkdownRemark.frontmatter;
   const subTeamArr = subTeamData.subteams;

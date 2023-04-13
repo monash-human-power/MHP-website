@@ -16,19 +16,20 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const parentNode = getNode(node.parent);
 
     // Only create slugs for the blog pages
-    if (parentNode !== undefined){
-    if (parentNode.sourceInstanceName === "blog") {
-      const slug = createFilePath({ node, getNode, basePath: "blog" });
+    if (parentNode !== undefined) {
+      if (parentNode.sourceInstanceName === "blog") {
+        const slug = createFilePath({ node, getNode, basePath: "blog" });
 
-      console.log(`Experiment created @ ${slug}`);
+        console.log(`Experiment created @ ${slug}`);
 
-      createNodeField({
-        node,
-        name: "slug",
-        value: `/blog${slug}`,
-      });
+        createNodeField({
+          node,
+          name: "slug",
+          value: `/blog${slug}`,
+        });
+      }
     }
-  }}
+  }
 };
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -36,7 +37,9 @@ exports.createPages = async ({ graphql, actions }) => {
   // Prevent non-blog pages and placeholder blog post from being created through this method
   const result = await graphql(`
     query {
-      allMarkdownRemark(filter: { fields: { slug: { nin: [null, "/blog/.gitkeep/"] } } }) {
+      allMarkdownRemark(
+        filter: { fields: { slug: { nin: [null, "/blog/.gitkeep/"] } } }
+      ) {
         edges {
           node {
             fields {

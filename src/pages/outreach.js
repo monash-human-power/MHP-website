@@ -9,32 +9,37 @@ import ContactForm from "../components/index/contact_form";
 import ReviewGrid from "../components/review";
 
 const BikePage = () => {
-  const data = useStaticQuery(graphql`query OutreachPageQuery {
-  file(relativePath: {eq: "outreach.md"}, sourceInstanceName: {eq: "markdown"}) {
-    childMarkdownRemark {
-      frontmatter {
-        heading
-        meta_page_description
-        blocks {
-          image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+  const data = useStaticQuery(graphql`
+    query OutreachPageQuery {
+      file(
+        relativePath: { eq: "outreach.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            heading
+            meta_page_description
+            blocks {
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
+                }
+              }
+              heading
+              description
+              id
+              buttonText
+              href
+            }
+            reviews {
+              person
+              quote
             }
           }
-          heading
-          description
-          id
-          buttonText
-          href
-        }
-        reviews {
-          person
-          quote
         }
       }
     }
-  }
-}`);
+  `);
 
   const outreachData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = outreachData.blocks;

@@ -39,17 +39,17 @@ const Button = ({ children, href, type }) => {
   if (type === BUTTON_TYPES.button) {
     return (
       <div className="d-grid gap-2">
-      <SubmitButton className="btn btn-block" to={href}>
-        {children}
-      </SubmitButton>
+        <SubmitButton className="btn btn-block" to={href}>
+          {children}
+        </SubmitButton>
       </div>
     );
   } else if (type === BUTTON_TYPES.submit) {
     return (
       <div className="d-grid gap-2">
-      <RealButton className="btn btn-block" type="submit">
-        {children}
-      </RealButton>
+        <RealButton className="btn btn-block" type="submit">
+          {children}
+        </RealButton>
       </div>
     );
   } else {
