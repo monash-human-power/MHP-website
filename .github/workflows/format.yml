@@ -3,11 +3,7 @@ on:
   push:
     branches:
       - master
-      - "*/gh-actions/**" # Special branch for testing GH actions, in the format of <username>/gh-actions/<branch-name>
   pull_request:
-    branches:
-      - master
-      - "*/gh-actions/**"
 
 jobs:
   format:
