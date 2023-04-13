@@ -1,0 +1,34 @@
+name: Format code
+on:
+  push:
+    branches:
+      - master
+      - "*/gh-actions/**" # Special branch for testing GH actions, in the format of <username>/gh-actions/<branch-name>
+  pull_request:
+    branches:
+      - master
+      - "*/gh-actions/**"
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Setup Node 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
+      - name: Install dependencies
+        run: yarn install
+      - name: Set up git
+        run: |
+          git config user.name "Workflow: Format code"
+          git config user.email ""
+      - name: Format code and push changes
+        run: |
+          yarn format
+          git add .
+          git commit -m "Format code -- automatically formatted from CI"
+          git push
