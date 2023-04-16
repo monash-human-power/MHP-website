@@ -59,9 +59,10 @@ If you just need to add or edit the site's content, you can use the CMS which of
 If you need to change the site layout or do anything that can be done with the CMS, follow the steps below:
 
 1. Clone the repo and install dependencies as in the [get started](#getting-started) section
-2. Create a new branch with the naming scheme `github_username/feature_or_change_name`. Note that the `master` branch is protected, so you can't push to it directly
-3. Work on your changes
-4. When you're ready, create a [pull request](https://github.com/monash-human-power/MHP-website/compare).
+2. Run `yarn prepare` to initialise the git hooks
+3. Create a new branch with the naming scheme `github_username/feature_or_change_name`. Note that the `master` branch is protected, so you can't push to it directly
+4. Work on your changes
+5. When you're ready, create a [pull request](https://github.com/monash-human-power/MHP-website/compare).
 
 Still confused? More info can be found at the notion page [here](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
 
