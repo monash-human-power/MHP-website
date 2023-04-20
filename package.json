@@ -22,7 +22,7 @@
     "gatsby": "^5.8.1",
     "gatsby-cli": "^5.8.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-google-analytics": "^5.8.0",
+    "gatsby-plugin-google-analytics": "^5.9.0",
     "gatsby-plugin-heap": "^1.1.0",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
