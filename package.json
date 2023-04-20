@@ -37,7 +37,7 @@
     "gatsby-remark-prismjs": "^7.9.0",
     "gatsby-source-filesystem": "^5.8.0",
     "gatsby-transformer-remark": "^6.8.0",
-    "gatsby-transformer-sharp": "^5.8.0",
+    "gatsby-transformer-sharp": "^5.9.0",
     "jquery": "^3.6.4",
     "netlify-cms-app": "^2.12.19",
     "prismjs": "^1.29.0",
