@@ -24,7 +24,7 @@
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-google-analytics": "^5.8.0",
     "gatsby-plugin-heap": "^1.1.0",
-    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
     "gatsby-plugin-netlify-cms": "^7.8.0",
     "gatsby-plugin-offline": "^6.8.0",
