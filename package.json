@@ -34,7 +34,7 @@
     "gatsby-plugin-styled-components": "^6.8.0",
     "gatsby-remark-classes": "^1.0.2",
     "gatsby-remark-images": "^7.8.0",
-    "gatsby-remark-prismjs": "^7.8.0",
+    "gatsby-remark-prismjs": "^7.9.0",
     "gatsby-source-filesystem": "^5.8.0",
     "gatsby-transformer-remark": "^6.8.0",
     "gatsby-transformer-sharp": "^5.8.0",
