@@ -18,7 +18,7 @@
     "babel-eslint": "^10.0.0",
     "babel-plugin-styled-components": "^2.1.1",
     "bootstrap": "^5.2.2",
-    "eslint": "^8.38.0",
+    "eslint": "^8.39.0",
     "gatsby": "^5.9.0",
     "gatsby-cli": "^5.8.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
