@@ -6426,14 +6426,14 @@ gatsby-plugin-netlify-cms@^7.8.0:
     mini-css-extract-plugin "1.6.2"
     netlify-identity-widget "^1.9.2"
 
-gatsby-plugin-offline@^6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-6.8.0.tgz#bf2348c36a70389d25b05d6b0d4291248a4c1118"
-  integrity sha512-0VERfNIdqvlnnsNpQhxC7L4X8AdC7eaX7BnA2LvHIUVkebfu1nDqR0jou+9X0rcB6BjqzA4i9+SyE+loaZmtAA==
+gatsby-plugin-offline@^6.9.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-6.9.0.tgz#f33f03c44461aca7a093795a95a14c8141e5dfd1"
+  integrity sha512-9NUMZMKikS7HsIvEkUaraNa6vNy4Nf+FtX7tlPgznhSWg7ehsfvvCMd1zpSc0KEIS6y7py+Rxxo0nU8xvjrCvg==
   dependencies:
     "@babel/runtime" "^7.20.13"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^4.8.0"
+    gatsby-core-utils "^4.9.0"
     glob "^7.2.3"
     idb-keyval "^3.2.0"
     lodash "^4.17.21"
