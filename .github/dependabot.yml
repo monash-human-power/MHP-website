@@ -5,4 +5,4 @@ updates:
   - directory: /
     package-ecosystem: "npm"
     schedule:
-      interval: weekly
+      interval: monthly
