@@ -264,7 +264,7 @@ subteam:
         name: Alastair Haslam
         degree: Aerospace Engineering
         position: Systems Engineer
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/alastair-haslam.jpg
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
