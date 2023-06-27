@@ -277,16 +277,16 @@ subteam:
         photo: ../images/000-placeholder-person.png
   - subteamName: Operations
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/angelica-aulia
-        name: Angelica Aulia
-        degree: Mechatronics Engineering and Arts
+      - linkedIn: ""
+        name: Nguyen Khang Huynh
+        degree: Software Engineering
         position: Team Lead
-        photo: ../images/Angelica Aulia.jpg
-      - linkedIn: https://www.linkedin.com/in/harry-blackburn-2427651b6/
-        name: Harry Blackburn
-        degree: Mechatronics Engineering and Finance
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Valerie Tang
+        degree: Science and Information Techynology
         position: Team Lead
-        photo: ../images/harry_blackburn_resized.jpg
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/akbar-fadiansyah-314b79217/
         name: Akbar Fadiansyah
         degree: Software Engineering
@@ -298,18 +298,8 @@ subteam:
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
-        name: Nguyen Khang Huynh
-        degree: Software Engineering
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
         name: Sai Ashish Ramishetty
         degree: Software Engineering
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
-        name: Valerie Tang
-        degree: null
         position: Team Member
         photo: ../images/000-placeholder-person.png
   - subteamName: Auxiliary
