@@ -37,11 +37,6 @@ subteam:
         degree: Aerospace Engineering
         position: Team Lead
         photo: ../images/Alexander Katelis.jpg
-      - linkedIn: https://www.linkedin.com/in/rowan-goffin-90222519b/
-        name: Rowan Goffin
-        degree: Aerospace Engineering
-        position: Team Lead
-        photo: ../images/Rowan_Goffin.jpg
       - linkedIn: ""
         name: Oscar Varney
         degree: Mechanical Engineering
@@ -77,6 +72,11 @@ subteam:
         degree: Aerospace Engineering
         position: Team Member
         photo: ../images/petros-koutroumpinas.jpg
+      - linkedIn: https://www.linkedin.com/in/rowan-goffin-90222519b/
+        name: Rowan Goffin
+        degree: Aerospace Engineering
+        position: Team Member
+        photo: ../images/Rowan_Goffin.jpg
       - linkedIn: ""
         name: William Thompson
         degree: Aerospace Engineering
