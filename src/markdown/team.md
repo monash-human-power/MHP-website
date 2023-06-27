@@ -84,39 +84,34 @@ subteam:
         photo: ../images/000-placeholder-person.png
   - subteamName: Chassis & Drivetrain
     teamMembers:
+      - linkedIn: ""
+        name: Hugh Mayer
+        degree: Mechanical Engineering
+        position: Team Lead
+        photo: ../images/hugh-mayer.jpg
       - linkedIn: https://www.linkedin.com/in/nickadshead1/
         name: Nick Adshead
         degree: Mechanical Engineering and Commerce
         position: Team Lead
         photo: ../images/Nick_Adshead.jpg
-      - linkedIn: https://www.linkedin.com/in/hallgchris
-        name: Christopher Hall
-        degree: Electrical Engineering and Science
-        position: Assistant Team Lead
-        photo: ../images/christopher_hall_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
+        name: Noah Alwyn
+        degree: Mechanical Engineering
+        position: Team Lead
+        photo: ../images/noah-alwyn.jpg
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
         position: Assistant Team Lead
         photo: ../images/Phoebe_Taylor.jpg
-      - linkedIn: https://www.linkedin.com/in/alex-pearson-aa0462247/
-        name: Alex Pearson
-        degree: Chemical Engineering and Commerce
-        position: Team Member
-        photo: ../images/alex-pearson.jpg
-      - linkedIn: ""
-        name: Anthony Joseph Micheletto
-        degree: Mechanical Engineering and Education
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Aidan Graham
         degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
-        name: Martin Grozev
-        degree: Mechanical Engineering and Commerce
+        name: Anthony Joseph Micheletto
+        degree: Mechanical Engineering and Education
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/arsheda-ali-68560b216/
@@ -129,21 +124,16 @@ subteam:
         degree: Engineering
         position: Team Member
         photo: ../images/dominic-bongiorno.jpg
-      - linkedIn: ""
-        name: Hugh Mayer
-        degree: Mechanical Engineering
-        position: Team Member
-        photo: ../images/hugh-mayer.jpg
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/kazuaki_shirakata_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
-        name: Noah Alwyn
-        degree: Mechanical Engineering
+      - linkedIn: ""
+        name: Martin Grozev
+        degree: Mechanical Engineering and Commerce
         position: Team Member
-        photo: ../images/noah-alwyn.jpg
+        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/tyrone-rossouw-362168212/
         name: Tyrone Rossouw
         degree: Mechanical Enginering
