@@ -5,6 +5,21 @@ meta_page_description: ""
 subteam:
   - subteamName: Management
     teamMembers:
+      - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
+        name: Sydney Buntine
+        degree: Materials Engineering and Commerce
+        position: Chief Executive Officer
+        photo: ../images/Sydney_Buntine.jpg
+      - linkedIn: https://www.linkedin.com/in/hallgchris
+        name: Christopher Hall
+        degree: Electrical Engineering and Science
+        position: Chief Technical Officer
+        photo: ../images/christopher_hall_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/jessica-mark-35606721b/
+        name: Jessica Mark
+        degree: Software Engineering and Computer Science
+        position: Chief Operating Officer
+        photo: ../images/jessica-mark.jpg
       - linkedIn: https://www.linkedin.com/in/emily-johnston5/
         name: Emily Johnston
         degree: Civil Engineering and Commerce
