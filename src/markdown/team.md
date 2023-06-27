@@ -184,7 +184,7 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
         name: Mitchell De Nardis
         degree: Aerospace Engineering and Computer Science
-        position: Finance Manager
+        position: Team Member
         photo: ../images/mitchell-de-nardis.jpg
       - linkedIn: ""
         name: Nivantha Abeysekera
@@ -263,7 +263,7 @@ subteam:
       - linkedIn: ""
         name: Alastair Haslam
         degree: Aerospace Engineering
-        position: Systems Engineer
+        position: Team Member
         photo: ../images/alastair-haslam.jpg
   - subteamName: Operations
     teamMembers:
@@ -280,7 +280,7 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
         name: Amanda Zhou
         degree: Civil Engineering and Commerce
-        position: HR Manager
+        position: Team Member
         photo: ../images/amanda-zhou.jpg
       - linkedIn: https://www.linkedin.com/in/akbar-fadiansyah-314b79217/
         name: Akbar Fadiansyah
@@ -297,6 +297,50 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
+  - subteamName: Riders
+    teamMembers:
+      - linkedIn: ""
+        name: Alastair Haslam
+        degree: Aerospace Engineering
+        position: ""
+        photo: ../images/alastair-haslam.jpg
+      - linkedIn: https://www.linkedin.com/in/hallgchris
+        name: Christopher Hall
+        degree: Electrical Engineering and Science
+        position: ""
+        photo: ../images/christopher_hall_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
+        name: Kit Kirby
+        degree: Materials Engineering
+        position: ""
+        photo: ../images/Kit_Kirby.jpg
+      - linkedIn: ""
+        name: Oscar Varney
+        degree: Mechanical Engineering
+        position: ""
+        photo: ../images/oscar-varney.jpg
+  - subteamName: Other
+    teamMembers:
+      - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
+        name: Amanda Zhou
+        degree: Civil Engineering and Commerce
+        position: HR Manager
+        photo: ../images/amanda-zhou.jpg
+      - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
+        name: Mitchell De Nardis
+        degree: Aerospace Engineering and Computer Science
+        position: Finance Manager
+        photo: ../images/mitchell-de-nardis.jpg
+      - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
+        name: Phoebe Taylor
+        degree: Mechanical Engineering and Commerce
+        position: Workshop Manager
+        photo: ../images/Phoebe_Taylor.jpg
+      - linkedIn: ""
+        name: Alastair Haslam
+        degree: Aerospace Engineering
+        position: Systems Engineer
+        photo: ../images/alastair-haslam.jpg
 ---
 
 <!--
