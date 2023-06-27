@@ -171,21 +171,11 @@ subteam:
         degree: Electrical Engineering and Computer Science
         position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/jessica-mark-35606721b/
-        name: Jessica Mark
-        degree: Software Engineering and Computer Science
-        position: Team Member
-        photo: ../images/jessica-mark.jpg
       - linkedIn: https://www.linkedin.com/in/kunj-dave/
         name: Kunj Dave
         degree: Software Engineering and Finance
         position: Team Member
         photo: ../images/Kunj_Dave.jpg
-      - linkedIn: ""
-        name: Manuja Herath Kirinde
-        degree: " "
-        position: Team Member
-        photo: ../images/manuja-herath-kirinde.jpg
       - linkedIn: ""
         name: Marcus Chow
         degree: Software Engineering and Computer Science
