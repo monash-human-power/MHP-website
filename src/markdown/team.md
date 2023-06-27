@@ -46,7 +46,7 @@ subteam:
         name: Cameron Sturgeon
         degree: Aerospace Engineering and Science
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/cameron-sturgeon.jpg
       - linkedIn: ""
         name: David Cheng
         degree: Mechanical Engineering and Biomedical Science
@@ -81,7 +81,7 @@ subteam:
         name: William Thompson
         degree: Aerospace Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/william-thompson.jpg
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
@@ -108,7 +108,7 @@ subteam:
         name: Aidan Graham
         degree: Mechanical Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/aidan-graham.jpg
       - linkedIn: ""
         name: Anthony Joseph Micheletto
         degree: Mechanical Engineering and Education
@@ -155,22 +155,22 @@ subteam:
         name: Jotham Gates
         degree: Electrical Engineering
         position: Team Lead
-        photo: ../images/Jotham_Gates.jpg
+        photo: ../images/jotham-gates.jpg
       - linkedIn: ""
         name: Arnav Acharekar
         degree: Electrical Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/arnav-acharekar.jpg
       - linkedIn: ""
         name: Ashwin George
         degree: Software Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/ashwin-george.jpg
       - linkedIn: ""
         name: David Pollard
         degree: Electrical Engineering and Computer Science
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/david-pollard.jpg
       - linkedIn: https://www.linkedin.com/in/kunj-dave/
         name: Kunj Dave
         degree: Software Engineering and Finance
@@ -180,17 +180,17 @@ subteam:
         name: Marcus Chow
         degree: Software Engineering and Computer Science
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/marcus-chow.jpg
       - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
         name: Mitchell De Nardis
         degree: Aerospace Engineering and Computer Science
         position: Finance Manager
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/mitchell-de-nardis.jpg
       - linkedIn: ""
         name: Nivantha Abeysekera
         degree: Electrical Engineering
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/nivantha-abeysekera.jpg
       - linkedIn: https://www.linkedin.com/in/samuel-zhang-b371b217b/
         name: Samuel Zhang
         degree: Mechatronics Engineering
@@ -247,7 +247,7 @@ subteam:
         name: Sammi Dao
         degree: ""
         position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/sammi-dao.jpg
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
@@ -259,7 +259,7 @@ subteam:
         name: Marley Seckold-Bamford
         degree: Aerospace Engineering
         position: Team Lead
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/marley-seckold-bamford.jpg
       - linkedIn: ""
         name: Alastair Haslam
         degree: Aerospace Engineering
@@ -271,12 +271,12 @@ subteam:
         name: Nguyen Khang Huynh
         degree: Software Engineering
         position: Team Lead
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/nguyen-khang-huynh.jpg
       - linkedIn: ""
         name: Valerie Tang
         degree: Science and Information Techynology
         position: Team Lead
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/valerie-tang.jpg
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
         name: Amanda Zhou
         degree: Civil Engineering and Commerce
