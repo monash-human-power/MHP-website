@@ -184,7 +184,7 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
         name: Mitchell De Nardis
         degree: Aerospace Engineering and Computer Science
-        position: Team Member
+        position: Finance Manager
         photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Nivantha Abeysekera
@@ -258,7 +258,12 @@ subteam:
       - linkedIn: ""
         name: Marley Seckold-Bamford
         degree: Aerospace Engineering
-        position: Team Member
+        position: Team Lead
+        photo: ../images/000-placeholder-person.png
+      - linkedIn: ""
+        name: Alastair Haslam
+        degree: Aerospace Engineering
+        position: Systems Engineer
         photo: ../images/000-placeholder-person.png
   - subteamName: Operations
     teamMembers:
@@ -272,6 +277,11 @@ subteam:
         degree: Science and Information Techynology
         position: Team Lead
         photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
+        name: Amanda Zhou
+        degree: Civil Engineering and Commerce
+        position: HR Manager
+        photo: ../images/amanda-zhou.jpg
       - linkedIn: https://www.linkedin.com/in/akbar-fadiansyah-314b79217/
         name: Akbar Fadiansyah
         degree: Software Engineering
@@ -287,23 +297,6 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
-  - subteamName: Auxiliary
-    teamMembers:
-      - linkedIn: ""
-        name: Alastair Haslam
-        degree: Aerospace Engineering
-        position: Systems Engineer
-        photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
-        name: Amanda Zhou
-        degree: Civil Engineering and Commerce
-        position: HR Manager
-        photo: ../images/amanda-zhou.jpg
-      - linkedIn: https://www.linkedin.com/in/james-liang-47b26a1a6/
-        name: James Liang
-        degree: Civil Engineering and Computer Science
-        position: Finance Manager
-        photo: ../images/james-liang.jpg
 ---
 
 <!--
