@@ -127,8 +127,6 @@ const TeamPage = () => {
   const teamData = data.file.childMarkdownRemark.frontmatter;
   const teamArr = teamData.subteam;
 
-  debugger;
-
   return (
     <Layout>
       <SEO title="Team" description={teamData.meta_page_description} />
