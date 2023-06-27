@@ -203,11 +203,16 @@ subteam:
         photo: ../images/winnie-chui.jpg
   - subteamName: Materials
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
-        name: Sydney Buntine
+      - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
+        name: Clarisse Liew
         degree: Materials Engineering and Commerce
         position: Team Lead
-        photo: ../images/Sydney_Buntine.jpg
+        photo: ../images/clarisse-liew.jpg
+      - linkedIn: https://www.linkedin.com/in/ravinduks/
+        name: Ravindu Udawatta
+        degree: Mechatronics Engineering
+        position: Assistant Team Lead
+        photo: ../images/ravindu-udawatta.jpg
       - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
         name: Alex Mavros
         degree: ""
@@ -218,11 +223,6 @@ subteam:
         degree: Mechanical Engineering and Industrial Design
         position: Team Member
         photo: ../images/angie_watts_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
-        name: Clarisse Liew
-        degree: Materials Engineering and Commerce
-        position: Team Member
-        photo: ../images/clarisse-liew.jpg
       - linkedIn: ""
         name: Cooper Thurman
         degree: Aerospace Engineering and Science
@@ -238,11 +238,6 @@ subteam:
         degree: Engineering and Science
         position: Team Member
         photo: ../images/james-cookson.jpg
-      - linkedIn: https://www.linkedin.com/in/ravinduks/
-        name: Ravindu Udawatta
-        degree: Mechatronics Engineering
-        position: Team Member
-        photo: ../images/ravindu-udawatta.jpg
       - linkedIn: https://www.linkedin.com/in/raymond-chan-02736b149/
         name: Raymond Chan
         degree: Civil Engineering and Finance
