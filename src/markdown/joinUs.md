@@ -13,7 +13,7 @@ recruitment_categories:
       ours. Applications are open year round, so if you're interested hit the
       apply button now!
     is_open: true
-  - more_info_link: https://drive.google.com/file/d/1DGRbyxyP4rtEsM69d_fBLwMNjrDaG7mM/view?usp=sharing
+  - more_info_link: https://drive.google.com/file/d/1n6xiqaw0OBTt3YVC41vGl-NBLKtOw4uU/view?usp=sharing
     closed_description: Recruitments are currently closed. Keep an eye out on our socials!
     name: General Recruitment
     eoi_link: ""
