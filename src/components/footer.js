@@ -44,11 +44,17 @@ const Footer = () => {
         childMarkdownRemark {
           frontmatter {
             recruitment_info
+            prospectus_link
+            contact_email
           }
         }
       }
     }
   `);
+
+  const frontMatter = recruitment_data.file.childMarkdownRemark.frontmatter;
+  const email = frontMatter.contact_email;
+  const prospectusLink = frontMatter.prospectus_link;
 
   return (
     <MhpFooter className="pt-3">
@@ -57,12 +63,15 @@ const Footer = () => {
           {/* Sponsor section */}
           <div className="col-md">
             <FooterHeading>Sponsor Us</FooterHeading>
+            <FooterParagraph>Get in touch with us today!</FooterParagraph>
             <FooterParagraph>
-              Get in touch with us today at
-              <FooterLink to="mailto: monashhpt@gmail.com">
-                {" "}
-                monashhpt@gmail.com
-              </FooterLink>
+              <FooterLink to={prospectusLink}>Read the prospectus</FooterLink>
+            </FooterParagraph>
+            <FooterParagraph>
+              <FooterLink to="/#contact">Contact us</FooterLink>
+            </FooterParagraph>
+            <FooterParagraph>
+              <FooterLink to={"mailto:" + email}>Send us an email</FooterLink>
             </FooterParagraph>
           </div>
 
@@ -104,8 +113,7 @@ const Footer = () => {
           {/* Col is xl as it should always collapse */}
           <div className="col-xl">
             <TinyFooterParagraph>
-              {" "}
-              &#169; {CURRENT_YEAR}, Monash Human Power{" "}
+              &copy; {CURRENT_YEAR} Monash Human Power
             </TinyFooterParagraph>
             <TinyFooterParagraph>
               We wish to acknowledge the Wurundjeri People of the Kulin Nations,
