@@ -2,7 +2,7 @@
 heading: Monash Human Power
 image: ../images/V3_render_cool.png
 meta_page_description: ""
-recruitment_open: false
+recruitment_open: true
 recruitment_link: /joinUs#general-recruitment
 recruitment_info: /joinUs
 recruitment_description: Monash Human Power's 2023 recruitment is now open! Come
