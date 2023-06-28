@@ -24,7 +24,7 @@ recruitment_categories:
       microcontrollers and Raspberry Pis, or just want to get your hands dirty
       in a real world multidisciplinary project, we have something for all of
       you. Let's beat the world record together! "
-    is_open: false
+    is_open: true
 recruitment_process:
   - heading: Apply
     content: " "
