@@ -20,16 +20,6 @@ subteam:
         degree: Software Engineering and Computer Science
         position: Chief Operating Officer
         photo: ../images/jessica-mark.jpg
-      - linkedIn: https://www.linkedin.com/in/emily-johnston5/
-        name: Emily Johnston
-        degree: Civil Engineering and Commerce
-        position: Team Manager
-        photo: ../images/Emily_Johnston.jpg
-      - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
-        name: Charles Barber
-        degree: Mechanical Engineering
-        position: Chief Engineer
-        photo: ../images/charles_barber_resized.jpg
   - subteamName: Aerodynamics
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/alex-katelis-812186212/
@@ -89,11 +79,6 @@ subteam:
         degree: Mechanical Engineering
         position: Team Lead
         photo: ../images/hugh-mayer.jpg
-      - linkedIn: https://www.linkedin.com/in/nickadshead1/
-        name: Nick Adshead
-        degree: Mechanical Engineering and Commerce
-        position: Team Lead
-        photo: ../images/Nick_Adshead.jpg
       - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
         name: Noah Alwyn
         degree: Mechanical Engineering
@@ -134,6 +119,11 @@ subteam:
         degree: Mechanical Engineering and Commerce
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - linkedIn: https://www.linkedin.com/in/nickadshead1/
+        name: Nick Adshead
+        degree: Mechanical Engineering and Commerce
+        position: Team Member
+        photo: ../images/Nick_Adshead.jpg
       - linkedIn: https://www.linkedin.com/in/tyrone-rossouw-362168212/
         name: Tyrone Rossouw
         degree: Mechanical Enginering
@@ -319,7 +309,7 @@ subteam:
         degree: Mechanical Engineering
         position: ""
         photo: ../images/oscar-varney.jpg
-  - subteamName: Other
+  - subteamName: Auxiliary
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
         name: Amanda Zhou
@@ -334,13 +324,23 @@ subteam:
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
-        position: Workshop Manager
+        position: Workshop Manager & Safety Officer
         photo: ../images/Phoebe_Taylor.jpg
       - linkedIn: ""
         name: Alastair Haslam
         degree: Aerospace Engineering
         position: Systems Engineer
         photo: ../images/alastair-haslam.jpg
+      - linkedIn: https://www.linkedin.com/in/emily-johnston5/
+        name: Emily Johnston
+        degree: Civil Engineering and Commerce
+        position: Team Member
+        photo: ../images/Emily_Johnston.jpg
+      - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
+        name: Charles Barber
+        degree: Mechanical Engineering
+        position: Team Member
+        photo: ../images/charles_barber_resized.jpg
 ---
 
 <!--
