@@ -64,15 +64,12 @@ const Footer = () => {
           {/* Sponsor section */}
           <div className="col-md">
             <FooterHeading>Sponsor Us</FooterHeading>
-            <FooterParagraph>Get in touch with us today!</FooterParagraph>
             <FooterParagraph>
+              Get in touch with us today!
+              <br />
               <FooterLink to={prospectusLink}>Read the prospectus</FooterLink>
-            </FooterParagraph>
-            <FooterParagraph>
+              <br />
               <FooterLink to="/#contact">Contact us</FooterLink>
-            </FooterParagraph>
-            <FooterParagraph>
-              <FooterLink to={"mailto:" + email}>Send us an email</FooterLink>
             </FooterParagraph>
           </div>
 
@@ -82,7 +79,8 @@ const Footer = () => {
             <MhpAddress>
               Monash Makerspace <br />
               23 College Walk <br />
-              Monash University VIC 3800
+              Monash University VIC 3800 <br />
+              Email: <FooterLink to={"mailto:" + email}>{email}</FooterLink>
             </MhpAddress>
           </div>
 
