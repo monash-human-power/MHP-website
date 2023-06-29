@@ -43,4 +43,7 @@ sponsors:
   - name: Yarra Energy
     image: ../images/yarraenergy_logo_col.png
     link: https://yarraenergy.com.au/
+# sponsor section links
+prospectus_link: https://drive.google.com/file/d/1T2sDXsO7OtHV8oJ1w3u903o1ycFrhjH-/view?usp=sharing
+contact_email: monashhpt@gmail.com
 ---
