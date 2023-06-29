@@ -35,7 +35,7 @@ const TinyFooterParagraph = styled.p`
 const CURRENT_YEAR = new Date().getFullYear();
 
 const Footer = () => {
-  const recruitment_data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query RecruitmentInfoQuery {
       file(
         relativePath: { eq: "index.md" }
@@ -52,9 +52,10 @@ const Footer = () => {
     }
   `);
 
-  const frontMatter = recruitment_data.file.childMarkdownRemark.frontmatter;
+  const frontMatter = data.file.childMarkdownRemark.frontmatter;
   const email = frontMatter.contact_email;
   const prospectusLink = frontMatter.prospectus_link;
+  const recruitmentInfo = frontMatter.recruitment_info;
 
   return (
     <MhpFooter className="pt-3">
@@ -91,14 +92,7 @@ const Footer = () => {
             <FooterParagraph>
               Let's beat the world record together!
               <br />
-              <FooterLink
-                to={
-                  recruitment_data.file.childMarkdownRemark.frontmatter
-                    .recruitment_info
-                }
-              >
-                Recruitment page
-              </FooterLink>
+              <FooterLink to={recruitmentInfo}>Learn more</FooterLink>
             </FooterParagraph>
           </div>
 
