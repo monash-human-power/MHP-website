@@ -67,7 +67,7 @@ const Footer = () => {
             <FooterParagraph>
               Get in touch with us today!
               <br />
-              <FooterLink to={prospectusLink}>Read the prospectus</FooterLink>
+              <FooterLink to={prospectusLink}>Prospectus</FooterLink>
               <br />
               <FooterLink to="/#contact">Contact us</FooterLink>
             </FooterParagraph>
