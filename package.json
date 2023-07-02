@@ -19,7 +19,7 @@
     "babel-plugin-styled-components": "^2.1.1",
     "bootstrap": "^5.2.2",
     "eslint": "^8.44.0",
-    "gatsby": "^5.9.0",
+    "gatsby": "^5.11.0",
     "gatsby-cli": "^5.8.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-google-analytics": "^5.9.0",
