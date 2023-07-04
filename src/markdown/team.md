@@ -30,7 +30,7 @@ subteam:
       - linkedIn: ""
         name: Oscar Varney
         degree: Mechanical Engineering
-        position: Assistant Team Lead
+        position: Team Lead
         photo: ../images/oscar-varney.jpg
       - linkedIn: ""
         name: Cameron Sturgeon
@@ -84,11 +84,6 @@ subteam:
         degree: Mechanical Engineering
         position: Team Lead
         photo: ../images/noah-alwyn.jpg
-      - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
-        name: Phoebe Taylor
-        degree: Mechanical Engineering and Commerce
-        position: Assistant Team Lead
-        photo: ../images/Phoebe_Taylor.jpg
       - linkedIn: ""
         name: Aidan Graham
         degree: Mechanical Engineering
@@ -124,6 +119,11 @@ subteam:
         degree: Mechanical Engineering and Commerce
         position: Team Member
         photo: ../images/Nick_Adshead.jpg
+      - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
+        name: Phoebe Taylor
+        degree: Mechanical Engineering and Commerce
+        position: Team Member
+        photo: ../images/Phoebe_Taylor.jpg
       - linkedIn: https://www.linkedin.com/in/tyrone-rossouw-362168212/
         name: Tyrone Rossouw
         degree: Mechanical Enginering
@@ -201,7 +201,7 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/ravinduks/
         name: Ravindu Udawatta
         degree: Mechatronics Engineering
-        position: Assistant Team Lead
+        position: Team Lead
         photo: ../images/ravindu-udawatta.jpg
       - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
         name: Alex Mavros
@@ -240,16 +240,16 @@ subteam:
         photo: ../images/sammi-dao.jpg
   - subteamName: Rider Development
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
-        name: Kit Kirby
-        degree: Materials Engineering
-        position: Team Lead
-        photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Marley Seckold-Bamford
         degree: Aerospace Engineering
         position: Team Lead
         photo: ../images/marley-seckold-bamford.jpg
+      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
+        name: Kit Kirby
+        degree: Materials Engineering
+        position: Team Member
+        photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Alastair Haslam
         degree: Aerospace Engineering
@@ -299,6 +299,11 @@ subteam:
         degree: Electrical Engineering and Science
         position: ""
         photo: ../images/christopher_hall_resized.jpg
+      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
+        name: Kit Kirby
+        degree: Materials Engineering
+        position: ""
+        photo: ../images/Kit_Kirby.jpg
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
         name: Kit Kirby
         degree: Materials Engineering
