@@ -175,9 +175,9 @@ collections:
                 widget: list
                 fields:
                   - { label: Name, name: name, widget: string }
-                  - { label: Degree, name: degree, widget: string }
-                  - { label: Position, name: position, widget: string }
-                  - { label: Photo, name: photo, widget: image }
+                  - { label: Degree, name: degree, widget: string, required: false }
+                  - { label: Position, name: position, widget: string, default: "Team Member" }
+                  - { label: Photo, name: photo, widget: image, default: "../images/000-placeholder-person.png" }
                   - {
                       label: LinkedIn,
                       name: linkedIn,
@@ -403,7 +403,7 @@ collections:
                 }
               - {
                   label: Description (Closed),
-                  name: description_closed,
+                  name: closed_description,
                   widget: text,
                   hint: Description when recruitments are closed.,
                 }
@@ -448,6 +448,7 @@ collections:
               - label: Content
                 name: content
                 widget: text
+                required: false
           - label: FAQ Section
             name: FAQs
             widget: list

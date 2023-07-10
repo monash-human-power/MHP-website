@@ -9,11 +9,11 @@ _Monash Human Power public website showcasing the best of MHP_
 
 This repo contains all of the code that runs the MHP website. Check out the live site [here](https://monashhumanpower.org).
 
-## Getting Started
-
-### View Online
+## View Online
 
 This website is automatically deployed using Netlify. See the live site [here](https://monashhumanpower.org).
+
+## Getting Started
 
 ### Run Locally
 
@@ -48,9 +48,23 @@ This website is automatically deployed using Netlify. See the live site [here](h
 | `src/styles`              |                                                    Contains global CSS files.                                                    |
 | `static/admin/config.yml` |                              Config file for Netlify CMS. [More info](https://www.netlifycms.org/).                              |
 
-## More Information
+## Contributing
 
-Still confused? Don't know how to use the CMS? More info can be found at the notion page [here](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
+### Editing content using Netlify CMS
+
+If you just need to add or edit the site's content, you can use the CMS which offers a graphical interface of editing the site content. More information can be found at [the notion page](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
+
+### Modifying the codebase
+
+If you need to change the site layout or do anything that can be done with the CMS, follow the steps below:
+
+1. Clone the repo and install dependencies as in the [get started](#getting-started) section
+2. Run `yarn prepare` to initialise the git hooks
+3. Create a new branch with the naming scheme `github_username/feature_or_change_name`. Note that the `master` branch is protected, so you can't push to it directly
+4. Work on your changes
+5. When you're ready, create a [pull request](https://github.com/monash-human-power/MHP-website/compare).
+
+Still confused? More info can be found at the notion page [here](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
 
 ## Contributors ✨
 

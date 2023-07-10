@@ -35,7 +35,7 @@ const TinyFooterParagraph = styled.p`
 const CURRENT_YEAR = new Date().getFullYear();
 
 const Footer = () => {
-  const recruitment_data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query RecruitmentInfoQuery {
       file(
         relativePath: { eq: "index.md" }
@@ -44,11 +44,18 @@ const Footer = () => {
         childMarkdownRemark {
           frontmatter {
             recruitment_info
+            prospectus_link
+            contact_email
           }
         }
       }
     }
   `);
+
+  const frontMatter = data.file.childMarkdownRemark.frontmatter;
+  const email = frontMatter.contact_email;
+  const prospectusLink = frontMatter.prospectus_link;
+  const recruitmentInfo = frontMatter.recruitment_info;
 
   return (
     <MhpFooter className="pt-3">
@@ -58,11 +65,11 @@ const Footer = () => {
           <div className="col-md">
             <FooterHeading>Sponsor Us</FooterHeading>
             <FooterParagraph>
-              Get in touch with us today at
-              <FooterLink to="mailto: monashhpt@gmail.com">
-                {" "}
-                monashhpt@gmail.com
-              </FooterLink>
+              Get in touch with us today!
+              <br />
+              <FooterLink to={prospectusLink}>Prospectus</FooterLink>
+              <br />
+              <FooterLink to="/#contact">Contact us</FooterLink>
             </FooterParagraph>
           </div>
 
@@ -72,7 +79,8 @@ const Footer = () => {
             <MhpAddress>
               Monash Makerspace <br />
               23 College Walk <br />
-              Monash University VIC 3800
+              Monash University VIC 3800 <br />
+              Email: <FooterLink to={"mailto:" + email}>{email}</FooterLink>
             </MhpAddress>
           </div>
 
@@ -82,14 +90,7 @@ const Footer = () => {
             <FooterParagraph>
               Let's beat the world record together!
               <br />
-              <FooterLink
-                to={
-                  recruitment_data.file.childMarkdownRemark.frontmatter
-                    .recruitment_info
-                }
-              >
-                Recruitment page
-              </FooterLink>
+              <FooterLink to={recruitmentInfo}>Learn more</FooterLink>
             </FooterParagraph>
           </div>
 
@@ -104,8 +105,7 @@ const Footer = () => {
           {/* Col is xl as it should always collapse */}
           <div className="col-xl">
             <TinyFooterParagraph>
-              {" "}
-              &#169; {CURRENT_YEAR}, Monash Human Power{" "}
+              &copy; {CURRENT_YEAR} Monash Human Power
             </TinyFooterParagraph>
             <TinyFooterParagraph>
               We wish to acknowledge the Wurundjeri People of the Kulin Nations,

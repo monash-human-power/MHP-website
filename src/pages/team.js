@@ -43,32 +43,86 @@ const Wrapper = styled.div`
   maxwidth: none;
 `;
 
+// A list of team roles and their sort priority. Lower values mean HIGHER priority as they will be placed earlier in the array.
+const teamPositionSorting = {
+  "Team Member": 1, // ordinary team members, no special role
+  "Assistant Team Lead": -1,
+  "Team Lead": -2,
+  "Chief Engineer": -3,
+  "Team Manager": -4,
+  "Chief Operating Officer": -5,
+  "Chief Technical Officer": -6,
+  "Chief Executive Officer": -7,
+};
+
+/**
+ * Compare team member by position and then by name.
+ * @param {*} member1
+ * @param {*} member2
+ * @returns
+ */
+function compareTeamMembers(member1, member2) {
+  let m1Position = teamPositionSorting[member1.position] ?? 0;
+  let m2Position = teamPositionSorting[member2.position] ?? 0;
+  if (m1Position > m2Position) {
+    return 1;
+  }
+  if (m1Position < m2Position) {
+    return -1;
+  }
+
+  // if position is not in sorting list, sort alphabetically
+  let positionStringCompare = member1.position.localeCompare(
+    member2.position,
+    "en"
+  );
+  if (positionStringCompare > 0) {
+    return 1;
+  }
+  if (positionStringCompare < 0) {
+    return -1;
+  }
+
+  // Within the same position, sort by name
+  return member1.name.localeCompare(member2.name, "en");
+}
+
 const TeamPage = () => {
-  const data = useStaticQuery(graphql`query TeamPageQuery {
-  file(relativePath: {eq: "team.md"}, sourceInstanceName: {eq: "markdown"}) {
-    childMarkdownRemark {
-      frontmatter {
-        heading
-        description
-        meta_page_description
-        subteam {
-          subteamName
-          teamMembers {
-            photo {
-              childImageSharp {
-                gatsbyImageData(width: 500, height: 500, quality: 100, layout: CONSTRAINED)
+  const data = useStaticQuery(graphql`
+    query TeamPageQuery {
+      file(
+        relativePath: { eq: "team.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            heading
+            description
+            meta_page_description
+            subteam {
+              subteamName
+              teamMembers {
+                photo {
+                  childImageSharp {
+                    gatsbyImageData(
+                      width: 500
+                      height: 500
+                      quality: 100
+                      layout: CONSTRAINED
+                    )
+                  }
+                }
+                name
+                degree
+                position
+                linkedIn
               }
             }
-            name
-            degree
-            position
-            linkedIn
           }
         }
       }
     }
-  }
-}`);
+  `);
 
   const teamData = data.file.childMarkdownRemark.frontmatter;
   const teamArr = teamData.subteam;
@@ -79,7 +133,7 @@ const TeamPage = () => {
       <SubpageHeading> {teamData.heading} </SubpageHeading>
 
       {/* TODO: Remove this if we never use it */}
-      {/* INFO: UNCOMMENT IF MAIN TEAM IMAGE IS USED 
+      {/* INFO: UNCOMMENT IF MAIN TEAM IMAGE IS USED
             mainPhoto {
               childImageSharp {
                 fluid {
@@ -87,7 +141,7 @@ const TeamPage = () => {
                   ...GatsbyImageSharpFluidLimitPresentationSize
                 }
               }
-            } 
+            }
         <div className="container mb-5">
           <div className="row py-3 my-3">
             <CenteredImage fluid ={teamData.mainPhoto.childImageSharp.fluid} />
@@ -95,7 +149,7 @@ const TeamPage = () => {
           <div className="row py-3 my-2">
             <p>{teamData.description}</p>
           </div>
-        </div> 
+        </div>
       */}
 
       {/* Entire Team Images Block */}
@@ -104,18 +158,20 @@ const TeamPage = () => {
           <div key={index_outer}>
             <InfoHeading> {blockData.subteamName} </InfoHeading>
             <Wrapper>
-              {blockData.teamMembers.map((memberInfo, index_inner) => (
-                <InfoBlock
-                  name={memberInfo.name}
-                  degree={memberInfo.degree}
-                  position={memberInfo.position}
-                  photo={memberInfo.photo.childImageSharp.gatsbyImageData}
-                  linkedIn={memberInfo.linkedIn}
-                  key={index_inner}
-                  // Example key would be 1 (index_inner of the data)
-                  id={index_inner}
-                />
-              ))}
+              {blockData.teamMembers
+                .sort(compareTeamMembers)
+                .map((memberInfo, index_inner) => (
+                  <InfoBlock
+                    name={memberInfo.name}
+                    degree={memberInfo.degree}
+                    position={memberInfo.position}
+                    photo={memberInfo.photo.childImageSharp.gatsbyImageData}
+                    linkedIn={memberInfo.linkedIn}
+                    key={index_inner}
+                    // Example key would be 1 (index_inner of the data)
+                    id={index_inner}
+                  />
+                ))}
             </Wrapper>
           </div>
         ))}

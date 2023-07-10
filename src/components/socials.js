@@ -57,35 +57,35 @@ const Socials = () => {
   // Inline style for FontAwesomeIcon ensures that the styles gets loaded immediately with the HTML (no huge icons)
   return (
     <MhpSocialContainer>
-      <SocialLink to={social_link.facebook}>
+      <SocialLink to={social_link.facebook} title="Facebook">
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
           icon={faFacebook}
         />
       </SocialLink>
 
-      <SocialLink to={social_link.instagram}>
+      <SocialLink to={social_link.instagram} title="Instagram">
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
           icon={faInstagram}
         />
       </SocialLink>
 
-      <SocialLink to={social_link.linkedIn}>
+      <SocialLink to={social_link.linkedIn} title="LinkedIn">
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
           icon={faLinkedin}
         />
       </SocialLink>
 
-      <SocialLink to={social_link.github}>
+      <SocialLink to={social_link.github} title="GitHub">
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
           icon={faGithub}
         />
       </SocialLink>
 
-      <SocialLink to={social_link.tiktok}>
+      <SocialLink to={social_link.tiktok} title="TikTok">
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
           icon={faTiktok}
