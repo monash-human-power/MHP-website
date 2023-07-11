@@ -18,7 +18,7 @@ This website is automatically deployed using Netlify. See the live site [here](h
 ### Run Locally
 
 1. [Install node.js](https://nodejs.org)
-2. [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
+2. [Install Yarn](https://yarnpkg.com/getting-started/install)
 3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
 4. Install dependencies using `yarn install`
 5. Start developing using `yarn develop`
@@ -26,7 +26,7 @@ This website is automatically deployed using Netlify. See the live site [here](h
 ### Build Locally
 
 1. [Install node.js](https://nodejs.org)
-2. [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
+2. [Install Yarn](https://yarnpkg.com/getting-started/install)
 3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
 4. Install dependencies using `yarn install`
 5. Start developing using `yarn build`
