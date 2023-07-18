@@ -9,7 +9,7 @@ const DEFAULT_CELLS_PER_ROW = 3;
 /**
  * Box component  for {@link TextCell}.
  */
-const TextCellBox = styled.div`
+export const TextCellBox = styled.div`
   border: 1px solid black;
 `;
 
@@ -18,11 +18,9 @@ const TextCellBox = styled.div`
  *
  * This should be used when the cell contains a link.
  */
-const ClickableTextLinkBox = styled.div`
+export const ClickableTextLinkBox = styled(TextCellBox)`
   // Clickable cursor look
   cursor: pointer;
-
-  border: 1px solid black;
 
   /* Dispose of shadow */
   transition: 0.1s;
