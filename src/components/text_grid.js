@@ -22,8 +22,6 @@ export const ClickableTextLinkBox = styled(TextCellBox)`
   // Clickable cursor look
   cursor: pointer;
 
-  border: 1px solid black;
-
   /* Dispose of shadow */
   transition: 0.1s;
 
