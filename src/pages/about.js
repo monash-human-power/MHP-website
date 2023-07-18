@@ -6,7 +6,6 @@ import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
 import SubTeams from "../components/index/subteams";
-import NumberedTextGrid from "../components/numbered_text_grid";
 import TextGrid from "../components/text_grid";
 
 const AboutPage = () => {
