@@ -81,21 +81,6 @@ collections:
               - { label: Heading, name: heading, widget: string }
               - { label: Description, name: description, widget: text }
               - {
-                  label: Button Text,
-                  name: buttonText,
-                  widget: string,
-                  default: "",
-                  required: false,
-                }
-              - { label: Image, name: image, widget: image }
-              - {
-                  label: Button Link,
-                  name: href,
-                  widget: string,
-                  default: "",
-                  required: false,
-                }
-              - {
                   label: ID for header,
                   name: id,
                   widget: string,
@@ -107,9 +92,10 @@ collections:
             fields:
               - label: Heading
                 name: heading
-              - label: Content
-                name: content
+              - label: Body
+                name: body
                 widget: text
+                required: false
           - label: Subteam Information Section
             name: subteams
             widget: list
@@ -158,13 +144,6 @@ collections:
               required: false,
               hint: "This text will show up in the Google description of the page (The text under the link)",
             }
-
-          # - {
-          #     label: mainPhoto,
-          #     name: photo,
-          #     widget: image,
-          #     required: false
-          #   }
           - label: Subteam
             name: subteam
             widget: list
@@ -175,9 +154,26 @@ collections:
                 widget: list
                 fields:
                   - { label: Name, name: name, widget: string }
-                  - { label: Degree, name: degree, widget: string, required: false }
-                  - { label: Position, name: position, widget: string, default: "Team Member" }
-                  - { label: Photo, name: photo, widget: image, default: "../images/000-placeholder-person.png" }
+                  - {
+                      label: Degree,
+                      name: degree,
+                      widget: string,
+                      required: false,
+                    }
+                  - {
+                      label: Position,
+                      name: position,
+                      widget: string,
+                      default: "Team Member",
+                      required: false,
+                      hint: "For riders, add a space for an empty position.",
+                    }
+                  - {
+                      label: Photo,
+                      name: photo,
+                      widget: image,
+                      default: "../images/000-placeholder-person.png",
+                    }
                   - {
                       label: LinkedIn,
                       name: linkedIn,
@@ -394,7 +390,7 @@ collections:
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
-              - { label: Currenrtly Open, name: is_open, widget: boolean }
+              - { label: Currently Open, name: is_open, widget: boolean }
               - {
                   label: Description (Open),
                   name: description,
@@ -445,8 +441,8 @@ collections:
             fields:
               - label: Heading
                 name: heading
-              - label: Content
-                name: content
+              - label: Body
+                name: body
                 widget: text
                 required: false
           - label: FAQ Section

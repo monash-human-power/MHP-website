@@ -5,48 +5,53 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
-import SubTeams from "../components/index/subteams";
-import NumberedTextGrid from "../components/numbered_text_grid";
+import SubteamsGrid from "../components/index/subteams_grid";
+import TextGrid from "../components/text_grid";
 
 const AboutPage = () => {
-  const data = useStaticQuery(graphql`query AboutPageQuery {
-  file(relativePath: {eq: "about.md"}, sourceInstanceName: {eq: "markdown"}) {
-    childMarkdownRemark {
-      frontmatter {
-        heading
-        meta_page_description
-        blocks {
-          image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+  const data = useStaticQuery(graphql`
+    query AboutPageQuery {
+      file(
+        relativePath: { eq: "about.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            heading
+            meta_page_description
+            blocks {
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
+                }
+              }
+              href
+              heading
+              description
+              buttonText
+              id
             }
-          }
-          href
-          heading
-          description
-          buttonText
-          id
-        }
-        subteams {
-          name
-          description
-          button_text
-          button_href
-          id
-        }
-        our_values {
-          heading
-          content
-        }
-        image {
-          childImageSharp {
-            gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
+            subteams {
+              name
+              description
+              button_text
+              button_href
+              id
+            }
+            our_values {
+              heading
+              body
+            }
+            image {
+              childImageSharp {
+                gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
+              }
+            }
           }
         }
       }
     }
-  }
-}`);
+  `);
 
   const aboutData = data.file.childMarkdownRemark.frontmatter;
   const infoBlockArr = aboutData.blocks;
@@ -78,14 +83,14 @@ const AboutPage = () => {
         </div>
 
         {/* Our values section */}
-        <NumberedTextGrid
+        <TextGrid
           className="mb-5"
           gridHeading="Our Values"
           cellArray={valuesArray}
         />
 
         {/* Sub-Teams Section */}
-        <SubTeams className="mb-5" subteamsArray={subteamsArray} />
+        <SubteamsGrid className="mb-5" subteamsArray={subteamsArray} />
       </div>
     </Layout>
   );
