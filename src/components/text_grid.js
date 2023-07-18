@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Link from "./link";
+import Link, { isInternalLink } from "./link";
 import { CenteredSection, SectionHeading } from "./content";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const DEFAULT_CELLS_PER_ROW = 3;
 
@@ -9,7 +10,10 @@ const TextCellBox = styled.div`
   border: 1px solid black;
 `;
 
-const TextCellLinkBox = styled.div`
+const ClickableTextLinkBox = styled.div`
+  // Clickable cursor look
+  cursor: pointer;
+
   border: 1px solid black;
 
   /* Dispose of shadow */
@@ -18,7 +22,7 @@ const TextCellLinkBox = styled.div`
   &:hover {
     /* Show shadow */
     transition: 0.3s;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   }
 `;
 
@@ -33,19 +37,17 @@ const NumberCircle = styled.div`
   color: white;
 `;
 
-const TextCellHeading = styled.p`
-  font-weight: bold;
-  font-size: 1.5rem;
+const TextCellHeading = styled.h2`
+  color: black;
+  text-decoration: none;
+  font-size: 1.4rem;
   text-align: center;
 `;
 
-const TextCellBody = ({ text }) => (
-  <div className="row">
-    <div className="col d-flex justify-body-center">
-      <p>{text}</p>
-    </div>
-  </div>
-);
+const TextCellBody = styled.p`
+  color: black;
+  text-decoration: none;
+`;
 
 const TextCellContent = ({ heading, body, index, startIndex, showNumber }) => (
   <>
@@ -64,9 +66,9 @@ const TextCellContent = ({ heading, body, index, startIndex, showNumber }) => (
       </div>
     </div>
 
-    {body !== "" && <TextCellBody text={body} />}
+    {body !== "" && <TextCellBody>{body}</TextCellBody>}
   </>
-); // TODO
+);
 
 const TextCell = (
   { heading, body, link = "" },
@@ -86,10 +88,10 @@ const TextCell = (
         />
       </TextCellBox>
     );
-  } else {
+  } else if (isInternalLink(link)) {
     return (
-      <Link to={link}>
-        <TextCellLinkBox className="col-md m-2 p-3" key={index}>
+      <ClickableTextLinkBox className="col-md m-2 p-3" key={index}>
+        <AnchorLink to={link}>
           <TextCellContent
             heading={heading}
             body={body}
@@ -97,8 +99,22 @@ const TextCell = (
             startIndex={startIndex}
             showNumber={showNumber}
           />
-        </TextCellLinkBox>
-      </Link>
+        </AnchorLink>
+      </ClickableTextLinkBox>
+    );
+  } else {
+    return (
+      <ClickableTextLinkBox className="col-md m-2 p-3" key={index}>
+        <Link to={link}>
+          <TextCellContent
+            heading={heading}
+            body={body}
+            index={index}
+            startIndex={startIndex}
+            showNumber={showNumber}
+          />
+        </Link>
+      </ClickableTextLinkBox>
     );
   }
 }; // TODO
