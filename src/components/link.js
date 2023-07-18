@@ -1,6 +1,11 @@
 import React from "react";
 import { Link as GatsbyLink } from "gatsby";
 
+/**
+ * Checks if a link is internal (i.e. points to another page or section on MHP website).
+ * @param url Link to check
+ * @returns {boolean} `true` if the link is internal
+ */
 export function isInternalLink(url) {
   return /^\/(?!\/)/.test(url);
 }

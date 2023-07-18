@@ -6,10 +6,18 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const DEFAULT_CELLS_PER_ROW = 3;
 
+/**
+ * Box component  for {@link TextCell}.
+ */
 const TextCellBox = styled.div`
   border: 1px solid black;
 `;
 
+/**
+ * A version of {@link TextCellBox} which draws a shadow on hover.
+ *
+ * This should be used when the cell contains a link.
+ */
 const ClickableTextLinkBox = styled.div`
   // Clickable cursor look
   cursor: pointer;
@@ -26,6 +34,9 @@ const ClickableTextLinkBox = styled.div`
   }
 `;
 
+/**
+ * Number circle for {@link TextCellBody}, with black circle and white number.
+ */
 const NumberCircle = styled.div`
   width: 75px;
   line-height: 75px;
@@ -37,6 +48,9 @@ const NumberCircle = styled.div`
   color: white;
 `;
 
+/**
+ * Component for heading of {@link TextCellContent}.
+ */
 const TextCellHeading = styled.h2`
   color: black;
   text-decoration: none;
@@ -44,11 +58,23 @@ const TextCellHeading = styled.h2`
   text-align: center;
 `;
 
+/**
+ * Component for body of {@link TextCellContent}.
+ */
 const TextCellBody = styled.p`
   color: black;
   text-decoration: none;
 `;
 
+/**
+ * Component for cell content for a {@link TextCell}.
+ * @param heading Cell heading
+ * @param body Cell body
+ * @param link Cell link (optional)
+ * @param index Overall index of cell content array
+ * @param startIndex Index of first item on the row
+ * @param showNumber Whether to show a number on each cell
+ */
 const TextCellContent = ({ heading, body, index, startIndex, showNumber }) => (
   <>
     {/* only show number if enabled */}
@@ -70,6 +96,15 @@ const TextCellContent = ({ heading, body, index, startIndex, showNumber }) => (
   </>
 );
 
+/**
+ * Component for individual cells of {@link TextGrid}.
+ * @param heading Cell heading
+ * @param body Cell body
+ * @param link Cell link (optional)
+ * @param index Overall index of cell content array
+ * @param startIndex Index of first item on the row
+ * @param showNumber Whether to show a number on each cell
+ */
 const TextCell = (
   { heading, body, link = "" },
   index,
@@ -77,6 +112,7 @@ const TextCell = (
   showNumber
 ) => {
   if (link === "") {
+    // if there is no link, do not draw shadows
     return (
       <TextCellBox className="col-md m-2 p-3" key={index}>
         <TextCellContent
@@ -117,8 +153,17 @@ const TextCell = (
       </ClickableTextLinkBox>
     );
   }
-}; // TODO
+};
 
+/**
+ * Component for a grid section with black borders and an optional number on each cell.
+ * Examples include the 'Our Values' section in about page and 'Recruitment Process' section in join us page.
+ * @param className Additional classes to pass
+ * @param gridHeading Section heading
+ * @param cellArray An array of cells containing cell heading, body test (optional) and link (optional)
+ * @param cellsPerRow Number of cells per row (optional). If not present, the default will be used
+ * @param showNumber Show a number on each cell above cell heading, counting from first cell
+ */
 const TextGrid = ({
   className,
   gridHeading,

@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import InfoBlock from "../components/info_block";
 import SubpageHeading from "../components/subpage_heading";
-import SubTeams from "../components/index/subteams";
+import SubteamsGrid from "../components/index/subteams_grid";
 import TextGrid from "../components/text_grid";
 
 const AboutPage = () => {
@@ -90,7 +90,7 @@ const AboutPage = () => {
         />
 
         {/* Sub-Teams Section */}
-        <SubTeams className="mb-5" subteamsArray={subteamsArray} />
+        <SubteamsGrid className="mb-5" subteamsArray={subteamsArray} />
       </div>
     </Layout>
   );
