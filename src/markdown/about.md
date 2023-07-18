@@ -80,9 +80,9 @@ subteams:
 
 our_values:
   - heading: Quality
-    content: ""
+    body: ""
   - heading: Pride
-    content: ""
+    body: ""
   - heading: Consistency
-    content: ""
+    body: ""
 ---
