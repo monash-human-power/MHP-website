@@ -329,7 +329,7 @@ subteam:
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
-        position: Safety Officer
+        position: Safety Manager
         photo: ../images/Phoebe_Taylor.jpg
       - linkedIn: ""
         name: Alastair Haslam
