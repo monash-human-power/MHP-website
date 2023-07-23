@@ -13,6 +13,11 @@ const MhpFooter = styled.footer`
 
 const FooterLink = styled(Link)`
   color: var(--MHP-green);
+  transition: 0.1s;
+  &:hover {
+    color: var(--MHP-purple-2);
+    transition: 0.3s;
+  }
 `;
 
 const FooterHeading = styled.h4`
@@ -93,8 +98,6 @@ const Footer = () => {
               <FooterLink to={recruitmentInfo}>Learn more</FooterLink>
             </FooterParagraph>
           </div>
-
-          {/* Social icons */}
         </div>
 
         {/* Social icons */}
