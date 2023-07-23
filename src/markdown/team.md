@@ -72,6 +72,11 @@ subteam:
         degree: Aerospace Engineering
         position: Team Member
         photo: ../images/william-thompson.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Bereket Barasa
+        degree: Aerospace Engineering
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
