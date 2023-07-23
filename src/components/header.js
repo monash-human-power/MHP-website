@@ -102,9 +102,9 @@ const Header = () => {
         </button>
 
         <CollapsingDiv className="collapse navbar-collapse" id="navbarContent">
-          {/* MHP name */}
+          {/* Home page link container */}
           <div style={{ width: 200, margin: "auto" }}>
-            <ul className="navbar-nav py-1">
+            <ul className="navbar-nav">
               <NavLinkContainer
                 className="nav-item"
                 style={{ display: "flex" }}
@@ -114,7 +114,6 @@ const Header = () => {
                   <GatsbyImage
                     image={data.logoData.childImageSharp.gatsbyImageData}
                     alt="MHP logo"
-                    className="align-top"
                   />
                 </LogoNavLink>
               </NavLinkContainer>
