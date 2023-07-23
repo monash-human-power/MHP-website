@@ -77,6 +77,16 @@ subteam:
         linkedIn: ""
         name: Bereket Barasa
         degree: Aerospace Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Isa Rose
+        degree: Engineering and Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Mitchell Bellingham
+        degree: Engineering
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
@@ -139,6 +149,21 @@ subteam:
         degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/vinura-abeygunawardhane.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Cameron Fieldew
+        degree: Mechatronics Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Robert Glavan
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Yashen Ahangama
+        degree: Engineering
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
@@ -196,6 +221,26 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/winnie-chui.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Ammanuel Woldemicael
+        degree: Electrical Engineering and Computer Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Amy Tjea
+        degree: Software Engineering and Computer Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Ngoc Thao Vy Nguyen
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Saima Firdaus
+        degree: Engineering
   - subteamName: Materials
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
@@ -243,6 +288,26 @@ subteam:
         degree: ""
         position: Team Member
         photo: ../images/sammi-dao.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Casey Diep
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Duc Thuan Le
+        degree: Mechanical Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Rhys Watson
+        degree: Materials Engineering and Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Shriabhay Shriharsha
+        degree: Mechatronics Engineering
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: ""
@@ -260,6 +325,16 @@ subteam:
         degree: Aerospace Engineering
         position: Team Member
         photo: ../images/alastair-haslam.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Rianna Thiele
+        degree: Electrical Engineering and Biomedical Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Sean Solnik
+        degree: Electrical Engineering and Biomedical Science
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
@@ -292,6 +367,26 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Enuki Galhindarachchi
+        degree: Computer Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Oliver Chen
+        degree: Mechanical Engineering and Commerce
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Rachel Masquiren
+        degree: Civil Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Vicky Huang
+        degree: Software Engineering and Computer Science
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
