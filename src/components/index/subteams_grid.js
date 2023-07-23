@@ -1,9 +1,4 @@
 import React from "react";
-import styled from "styled-components";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-
-import Button from "../button";
-import { CenteredSection, SectionHeading } from "../content";
 import TextGrid from "../text_grid";
 
 const SUBTEAMS_PER_ROW = 3;
