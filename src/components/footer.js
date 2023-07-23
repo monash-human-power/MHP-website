@@ -95,7 +95,11 @@ const Footer = () => {
           </div>
 
           {/* Social icons */}
-          <div className="col-md">
+        </div>
+
+        {/* Social icons */}
+        <div className="row py-2">
+          <div className="col-xl">
             <Socials />
           </div>
         </div>
@@ -111,6 +115,11 @@ const Footer = () => {
               We wish to acknowledge the Wurundjeri People of the Kulin Nations,
               on whose land we build our bikes and pay our respects to their
               Elders, past and present.
+            </TinyFooterParagraph>
+            <TinyFooterParagraph>
+              Powered by{" "}
+              <FooterLink to="https://www.gatsbyjs.com/">Gatsby</FooterLink> &{" "}
+              <FooterLink to="https://getbootstrap.com/">Bootstrap</FooterLink>
             </TinyFooterParagraph>
           </div>
         </div>
