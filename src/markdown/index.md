@@ -1,12 +1,7 @@
 ---
 heading: Monash Human Power
-image: ../images/V3_render_cool.png
 meta_page_description: ""
-recruitment_open: true
-recruitment_link: /joinUs#general-recruitment
-recruitment_info: /joinUs
-recruitment_description: Monash Human Power's 2023 recruitment for semester 2 is
-  now open! Come join our team as we aim to build the fastest bike in Australia.
+recruitment_open: false
 splash:
   heading: Pushing the boundaries of human-powered vehicles
   body: Monash Human Power is a Monash engineering student team whose goal is to
@@ -15,6 +10,12 @@ splash:
   about_link: /about
   bike_link: /bike
   competitions_link: /competitions
+prospectus_link: https://drive.google.com/file/d/1T2sDXsO7OtHV8oJ1w3u903o1ycFrhjH-/view?usp=sharing
+image: ../images/V3_render_cool.png
+recruitment_link: /joinUs#general-recruitment
+recruitment_info: /joinUs
+recruitment_description: Monash Human Power's 2023 recruitment for semester 2 is
+  now open! Come join our team as we aim to build the fastest bike in Australia.
 sponsors:
   - name: Monash University
     image: ../images/monash-current-logo.png
@@ -43,7 +44,5 @@ sponsors:
   - name: Yarra Energy
     image: ../images/yarraenergy_logo_col.png
     link: https://yarraenergy.com.au/
-# sponsor section links
-prospectus_link: https://drive.google.com/file/d/1T2sDXsO7OtHV8oJ1w3u903o1ycFrhjH-/view?usp=sharing
 contact_email: monashhpt@gmail.com
 ---
