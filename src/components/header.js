@@ -104,7 +104,7 @@ const Header = () => {
         <CollapsingDiv className="collapse navbar-collapse" id="navbarContent">
           {/* Home page link container */}
           <div style={{ width: 200, margin: "auto" }}>
-            <ul className="navbar-nav">
+            <ul className="navbar-nav justify-content-center">
               <NavLinkContainer
                 className="nav-item"
                 style={{ display: "flex" }}
