@@ -264,7 +264,7 @@ subteam:
         photo: ../images/nguyen-khang-huynh.jpg
       - linkedIn: ""
         name: Valerie Tang
-        degree: Science and Information Techynology
+        degree: Science and Information Technology
         position: Team Lead
         photo: ../images/valerie-tang.jpg
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
