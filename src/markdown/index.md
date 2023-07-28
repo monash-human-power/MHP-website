@@ -1,6 +1,6 @@
 ---
 heading: Monash Human Power
-meta_page_description: ""
+meta_page_description: test edit 123
 recruitment_open: false
 splash:
   heading: Pushing the boundaries of human-powered vehicles
