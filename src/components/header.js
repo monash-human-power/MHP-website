@@ -21,6 +21,14 @@ const NavLink = styled(Link)`
   }
 `;
 
+const LogoNavLink = styled(Link)`
+  transition: 0.1s;
+  &:hover {
+    transition: 0.3s;
+    filter: brightness(75%);
+  }
+`;
+
 const Navbar = styled.nav`
   background-color: var(--MHP-black);
   padding-right: 0px;
@@ -43,23 +51,25 @@ function navItem(text, anchor = "#", key) {
 }
 
 const Header = () => {
-  const data = useStaticQuery(graphql`query Logo {
-  logoData: file(relativePath: {eq: "MHP_logo_green_transparent.png"}) {
-    childImageSharp {
-      gatsbyImageData(height: 30, layout: FIXED)
-    }
-  }
-  recruitmentData: file(
-    relativePath: {eq: "index.md"}
-    sourceInstanceName: {eq: "markdown"}
-  ) {
-    childMarkdownRemark {
-      frontmatter {
-        recruitment_link
+  const data = useStaticQuery(graphql`
+    query Logo {
+      logoData: file(relativePath: { eq: "mhp-logo-white.png" }) {
+        childImageSharp {
+          gatsbyImageData(height: 30, layout: FIXED)
+        }
+      }
+      recruitmentData: file(
+        relativePath: { eq: "index.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            recruitment_link
+          }
+        }
       }
     }
-  }
-}`);
+  `);
 
   const pageLinks = [
     { title: "About", link: "/about" },
@@ -72,7 +82,6 @@ const Header = () => {
     {
       title: "Join Us",
       link: "/joinUs",
-      // data.recruitmentData.childMarkdownRemark.frontmatter.recruitment_link,
     },
   ];
 
@@ -93,23 +102,20 @@ const Header = () => {
         </button>
 
         <CollapsingDiv className="collapse navbar-collapse" id="navbarContent">
-          {/* MHP name */}
+          {/* Home page link container */}
           <div style={{ width: 200, margin: "auto" }}>
-            <ul className="navbar-nav pt-1">
+            <ul className="navbar-nav justify-content-center">
               <NavLinkContainer
                 className="nav-item"
                 style={{ display: "flex" }}
               >
                 {/* MHP logo */}
-                <Link to="/">
+                <LogoNavLink to="/">
                   <GatsbyImage
                     image={data.logoData.childImageSharp.gatsbyImageData}
                     alt="MHP logo"
-                    className="align-top" />
-                </Link>
-                <NavLink className="nav-link" to="/">
-                  MHP
-                </NavLink>
+                  />
+                </LogoNavLink>
               </NavLinkContainer>
             </ul>
           </div>

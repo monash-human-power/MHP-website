@@ -13,6 +13,11 @@ const MhpFooter = styled.footer`
 
 const FooterLink = styled(Link)`
   color: var(--MHP-green);
+  transition: 0.1s;
+  &:hover {
+    color: var(--MHP-purple-2);
+    transition: 0.3s;
+  }
 `;
 
 const FooterHeading = styled.h4`
@@ -93,9 +98,11 @@ const Footer = () => {
               <FooterLink to={recruitmentInfo}>Learn more</FooterLink>
             </FooterParagraph>
           </div>
+        </div>
 
-          {/* Social icons */}
-          <div className="col-md">
+        {/* Social icons */}
+        <div className="row py-2">
+          <div className="col-xl">
             <Socials />
           </div>
         </div>
@@ -111,6 +118,11 @@ const Footer = () => {
               We wish to acknowledge the Wurundjeri People of the Kulin Nations,
               on whose land we build our bikes and pay our respects to their
               Elders, past and present.
+            </TinyFooterParagraph>
+            <TinyFooterParagraph>
+              Powered by{" "}
+              <FooterLink to="https://www.gatsbyjs.com/">Gatsby</FooterLink> &{" "}
+              <FooterLink to="https://getbootstrap.com/">Bootstrap</FooterLink>
             </TinyFooterParagraph>
           </div>
         </div>
