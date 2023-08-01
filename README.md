@@ -9,62 +9,10 @@ _Monash Human Power public website showcasing the best of MHP_
 
 This repo contains all of the code that runs the MHP website. Check out the live site [here](https://monashhumanpower.org).
 
-## View Online
-
-This website is automatically deployed using Netlify. See the live site [here](https://monashhumanpower.org).
-
 ## Getting Started
 
-### Run Locally
-
-1. [Install node.js](https://nodejs.org)
-2. [Install Yarn](https://yarnpkg.com/getting-started/install)
-3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
-4. Install dependencies using `yarn install`
-5. Start developing using `yarn develop`
-
-### Build Locally
-
-1. [Install node.js](https://nodejs.org)
-2. [Install Yarn](https://yarnpkg.com/getting-started/install)
-3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
-4. Install dependencies using `yarn install`
-5. Start developing using `yarn build`
-6. [OPTIONAL] Run a test server using `yarn serve`
-
-## Project Layout
-
-| File/Folder               |                                                           Information                                                            |
-| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
-| `gatsby-config.js`        | Configures Gatsby and used to import Gatsby plugins. [More info](https://www.gatsbyjs.com/tutorial/plugin-and-theme-tutorials/). |
-| `gatsby-node.js`          |                 Logic to dynamically generate blog posts. [More info](https://www.gatsbyjs.org/docs/node-apis/).                 |
-| `gatsby-browser.js`       |  Imports CSS and modules to be used in the browsers global namespace. [More info](https://www.gatsbyjs.org/docs/browser-apis/).  |
-| `netlify.toml`            |                                                  Configures the netlify build.                                                   |
-| `src/components`          |                                          Contains React components used to build pages.                                          |
-| `src/images`              |                                                     Contains website images.                                                     |
-| `src/markdown`            |                                     Contains markdown files used to build pages (non-blog).                                      |
-| `src/blog`                |                                        Contains markdown files used to build blog pages.                                         |
-| `src/pages`               |                           Contains React files that are associated with pages. eg. 404.js == 404 page                            |
-| `src/styles`              |                                                    Contains global CSS files.                                                    |
-| `static/admin/config.yml` |                              Config file for Netlify CMS. [More info](https://www.netlifycms.org/).                              |
-
-## Contributing
-
-### Editing content using Netlify CMS
-
-If you just need to add or edit the site's content, you can use the CMS which offers a graphical interface of editing the site content. More information can be found at [the notion page](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
-
-### Modifying the codebase
-
-If you need to change the site layout or do anything that can be done with the CMS, follow the steps below:
-
-1. Clone the repo and install dependencies as in the [get started](#getting-started) section
-2. Run `yarn prepare` to initialise the git hooks
-3. Create a new branch with the naming scheme `github_username/feature_or_change_name`. Note that the `master` branch is protected, so you can't push to it directly
-4. Work on your changes
-5. When you're ready, create a [pull request](https://github.com/monash-human-power/MHP-website/compare).
-
-Still confused? More info can be found at the notion page [here](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
+See the [Notion page on operations](https://www.notion.so/monashhumanpower/MHP-Website-c279218a13a74477a29b0ceeb91f1a46?pvs=4)
+to learn how to work with the website.
 
 ## Contributors ✨
 
