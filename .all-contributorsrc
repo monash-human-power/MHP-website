@@ -3,9 +3,7 @@
   "projectOwner": "monash-human-power ",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
   "commit": true,
   "commitConvention": "gitmoji",
@@ -15,60 +13,51 @@
       "name": "Blake",
       "avatar_url": "https://avatars2.githubusercontent.com/u/23159604?v=4",
       "profile": "https://github.com/Blake-Haydon",
-      "contributions": [
-        "code",
-        "doc"
-      ]
+      "contributions": ["code", "doc"]
     },
     {
       "login": "clarayew",
       "name": "clarayew",
       "avatar_url": "https://avatars0.githubusercontent.com/u/71205412?v=4",
       "profile": "https://github.com/clarayew",
-      "contributions": [
-        "content"
-      ]
+      "contributions": ["content"]
     },
     {
       "login": "angieaulia",
       "name": "angieaulia",
       "avatar_url": "https://avatars2.githubusercontent.com/u/71426239?v=4",
       "profile": "https://github.com/angieaulia",
-      "contributions": [
-        "code",
-        "content"
-      ]
+      "contributions": ["code", "content"]
     },
     {
       "login": "kdav108",
       "name": "Kunj Dave",
       "avatar_url": "https://avatars.githubusercontent.com/u/63642262?v=4",
       "profile": "https://github.com/kdav108",
-      "contributions": [
-        "code",
-        "content"
-      ]
+      "contributions": ["code", "content"]
     },
     {
       "login": "bahar-ap",
       "name": "bahar-ap",
       "avatar_url": "https://avatars.githubusercontent.com/u/81912681?v=4",
       "profile": "https://github.com/bahar-ap",
-      "contributions": [
-        "code",
-        "content"
-      ]
+      "contributions": ["code", "content"]
     },
     {
       "login": "megascrapper",
       "name": "Akbar Fadiansyah",
       "avatar_url": "https://avatars.githubusercontent.com/u/34503494?v=4",
       "profile": "https://github.com/megascrapper",
-      "contributions": [
-        "code",
-        "content"
-      ]
+      "contributions": ["code", "content"]
+    },
+    {
+      "login": "carlthe7",
+      "name": "carlthe7",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110951978?v=4",
+      "profile": "https://github.com/carlthe7",
+      "contributions": ["review"]
     }
   ],
   "contributorsPerLine": 7
 }
+
