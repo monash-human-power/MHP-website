@@ -19,20 +19,25 @@ const CentreImage = styled(GatsbyImage)`
   display: block;
   margin: auto;
   max-height: 325px;
-  max-width: 800px
+  max-width: 800px;
 `;
 
 const BlackBackground = styled.span`
   background-color: var(--MHP-black);
 `;
 
+/**
+ * Top graphic on the home page.
+ * @param image Image to be placed on the top graphic
+ * @param heading Text to put on top of `image`
+ */
 const MainGraphic = ({ image, heading }) => (
   <CrosshairContainer className="container-fluid pt-5 pb-2">
     {/* pt-4 mt-4 ensures that the graphic doesn't hit the header */}
     <div className="row justify-content-center pt-4 mt-4">
       {/* Bike graphic */}
       <div className="col-md-12">
-        <CentreImage image={image} alt=""/>
+        <CentreImage image={image} alt="" />
       </div>
 
       {/* Heading text */}
