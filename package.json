@@ -48,7 +48,7 @@
     "react-helmet": "^6.1.0",
     "react-is": ">= 18.2.0",
     "styled-components": "^5.3.9",
-    "typescript": ">=5.0.4",
+    "typescript": ">=5.2.2",
     "webpack": "^5.88.1"
   },
   "devDependencies": {
