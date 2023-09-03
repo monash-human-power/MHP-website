@@ -404,6 +404,11 @@ subteam:
         degree: Mechanical Engineering
         position: " "
         photo: ../images/oscar-varney.jpg
+      - position: ""
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: James Gardiner
+        degree: Mechanical Engineering and Commerce
   - subteamName: Auxiliary
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
