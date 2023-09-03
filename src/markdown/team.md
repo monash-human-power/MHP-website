@@ -32,6 +32,11 @@ subteam:
         degree: Mechanical Engineering
         position: Team Lead
         photo: ../images/oscar-varney.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Bereket Barasa
+        degree: Aerospace Engineering
       - linkedIn: ""
         name: Cameron Sturgeon
         degree: Aerospace Engineering and Science
@@ -42,11 +47,21 @@ subteam:
         degree: Mechanical Engineering and Biomedical Science
         position: Team Member
         photo: ../images/david-cheng.jpg
-      - linkedIn: ""
-        name: Martin Nikolov
-        degree: Mechanical Engineering and Biomedical Science
-        position: Team Member
+      - position: Team Member
         photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Isa Rose
+        degree: Engineering and Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Minh Tran
+        degree: Mechatronics Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Mitchell Bellingham "
+        degree: Engineering
       - linkedIn: https://www.linkedin.com/in/neraj-galagedara
         name: Neraj Galagedara
         degree: Aerospace Engineering and Science
@@ -67,11 +82,6 @@ subteam:
         degree: Aerospace Engineering
         position: Team Member
         photo: ../images/william-thompson.jpg
-      - position: Team Member
-        photo: ../images/000-placeholder-person.png
-        linkedIn: ""
-        name: Minh Tran
-        degree: Mechatronics Engineering
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
