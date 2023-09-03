@@ -2,6 +2,10 @@ import React from "react";
 import Button from "../button";
 import { SectionHeading } from "../content";
 
+/**
+ * Component for the contact form in outreach and home page.
+ * @param className Additional classes to pass
+ */
 const ContactForm = ({ className }) => (
   <div className={className}>
     <div id="contact" className="row justify-content-md-center">

@@ -4,24 +4,33 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
 import { SectionHeading } from "../content";
 
+/**
+ * Component for sponsor logos and their links
+ * @param className Additional classes to pass
+ */
 const Sponsors = ({ className }) => {
-  const data = useStaticQuery(graphql`query SponsorsQuery {
-  file(relativePath: {eq: "index.md"}, sourceInstanceName: {eq: "markdown"}) {
-    childMarkdownRemark {
-      frontmatter {
-        sponsors {
-          name
-          image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+  const data = useStaticQuery(graphql`
+    query SponsorsQuery {
+      file(
+        relativePath: { eq: "index.md" }
+        sourceInstanceName: { eq: "markdown" }
+      ) {
+        childMarkdownRemark {
+          frontmatter {
+            sponsors {
+              name
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
+                }
+              }
+              link
             }
           }
-          link
         }
       }
     }
-  }
-}`);
+  `);
 
   const sponsorArr = data.file.childMarkdownRemark.frontmatter.sponsors;
 
@@ -48,7 +57,8 @@ const Sponsors = ({ className }) => {
                 // TODO: Find out why this works
                 className="m-4 mx-auto"
                 alt={`Logo of ${sponsorObj.name}`}
-                title={sponsorObj.name} />
+                title={sponsorObj.name}
+              />
             </Link>
           </div>
         ))}
