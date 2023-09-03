@@ -263,16 +263,21 @@ subteam:
         degree: Mechanical Engineering and Industrial Design
         position: Team Member
         photo: ../images/angie_watts_resized.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Casey Diep
+        degree: Engineering
       - linkedIn: ""
         name: Cooper Thurman
         degree: Aerospace Engineering and Science
         position: Team Member
         photo: ../images/cooper-thurman.jpg
-      - linkedIn: ""
-        name: Evanegline Flair
-        degree: Mechanical Engineering
-        position: Team Member
+      - position: Team Member
         photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Duc Thuan Le
+        degree: Mechanical Engineering
       - linkedIn: ""
         name: James Cookson
         degree: Engineering and Science
@@ -283,11 +288,21 @@ subteam:
         degree: Civil Engineering and Finance
         position: Team Member
         photo: ../images/Raymond_Chan.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Rhys Watson "
+        degree: Materials Engineering and Science
       - linkedIn: ""
         name: Sammi Dao
         degree: ""
         position: Team Member
         photo: ../images/sammi-dao.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Shriabhay Shriharsha
+        degree: Mechatronics Engineering
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: ""
