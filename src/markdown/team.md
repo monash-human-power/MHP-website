@@ -305,21 +305,36 @@ subteam:
         degree: Mechatronics Engineering
   - subteamName: Rider Development
     teamMembers:
+      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
+        name: Kit Kirby
+        degree: Materials Engineering
+        position: Team Lead
+        photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Marley Seckold-Bamford
         degree: Aerospace Engineering
         position: Team Lead
         photo: ../images/marley-seckold-bamford.jpg
-      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
-        name: Kit Kirby
-        degree: Materials Engineering
-        position: Team Member
-        photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Alastair Haslam
         degree: Aerospace Engineering
         position: Team Member
         photo: ../images/alastair-haslam.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: James Gardiner
+        degree: Mechanical Engineering and Commerce
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Rianna Thiele
+        degree: Electrical Engineering and Biomedical Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Sean Solnik
+        degree: Electrical Engineering and Biomedical Science
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
