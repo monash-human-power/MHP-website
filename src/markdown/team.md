@@ -416,16 +416,16 @@ subteam:
         degree: Civil Engineering and Commerce
         position: HR Manager
         photo: ../images/amanda-zhou.jpg
-      - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
-        name: Mitchell De Nardis
-        degree: Aerospace Engineering and Computer Science
-        position: Finance Manager
-        photo: ../images/mitchell-de-nardis.jpg
       - linkedIn: ""
         name: Aidan Graham
         degree: Mechanical Engineering
         position: Workshop Manager
         photo: ../images/aidan-graham.jpg
+      - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
+        name: Mitchell De Nardis
+        degree: Aerospace Engineering and Computer Science
+        position: Finance Manager
+        photo: ../images/mitchell-de-nardis.jpg
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
