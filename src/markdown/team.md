@@ -89,6 +89,11 @@ subteam:
         degree: Mechanical Engineering
         position: Team Lead
         photo: ../images/hugh-mayer.jpg
+      - linkedIn: https://www.linkedin.com/in/nickadshead1/
+        name: Nick Adshead
+        degree: Mechanical Engineering and Commerce
+        position: Team Lead
+        photo: ../images/Nick_Adshead.jpg
       - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
         name: Noah Alwyn
         degree: Mechanical Engineering
@@ -99,21 +104,26 @@ subteam:
         degree: Mechanical Engineering
         position: Team Member
         photo: ../images/aidan-graham.jpg
-      - linkedIn: ""
-        name: Anthony Joseph Micheletto
-        degree: Mechanical Engineering and Education
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/arsheda-ali-68560b216/
         name: Arsheda Ali
         degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Cameron Fieldew
+        degree: Mechatronics Engineering
       - linkedIn: https://www.linkedin.com/in/dominicbongiorno/
         name: Dominic Bongiorno
         degree: Engineering
         position: Team Member
         photo: ../images/dominic-bongiorno.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Eric Yu "
+        degree: Engineering and Commerce
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
@@ -124,16 +134,16 @@ subteam:
         degree: Mechanical Engineering and Commerce
         position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/nickadshead1/
-        name: Nick Adshead
-        degree: Mechanical Engineering and Commerce
-        position: Team Member
-        photo: ../images/Nick_Adshead.jpg
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
         position: Team Member
         photo: ../images/Phoebe_Taylor.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Robert Glavan
+        degree: Engineering
       - linkedIn: https://www.linkedin.com/in/tyrone-rossouw-362168212/
         name: Tyrone Rossouw
         degree: Mechanical Enginering
@@ -144,6 +154,11 @@ subteam:
         degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/vinura-abeygunawardhane.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Yashen Ahangama
+        degree: Engineering
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
