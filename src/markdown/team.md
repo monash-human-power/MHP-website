@@ -32,6 +32,11 @@ subteam:
         degree: Mechanical Engineering
         position: Team Lead
         photo: ../images/oscar-varney.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Bereket Barasa
+        degree: Aerospace Engineering
       - linkedIn: ""
         name: Cameron Sturgeon
         degree: Aerospace Engineering and Science
@@ -42,16 +47,21 @@ subteam:
         degree: Mechanical Engineering and Biomedical Science
         position: Team Member
         photo: ../images/david-cheng.jpg
-      - linkedIn: https://www.linkedin.com/in/diego-portilla-ducuara/
-        name: Diego Portilla
-        degree: Mechanical Engineering
-        position: Team Member
+      - position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: ""
-        name: Martin Nikolov
-        degree: Mechanical Engineering and Biomedical Science
-        position: Team Member
+        linkedIn: ""
+        name: Isa Rose
+        degree: Engineering and Science
+      - position: Team Member
         photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Minh Tran
+        degree: Mechatronics Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Mitchell Bellingham "
+        degree: Engineering
       - linkedIn: https://www.linkedin.com/in/neraj-galagedara
         name: Neraj Galagedara
         degree: Aerospace Engineering and Science
@@ -79,6 +89,11 @@ subteam:
         degree: Mechanical Engineering
         position: Team Lead
         photo: ../images/hugh-mayer.jpg
+      - linkedIn: https://www.linkedin.com/in/nickadshead1/
+        name: Nick Adshead
+        degree: Mechanical Engineering and Commerce
+        position: Team Lead
+        photo: ../images/Nick_Adshead.jpg
       - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
         name: Noah Alwyn
         degree: Mechanical Engineering
@@ -89,21 +104,26 @@ subteam:
         degree: Mechanical Engineering
         position: Team Member
         photo: ../images/aidan-graham.jpg
-      - linkedIn: ""
-        name: Anthony Joseph Micheletto
-        degree: Mechanical Engineering and Education
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
       - linkedIn: https://www.linkedin.com/in/arsheda-ali-68560b216/
         name: Arsheda Ali
         degree: Mechanical Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Cameron Fieldew
+        degree: Mechatronics Engineering
       - linkedIn: https://www.linkedin.com/in/dominicbongiorno/
         name: Dominic Bongiorno
         degree: Engineering
         position: Team Member
         photo: ../images/dominic-bongiorno.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Eric Yu "
+        degree: Engineering and Commerce
       - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
         name: Kazu Shirakata
         degree: Mechatronics Engineering
@@ -114,16 +134,16 @@ subteam:
         degree: Mechanical Engineering and Commerce
         position: Team Member
         photo: ../images/000-placeholder-person.png
-      - linkedIn: https://www.linkedin.com/in/nickadshead1/
-        name: Nick Adshead
-        degree: Mechanical Engineering and Commerce
-        position: Team Member
-        photo: ../images/Nick_Adshead.jpg
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
         position: Team Member
         photo: ../images/Phoebe_Taylor.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Robert Glavan
+        degree: Engineering
       - linkedIn: https://www.linkedin.com/in/tyrone-rossouw-362168212/
         name: Tyrone Rossouw
         degree: Mechanical Enginering
@@ -134,6 +154,11 @@ subteam:
         degree: Mechatronics Engineering
         position: Team Member
         photo: ../images/vinura-abeygunawardhane.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Yashen Ahangama
+        degree: Engineering
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
@@ -146,6 +171,16 @@ subteam:
         degree: Electrical Engineering
         position: Team Lead
         photo: ../images/jotham-gates.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Ammanuel Woldemicael
+        degree: Electrical Engineering and Computer Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Amy Tjea
+        degree: Software Engineering and Computer Science
       - linkedIn: ""
         name: Arnav Acharekar
         degree: Electrical Engineering
@@ -161,11 +196,11 @@ subteam:
         degree: Electrical Engineering and Computer Science
         position: Team Member
         photo: ../images/david-pollard.jpg
-      - linkedIn: https://www.linkedin.com/in/kunj-dave/
-        name: Kunj Dave
-        degree: Software Engineering and Finance
-        position: Team Member
-        photo: ../images/Kunj_Dave.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Debashish Sahoo
+        degree: Computer Science
       - linkedIn: ""
         name: Marcus Chow
         degree: Software Engineering and Computer Science
@@ -176,11 +211,26 @@ subteam:
         degree: Aerospace Engineering and Computer Science
         position: Team Member
         photo: ../images/mitchell-de-nardis.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Ngoc Thao Vy Nguyen
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Nguyen S. Nguyen
+        degree: Electrical Engineering and Biomedical Science
       - linkedIn: ""
         name: Nivantha Abeysekera
         degree: Electrical Engineering
         position: Team Member
         photo: ../images/nivantha-abeysekera.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Saima Firdaus
+        degree: Engineering
       - linkedIn: https://www.linkedin.com/in/samuel-zhang-b371b217b/
         name: Samuel Zhang
         degree: Mechatronics Engineering
@@ -213,16 +263,21 @@ subteam:
         degree: Mechanical Engineering and Industrial Design
         position: Team Member
         photo: ../images/angie_watts_resized.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Casey Diep
+        degree: Engineering
       - linkedIn: ""
         name: Cooper Thurman
         degree: Aerospace Engineering and Science
         position: Team Member
         photo: ../images/cooper-thurman.jpg
-      - linkedIn: ""
-        name: Evanegline Flair
-        degree: Mechanical Engineering
-        position: Team Member
+      - position: Team Member
         photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Duc Thuan Le
+        degree: Mechanical Engineering
       - linkedIn: ""
         name: James Cookson
         degree: Engineering and Science
@@ -233,28 +288,53 @@ subteam:
         degree: Civil Engineering and Finance
         position: Team Member
         photo: ../images/Raymond_Chan.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Rhys Watson "
+        degree: Materials Engineering and Science
       - linkedIn: ""
         name: Sammi Dao
         degree: ""
         position: Team Member
         photo: ../images/sammi-dao.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Shriabhay Shriharsha
+        degree: Mechatronics Engineering
   - subteamName: Rider Development
     teamMembers:
+      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
+        name: Kit Kirby
+        degree: Materials Engineering
+        position: Team Lead
+        photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Marley Seckold-Bamford
         degree: Aerospace Engineering
         position: Team Lead
         photo: ../images/marley-seckold-bamford.jpg
-      - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
-        name: Kit Kirby
-        degree: Materials Engineering
-        position: Team Member
-        photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Alastair Haslam
         degree: Aerospace Engineering
         position: Team Member
         photo: ../images/alastair-haslam.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: James Gardiner
+        degree: Mechanical Engineering and Commerce
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Rianna Thiele
+        degree: Electrical Engineering and Biomedical Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Sean Solnik
+        degree: Electrical Engineering and Biomedical Science
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
@@ -277,16 +357,31 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/akbar-fadiansyah.jpg
-      - linkedIn: https://www.linkedin.com/in/jane-h-b2025014a/
-        name: Jane Hantanto
-        degree: " "
-        position: Team Member
+      - position: Team Member
         photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Enuki Galhindarachchi "
+        degree: Computer Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Oliver Chen
+        degree: Mechanical Engineering and Commerce
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Rachel Masquiren
+        degree: Civil Engineering
       - linkedIn: ""
         name: Sai Ashish Ramishetty
         degree: Software Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Vicky Huang
+        degree: Software Engineering and Computer Science
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
@@ -309,6 +404,11 @@ subteam:
         degree: Mechanical Engineering
         position: " "
         photo: ../images/oscar-varney.jpg
+      - position: ""
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: James Gardiner
+        degree: Mechanical Engineering and Commerce
   - subteamName: Auxiliary
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
@@ -316,16 +416,16 @@ subteam:
         degree: Civil Engineering and Commerce
         position: HR Manager
         photo: ../images/amanda-zhou.jpg
-      - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
-        name: Mitchell De Nardis
-        degree: Aerospace Engineering and Computer Science
-        position: Finance Manager
-        photo: ../images/mitchell-de-nardis.jpg
       - linkedIn: ""
         name: Aidan Graham
         degree: Mechanical Engineering
         position: Workshop Manager
         photo: ../images/aidan-graham.jpg
+      - linkedIn: https://www.linkedin.com/in/mitchell-de-nardis/
+        name: Mitchell De Nardis
+        degree: Aerospace Engineering and Computer Science
+        position: Finance Manager
+        photo: ../images/mitchell-de-nardis.jpg
       - linkedIn: http://linkedin.com/in/phoebe-taylor-b1b374223
         name: Phoebe Taylor
         degree: Mechanical Engineering and Commerce
