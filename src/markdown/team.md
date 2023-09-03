@@ -357,16 +357,31 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/akbar-fadiansyah.jpg
-      - linkedIn: https://www.linkedin.com/in/jane-h-b2025014a/
-        name: Jane Hantanto
-        degree: " "
-        position: Team Member
+      - position: Team Member
         photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: "Enuki Galhindarachchi "
+        degree: Computer Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Oliver Chen
+        degree: Mechanical Engineering and Commerce
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Rachel Masquiren
+        degree: Civil Engineering
       - linkedIn: ""
         name: Sai Ashish Ramishetty
         degree: Software Engineering
         position: Team Member
         photo: ../images/000-placeholder-person.png
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Vicky Huang
+        degree: Software Engineering and Computer Science
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
