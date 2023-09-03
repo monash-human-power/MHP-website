@@ -171,6 +171,16 @@ subteam:
         degree: Electrical Engineering
         position: Team Lead
         photo: ../images/jotham-gates.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Ammanuel Woldemicael
+        degree: Electrical Engineering and Computer Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Amy Tjea
+        degree: Software Engineering and Computer Science
       - linkedIn: ""
         name: Arnav Acharekar
         degree: Electrical Engineering
@@ -186,11 +196,11 @@ subteam:
         degree: Electrical Engineering and Computer Science
         position: Team Member
         photo: ../images/david-pollard.jpg
-      - linkedIn: https://www.linkedin.com/in/kunj-dave/
-        name: Kunj Dave
-        degree: Software Engineering and Finance
-        position: Team Member
-        photo: ../images/Kunj_Dave.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Debashish Sahoo
+        degree: Computer Science
       - linkedIn: ""
         name: Marcus Chow
         degree: Software Engineering and Computer Science
@@ -201,11 +211,26 @@ subteam:
         degree: Aerospace Engineering and Computer Science
         position: Team Member
         photo: ../images/mitchell-de-nardis.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Ngoc Thao Vy Nguyen
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Nguyen S. Nguyen
+        degree: Electrical Engineering and Biomedical Science
       - linkedIn: ""
         name: Nivantha Abeysekera
         degree: Electrical Engineering
         position: Team Member
         photo: ../images/nivantha-abeysekera.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Saima Firdaus
+        degree: Engineering
       - linkedIn: https://www.linkedin.com/in/samuel-zhang-b371b217b/
         name: Samuel Zhang
         degree: Mechatronics Engineering
