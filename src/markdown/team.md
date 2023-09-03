@@ -42,11 +42,6 @@ subteam:
         degree: Mechanical Engineering and Biomedical Science
         position: Team Member
         photo: ../images/david-cheng.jpg
-      - linkedIn: https://www.linkedin.com/in/diego-portilla-ducuara/
-        name: Diego Portilla
-        degree: Mechanical Engineering
-        position: Team Member
-        photo: ../images/000-placeholder-person.png
       - linkedIn: ""
         name: Martin Nikolov
         degree: Mechanical Engineering and Biomedical Science
@@ -72,6 +67,11 @@ subteam:
         degree: Aerospace Engineering
         position: Team Member
         photo: ../images/william-thompson.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Minh Tran
+        degree: Mechatronics Engineering
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
