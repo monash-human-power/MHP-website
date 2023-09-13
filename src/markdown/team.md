@@ -37,7 +37,7 @@ subteam:
         linkedIn: ""
         name: Bereket Barasa
         degree: Aerospace Engineering
-      - linkedIn: ""
+      - linkedIn: https://www.linkedin.com/in/cameron-sturgeon
         name: Cameron Sturgeon
         degree: Aerospace Engineering and Science
         position: Team Member
