@@ -8,9 +8,9 @@ bikes:
       bike. Launched in May 2022, it brought improvements to almost every aspect
       compared to the previous generation.
     start_year: 2019
-    end_year: 2023
-    top_speed_km: "110"
-    image: ../images/bike_v3.jpg
+    end_year: 2020
+    top_speed_km: "87.4"
+    image: ../images/bike-v3-2023.jpg
   - name: Wombat
     version: 2
     description: "Version 2 of our bike is called Wombat. The significance of Wombat
