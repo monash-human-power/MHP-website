@@ -27,7 +27,7 @@ blocks:
     description: Communicate scientific ideas and information for a particular
       purpose, including constructing evidence-based arguments and using
       appropriate scientific language, conventions and representations
-    image: ../images/main_outreach_4.JPG
+    image: ../images/img_1906.jpg
     id: communicating
     buttonText: See the curriculum
     href: https://victoriancurriculum.vcaa.vic.edu.au/Curriculum/ContentDescription/VCSIS140
