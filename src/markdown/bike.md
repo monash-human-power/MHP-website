@@ -11,7 +11,7 @@ bikes:
       Nevada.
     start_year: 2019
     end_year: 2020
-    top_speed_km: "87.4"
+    top_speed_km: "114.86"
     image: ../images/bike-v3-2023.jpg
   - name: Wombat
     version: 2
