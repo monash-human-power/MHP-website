@@ -4,17 +4,18 @@ meta_page_description: ""
 bikes:
   - name: Bilby
     version: 3
-    description:
-      Version 3 of our bike, named Bilby, is our latest and greatest bike. Launched in May 2022, it brought
-      improvements to almost every aspect compared to the previous generation.
+    description: Version 3 of our bike, named Bilby, is our latest and greatest
+      bike. Launched in May 2022, it brought improvements to almost every aspect
+      compared to the previous generation. The team used this bike to take part
+      in the 2023 World Human Powered Speed Challenge in Battle Mountain,
+      Nevada.
     start_year: 2019
-    end_year: 2022
-    top_speed_km: "87.4"
-    image: ../images/bike_v3.jpg
+    end_year: 2023
+    top_speed_km: "114.86"
+    image: ../images/bike-v3-2023.jpg
   - name: Wombat
     version: 2
-    description:
-      "Version 2 of our bike is called Wombat. The significance of Wombat
+    description: "Version 2 of our bike is called Wombat. The significance of Wombat
       lies in design process, where the integration of each subsystem was
       considered holistically for the first time. In this version, there was a
       clear relationship between each component of the bike, which lead to a
