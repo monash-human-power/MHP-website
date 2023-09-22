@@ -63,7 +63,12 @@ collections:
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
-              - { label: Link to Sponsor, name: link, widget: string }
+              - {
+                  label: Link to Sponsor,
+                  name: link,
+                  widget: string,
+                  required: false,
+                }
               - { label: Image, name: image, widget: image }
       - label: "About Page"
         name: "about"
