@@ -34,6 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sairamishetty"><img src="https://avatars.githubusercontent.com/u/126044967?v=4?s=100" width="100px;" alt="Sai Ashish Ramishetty"/><br /><sub><b>Sai Ashish Ramishetty</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/pulls?q=is%3Apr+reviewed-by%3Asairamishetty" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/viggy21"><img src="https://avatars.githubusercontent.com/u/103304397?v=4?s=100" width="100px;" alt="viggy21"/><br /><sub><b>viggy21</b></sub></a><br /><a href="#content-viggy21" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
