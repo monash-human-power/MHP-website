@@ -43,6 +43,6 @@ sponsors:
     link: https://www.leapaust.com.au
   - name: Yarra Energy
     image: ../images/yarraenergy_logo_col.png
-    link: https://yarraenergy.com.au/
+    link: ""
 contact_email: monashhpt@gmail.com
 ---
