@@ -9,62 +9,10 @@ _Monash Human Power public website showcasing the best of MHP_
 
 This repo contains all of the code that runs the MHP website. Check out the live site [here](https://monashhumanpower.org).
 
-## View Online
-
-This website is automatically deployed using Netlify. See the live site [here](https://monashhumanpower.org).
-
 ## Getting Started
 
-### Run Locally
-
-1. [Install node.js](https://nodejs.org)
-2. [Install Yarn](https://yarnpkg.com/getting-started/install)
-3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
-4. Install dependencies using `yarn install`
-5. Start developing using `yarn develop`
-
-### Build Locally
-
-1. [Install node.js](https://nodejs.org)
-2. [Install Yarn](https://yarnpkg.com/getting-started/install)
-3. Run `git clone git@github.com:monash-human-power/MHP-website.git`
-4. Install dependencies using `yarn install`
-5. Start developing using `yarn build`
-6. [OPTIONAL] Run a test server using `yarn serve`
-
-## Project Layout
-
-| File/Folder               |                                                           Information                                                            |
-| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
-| `gatsby-config.js`        | Configures Gatsby and used to import Gatsby plugins. [More info](https://www.gatsbyjs.com/tutorial/plugin-and-theme-tutorials/). |
-| `gatsby-node.js`          |                 Logic to dynamically generate blog posts. [More info](https://www.gatsbyjs.org/docs/node-apis/).                 |
-| `gatsby-browser.js`       |  Imports CSS and modules to be used in the browsers global namespace. [More info](https://www.gatsbyjs.org/docs/browser-apis/).  |
-| `netlify.toml`            |                                                  Configures the netlify build.                                                   |
-| `src/components`          |                                          Contains React components used to build pages.                                          |
-| `src/images`              |                                                     Contains website images.                                                     |
-| `src/markdown`            |                                     Contains markdown files used to build pages (non-blog).                                      |
-| `src/blog`                |                                        Contains markdown files used to build blog pages.                                         |
-| `src/pages`               |                           Contains React files that are associated with pages. eg. 404.js == 404 page                            |
-| `src/styles`              |                                                    Contains global CSS files.                                                    |
-| `static/admin/config.yml` |                              Config file for Netlify CMS. [More info](https://www.netlifycms.org/).                              |
-
-## Contributing
-
-### Editing content using Netlify CMS
-
-If you just need to add or edit the site's content, you can use the CMS which offers a graphical interface of editing the site content. More information can be found at [the notion page](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
-
-### Modifying the codebase
-
-If you need to change the site layout or do anything that can be done with the CMS, follow the steps below:
-
-1. Clone the repo and install dependencies as in the [get started](#getting-started) section
-2. Run `yarn prepare` to initialise the git hooks
-3. Create a new branch with the naming scheme `github_username/feature_or_change_name`. Note that the `master` branch is protected, so you can't push to it directly
-4. Work on your changes
-5. When you're ready, create a [pull request](https://github.com/monash-human-power/MHP-website/compare).
-
-Still confused? More info can be found at the notion page [here](https://www.notion.so/MHP-Website-534dbf67d07e4ad2b16445424bbdaca8).
+See the [Notion page on operations](https://www.notion.so/monashhumanpower/MHP-Website-c279218a13a74477a29b0ceeb91f1a46?pvs=4)
+to learn how to work with the website.
 
 ## Contributors ✨
 
@@ -74,14 +22,21 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://github.com/Blake-Haydon"><img src="https://avatars2.githubusercontent.com/u/23159604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Blake</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Code">💻</a> <a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/clarayew"><img src="https://avatars0.githubusercontent.com/u/71205412?v=4?s=100" width="100px;" alt=""/><br /><sub><b>clarayew</b></sub></a><br /><a href="#content-clarayew" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/angieaulia"><img src="https://avatars2.githubusercontent.com/u/71426239?v=4?s=100" width="100px;" alt=""/><br /><sub><b>angieaulia</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=angieaulia" title="Code">💻</a> <a href="#content-angieaulia" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/kdav108"><img src="https://avatars.githubusercontent.com/u/63642262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kunj Dave</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=kdav108" title="Code">💻</a> <a href="#content-kdav108" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/bahar-ap"><img src="https://avatars.githubusercontent.com/u/81912681?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bahar-ap</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=bahar-ap" title="Code">💻</a> <a href="#content-bahar-ap" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/megascrapper"><img src="https://avatars.githubusercontent.com/u/34503494?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akbar Fadiansyah</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=megascrapper" title="Code">💻</a> <a href="#content-megascrapper" title="Content">🖋</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Blake-Haydon"><img src="https://avatars2.githubusercontent.com/u/23159604?v=4?s=100" width="100px;" alt="Blake"/><br /><sub><b>Blake</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Code">💻</a> <a href="https://github.com/monash-human-power /MHP-Website/commits?author=Blake-Haydon" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/clarayew"><img src="https://avatars0.githubusercontent.com/u/71205412?v=4?s=100" width="100px;" alt="clarayew"/><br /><sub><b>clarayew</b></sub></a><br /><a href="#content-clarayew" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/angieaulia"><img src="https://avatars2.githubusercontent.com/u/71426239?v=4?s=100" width="100px;" alt="angieaulia"/><br /><sub><b>angieaulia</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=angieaulia" title="Code">💻</a> <a href="#content-angieaulia" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kdav108"><img src="https://avatars.githubusercontent.com/u/63642262?v=4?s=100" width="100px;" alt="Kunj Dave"/><br /><sub><b>Kunj Dave</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=kdav108" title="Code">💻</a> <a href="#content-kdav108" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/bahar-ap"><img src="https://avatars.githubusercontent.com/u/81912681?v=4?s=100" width="100px;" alt="bahar-ap"/><br /><sub><b>bahar-ap</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=bahar-ap" title="Code">💻</a> <a href="#content-bahar-ap" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/megascrapper"><img src="https://avatars.githubusercontent.com/u/34503494?v=4?s=100" width="100px;" alt="Akbar Fadiansyah"/><br /><sub><b>Akbar Fadiansyah</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/commits?author=megascrapper" title="Code">💻</a> <a href="#content-megascrapper" title="Content">🖋</a> <a href="https://github.com/monash-human-power /MHP-Website/commits?author=megascrapper" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/carlthe7"><img src="https://avatars.githubusercontent.com/u/110951978?v=4?s=100" width="100px;" alt="carlthe7"/><br /><sub><b>carlthe7</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/pulls?q=is%3Apr+reviewed-by%3Acarlthe7" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-carlthe7" title="Project Management">📆</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sairamishetty"><img src="https://avatars.githubusercontent.com/u/126044967?v=4?s=100" width="100px;" alt="Sai Ashish Ramishetty"/><br /><sub><b>Sai Ashish Ramishetty</b></sub></a><br /><a href="https://github.com/monash-human-power /MHP-Website/pulls?q=is%3Apr+reviewed-by%3Asairamishetty" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/viggy21"><img src="https://avatars.githubusercontent.com/u/103304397?v=4?s=100" width="100px;" alt="viggy21"/><br /><sub><b>viggy21</b></sub></a><br /><a href="#content-viggy21" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
