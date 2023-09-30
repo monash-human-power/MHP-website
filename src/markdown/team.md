@@ -197,7 +197,7 @@ subteam:
         position: Team Member
         photo: ../images/david-pollard.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/debashish-sahoo.jpg
         linkedIn: ""
         name: Debashish Sahoo
         degree: Computer Science
