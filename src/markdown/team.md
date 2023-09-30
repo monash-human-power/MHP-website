@@ -53,7 +53,7 @@ subteam:
         name: Isa Rose
         degree: Engineering and Science
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/minh-tran.jpg
         linkedIn: ""
         name: Minh Tran
         degree: Mechatronics Engineering
