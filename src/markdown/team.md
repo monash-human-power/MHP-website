@@ -120,7 +120,7 @@ subteam:
         position: Team Member
         photo: ../images/dominic-bongiorno.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/eric-yu.jpg
         linkedIn: ""
         name: "Eric Yu "
         degree: Engineering and Commerce
