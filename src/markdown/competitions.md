@@ -10,7 +10,7 @@ blocks:
       record is 144 km/h.
 
 
-      Monash Human Power is currently participating in the competition in 2023.
+      Monash Human Power participated in the competition in 2023 and broke the Australian two-wheel record.
     buttonText: Learn More
     image: ../images/whpsc-2023.jpg
     href: http://www.ihpva.org/whpsc/index.htm
