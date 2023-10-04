@@ -14,9 +14,12 @@ recruitment_categories:
       apply button now!
     is_open: true
   - more_info_link: https://drive.google.com/file/d/16vcKnXVAGfcE90R6H2I1DYJocTa5gdcW/view?usp=sharing
-    closed_description: Recruitments are currently closed. Keep an eye out on our socials!
+    closed_description: >-
+      Recruitments are currently closed. Keep an eye out on our socials!
+
+      Whilst recruitments are closed, we are still accepting expressions of interest. Fill the form below!
     name: General Recruitment
-    eoi_link: ""
+    eoi_link: https://forms.gle/3BDm3cN18Tpk1TeT7
     link: https://forms.gle/fXjP5gt6m8DUtCtV6
     id: general-recruitment
     image: ../images/mhp-team-aarc.jpg
