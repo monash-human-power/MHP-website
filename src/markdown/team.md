@@ -53,7 +53,7 @@ subteam:
         name: Isa Rose
         degree: Engineering and Science
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/minh-tran.jpg
         linkedIn: ""
         name: Minh Tran
         degree: Mechatronics Engineering
@@ -120,7 +120,7 @@ subteam:
         position: Team Member
         photo: ../images/dominic-bongiorno.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/eric-yu.jpg
         linkedIn: ""
         name: "Eric Yu "
         degree: Engineering and Commerce
@@ -140,7 +140,7 @@ subteam:
         position: Team Member
         photo: ../images/Phoebe_Taylor.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/robert-glavan.jpg
         linkedIn: ""
         name: Robert Glavan
         degree: Engineering
@@ -155,7 +155,7 @@ subteam:
         position: Team Member
         photo: ../images/vinura-abeygunawardhane.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/yashen-ahangama.jpg
         linkedIn: ""
         name: Yashen Ahangama
         degree: Engineering
@@ -197,7 +197,7 @@ subteam:
         position: Team Member
         photo: ../images/david-pollard.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/debashish-sahoo.jpg
         linkedIn: ""
         name: Debashish Sahoo
         degree: Computer Science
@@ -212,12 +212,12 @@ subteam:
         position: Team Member
         photo: ../images/mitchell-de-nardis.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/ngoc-thao-vy-nguyen.jpg
         linkedIn: ""
         name: Ngoc Thao Vy Nguyen
         degree: Engineering
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/nguyen-song-nguyen.jpg
         linkedIn: ""
         name: Nguyen S. Nguyen
         degree: Electrical Engineering and Biomedical Science
@@ -378,7 +378,7 @@ subteam:
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/vicky-huang.jpg
         linkedIn: ""
         name: Vicky Huang
         degree: Software Engineering and Computer Science
