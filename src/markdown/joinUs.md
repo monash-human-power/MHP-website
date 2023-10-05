@@ -17,7 +17,7 @@ recruitment_categories:
     closed_description: >-
       Recruitments are currently closed. Keep an eye out on our socials!
 
-      Whilst recruitments are closed, we are still accepting expressions of interest. Fill the form below!
+      However, we are still accepting expressions of interest. Fill in this form!
     name: General Recruitment
     eoi_link: https://forms.gle/3BDm3cN18Tpk1TeT7
     link: https://forms.gle/fXjP5gt6m8DUtCtV6
@@ -39,7 +39,7 @@ recruitment_process:
     body: " "
 FAQs:
   - question: When does MHP Recruit?
-    answer: MHP recruitment opens up every 6 months for our general positions. Rider
+    answer: MHP recruitment opens up yearly for our general positions. Rider
       recruitment is done on an ongoing basis and is open all year round. Be
       sure to check our social media and this website for updates.
   - question: What does MHP do?
