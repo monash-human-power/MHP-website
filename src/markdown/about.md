@@ -2,10 +2,10 @@
 heading: About
 meta_page_description: About MHP
 blocks:
-  - heading: Who we are
+  - heading: Who We Are
     description: "Monash Human Power is a student-led engineering team from Monash
       University in Melbourne, Australia. Since 2015 we have been designing,
-      manufacturing, and racing fully-faired human-powered vehicles (HPV) to
+      manufacturing, and racing fully-faired human-powered vehicles (HPVs) to
       push the limits of human speed. "
     buttonText: Meet the members
     image: ../images/img_1579.jpg
@@ -14,9 +14,9 @@ blocks:
   - heading: Our Mission
     description: Our team is aiming to break the Australian HPV F200 land speed
       record of 96.7 km/h, as well as represent Australia at the World Human
-      Powered Vehicle Speed Challenge in Las Vegas, NV. We take pride in
-      developing industry-ready graduates through our collaborative design and
-      manufacturing process. We believe that HPV provides a relevant and
+      Powered Vehicle Speed Challenge in Nevada. We take pride in developing
+      industry-ready graduates through our collaborative design and
+      manufacturing process. We believe that HPVs provide a relevant and
       immersive framework for learning STEM and we use this framework to promote
       sustainability in schools.
     buttonText: See the bike
@@ -36,8 +36,7 @@ blocks:
       is tailored to the 'Science as a human endeavour' Level 9 and 10 Science
       achievement standards of the Victorian Curriculum. We hope to inspire a
       passion for STEM and sustainability in your students. We also run
-      workshops for schools competing in the Victorian HPV Super Series and help
-      to facilitate wind tunnel testing of their vehicles.
+      workshops for schools competing in the Victorian HPV Super Series.
     image: ../images/outreach2.png
     id: outreach
     buttonText: Learn More
