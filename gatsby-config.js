@@ -1,4 +1,4 @@
-const adapter = require("gatsby-adapter-netlify");
+const netlifyAdapter = require("gatsby-adapter-netlify").default;
 
 module.exports = {
   siteMetadata: {
@@ -107,7 +107,7 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-  adapter: adapter({
+  adapter: netlifyAdapter({
     excludeDatastoreFromEngineFunction: false,
   }),
 };
