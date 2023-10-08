@@ -1,3 +1,5 @@
+const adapter = require("gatsby-adapter-netlify");
+
 module.exports = {
   siteMetadata: {
     title: `Monash Human Power`,
@@ -68,12 +70,12 @@ module.exports = {
               classMap: {
                 // Add the bootstrap table classes to all tables
                 // https://getbootstrap.com/docs/5.0/content/tables/
-                "table": "table"
-              }
-            }
-          }
-        ]
-      }
+                table: "table",
+              },
+            },
+          },
+        ],
+      },
     },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
@@ -105,4 +107,7 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  adapter: adapter({
+    excludeDatastoreFromEngineFunction: false,
+  }),
 };
