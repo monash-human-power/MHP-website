@@ -45,7 +45,7 @@ Officer Arthur Aten showed up to hand out tickets for traffic offences, giving O
 
 ## Future Goals
 
-The WHPSC was an amazing experience where we had the opportunity to learn from other human powered vehicle teams and gained data on “Bilby”. We will be using the knowledge we’ve gained from this experience to develop V4, a new, better iteration of “Bilby”. In hopes of achieving even greater speeds, we plan on going back to Battle Mountain in 2025. Over the years, our team has  focused on developing two-wheeled bikes but we would like to expand our horizons and are currently building our first ever three-wheeled bike - a trike. This will open new avenues and allow us to enter local human-powered vehicle (HPV) competitions. Our team will continue to work on outreach with both primary and secondary schools, promoting STEAM and spreading interest in HPVs.
+The WHPSC was an amazing experience where we had the opportunity to learn from other human powered vehicle teams and gained data on "Bilby". We will be using the knowledge we’ve gained from this experience to develop V4, a new, better iteration of "Bilby". In hopes of achieving even greater speeds, we plan on going back to Battle Mountain in 2025. Over the years, our team has  focused on developing two-wheeled bikes but we would like to expand our horizons and are currently building our first ever three-wheeled bike - a trike. This will open new avenues and allow us to enter local human-powered vehicle (HPV) competitions. Our team will continue to work on outreach with both primary and secondary schools, promoting STEAM and spreading interest in HPVs.
 
 ## Conclusion
 
