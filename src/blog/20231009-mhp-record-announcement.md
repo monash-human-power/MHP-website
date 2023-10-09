@@ -25,13 +25,23 @@ Upon arrival at Battle Mountain, we felt the buzz of excitement at the possibili
 
 The week was not without its challenges with some bad weather occurring on the third day of Battle Mountain, meaning that the heats were called off on that day. In addition, two of our riders experienced unlucky crashes. Alastair’s crash was due to a puncture in the front tire. This unfortunately produced some scratches on the fairing of “Bilby” but presented an opportunity for us to gain more data about our bike. More runs were conducted the next day to gain a comparison of the bike’s speed with and without scratches. We were fortunate that the Italian team, Policumbent, offered to give our team one of their Michelin blue tires which helped us replace the front wheel tire. Following this, our team spent a day returning the fairing to a finish as smooth as the original paint to maximise our chances at attaining higher speeds and we were able to resume racing down State Route 305. A few days later as Oscar was speeding down the road, he encountered a tube blow out, causing “Bilby” to roll over, crash and have its tail get wedged in the dirt. As per our safety protocols, Oscar was taken to the hospital for a check-up and was confirmed to be fine. The team repaired the bike with the tools on hand and further repairs will be conducted back in Melbourne.
 
-## The Awards Ceremony 
+## The Awards Ceremony
 
 At the conclusion of the WHPSC, the event organisers held an award ceremony celebrating all our achievements. For the collegiate awards ranked in order of percentage of world record, we, representing Monash, came third.
 
+![](../images/collegiate-awards.jpeg)
+
 For the individual awards for the men’s single track category, Kit Kirby (right) and Alastair Haslam (left) ranked 2nd and 3rd, respectively, following Francois Pervis (middle) who ranked 1st. Francois is one of the best cyclists in the world, a seven-time world champion. It was an honour to compete against him in the WHPSC.
 
+![](../images/men-s-single-track.jpeg)
+
 Officer Arthur Aten showed up to hand out tickets for traffic offences, giving Oscar a ticket for failure to maintain lane and both Kit and Alastair tickets for going 2 mph and 3 km/h over the State Route 305 speed limit. 
+
+![](../images/oscar-failure-to-maintain-lane.jpeg)
+
+![](../images/kit-speeding.jpeg)
+
+![](../images/alastair-speeding.jpeg)
 
 ## Future Goals
 
@@ -43,8 +53,8 @@ Our journey to Battle Mountain has been a long one filled with the hard work and
 
 To stay updated with our future projects and achievements, follow our social media linked below:
 
-- [Facebook](https://www.facebook.com/MonashHumanPower/)
-- [Instagram](https://www.instagram.com/monashhumanpower/)
-- [LinkedIn](https://www.linkedin.com/company/monashhpt/)
-- [GitHub](https://github.com/monash-human-power)
-- [TikTok](https://www.tiktok.com/@monashhumanpower)
+* [Facebook](https://www.facebook.com/MonashHumanPower/)
+* [Instagram](https://www.instagram.com/monashhumanpower/)
+* [LinkedIn](https://www.linkedin.com/company/monashhpt/)
+* [GitHub](https://github.com/monash-human-power)
+* [TikTok](https://www.tiktok.com/@monashhumanpower)
