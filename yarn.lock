@@ -4368,7 +4368,7 @@ __metadata:
     gatsby-plugin-react-helmet: ^6.12.0
     gatsby-plugin-sharp: ^5.9.0
     gatsby-plugin-sitemap: ^6.12.0
-    gatsby-plugin-styled-components: ^6.9.0
+    gatsby-plugin-styled-components: ^6.12.0
     gatsby-remark-classes: ^1.0.2
     gatsby-remark-images: ^7.8.0
     gatsby-remark-prismjs: ^7.9.0
@@ -9283,9 +9283,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-styled-components@npm:^6.9.0":
-  version: 6.11.0
-  resolution: "gatsby-plugin-styled-components@npm:6.11.0"
+"gatsby-plugin-styled-components@npm:^6.12.0":
+  version: 6.12.0
+  resolution: "gatsby-plugin-styled-components@npm:6.12.0"
   dependencies:
     "@babel/runtime": ^7.20.13
   peerDependencies:
@@ -9294,7 +9294,7 @@ __metadata:
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
     styled-components: ">=2.0.0"
-  checksum: 47de243cc4201a1d7bbea1be56084f707d4a3c744d33dd62550aff7a0ab76faa5673e0fde51af55353b0b43353cc90c126be2e1f20996b947d738c1e0be83d02
+  checksum: 913754f2cacccc379f0f1cedc5058fb035e23b1752031a2bc95ae965ac8a04d208bc02daa835776345c9d0cb9ca49145f882222a0bd745362ea4ce18806735d2
   languageName: node
   linkType: hard
 
