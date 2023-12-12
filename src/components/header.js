@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 
 import Link from "./link";
-import Socials from "./socials";
+// import Socials from "./socials";
 
 const NavLinkContainer = styled.li`
   /* Items are centered in drop down */
