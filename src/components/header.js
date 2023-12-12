@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 
 import Link from "./link";
-import Socials from "./socials";
+// import Socials from "./socials";
 
 const NavLinkContainer = styled.li`
   /* Items are centered in drop down */
@@ -124,16 +124,14 @@ const Header = () => {
           <div>
             <ul className="navbar-nav">
               {pageLinks.map((item, index) =>
-                navItem(item.title, item.link, index)
+                navItem(item.title, item.link, index),
               )}
             </ul>
           </div>
 
-          {/* Social Media Icons */}
+          {/* Right padding that used to be used for Social Media Icons */}
           {/* Recommended width: 50 per social media */}
-          <div style={{ width: 250, margin: "auto" }}>
-            <Socials />
-          </div>
+          <div style={{ width: 200, margin: "auto" }}>{/* <Socials /> */}</div>
         </CollapsingDiv>
       </Navbar>
     </header>

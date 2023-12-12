@@ -12,6 +12,7 @@ import {
   faInstagram,
   faGithub,
   faTiktok,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 const MhpSocialContainer = styled.div`
@@ -45,6 +46,7 @@ const Socials = () => {
             linkedIn
             github
             tiktok
+            youtube
           }
         }
       }
@@ -89,6 +91,13 @@ const Socials = () => {
         <FontAwesomeIcon
           style={{ height: iconSize, width: iconSize }}
           icon={faTiktok}
+        />
+      </SocialLink>
+
+      <SocialLink to={social_link.youtube} title="YouTube">
+        <FontAwesomeIcon
+          style={{ height: iconSize, width: iconSize }}
+          icon={faYoutube}
         />
       </SocialLink>
     </MhpSocialContainer>
