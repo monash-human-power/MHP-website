@@ -8,7 +8,7 @@ blocks:
       manufacturing, and racing fully-faired human-powered vehicles (HPVs) to
       push the limits of human speed. "
     buttonText: Meet the members
-    image: ../images/img_1579.jpg
+    image: ../images/_mg_0862.jpg
     href: /team
     id: team
   - heading: Our Mission
