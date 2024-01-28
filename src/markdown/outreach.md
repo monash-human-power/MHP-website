@@ -7,7 +7,7 @@ blocks:
       Learning about Sustainability, these hands-on STEM lessons guide secondary
       students through a systems engineering approach that takes into account
       the aerodynamic and eco-friendly aspects of their HPV."
-    image: ../images/main_outreach_1.JPG
+    image: ../images/epsom_group.jpg
     id: build_hpv
   - heading: Design online or in person
     description: Our flagship school outreach program has been updated to include
@@ -19,7 +19,7 @@ blocks:
     description: Scientific understanding, including models and theories, are
       contestable and are refined over time through a process of review by the
       scientific community
-    image: ../images/main_outreach_3.JPG
+    image: ../images/jells_park_students_posing.jpg
     id: race
     buttonText: See the curriculum
     href: https://victoriancurriculum.vcaa.vic.edu.au/Curriculum/ContentDescription/VCSSU114
