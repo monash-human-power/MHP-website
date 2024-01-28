@@ -8,7 +8,7 @@ blocks:
       manufacturing, and racing fully-faired human-powered vehicles (HPVs) to
       push the limits of human speed. "
     buttonText: Meet the members
-    image: ../images/_mg_0862.jpg
+    image: ../images/battle_mountain_group.jpg
     href: /team
     id: team
   - heading: Our Mission
@@ -28,7 +28,7 @@ blocks:
       around the world, such as the World Human Powered Speed Challenge. Making
       something we can all be proud of in Nevada.
     buttonText: See the Competitions
-    image: ../images/competitions-about.jpg
+    image: ../images/team_and_bike.jpg
     href: /competitions
     id: competitions
   - heading: Outreach
@@ -37,7 +37,7 @@ blocks:
       achievement standards of the Victorian Curriculum. We hope to inspire a
       passion for STEM and sustainability in your students. We also run
       workshops for schools competing in the Victorian HPV Super Series.
-    image: ../images/outreach2.png
+    image: ../images/activity_with_epsom_primary.jpg
     id: outreach
     buttonText: Learn More
     href: /outreach
