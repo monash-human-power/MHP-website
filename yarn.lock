@@ -4505,7 +4505,7 @@ __metadata:
     gatsby-plugin-heap: ^1.1.0
     gatsby-plugin-image: ^3.9.0
     gatsby-plugin-manifest: ^5.9.0
-    gatsby-plugin-netlify-cms: ^7.11.0
+    gatsby-plugin-netlify-cms: ^7.12.1
     gatsby-plugin-offline: ^6.9.0
     gatsby-plugin-react-helmet: ^6.12.0
     gatsby-plugin-sharp: ^5.9.0
@@ -9363,14 +9363,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify-cms@npm:^7.11.0":
-  version: 7.11.0
-  resolution: "gatsby-plugin-netlify-cms@npm:7.11.0"
+"gatsby-plugin-netlify-cms@npm:^7.12.1":
+  version: 7.12.1
+  resolution: "gatsby-plugin-netlify-cms@npm:7.12.1"
   dependencies:
     "@babel/runtime": ^7.20.13
     "@soda/friendly-errors-webpack-plugin": 1.8.1
     copy-webpack-plugin: ^7.0.0
-    html-webpack-plugin: ^5.5.1
+    html-webpack-plugin: ^5.5.3
     html-webpack-skip-assets-plugin: ^1.0.3
     html-webpack-tags-plugin: ^3.0.2
     lodash: ^4.17.21
@@ -9382,7 +9382,7 @@ __metadata:
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
     webpack: ^5.0.0
-  checksum: 59e89e090e958732c13fdba72ba478d734440f265d48ef2401903bc40434a6757501a8bc239433b65c8eba2be9d1a8fa91693c99d6daf32f059f0518064821ea
+  checksum: b59c45f79996b2392f82c759688fc3413c12f47e26962a3d08f717e598265a5046d78b05e2fc0fc1a222e4bf151ec3bec51700f94fb17c6b66926d736dd2fb24
   languageName: node
   linkType: hard
 
@@ -10755,9 +10755,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^5.5.1":
-  version: 5.5.3
-  resolution: "html-webpack-plugin@npm:5.5.3"
+"html-webpack-plugin@npm:^5.5.3":
+  version: 5.6.0
+  resolution: "html-webpack-plugin@npm:5.6.0"
   dependencies:
     "@types/html-minifier-terser": ^6.0.0
     html-minifier-terser: ^6.0.2
@@ -10765,8 +10765,14 @@ __metadata:
     pretty-error: ^4.0.0
     tapable: ^2.0.0
   peerDependencies:
+    "@rspack/core": 0.x || 1.x
     webpack: ^5.20.0
-  checksum: ccf685195739c372ad641bbd0c9100a847904f34eedc7aff3ece7856cd6c78fd3746d2d615af1bb71e5727993fe711b89e9b744f033ed3fde646540bf5d5e954
+  peerDependenciesMeta:
+    "@rspack/core":
+      optional: true
+    webpack:
+      optional: true
+  checksum: 32a6e41da538e798fd0be476637d7611a5e8a98a3508f031996e9eb27804dcdc282cb01f847cf5d066f21b49cfb8e21627fcf977ffd0c9bea81cf80e5a65070d
   languageName: node
   linkType: hard
 
