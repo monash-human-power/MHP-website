@@ -4515,7 +4515,7 @@ __metadata:
     gatsby-remark-images: ^7.8.0
     gatsby-remark-prismjs: ^7.9.0
     gatsby-source-filesystem: ^5.8.0
-    gatsby-transformer-remark: ^6.9.0
+    gatsby-transformer-remark: ^6.13.1
     gatsby-transformer-sharp: ^5.12.3
     husky: ^8.0.0
     jquery: ^3.7.1
@@ -9211,6 +9211,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.13.1":
+  version: 4.13.1
+  resolution: "gatsby-core-utils@npm:4.13.1"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.15.0
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    got: ^11.8.6
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 18024206ae31a89ec0533b2d31c1d12f0f1cea09451e73daa49276bd1f1d84b47dc94602d97bc4d37fa203ffd66de33afaeffbe7ccc96569c8ef42251ddb1151
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.12.1":
   version: 3.12.1
   resolution: "gatsby-graphiql-explorer@npm:3.12.1"
@@ -9724,12 +9748,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-remark@npm:^6.9.0":
-  version: 6.11.0
-  resolution: "gatsby-transformer-remark@npm:6.11.0"
+"gatsby-transformer-remark@npm:^6.13.1":
+  version: 6.13.1
+  resolution: "gatsby-transformer-remark@npm:6.13.1"
   dependencies:
     "@babel/runtime": ^7.20.13
-    gatsby-core-utils: ^4.11.0
+    gatsby-core-utils: ^4.13.1
     gray-matter: ^4.0.3
     hast-util-raw: ^6.1.0
     hast-util-to-html: ^7.1.3
@@ -9744,7 +9768,7 @@ __metadata:
     remark-retext: ^4.0.0
     remark-stringify: ^9.0.1
     retext-english: ^3.0.4
-    sanitize-html: ^2.10.0
+    sanitize-html: ^2.11.0
     underscore.string: ^3.3.6
     unified: ^9.2.2
     unist-util-remove-position: ^3.0.0
@@ -9752,7 +9776,7 @@ __metadata:
     unist-util-visit: ^2.0.3
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: c1a3b3384e21e53b58a218b8b2e9b757064392870cd95d4d14163ee519bc17cbb0e543323c2804618625048ca2818e6b98f28a90673482d13698632dfc1c519c
+  checksum: da405279f41fe1abc56492b9e5830fe4f9511b7cb3519072c35faf117f99f78f53d23c2d01aaf418394754ab5d6170e1ad08200e9eb061a57db7c0cad899a61a
   languageName: node
   linkType: hard
 
@@ -17251,7 +17275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanitize-html@npm:^2.10.0":
+"sanitize-html@npm:^2.11.0":
   version: 2.11.0
   resolution: "sanitize-html@npm:2.11.0"
   dependencies:
