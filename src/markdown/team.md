@@ -22,66 +22,46 @@ subteam:
         photo: ../images/jessica-mark.jpg
   - subteamName: Aerodynamics
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/alex-katelis-812186212/
-        name: Alexander Katelis
-        degree: Aerospace Engineering
-        position: Team Lead
-        photo: ../images/Alexander Katelis.jpg
       - linkedIn: ""
         name: Oscar Varney
         degree: Mechanical Engineering
         position: Team Lead
         photo: ../images/oscar-varney.jpg
-      - position: Team Member
-        photo: ../images/000-placeholder-person.png
-        linkedIn: ""
-        name: Bereket Barasa
-        degree: Aerospace Engineering
-      - linkedIn: https://www.linkedin.com/in/cameron-sturgeon
-        name: Cameron Sturgeon
+      - linkedIn: https://www.linkedin.com/in/neraj-galagedara
+        name: Neraj Galagedara
         degree: Aerospace Engineering and Science
         position: Team Member
-        photo: ../images/cameron-sturgeon.jpg
+        photo: ../images/neraj_galagedara_resized.jpg
       - linkedIn: ""
         name: David Cheng
         degree: Mechanical Engineering and Biomedical Science
         position: Team Member
         photo: ../images/david-cheng.jpg
+      - linkedIn: https://www.linkedin.com/in/cameron-sturgeon
+        name: Cameron Sturgeon
+        degree: Aerospace Engineering and Science
+        position: Team Member
+        photo: ../images/cameron-sturgeon.jpg
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Bereket Barasa
+        degree: Aerospace Engineering
       - position: Team Member
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Isa Rose
         degree: Engineering and Science
       - position: Team Member
-        photo: ../images/minh-tran.jpg
-        linkedIn: ""
-        name: Minh Tran
-        degree: Mechatronics Engineering
-      - position: Team Member
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: "Mitchell Bellingham "
         degree: Engineering
-      - linkedIn: https://www.linkedin.com/in/neraj-galagedara
-        name: Neraj Galagedara
-        degree: Aerospace Engineering and Science
-        position: Team Member
-        photo: ../images/neraj_galagedara_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/petros-koutroumpinas-a37a34234/
-        name: Petros Koutroumpinas
-        degree: Aerospace Engineering
-        position: Team Member
-        photo: ../images/petros-koutroumpinas.jpg
-      - linkedIn: https://www.linkedin.com/in/rowan-goffin-90222519b/
-        name: Rowan Goffin
-        degree: Aerospace Engineering
-        position: Team Member
-        photo: ../images/Rowan_Goffin.jpg
-      - linkedIn: ""
-        name: William Thompson
-        degree: Aerospace Engineering
-        position: Team Member
-        photo: ../images/william-thompson.jpg
+      - position: Team Member
+        photo: ../images/cooper-thurman.jpg
+        linkedIn: ""
+        name: Cooper Thurman
+        degree: Engineering and Science
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
@@ -268,11 +248,6 @@ subteam:
         linkedIn: ""
         name: Casey Diep
         degree: Engineering
-      - linkedIn: ""
-        name: Cooper Thurman
-        degree: Aerospace Engineering and Science
-        position: Team Member
-        photo: ../images/cooper-thurman.jpg
       - position: Team Member
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
