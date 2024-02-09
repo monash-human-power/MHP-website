@@ -172,7 +172,7 @@ subteam:
         position: Team Lead
         photo: ../images/jotham-gates.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/ammanuel-woldemicael.jpg
         linkedIn: ""
         name: Ammanuel Woldemicael
         degree: Electrical Engineering and Computer Science
@@ -231,7 +231,7 @@ subteam:
         linkedIn: ""
         name: Saima Firdaus
         degree: Engineering
-      - linkedIn: https://www.linkedin.com/in/samuel-zhang-b371b217b/
+      - linkedIn: https://www.linkedin.com/in/samzhangau/
         name: Samuel Zhang
         degree: Mechatronics Engineering
         position: Team Member
@@ -264,7 +264,7 @@ subteam:
         position: Team Member
         photo: ../images/angie_watts_resized.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/casey-diep.jpg
         linkedIn: ""
         name: Casey Diep
         degree: Engineering
@@ -289,7 +289,7 @@ subteam:
         position: Team Member
         photo: ../images/Raymond_Chan.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/rhys-watson.jpg
         linkedIn: ""
         name: "Rhys Watson "
         degree: Materials Engineering and Science
@@ -326,12 +326,12 @@ subteam:
         name: James Gardiner
         degree: Mechanical Engineering and Commerce
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/rianna-thiele.jpg
         linkedIn: ""
         name: Rianna Thiele
         degree: Electrical Engineering and Biomedical Science
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/sean-solnik.jpg
         linkedIn: ""
         name: Sean Solnik
         degree: Electrical Engineering and Biomedical Science
@@ -358,7 +358,7 @@ subteam:
         position: Team Member
         photo: ../images/akbar-fadiansyah.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/enuki-galhindarachchi.jpg
         linkedIn: ""
         name: "Enuki Galhindarachchi "
         degree: Computer Science
