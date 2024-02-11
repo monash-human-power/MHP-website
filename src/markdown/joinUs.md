@@ -22,7 +22,7 @@ recruitment_categories:
     eoi_link: https://forms.gle/3BDm3cN18Tpk1TeT7
     link: https://forms.gle/fXjP5gt6m8DUtCtV6
     id: general-recruitment
-    image: ../images/mhp-team-aarc.jpg
+    image: ../images/aarc_the_lads.jpg
     description: "Whether you like building and repairing bikes, playing around with
       microcontrollers and Raspberry Pis, or just want to get your hands dirty
       in a real world multidisciplinary project, we have something for all of
