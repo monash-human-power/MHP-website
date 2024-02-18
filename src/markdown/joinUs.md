@@ -20,13 +20,11 @@ recruitment_categories:
       However, we are still accepting expressions of interest. Fill in this form!
     name: General Recruitment
     eoi_link: https://forms.gle/3BDm3cN18Tpk1TeT7
-    link: https://forms.gle/fXjP5gt6m8DUtCtV6
+    link: https://forms.gle/SQZMhz36X3pL19Uy5
     id: general-recruitment
     image: ../images/aarc_the_lads.jpg
-    description: "Whether you like building and repairing bikes, playing around with
-      microcontrollers and Raspberry Pis, or just want to get your hands dirty
-      in a real world multidisciplinary project, we have something for all of
-      you. Let's beat the world record together! "
+    description: We’re currently recruiting in our Operations and Rider Development
+      subteams. Apply now below!
     is_open: false
 recruitment_process:
   - heading: Apply
