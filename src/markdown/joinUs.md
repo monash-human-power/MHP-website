@@ -25,7 +25,7 @@ recruitment_categories:
     image: ../images/aarc_the_lads.jpg
     description: We’re currently recruiting in our Operations and Rider Development
       subteams. Apply now below!
-    is_open: false
+    is_open: true
 recruitment_process:
   - heading: Apply
     body: " "
