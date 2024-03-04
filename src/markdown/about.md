@@ -3,22 +3,25 @@ heading: About
 meta_page_description: About MHP
 blocks:
   - heading: Who We Are
-    description: "Monash Human Power is a student-led engineering team from Monash
-      University in Melbourne, Australia. Since 2015 we have been designing,
-      manufacturing, and racing fully-faired human-powered vehicles (HPVs) to
-      push the limits of human speed. "
+    description: Monash Human Power is a student-led engineering team based at
+      Monash University in Melbourne, Australia. Since 2015 we have been
+      designing, manufacturing, and racing fully-faired human-powered vehicles
+      (HPVs) to push the limits of human speed.
     buttonText: Meet the members
     image: ../images/battle_mountain_group.jpg
     href: /team
     id: team
   - heading: Our Mission
-    description: Our team is aiming to break the Australian HPV F200 land speed
-      record of 96.7 km/h, as well as represent Australia at the World Human
-      Powered Vehicle Speed Challenge in Nevada. We take pride in developing
-      industry-ready graduates through our collaborative design and
-      manufacturing process. We believe that HPVs provide a relevant and
-      immersive framework for learning STEM and we use this framework to promote
-      sustainability in schools.
+    description: Our team’s vision is to make the fastest HPV in Australia, and
+      eventually the world. We’re hoping to break the HPV land-speed record in
+      Australia (currently 96.7km/h) having ridden at faster speeds during the
+      2023 World Human Powered Speed Challenge, an international competition in
+      the U.S. which we plan to return to in 2025. With support from Monash
+      University and the Engineering faculty, we strive to provide a space where
+      Monash students can develop valuable, real-world experience which they can
+      carry on into their careers. Alongside our technical goals, we also aim to
+      promote STEAM to the wider community within the framework of HPVs through
+      school outreach programs.
     buttonText: See the bike
     image: ../images/our-mission.jpeg
     href: /bike
