@@ -124,11 +124,6 @@ subteam:
         linkedIn: ""
         name: Yashen Ahangama
         degree: Engineering
-      - position: Team Member
-        photo: ../images/aidan-graham.jpg
-        linkedIn: ""
-        name: Aiden Graham
-        degree: Mechanical Engineering
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
