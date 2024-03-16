@@ -370,6 +370,11 @@ subteam:
         linkedIn: ""
         name: Naailah Taqui Hasan
         degree: Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Kaustav Sharma
+        degree: Engineering
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
