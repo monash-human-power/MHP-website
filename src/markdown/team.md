@@ -360,6 +360,11 @@ subteam:
         linkedIn: ""
         name: Zachary Port
         degree: Mechanical Engineering and Art
+      - position: Team Member
+        photo: ../images/gabrielle_chua.jpg
+        linkedIn: ""
+        name: Gabrielle Chua
+        degree: Information Technology and Science
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
