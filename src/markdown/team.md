@@ -365,6 +365,10 @@ subteam:
         linkedIn: ""
         name: Gabrielle Chua
         degree: Information Technology and Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Naailah Taqui Hasan
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
