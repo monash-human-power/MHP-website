@@ -400,6 +400,11 @@ subteam:
         linkedIn: ""
         name: Emma Lim
         degree: Biomedical Engineering
+      - position: Team Member
+        photo: ../images/ritika-gopinath.jpg
+        linkedIn: ""
+        name: Ritika Gopinath
+        degree: Engineering
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
