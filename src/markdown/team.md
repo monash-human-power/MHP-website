@@ -375,6 +375,11 @@ subteam:
         linkedIn: ""
         name: Kaustav Sharma
         degree: Engineering
+      - position: Team Member
+        photo: ../images/mohamed-arshad-.jpg
+        linkedIn: ""
+        name: "Mohamed Arshad "
+        degree: Software Engineering
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
