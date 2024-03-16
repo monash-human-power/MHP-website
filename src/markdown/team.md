@@ -385,6 +385,11 @@ subteam:
         linkedIn: ""
         name: James Robbs
         degree: Engineering and Science
+      - position: Team Member
+        photo: ../images/nethara-athukorala.jpg
+        linkedIn: ""
+        name: Nethara Athukorala
+        degree: Software Engineering
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
