@@ -390,6 +390,11 @@ subteam:
         linkedIn: ""
         name: Nethara Athukorala
         degree: Software Engineering
+      - position: Team Member
+        photo: ../images/ivanka-budiana.jpg
+        linkedIn: ""
+        name: Ivanka Budiana
+        degree: Communication Design
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
