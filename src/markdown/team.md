@@ -206,6 +206,10 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/winnie-chui.jpg
+      - position: Team Member
+        photo: ../images/prince-jeremy-mendel-idowu.jpg
+        linkedIn: ""
+        name: Prince (Jeremy) Mendel-Idowu
   - subteamName: Materials
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
@@ -327,6 +331,10 @@ subteam:
         linkedIn: ""
         name: Vicky Huang
         degree: Software Engineering and Computer Science
+      - position: Team Member
+        photo: ../images/prince-jeremy-mendel-idowu.jpg
+        linkedIn: ""
+        name: Prince (Jeremy) Mendel-Idowu
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
