@@ -309,6 +309,11 @@ subteam:
         linkedIn: ""
         name: Matt Smith
         degree: Mechatronics Engineering
+      - position: Team Member
+        photo: ../images/sandra-kalta.jpg
+        linkedIn: ""
+        name: Sandra Kalta
+        degree: Engineering and Biomedical Science
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
