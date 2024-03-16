@@ -380,6 +380,11 @@ subteam:
         linkedIn: ""
         name: "Mohamed Arshad "
         degree: Software Engineering
+      - position: Team Member
+        photo: ../images/james-robbs.jpg
+        linkedIn: ""
+        name: James Robbs
+        degree: Engineering and Science
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
