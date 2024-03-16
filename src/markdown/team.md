@@ -147,7 +147,7 @@ subteam:
         name: Ammanuel Woldemicael
         degree: Electrical Engineering and Computer Science
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/amy-tjea.jpg
         linkedIn: ""
         name: Amy Tjea
         degree: Software Engineering and Computer Science
