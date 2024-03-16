@@ -355,6 +355,11 @@ subteam:
         linkedIn: ""
         name: Sophie Windust
         degree: Engineering and Commerce
+      - position: Team Member
+        photo: ../images/zachary-port.jpg
+        linkedIn: ""
+        name: Zachary Port
+        degree: Mechanical Engineering and Art
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
