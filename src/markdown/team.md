@@ -299,6 +299,11 @@ subteam:
         linkedIn: ""
         name: Sean Solnik
         degree: Electrical Engineering and Biomedical Science
+      - position: Team Member
+        photo: ../images/lalli-kirby.jpg
+        linkedIn: ""
+        name: Lalli Kirby
+        degree: Science and Global Studies
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
