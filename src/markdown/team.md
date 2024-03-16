@@ -105,7 +105,7 @@ subteam:
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - position: Team Member
-        photo: ../images/robert-glavan.jpg
+        photo: ../images/robert-glavan-2.jpg
         linkedIn: ""
         name: Robert Glavan
         degree: Engineering
