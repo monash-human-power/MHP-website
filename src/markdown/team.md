@@ -304,6 +304,11 @@ subteam:
         linkedIn: ""
         name: Lalli Kirby
         degree: Science and Global Studies
+      - position: Team Member
+        photo: ../images/matt-smith.jpg
+        linkedIn: ""
+        name: Matt Smith
+        degree: Mechatronics Engineering
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
