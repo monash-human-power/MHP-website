@@ -350,6 +350,11 @@ subteam:
         photo: ../images/prince-jeremy-mendel-idowu.jpg
         linkedIn: ""
         name: Prince (Jeremy) Mendel-Idowu
+      - position: Team Member
+        photo: ../images/sophie-windust.jpg
+        linkedIn: ""
+        name: Sophie Windust
+        degree: Engineering and Commerce
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
