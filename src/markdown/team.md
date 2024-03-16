@@ -395,6 +395,11 @@ subteam:
         linkedIn: ""
         name: Ivanka Budiana
         degree: Communication Design
+      - position: Team Member
+        photo: ../images/emma-lim.jpg
+        linkedIn: ""
+        name: Emma Lim
+        degree: Biomedical Engineering
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
