@@ -371,7 +371,7 @@ subteam:
         name: Naailah Taqui Hasan
         degree: Engineering
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/kaustav-avi-sharma.jpg
         linkedIn: ""
         name: Kaustav Sharma
         degree: Engineering
@@ -405,6 +405,16 @@ subteam:
         linkedIn: ""
         name: Ritika Gopinath
         degree: Engineering
+      - position: Team Member
+        photo: ../images/alvin-fung.jpg
+        linkedIn: ""
+        name: Alvin Fung
+        degree: Software Engineering and Science
+      - position: Team Member
+        photo: ../images/kanishk-gupta.jpg
+        linkedIn: ""
+        name: Kanishk Gupta
+        degree: Commerce and Finance
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
