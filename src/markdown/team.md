@@ -65,20 +65,15 @@ subteam:
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
-        name: Hugh Mayer
-        degree: Mechanical Engineering
-        position: Team Lead
-        photo: ../images/hugh-mayer.jpg
-      - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
-        name: Noah Alwyn
-        degree: Mechanical Engineering
-        position: Team Lead
-        photo: ../images/noah-alwyn.jpg
-      - linkedIn: ""
         name: Aidan Graham
         degree: Mechanical Engineering
-        position: Team Member
+        position: Team Lead
         photo: ../images/aidan-graham.jpg
+      - position: Team Lead
+        photo: ../images/yashen-ahangama.jpg
+        linkedIn: ""
+        name: Yashen Ahangama
+        degree: Engineering
       - position: Team Member
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
@@ -105,7 +100,7 @@ subteam:
         position: Team Member
         photo: ../images/000-placeholder-person.png
       - position: Team Member
-        photo: ../images/robert-glavan.jpg
+        photo: ../images/robert-glavan-2.jpg
         linkedIn: ""
         name: Robert Glavan
         degree: Engineering
@@ -120,15 +115,15 @@ subteam:
         position: Team Member
         photo: ../images/vinura-abeygunawardhane.jpg
       - position: Team Member
-        photo: ../images/yashen-ahangama.jpg
+        photo: ../images/noah-alwyn.jpg
         linkedIn: ""
-        name: Yashen Ahangama
-        degree: Engineering
-      - position: Team Member
-        photo: ../images/aidan-graham.jpg
-        linkedIn: ""
-        name: Aiden Graham
+        name: Noah Alwyn
         degree: Mechanical Engineering
+      - position: Team Member
+        photo: ../images/hugh-mayer.jpg
+        linkedIn: ""
+        name: Hugh Mayer
+        degree: Mechanical Engineering and Industrial Design
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
@@ -147,7 +142,7 @@ subteam:
         name: Ammanuel Woldemicael
         degree: Electrical Engineering and Computer Science
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/amy-tjea.jpg
         linkedIn: ""
         name: Amy Tjea
         degree: Software Engineering and Computer Science
@@ -206,6 +201,10 @@ subteam:
         degree: Software Engineering
         position: Team Member
         photo: ../images/winnie-chui.jpg
+      - position: Team Member
+        photo: ../images/prince-jeremy-mendel-idowu.jpg
+        linkedIn: ""
+        name: Prince (Jeremy) Mendel-Idowu
   - subteamName: Materials
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
@@ -216,7 +215,7 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/ravinduks/
         name: Ravindu Udawatta
         degree: Mechatronics Engineering
-        position: Team Lead
+        position: Team Member
         photo: ../images/ravindu-udawatta.jpg
       - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
         name: Alex Mavros
@@ -241,7 +240,7 @@ subteam:
       - linkedIn: ""
         name: James Cookson
         degree: Engineering and Science
-        position: Team Member
+        position: Team Lead
         photo: ../images/james-cookson.jpg
       - linkedIn: https://www.linkedin.com/in/raymond-chan-02736b149/
         name: Raymond Chan
@@ -263,6 +262,11 @@ subteam:
         linkedIn: ""
         name: Shriabhay Shriharsha
         degree: Mechatronics Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Oliver Chen
+        degree: Mechanical Engineering and Commerce
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
@@ -295,6 +299,21 @@ subteam:
         linkedIn: ""
         name: Sean Solnik
         degree: Electrical Engineering and Biomedical Science
+      - position: Team Member
+        photo: ../images/lalli-kirby.jpg
+        linkedIn: ""
+        name: Lalli Kirby
+        degree: Science and Global Studies
+      - position: Team Member
+        photo: ../images/matt-smith.jpg
+        linkedIn: ""
+        name: Matt Smith
+        degree: Mechatronics Engineering
+      - position: Team Member
+        photo: ../images/sandra-kalta.jpg
+        linkedIn: ""
+        name: Sandra Kalta
+        degree: Engineering and Biomedical Science
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
@@ -312,11 +331,6 @@ subteam:
         linkedIn: ""
         name: "Enuki Galhindarachchi "
         degree: Computer Science
-      - position: Team Member
-        photo: ../images/000-placeholder-person.png
-        linkedIn: ""
-        name: Oliver Chen
-        degree: Mechanical Engineering and Commerce
       - linkedIn: ""
         name: Sai Ashish Ramishetty
         degree: Software Engineering
@@ -327,6 +341,75 @@ subteam:
         linkedIn: ""
         name: Vicky Huang
         degree: Software Engineering and Computer Science
+      - position: Team Member
+        photo: ../images/prince-jeremy-mendel-idowu.jpg
+        linkedIn: ""
+        name: Prince (Jeremy) Mendel-Idowu
+      - position: Team Member
+        photo: ../images/sophie-windust.jpg
+        linkedIn: ""
+        name: Sophie Windust
+        degree: Engineering and Commerce
+      - position: Team Member
+        photo: ../images/zachary-port.jpg
+        linkedIn: ""
+        name: Zachary Port
+        degree: Mechanical Engineering and Art
+      - position: Team Member
+        photo: ../images/gabrielle_chua.jpg
+        linkedIn: ""
+        name: Gabrielle Chua
+        degree: Information Technology and Science
+      - position: Team Member
+        photo: ../images/naailah-taqui-hasan.jpg
+        linkedIn: ""
+        name: Naailah Taqui Hasan
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/kaustav-avi-sharma.jpg
+        linkedIn: ""
+        name: Kaustav Sharma
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/mohamed-arshad-.jpg
+        linkedIn: ""
+        name: "Mohamed Arshad "
+        degree: Software Engineering
+      - position: Team Member
+        photo: ../images/james-robbs.jpg
+        linkedIn: ""
+        name: James Robbs
+        degree: Engineering and Science
+      - position: Team Member
+        photo: ../images/nethara-athukorala.jpg
+        linkedIn: ""
+        name: Nethara Athukorala
+        degree: Software Engineering
+      - position: Team Member
+        photo: ../images/ivanka-budiana.jpg
+        linkedIn: ""
+        name: Ivanka Budiana
+        degree: Communication Design
+      - position: Team Member
+        photo: ../images/emma-lim.jpg
+        linkedIn: ""
+        name: Emma Lim
+        degree: Biomedical Engineering
+      - position: Team Member
+        photo: ../images/ritika-gopinath.jpg
+        linkedIn: ""
+        name: Ritika Gopinath
+        degree: Engineering
+      - position: Team Member
+        photo: ../images/alvin-fung.jpg
+        linkedIn: ""
+        name: Alvin Fung
+        degree: Software Engineering and Science
+      - position: Team Member
+        photo: ../images/kanishk-gupta.jpg
+        linkedIn: ""
+        name: Kanishk Gupta
+        degree: Commerce and Finance
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
@@ -376,16 +459,21 @@ subteam:
         degree: Aerospace Engineering
         position: Systems Engineer
         photo: ../images/alastair-haslam.jpg
-      - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
-        name: Charles Barber
-        degree: Mechanical Engineering
-        position: Team Member
-        photo: ../images/charles_barber_resized.jpg
       - position: HR Manager
         photo: ../images/rhys-watson.jpg
         linkedIn: ""
         name: Rhys Watson
         degree: Materials Engineering and Science
+      - position: Finance Manager
+        photo: ../images/arnav-acharekar.jpg
+        linkedIn: ""
+        name: Arnav Acharekar
+        degree: Electrical Engineering
+      - position: Safety Manager
+        photo: ../images/samuel-zhang.jpg
+        linkedIn: ""
+        name: Samuel Zhang
+        degree: Mechatronics Engineering
 ---
 
 <!--
