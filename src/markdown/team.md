@@ -65,20 +65,15 @@ subteam:
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
-        name: Hugh Mayer
-        degree: Mechanical Engineering
-        position: Team Lead
-        photo: ../images/hugh-mayer.jpg
-      - linkedIn: https://www.linkedin.com/in/noah-alwyn-343009244/
-        name: Noah Alwyn
-        degree: Mechanical Engineering
-        position: Team Lead
-        photo: ../images/noah-alwyn.jpg
-      - linkedIn: ""
         name: Aidan Graham
         degree: Mechanical Engineering
-        position: Team Member
+        position: Team Lead
         photo: ../images/aidan-graham.jpg
+      - position: Team Lead
+        photo: ../images/yashen-ahangama.jpg
+        linkedIn: ""
+        name: Yashen Ahangama
+        degree: Engineering
       - position: Team Member
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
@@ -120,15 +115,15 @@ subteam:
         position: Team Member
         photo: ../images/vinura-abeygunawardhane.jpg
       - position: Team Member
-        photo: ../images/yashen-ahangama.jpg
+        photo: ../images/noah-alwyn.jpg
         linkedIn: ""
-        name: Yashen Ahangama
-        degree: Engineering
-      - position: Team Member
-        photo: ../images/aidan-graham.jpg
-        linkedIn: ""
-        name: Aiden Graham
+        name: Noah Alwyn
         degree: Mechanical Engineering
+      - position: Team Member
+        photo: ../images/hugh-mayer.jpg
+        linkedIn: ""
+        name: Hugh Mayer
+        degree: Mechanical Engineering and Industrial Design
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
