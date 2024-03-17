@@ -215,7 +215,7 @@ subteam:
       - linkedIn: https://www.linkedin.com/in/ravinduks/
         name: Ravindu Udawatta
         degree: Mechatronics Engineering
-        position: Team Lead
+        position: Team Member
         photo: ../images/ravindu-udawatta.jpg
       - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
         name: Alex Mavros
@@ -240,7 +240,7 @@ subteam:
       - linkedIn: ""
         name: James Cookson
         degree: Engineering and Science
-        position: Team Member
+        position: Team Lead
         photo: ../images/james-cookson.jpg
       - linkedIn: https://www.linkedin.com/in/raymond-chan-02736b149/
         name: Raymond Chan
@@ -262,6 +262,11 @@ subteam:
         linkedIn: ""
         name: Shriabhay Shriharsha
         degree: Mechatronics Engineering
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Oliver Chen
+        degree: Mechanical Engineering and Commerce
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
@@ -326,11 +331,6 @@ subteam:
         linkedIn: ""
         name: "Enuki Galhindarachchi "
         degree: Computer Science
-      - position: Team Member
-        photo: ../images/000-placeholder-person.png
-        linkedIn: ""
-        name: Oliver Chen
-        degree: Mechanical Engineering and Commerce
       - linkedIn: ""
         name: Sai Ashish Ramishetty
         degree: Software Engineering
