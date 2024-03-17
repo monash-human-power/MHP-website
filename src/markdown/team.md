@@ -464,16 +464,21 @@ subteam:
         degree: Aerospace Engineering
         position: Systems Engineer
         photo: ../images/alastair-haslam.jpg
-      - linkedIn: https://www.linkedin.com/in/charles-barberv3l0/
-        name: Charles Barber
-        degree: Mechanical Engineering
-        position: Team Member
-        photo: ../images/charles_barber_resized.jpg
       - position: HR Manager
         photo: ../images/rhys-watson.jpg
         linkedIn: ""
         name: Rhys Watson
         degree: Materials Engineering and Science
+      - position: Finance Manager
+        photo: ../images/arnav-acharekar.jpg
+        linkedIn: ""
+        name: Arnav Acharekar
+        degree: Electrical Engineering
+      - position: Safety Manager
+        photo: ../images/samuel-zhang.jpg
+        linkedIn: ""
+        name: Samuel Zhang
+        degree: Mechatronics Engineering
 ---
 
 <!--
