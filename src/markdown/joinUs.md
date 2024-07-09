@@ -13,18 +13,17 @@ recruitment_categories:
       ours. Applications are open year round, so if you're interested hit the
       apply button now!
     is_open: true
-  - more_info_link: https://drive.google.com/file/d/16vcKnXVAGfcE90R6H2I1DYJocTa5gdcW/view?usp=sharing
+  - more_info_link: https://drive.google.com/file/d/1TsAmzeva9UpB-aN-Aws_iS5wFhrHgUcF/view?usp=drive_link
     closed_description: >-
       Recruitments are currently closed. Keep an eye out on our socials!
 
       However, we are still accepting expressions of interest. Fill in this form!
     name: General Recruitment
     eoi_link: https://forms.gle/3BDm3cN18Tpk1TeT7
-    link: https://forms.gle/SQZMhz36X3pL19Uy5
+    link: https://forms.gle/FeWsr17FZvCn7RkP9
     id: general-recruitment
     image: ../images/aarc_the_lads.jpg
-    description: We’re currently recruiting in our Operations and Rider Development
-      subteams. Apply now below!
+    description: We’re currently recruiting in all of our subteams. Apply now below!
     is_open: true
 recruitment_process:
   - heading: Apply
