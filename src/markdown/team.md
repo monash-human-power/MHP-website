@@ -32,36 +32,39 @@ subteam:
         degree: Mechanical Engineering and Biomedical Science
         position: Team Lead
         photo: ../images/david-cheng.jpg
-      - linkedIn: https://www.linkedin.com/in/neraj-galagedara
-        name: Neraj Galagedara
-        degree: Aerospace Engineering and Science
-        position: Team Member
-        photo: ../images/neraj_galagedara_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/cameron-sturgeon
-        name: Cameron Sturgeon
-        degree: Aerospace Engineering and Science
-        position: Team Member
-        photo: ../images/cameron-sturgeon.jpg
-      - position: Team Member
-        photo: ../images/000-placeholder-person.png
-        linkedIn: ""
-        name: Bereket Barasa
-        degree: Aerospace Engineering
-      - position: Team Member
-        photo: ../images/000-placeholder-person.png
-        linkedIn: ""
-        name: Isa Rose
-        degree: Engineering and Science
-      - position: Team Member
-        photo: ../images/000-placeholder-person.png
-        linkedIn: ""
-        name: "Mitchell Bellingham "
-        degree: Engineering
       - position: Team Member
         photo: ../images/cooper-thurman.jpg
         linkedIn: ""
         name: Cooper Thurman
         degree: Engineering and Science
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Abel Thevathason
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: James Di Nicolantonio
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Milan Umesh
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Oliver Huang
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Tai Villiers
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Vraj Patel
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Noah Alwyn
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
