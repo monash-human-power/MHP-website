@@ -5,21 +5,21 @@ meta_page_description: ""
 subteam:
   - subteamName: Management
     teamMembers:
-      - linkedIn: https://www.linkedin.com/in/sydney-buntine-2838761b8/
-        name: Sydney Buntine
-        degree: Materials Engineering and Commerce
+      - linkedIn: ""
+        name: "Arosh Heenkenda "
+        degree: Computer Science and Software Engineering
         position: Chief Executive Officer
-        photo: ../images/Sydney_Buntine.jpg
-      - linkedIn: https://www.linkedin.com/in/hallgchris
-        name: Christopher Hall
-        degree: Electrical Engineering and Science
+        photo: ../images/arosh-heenkenda.jpg
+      - linkedIn: ""
+        name: James Cookson
+        degree: Mechanical Engineering and Science
         position: Chief Technical Officer
-        photo: ../images/christopher_hall_resized.jpg
-      - linkedIn: https://www.linkedin.com/in/jessica-mark-35606721b/
-        name: Jessica Mark
-        degree: Software Engineering and Computer Science
+        photo: ../images/james-cookson.jpg
+      - linkedIn: ""
+        name: Rhys Watson
+        degree: Materials Engineering and Science
         position: Chief Operating Officer
-        photo: ../images/jessica-mark.jpg
+        photo: ../images/rhys-watson.jpg
   - subteamName: Aerodynamics
     teamMembers:
       - linkedIn: ""
