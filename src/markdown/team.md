@@ -92,11 +92,6 @@ subteam:
         linkedIn: ""
         name: "Eric Yu "
         degree: Engineering and Commerce
-      - linkedIn: https://www.linkedin.com/in/kazuaki-shirakata-7922381b9
-        name: Kazu Shirakata
-        degree: Mechatronics Engineering
-        position: Team Member
-        photo: ../images/kazuaki_shirakata_resized.jpg
       - linkedIn: ""
         name: Martin Grozev
         degree: Mechanical Engineering and Commerce
@@ -118,15 +113,29 @@ subteam:
         position: Team Member
         photo: ../images/vinura-abeygunawardhane.jpg
       - position: Team Member
-        photo: ../images/noah-alwyn.jpg
+        photo: ../images/000-placeholder-person.png
         linkedIn: ""
-        name: Noah Alwyn
-        degree: Mechanical Engineering
+        name: Callum Ryan
       - position: Team Member
-        photo: ../images/hugh-mayer.jpg
+        photo: ../images/000-placeholder-person.png
         linkedIn: ""
-        name: Hugh Mayer
-        degree: Mechanical Engineering and Industrial Design
+        name: Harvey Cook
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Marcel Randles
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Nicholas Johnson
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Ran Wei
+      - position: Team Member
+        photo: ../images/000-placeholder-person.png
+        linkedIn: ""
+        name: Xuan Nguyen
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
