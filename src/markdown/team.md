@@ -78,7 +78,7 @@ subteam:
         name: Yashen Ahangama
         degree: Engineering
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/cameron-fieldew.jpg
         linkedIn: ""
         name: Cameron Fieldew
         degree: Mechatronics Engineering
@@ -268,7 +268,7 @@ subteam:
         name: Casey Diep
         degree: Engineering
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/duc-thuan-le.jpg
         linkedIn: ""
         name: Duc Thuan Le
         degree: Mechanical Engineering
@@ -283,7 +283,7 @@ subteam:
         name: Shriabhay Shriharsha
         degree: Mechatronics Engineering
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/oliver-chen.jpg
         linkedIn: ""
         name: Oliver Chen
         degree: Mechanical Engineering and Commerce
