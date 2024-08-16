@@ -278,7 +278,7 @@ subteam:
         position: Team Member
         photo: ../images/sammi-dao.jpg
       - position: Team Member
-        photo: ../images/000-placeholder-person.png
+        photo: ../images/shriabhay-shriharsha.jpg
         linkedIn: ""
         name: Shriabhay Shriharsha
         degree: Mechatronics Engineering
