@@ -7,244 +7,270 @@ subteam:
     teamMembers:
       - linkedIn: ""
         name: "Arosh Heenkenda "
-        degree: Computer Science and Software Engineering
-        position: Chief Executive Officer
+        degree: Chief Executive Officer
+        position: ""
         photo: ../images/arosh-heenkenda.jpg
       - linkedIn: ""
         name: James Cookson
-        degree: Mechanical Engineering and Science
-        position: Chief Technical Officer
+        degree: Chief Technical Officer
+        position: ""
         photo: ../images/james-cookson.jpg
       - linkedIn: ""
         name: Rhys Watson
-        degree: Materials Engineering and Science
-        position: Chief Operating Officer
+        degree: Chief Operating Officer
+        position: ""
         photo: ../images/rhys-watson.jpg
   - subteamName: Aerodynamics
     teamMembers:
       - linkedIn: ""
         name: Oscar James Varney
-        degree: Mechanical Engineering
-        position: Team Lead
+        degree: Team Lead
+        position: ""
         photo: ../images/oscar-varney.jpg
       - linkedIn: ""
         name: David Cheng
-        degree: Mechanical Engineering and Biomedical Science
-        position: Team Lead
+        degree: Team Lead
+        position: ""
         photo: ../images/david-cheng.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/cooper-thurman.jpg
         linkedIn: ""
         name: Cooper Thurman
-        degree: Engineering and Science
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Abel Thevathason
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: James Di Nicolantonio
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Milan Umesh
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Oliver Huang
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Tai Villiers
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Vraj Patel
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Noah Alwyn
+        degree: Team Member
   - subteamName: Chassis & Drivetrain
     teamMembers:
       - linkedIn: ""
         name: Aidan Graham
-        degree: Mechanical Engineering
-        position: Team Lead
+        degree: Team Lead
+        position: ""
         photo: ../images/aidan-graham.jpg
-      - position: Team Lead
+      - position: ""
         photo: ../images/yashen-ahangama.jpg
         linkedIn: ""
         name: Yashen Ahangama
-        degree: Engineering
-      - position: Team Member
+        degree: Team Lead
+      - position: ""
         photo: ../images/cameron-fieldew.jpg
         linkedIn: ""
         name: Cameron Fieldew
-        degree: Mechatronics Engineering
+        degree: Team Member
       - linkedIn: https://www.linkedin.com/in/dominicbongiorno/
         name: Dominic Bongiorno
-        degree: Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/dominic-bongiorno.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/eric-yu.jpg
         linkedIn: ""
         name: "Eric Yu "
-        degree: Engineering and Commerce
+        degree: Team Member
       - linkedIn: ""
         name: Martin Grozev
-        degree: Mechanical Engineering and Commerce
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/000-placeholder-person.png
-      - position: Team Member
+      - position: ""
         photo: ../images/robert-glavan-2.jpg
         linkedIn: ""
         name: Robert Glavan
-        degree: Engineering
+        degree: Team Member
       - linkedIn: https://www.linkedin.com/in/tyrone-rossouw-362168212/
         name: Tyrone Rossouw
-        degree: Mechanical Enginering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/tyrone-rossouw.jpg
       - linkedIn: ""
         name: Vinura Abeygunawardhane
-        degree: Mechatronics Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/vinura-abeygunawardhane.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Callum Ryan
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Harvey Cook
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Marcel Randles
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Nicholas Johnson
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Ran Wei
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Xuan Nguyen
+        degree: Team Member
   - subteamName: Electrical
     teamMembers:
       - linkedIn: ""
         name: Jessica Mark
-        degree: Software Engineering and Computer Science
-        position: Team Lead
+        degree: Team Lead
+        position: ""
         photo: ../images/jessica-mark.jpg
       - linkedIn: https://www.linkedin.com/in/jotham-gates-6a460a243/
         name: Jotham Gates
-        degree: Electrical Engineering
-        position: Team Lead
+        degree: Team Lead
+        position: ""
         photo: ../images/jotham-gates.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/ammanuel-woldemicael.jpg
         linkedIn: ""
         name: Ammanuel Woldemicael
-        degree: Electrical Engineering and Computer Science
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/amy-tjea.jpg
         linkedIn: ""
         name: Amy Tjea
-        degree: Software Engineering and Computer Science
+        degree: Team Member
       - linkedIn: ""
         name: Arnav Acharekar
-        degree: Electrical Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/arnav-acharekar.jpg
       - linkedIn: ""
         name: David Pollard
-        degree: Electrical Engineering and Computer Science
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/david-pollard.jpg
       - linkedIn: ""
         name: Marcus Chow
-        degree: Software Engineering and Computer Science
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/marcus-chow.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/ngoc-thao-vy-nguyen.jpg
         linkedIn: ""
         name: Ngoc Thao Vy Nguyen
-        degree: Engineering
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/nguyen-song-nguyen.jpg
         linkedIn: ""
         name: Nguyen S. Nguyen
-        degree: Electrical Engineering and Biomedical Science
+        degree: Team Member
       - linkedIn: ""
         name: Nivantha Abeysekera
-        degree: Electrical Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/nivantha-abeysekera.jpg
       - linkedIn: https://www.linkedin.com/in/samzhangau/
         name: Samuel Zhang
-        degree: Mechatronics Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/samuel-zhang.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/prince-jeremy-mendel-idowu.jpg
         linkedIn: ""
         name: Prince (Jeremy) Mendel-Idowu
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Aarabi Kugathas
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Arnav Singh Sethi
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Benjamin Apsey
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Daniel He
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Jason Qi Heng Zheng
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Jayden Le
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Jeongwoo Choi
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Joseph Lim
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Joseph Ooi
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Thomas Curnow
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Yixu (Sonny) Wang
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Iris Nguyen
+        degree: Team Member
   - subteamName: Materials
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
