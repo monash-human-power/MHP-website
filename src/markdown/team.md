@@ -379,128 +379,139 @@ subteam:
     teamMembers:
       - linkedIn: ""
         name: Nguyen Khang Huynh
-        degree: Software Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/nguyen-khang-huynh.jpg
       - linkedIn: ""
         name: Valerie Tang
-        degree: Science and Information Technology
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/valerie-tang.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/enuki-galhindarachchi.jpg
         linkedIn: ""
         name: "Enuki Galhindarachchi "
-        degree: Computer Science
+        degree: Team Member
       - linkedIn: ""
         name: Sai Ashish Ramishetty
-        degree: Software Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/000-placeholder-person.png
-      - position: Team Member
+      - position: ""
         photo: ../images/vicky-huang.jpg
         linkedIn: ""
         name: Vicky Huang
-        degree: Software Engineering and Computer Science
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/prince-jeremy-mendel-idowu.jpg
         linkedIn: ""
         name: Prince (Jeremy) Mendel-Idowu
-      - position: Team Lead
+        degree: Team Member
+      - position: ""
         photo: ../images/sophie-windust.jpg
         linkedIn: ""
         name: Sophie Windust
-        degree: Engineering and Commerce
-      - position: Team Member
+        degree: Team Lead
+      - position: ""
         photo: ../images/zachary-port.jpg
         linkedIn: ""
         name: Zachary Port
-        degree: Mechanical Engineering and Art
+        degree: Team Member
       - position: Team Member
         photo: ../images/gabrielle_chua.jpg
         linkedIn: ""
         name: Gabrielle Chua
         degree: Information Technology and Science
-      - position: Team Member
+      - position: ""
         photo: ../images/naailah-taqui-hasan.jpg
         linkedIn: ""
         name: Naailah Taqui Hasan
-        degree: Engineering
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/kaustav-avi-sharma.jpg
         linkedIn: ""
         name: Kaustav Sharma
-        degree: Engineering
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/mohamed-arshad-.jpg
         linkedIn: ""
         name: "Mohamed Arshad "
-        degree: Software Engineering
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/james-robbs.jpg
         linkedIn: ""
         name: James Robbs
-        degree: Engineering and Science
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/nethara-athukorala.jpg
         linkedIn: ""
         name: Nethara Athukorala
-        degree: Software Engineering
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/emma-lim.jpg
         linkedIn: ""
         name: Emma Lim
-        degree: Biomedical Engineering
-      - position: Team Lead
+        degree: Team Member
+      - position: ""
         photo: ../images/ritika-gopinath.jpg
         linkedIn: ""
         name: Ritika Gopinath
-        degree: Engineering
-      - position: Team Member
+        degree: Team Lead
+      - position: ""
         photo: ../images/alvin-fung.jpg
         linkedIn: ""
         name: Alvin Fung
-        degree: Software Engineering and Science
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/neraj_galagedara_resized.jpg
         linkedIn: ""
         name: Neraj Galagedara
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Maureen Pham
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Peter Kwok
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Ahmed Zahid
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Choong (Connor) Ming Xuan
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Hoor E Jannat Urboshi
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Inshaal Khan
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Joshua Acabado
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Keith Andre Abraham
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Tran Ngoc Duy Ngo
+        degree: Team Member
   - subteamName: Riders
     teamMembers:
       - linkedIn: ""
