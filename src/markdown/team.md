@@ -275,101 +275,106 @@ subteam:
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/clarisse-liew-0a96b121b/
         name: Clarisse Liew
-        degree: Materials Engineering and Commerce
-        position: Team Lead
+        degree: Team Lead
+        position: ""
         photo: ../images/clarisse-liew.jpg
       - linkedIn: https://www.linkedin.com/in/ravinduks/
         name: Ravindu Udawatta
-        degree: Mechatronics Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/ravindu-udawatta.jpg
       - linkedIn: https://www.linkedin.com/in/alex-mavros-a76596246/
         name: Alex Mavros
-        degree: ""
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/Alex_Mavros.jpg
-      - position: Team Lead
+      - position: ""
         photo: ../images/casey-diep.jpg
         linkedIn: ""
         name: Casey Diep
-        degree: Engineering
-      - position: Team Member
+        degree: Team Lead
+      - position: ""
         photo: ../images/duc-thuan-le.jpg
         linkedIn: ""
         name: Duc Thuan Le
-        degree: Mechanical Engineering
+        degree: Team Member
       - linkedIn: ""
         name: Sammi Dao
-        degree: ""
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/sammi-dao.jpg
-      - position: Team Member
+      - position: ""
         photo: ../images/shriabhay-shriharsha.jpg
         linkedIn: ""
         name: Shriabhay Shriharsha
-        degree: Mechatronics Engineering
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/oliver-chen.jpg
         linkedIn: ""
         name: Oliver Chen
-        degree: Mechanical Engineering and Commerce
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Charles Bessel
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Karunamuni Sasun Sanhinda
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Krish Bajaj
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Louis Handford
+        degree: Team Member
       - position: Team Member
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: Xavier Curcio
+        degree: ""
   - subteamName: Rider Development
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
         name: Kit Kirby
-        degree: Materials Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Alastair Haslam
-        degree: Aerospace Engineering
-        position: Team Member
+        degree: Team Member
+        position: ""
         photo: ../images/alastair-haslam.jpg
-      - position: Team Lead
+      - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: James Gardiner
-        degree: Mechanical Engineering and Commerce
-      - position: Team Member
+        degree: Team Lead
+      - position: ""
         photo: ../images/rianna-thiele.jpg
         linkedIn: ""
         name: Rianna Thiele
-        degree: Electrical Engineering and Biomedical Science
-      - position: Team Lead
+        degree: Team Member
+      - position: ""
         photo: ../images/sean-solnik.jpg
         linkedIn: ""
         name: Sean Solnik
-        degree: Electrical Engineering and Biomedical Science
-      - position: Team Member
+        degree: Team Lead
+      - position: ""
         photo: ../images/matt-smith.jpg
         linkedIn: ""
         name: Matt Smith
-        degree: Mechatronics Engineering
-      - position: Team Member
+        degree: Team Member
+      - position: ""
         photo: ../images/sandra-kalta.jpg
         linkedIn: ""
         name: Sandra Kalta
-        degree: Engineering and Biomedical Science
+        degree: Team Member
   - subteamName: Operations
     teamMembers:
       - linkedIn: ""
@@ -532,34 +537,34 @@ subteam:
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
         name: Amanda Zhou
-        degree: Civil Engineering and Commerce
-        position: HR Manager
+        degree: HR Manager
+        position: ""
         photo: ../images/amanda-zhou.jpg
       - linkedIn: ""
         name: Aidan Graham
-        degree: Mechanical Engineering
-        position: Workshop Manager
+        degree: Workshop Manager
+        position: ""
         photo: ../images/aidan-graham.jpg
       - linkedIn: ""
         name: Alastair Haslam
-        degree: Aerospace Engineering
-        position: Systems Engineer
+        degree: Systems Engineer
+        position: ""
         photo: ../images/alastair-haslam.jpg
-      - position: Finance Manager
+      - position: ""
         photo: ../images/arnav-acharekar.jpg
         linkedIn: ""
         name: Arnav Acharekar
-        degree: Electrical Engineering
-      - position: Safety Manager
+        degree: Finance Manager
+      - position: ""
         photo: ../images/samuel-zhang.jpg
         linkedIn: ""
         name: Samuel Zhang
-        degree: Mechatronics Engineering
-      - position: Battle Mountain Logistics Lead
+        degree: Safety Manager
+      - position: ""
         photo: ../images/Sydney_Buntine.jpg
         linkedIn: ""
         name: Sydney Buntine
-        degree: Materials Engineering and Commerce
+        degree: Battle Mountain Logistics Lead
 ---
 
 <!--
