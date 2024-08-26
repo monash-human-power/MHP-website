@@ -505,34 +505,34 @@ subteam:
     teamMembers:
       - linkedIn: ""
         name: Alastair Haslam
-        degree: Aerospace Engineering
+        degree: ""
         position: " "
         photo: ../images/alastair-haslam.jpg
       - linkedIn: https://www.linkedin.com/in/hallgchris
         name: Christopher Hall
-        degree: Electrical Engineering and Science
+        degree: ""
         position: " "
         photo: ../images/christopher_hall_resized.jpg
       - linkedIn: https://www.linkedin.com/in/kit-kirby-248b6b178/
         name: Kit Kirby
-        degree: Materials Engineering
+        degree: ""
         position: " "
         photo: ../images/Kit_Kirby.jpg
       - linkedIn: ""
         name: Oscar James Varney
-        degree: Mechanical Engineering
+        degree: ""
         position: " "
         photo: ../images/oscar-varney.jpg
       - position: ""
         photo: ../images/000-placeholder-person.png
         linkedIn: ""
         name: James Gardiner
-        degree: Mechanical Engineering and Commerce
+        degree: ""
       - position: " "
         photo: ../images/rianna-thiele.jpg
         linkedIn: ""
         name: Rianna Thiele
-        degree: Biomedical Science and Electrical Engineering
+        degree: ""
   - subteamName: Auxiliary
     teamMembers:
       - linkedIn: https://www.linkedin.com/in/amanda-zhou-24a941221/
