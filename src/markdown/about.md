@@ -6,7 +6,7 @@ blocks:
     description: Monash Human Power is a student-led engineering team based at
       Monash University in Melbourne, Australia. Since 2015 we have been
       designing, manufacturing, and racing fully-faired human-powered vehicles
-      (HPVs) to push the limits of human speed.
+      (HPV) to push the limits of human speed.
     buttonText: Meet the members
     image: ../images/battle_mountain_group.jpg
     href: /team
